@@ -4,10 +4,11 @@ from bs4 import BeautifulSoup
 latest_post = 'http://www.hildeberto.com/2017/02/cleaner-code-with-functional-programming.html'
 
 class Article:
-    def __init__(self, title, content, date):
+    def __init__(self, title, content, date, categories=None):
         self.title = title
         self.content = Article.clean_content(content)
         self.date = date
+        self.categories = categories
 
     @staticmethod
     def clean_content(content):
@@ -42,7 +43,9 @@ def build_article(html_content):
     title = article_html.header.h1.string
     content = str(article_html.find("div", attrs={"class": "entry-content"}))
     date = article_html.header.div.span.time["datetime"]
-    article = Article(title, content, date)
+    categories = [category.string for category in article_html.find_all("a", attrs={"rel": "tag"})]
+
+    article = Article(title, content, date, categories)
 
     return article
 
@@ -64,4 +67,4 @@ def get_articles(current_post, articles=None):
 articles = get_articles(latest_post)
 
 print(articles[0])
-print(articles[0].content)
+print(articles[0].categories)

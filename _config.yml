@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: No Time To Make It Shorter
-email: 
+email:
 description: > # this means to ignore newlines until "baseurl:"
   You are reading my personal website, where I share my own views, knowledge and
   interests. I do not represent the views of my employee or anybody else I work
@@ -27,7 +27,6 @@ github_username:  htmfilho
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 

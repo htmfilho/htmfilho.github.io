@@ -1,18 +1,17 @@
 import requests
 from bs4 import BeautifulSoup
 
-latest_post_url = 'http://www.hildeberto.com/2017/02/cleaner-code-with-functional-programming.html'
-
 class Article:
-    def __init__(self, title, content, date, categories=None, images=None):
+    def __init__(self, url, title, content, date, categories=None, images=None):
+        self.url = url
         self.title = title
-        self.content = Article.clean_content(content, images)
+        self.content = Article.__clean_content(content, images)
         self.date = date
         self.categories = categories
         self.images = images
 
     @staticmethod
-    def clean_content(content, images):
+    def __clean_content(content, images):
         content_html = str(content)
         markdown_content = content_html[28:-7]
         markdown_content = markdown_content.replace("<p>", "")
@@ -25,61 +24,57 @@ class Article:
         markdown_content = markdown_content.replace("</code>", "`")
 
         for image in images:
-            markdown_content = markdown_content.replace(str(image), "![Alt text]({})".format(image["src"]))
+            image_file_name = Article.__get_image_name(image)
+            markdown_content = markdown_content.replace(str(image), "![{}](images/posts/{})".format(image_file_name, image_file_name))
 
         return markdown_content
+
+    @staticmethod
+    def __get_image_name(image):
+        image_url = image["src"]
+        return image_url[image_url.rfind("/") + 1:]
 
     def __str__(self):
         return "{} published on {}".format(self.title, self.date)
 
 
-def get_html_content(current_post):
-    request = requests.get(current_post)
-    return BeautifulSoup(request.text, 'html.parser')
-
-
-def get_previous_post(html_content):
-    link_previus = html_content.find("div", attrs={"class": "nav-links"})\
+def get_previous_post_url(content_html):
+    previous_url = content_html.find("div", attrs={"class": "nav-links"})\
                                .find("a", attrs={"rel": "prev"})
-    if link_previus:
-        return link_previus['href']
+    if previous_url:
+        return previous_url['href']
     else:
         return None
 
 
-def find_image_tags(content):
-    image_tags = content.find_all("img")
-    return [img for img in image_tags]
+def build_article(post_url, content_html):
+    article_html = content_html.find("article")
 
-
-def build_article(html_content):
-    article_html = html_content.find("article")
-
+    url = post_url
     title = article_html.header.h1.string
     content = article_html.find("div", attrs={"class": "entry-content"})
     date = article_html.header.div.span.time["datetime"]
     categories = [category.string for category in article_html.find_all("a", attrs={"rel": "tag"})]
-    images = find_image_tags(content)
+    images = [img for img in content.find_all("img")]
 
-    return Article(title, content, date, categories, images)
+    return Article(url, title, content, date, categories, images)
+
+
+def get_content_html(post_url):
+    request = requests.get(post_url)
+    return BeautifulSoup(request.text, 'html.parser')
 
 
 def get_articles(current_post_url, articles=None):
-    print(current_post_url)
     if articles is None:
         articles = []
 
-    html_content = get_html_content(current_post_url)
+    content_html = get_content_html(current_post_url)
 
-    if html_content:
-        articles.append(build_article(html_content))
-        previus_post_url = get_previous_post(html_content)
-#        if previus_post_url:
-#            return get_articles(previus_post_url, articles)
+    if content_html:
+        articles.append(build_article(current_post_url, content_html))
+        previous_post_url = get_previous_post_url(content_html)
+#        if previous_post_url:
+#            return get_articles(previous_post_url, articles)
 
     return articles
-
-articles = get_articles(latest_post_url)
-
-print(articles[0])
-print(articles[0].content)

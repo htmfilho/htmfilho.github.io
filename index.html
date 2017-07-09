@@ -7,8 +7,11 @@ layout: default
     <span class="post-meta">{{ site.posts[0].date | date: "%b %-d, %Y" }}</span>
     <h1 class="post-title">{{site.posts[0].title}}</h1>
   </header>
-  {{site.posts[0].content}}
-  <br>
+
+  <div class="post-content" itemprop="articleBody">
+    {{site.posts[0].content}}
+  </div>
+
   <hr style="border-width: 5px;" noshade>
   <h3 style="text-align: right;">Previously</h3>
   <ul class="post-list">

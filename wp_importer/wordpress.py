@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from jekyll import save_article, get_image_filename, get_image_path
 
 class Article:
     def __init__(self, url, title, content, date, categories=None, images=None):
@@ -26,15 +27,11 @@ class Article:
         markdown_content = markdown_content.replace("&gt;", ">")
 
         for image in images:
-            image_file_name = Article.__get_image_name(image)
-            markdown_content = markdown_content.replace(str(image), "![{}](images/posts/{})".format(image_file_name, image_file_name))
+            image_filename = get_image_filename(image["src"])
+            image_path = get_image_path(image_filename)
+            markdown_content = markdown_content.replace(str(image), "![{}]({})".format(image_filename, image_path))
 
         return markdown_content
-
-    @staticmethod
-    def __get_image_name(image):
-        image_url = image["src"]
-        return image_url[image_url.rfind("/") + 1:]
 
     def __str__(self):
         return "{} published on {}".format(self.title, self.date)
@@ -50,7 +47,7 @@ def get_previous_post_url(content_html):
 
 
 def build_article(post_url, content_html):
-    print(post_url)
+    print("Building {}".format(post_url))
     article_html = content_html.find("article")
 
     url = post_url
@@ -68,16 +65,17 @@ def get_content_html(post_url):
     return BeautifulSoup(request.text, 'html.parser')
 
 
-def get_articles(current_post_url, articles=None):
-    if articles is None:
-        articles = []
-
+def import_articles(current_post_url):
     content_html = get_content_html(current_post_url)
 
     if content_html:
-        articles.append(build_article(current_post_url, content_html))
+        save_article(build_article(current_post_url, content_html))
         previous_post_url = get_previous_post_url(content_html)
         if previous_post_url:
-            return get_articles(previous_post_url, articles)
+            import_articles(previous_post_url)
 
-    return articles
+def import_article(post_url):
+    content_html = get_content_html(post_url)
+
+    if content_html:
+        save_article(build_article(post_url, content_html))

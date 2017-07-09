@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Sending E-mails with JavaMail on Glassfish V3"
+date: 2010-02-26 23:38:00 +0200
+categories: uncategorized enterprise application java java ee software architecture
+---
+
+One of the main advantages of using an application server like Glassfish is to keep your application free of complex code, such as 1) manual control of database transactions; 2) database access configuration; 3) security authentication and authorization; 4) sending and receiving e-mail messages, among many other complexities that are non-functional requirements, consuming the time we would be spending on functional requirements.
+
+<iframe align="left" frameborder="0" height="240" marginheight="0" marginwidth="0" scrolling="no" src="http://rcm.amazon.com/e/cm?t=c03ce-20&amp;o=1&amp;p=8&amp;l=bpl&amp;asins=1430219548&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr" style="align: left; padding-top: 5px; width: 131px; height: 245px; padding-right: 10px;" width="320"></iframe>In my opinion, an important differential of <a href="http://glassfish.dev.java.net/">Glassfish V3</a> is its very rich and complete administration console. It is easy to use and to learn, which is, in my opinion, one of the most important competitive advantages, since it contributes to reduce the maintenance cost, a constant headache for system administrators. We have used the administrative console in a <a href="http://69.89.31.239/~hildeber/?p=82">previous post</a> to configure a database connection to PostgreSQL. <b>Now, we are going to use it again in order to configure a JavaMail resource for applications that aim to send emails</b>.
+
+Follow the steps below:
+
+<ol>
+<li>enter in the administrative console (http://[server-name]:4848/).</li>
+<li>go to <i>Resources / JavaMail Sessions</i>.</li>
+<li>create a new JavaMail session and set the following mandatory properties:<br/>
+<i>JNDI Name</i>: mail/[email-account-name]<br/>
+<i>Mail Host</i>: [smtp-server-address]<br/>
+<i>Default User</i>: the username to authenticate on the smtp server<br/>
+<i>Default Return Address</i>: the address used by recipients to reply the message. Some servers require that this address should be the one used by the authenticated user to access his mailbox.</li>
+</ol>
+If the server doesn’t request secure authentication, then the three steps above are enough to start using the new JavaMail session, but a server without secure authentication is a very rare case nowadays. You will certainly need to inform a password to login on the smtp server. In most cases, the server administrator also changes the default port of the smtp server, which forces us to explicitly inform the correct port. For these special needs we can use additional properties in the JavaMail session. Follow the steps below:
+
+<ol>
+<li>Still on the JavaMail session form, go to the <i>Additional Properties</i> section and add 3 more properties, which are:<br/>
+<i>mail.smtp.port</i>: [port-number]<br/>
+<i>mail.smtp.auth</i>: true<br/>
+<i>mail.smtp.password</i>: ****** 😉</li>
+<li>Click on <i>Save</i> to create the JavaMail session.</li>
+</ol>
+The last step is how to use this new JavaMail session in our applications to send emails. Using the JNDI name, we are going to inject the JavaMail session in a Java class, which could be a POJO of a pure web application, an EJB Session Bean, or any other type of class. See the code below for details:
+
+<span style="font-family: Courier, monospace; font-size: 11px;">public class UserAccountBsn {<br/>
+@Resource(name = “mail/[email-account-name]”)<br/>
+private Session mailSession;</span>
+
+public void sendMessage(UserAccount userAccount) {<br/>
+Message msg = new MimeMessage(mailSession);<br/>
+try {<br/>
+msg.setSubject(“[app] Email Alert”);<br/>
+msg.setRecipient(RecipientType.TO,<br/>
+new InternetAddress(userAccount.getEmail(),<br/>
+userAccount.toString()));<br/>
+msg.setText(“Hello “+ userAccount.getName());<br/>
+Transport.send(msg);<br/>
+}<br/>
+catch(MessagingException me) {<br/>
+// manage exception<br/>
+}<br/>
+catch(UnsupportedEncodingException uee) {<br/>
+// manage exception<br/>
+}<br/>
+}<br/>
+}
+
+The @Resource annotation receives the JNDI name of the JavaMail session and injects an instance of the session in the variable <i>mailSession</i>. This variable is used within the <i>sendMessage</i> method to create a new <i>MimeMessage</i>. The content of the message is built and finally sent to the recipient by the method <i>Transport.send</i>. The method receives as parameter an entity class representing an user registered on the application. It is so simple, isn’t it? 😉
+
+Using this feature, we avoid any additional implementation to add those parameters hardcoded or parameterized, saving a lot of time, simplifying the maintenance of the applications, and reusing existing resources naturally shared by the container.
+
+<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/02/dilbert-email.gif" style="margin-left: 1em; margin-right: 1em;">![dilbert-email-300x107.gif](/images/posts/dilbert-email-300x107.gif)</a></div>

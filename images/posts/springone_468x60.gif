@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>SpringOne Platform | December 4–7, 2017 | San Francisco</title> 
+    <link rel="stylesheet" type="text/css" media="all" href="/css/2017/app.css?v=09155946" />
+    <meta content="SpringOne Platform is the premier conference for those who build, deploy, and run cloud-native software. Learn how to deliver transformational software by collaborating with leading software companies, enterprises, and cloud experts at this unique four day event." property="og:description" />
+    <meta content="https://d1ophd2rlqbanb.cloudfront.net/s1p-og-2017.png" property="og:image" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no" id="Viewport" name="viewport" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71210611-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+  <body id="index">
+    <div id="navigation">
+      <div id="desktop-only">  
+        <div id="supernav">
+          <div class="container">
+            <h5 class="gray">December 4–7, 2017  /  Moscone West, San Francisco</h5>
+          </div>   
+        </div>
+        <div id="navbar">
+          <div class="container">     
+            <a href="/"><img id="logosmall" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/springoneplatform-by-pivotal-horizontal.svg" /></a>
+            <ul id="nav">
+              <li><a href="/sessions">Sessions</a></li>
+              <li><a href="/training">Training</a></li>
+              <li><a href="/travel">Travel</a></li>
+              <li><a href="/cfp">Call for Proposals</a></li>     
+              <li><a href="https://2017.springoneplatform.io/ehome/s1p/registration">Register</a></li>     
+            </ul>  
+          </div>
+        </div>
+        <div id="start-sticky-nav"></div>
+        <div id="sticky-nav">
+          <div class="container">
+            <p class="sizefifteen float-left white">Discount tier ends September 16th! </p>
+            <ul id="nav">
+              <li><a href="/">Home</a></li>     
+              <li><a href="/sessions">Sessions</a></li>
+              <li><a href="/training">Training</a></li>
+              <li><a href="/travel">Travel</a></li>
+              <li><a href="/cfp">Call for Proposals</a></li>     
+              <li class="button reverse-button">
+                <a href="https://2017.springoneplatform.io/ehome/s1p/registration"><span>Register Now >></span><span>Register Now >></span></a>
+              </li>
+            </ul>                  
+          </div>
+        </div>
+      </div>     
+      <div id="mobile-only">
+        <div class="navbar-toggle">
+          <div class="icon-bar"></div>
+          <div class="icon-bar"></div>
+          <div class="icon-bar"></div>
+        </div>    
+        <h5 class="white">December 4–7, 2017 &middot; San Francisco</h5> 
+        <a href="/"><img id="logosmall" src="https://d1ophd2rlqbanb.cloudfront.net/logo-s1p-multicolor.svg" /></a>   
+        <ul class="nav">     
+          <li><a href="/">Home</a></li>     
+          <li><a href="/sessions">Sessions</a></li>
+          <li><a href="/training">Training</a></li>
+          <li><a href="/travel">Travel</a></li>
+          <li><a href="https://2017.springoneplatform.io/ehome/s1p/registration">Register</a></li>     
+        </ul>     
+      </div>
+    </div>
+    <div id="main">
+        <div>
+			<div id="intro">
+				<div class="outercontainer">
+					<h1 class="white" id="spring-h1">spring</h1>
+					<h1 class="white" id="forward-h1">forward</h1>
+					<a id="video-block" href="https://player.vimeo.com/video/185578147">
+						<iframe id="video-loop" src="https://player.vimeo.com/video/182927157?color=01786e&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;background=1" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" style="background:url(https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/bg-video-block.jpg) no-repeat #101128"></iframe>
+						<div class="vcenter playbutton"><div class="vcenter">></div></div>
+					</a>
+					<div class="container">
+						<div class="text">
+							<h3 class="white">into building software people love</h3>
+							<p class="gray">SpringOne Platform is the premier conference for those who build, deploy, and run cloud-native software. This unique four-day event brings together leading software companies, enterprises, and cloud experts to collaborate, share knowledge, and create transformational software.</p>
+							<p><a href="/sessions" class="uppercase sizefifteen bold">Sessions >></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="overbite"></div>
+			<div id="speakers">
+				<div class="container">
+					<div class="speakers-section-title">
+						<h2>speakers</h2>
+						<div class="short-line"></div>
+					</div>
+					<div class="speakers">
+<!-- 						<a class='speaker' href='/speakers/juergen-hoeller'>
+							<div class='speaker-image'>
+								<img src='https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/juergen.jpg'/>
+								<img class='ascii' src='https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/juergen-hover.jpg'/>
+							</div>
+							<p class='gray'>
+								<span class='white'>Juergen Hoeller</span>
+								<br/>
+								Pivotal
+							</p>
+						</a>
+ -->						<a class="speaker" id="brewer" href="/speakers/eric-brewer">
+							<div class="speaker-image">
+								<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/brewer.jpg" />
+								<img class="ascii" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/eric-hover.jpg" />
+							</div>
+							<p class="gray">
+								<span class="white">Eric A. Brewer</span>
+								<br />
+								Google
+							</p>
+						</a>
+						<a class="speaker" href="/speakers/erich-gamma">
+							<div class="speaker-image">
+								<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/erich.jpg" />
+								<img class="ascii" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/erich-hover.png" />
+							</div>
+							<p class="gray">
+								<span class="white">Erich Gamma</span>
+								<br />
+								Microsoft
+							</p>
+						</a>
+						<a class="speaker" href="/speakers/cornelia-davis">
+							<div class="speaker-image">
+								<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/davis.jpg" />
+								<img class="ascii" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/cornelia-hover.png" />
+							</div>
+							<p class="gray">
+								<span class="white">Cornelia Davis</span>
+								<br />
+								Pivotal
+							</p>
+						</a>
+						<a class="speaker" href="/speakers/vaughn-vernon">
+							<div class="speaker-image">
+								<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/vaughn.jpg" />
+								<img class="ascii" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/vaughn-hover.png" />
+							</div>
+							<p class="gray">
+								<span class="white">Vaughn Vernon</span>
+								<br />
+								Author
+							</p>
+						</a>
+						<a class="speaker" href="/speakers/sergey-matochkin">
+							<div class="speaker-image">
+								<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/sergey.jpg" />
+								<img class="ascii" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/sergey-hover.jpg" />
+							</div>
+							<p class="gray">
+								<span class="white">Sergey Matochkin</span>
+								<br />
+								Comcast
+							</p>
+						</a>
+						<a class="speaker" href="/speakers/anton-ovechkin">
+							<div class="speaker-image">
+								<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/anton-gray.jpg" />
+								<img class="ascii" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/speakers/anton-hover.png" />
+							</div>
+							<p class="gray">
+								<span class="white">Anton Ovechkin</span>
+								<br />
+								Microsoft
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="sessions-box" class="bg-white">
+				<div class="outercontainer">
+					<div id="sessions-content">
+						<div class="fifty">
+							<div class="inner">
+								<h2>what you'll learn</h2>
+								<div class="short-line"></div>
+								<h4 class="supersize">Reactive programming. Serverless. Look-aside caching. Machine learning. Event-driven architecture. Site Reliability Engineering. Orchestrated data microservices. </h4>
+								<p>No, this isn't a game of buzzword bingo. It's a legit list of capabilities that smart companies use to build modern software. Take a big-picture platform approach to software—like we do with Spring and Pivotal Cloud Foundry. </p>
+							</div>
+						</div>
+						<div class="fifty">
+							<div class="sessions">
+								<div class="session">
+									<img class="float-left" src="https://d1ophd2rlqbanb.cloudfront.net/2017/speakers/juergen-color.jpg" />
+									<p class="white sizefifteen bold">
+										<a class="white" href="/sessions">Spring Framework 5.0</a>
+										<br />
+										<span class="sizethirteen uppercase dark">Juergen Hoeller, Pivotal</span></p>
+								</div>
+								<div class="session">
+									<img class="float-left" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/sessions/ramachandran-mini.jpg" />
+									<p class="white sizefifteen bold">
+										<a class="white" href="/sessions#cloud-foundry-networking">Cloud Foundry Networking</a>
+										<br />
+										<span class="sizethirteen uppercase dark">Usha Ramachandran, Pivotal</span></p>
+								</div>
+								<div class="session">
+									<img class="float-left" src="https://d1ophd2rlqbanb.cloudfront.net/speakers/rossen246.jpg" />
+									<p class="white sizefifteen bold">
+										<a class="white" href="/sessions">Servlet or Reactive Stacks</a>
+										<br />
+										<span class="sizethirteen uppercase dark">Rossen Stoyanchev, Pivotal</span></p>
+								</div>
+								<div class="session">
+									<img class="float-left" src="https://d1ophd2rlqbanb.cloudfront.net/speakers/winch200.jpg" />
+									<p class="white sizefifteen bold">
+										<a class="white" href="/sessions#spring-security">Spring Security 5</a>
+										<br />
+										<span class="sizethirteen uppercase dark">Rob Winch, Pivotal</span></p>
+								</div>
+							</div>
+							<div class="button">
+								<a href="/sessions"><span>Sessions >></span><span>Sessions >></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="quote-box" class="bg-white">
+				<div class="container">
+					<h4 class="big-quote">“</h4>
+					<div class="quarter float-left">
+						<blockquote>
+							<p>“Let's just do Spring Boot on Cloud Foundry - <a href="https://twitter.com/@adrianco">@adrianco</a> w/ great advice for devs”<br /><a href="https://twitter.com/hashtag/BuildSomethingInteresting">#BuildSomethingInteresting</a></p>
+						</blockquote>
+					</div>
+					<div class="quarter float-left">
+						<blockquote>
+							<p>OH at <a href="https://twitter.com/@s1p">@s1p</a> more times than I could count: “From weeks to minutes”, “It just works”, “We enabled our developers” <a href="https://twitter.com/hashtag/springone">#springone</a>
+							<br /><a href="https://twitter.com/@jaredruckle">@jaredruckle</a></p>
+						</blockquote>
+					</div>
+					<div class="quarter float-left">
+						<blockquote>
+							<p>SVP of <a href="https://twitter.com/@McKesson">@McKesson</a> at <a href="https://twitter.com/hashtag/springone">#springone</a>: "if even an 182 yo company can Transform how they build software, whats your excuse?" 
+							<br /><a href="https://twitter.com/@dhubau">@dhubau</a></p>
+						</blockquote>
+					</div>
+					<div class="quarter float-left">
+						<blockquote>
+							<p>The scary thing about Spring One isn't learning about the cool things I'm not using, but the cool things I haven't even heard of yet.
+							<br /><a href="https://twitter.com/@wombleabroad">@wombleabroad</a></p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			<div class="bg-white">
+				<div class="outercontainer">
+					<div id="game-day" class="overflow">
+						<div id="slideshow-photos">
+							<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/community/games.jpg" />
+							<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/community/pingpong.jpg" />
+							<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/community/selfie-stage.jpg" />
+							<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/community/selfie-crowd.jpg" />
+							<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/community/retro.jpg" />
+							<img src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/home/community/escalator.jpg" />
+						</div>
+						<div class="container">
+							<div class="text">
+								<div id="slideshow-text">
+									<h2 class="supersize slideshow-text">Make new friends — and then immediately conquer them</h2>
+									<h1 class="slideshow-text">selfies <br />for miles</h1>
+									<h2 class="supersize slideshow-text">Connect with the cloud-native community</h2>
+								</div>
+								<p>Where else can you spend a week with such a curious, open-minded, diverse crowd of technologists? At SpringOne Platform, meet up with people who impact your knowledge and career.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="passes" class="bg-white">
+				<div class="container">
+					<div class="text float-left">
+						<h2>passes</h2>
+						<div class="short-line"></div>
+						<p><a href="https://2017.springoneplatform.io/ehome/s1p/registration" class="uppercase sizefifteen bold">Register Now >></a></p>
+					</div>
+					<div id="pricing" class="float-left">
+						<div class="price-cliff float-left">
+							<div class="inner">
+								<h4 class="uppercase strikethrough">Early Bird</h4>
+								<h4 class="price sizetwentytwo strikethrough">$1300</h4>
+								<p class="sizefifteen strikethrough">Through June 24th</p>
+							</div>
+						</div>
+						<div class="price-cliff float-left">
+							<div class="inner">
+								<h4 class="uppercase">Discount</h4>
+								<h4 class="price sizetwentytwo">$1500</h4>
+								<p class="sizefifteen">June 25th-Sept 16th</p>
+							</div>
+						</div>
+						<div class="price-cliff float-left">
+							<div class="inner">
+								<h4 class="uppercase">Standard</h4>
+								<h4 class="price sizetwentytwo">$1700</h4>
+								<p class="sizefifteen">After Sept 16th</p>
+							</div>
+						</div>
+						<div class="price-cliff float-left">
+							<div class="inner">
+								<h4 class="uppercase">+ Optional</h4>
+								<p class="sizefifteen">
+									Pre-Conference Training<br />
+									<span class="price sizefifteen">Starting at $600</span><br />
+									<span class="uppercase sizefifteen bold"><a href="/training">Learn More</a></span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="timeline" class="bg-smint center">
+				<h2>next up</h2>
+				<div class="short-line center"></div>
+				<div id="milestones">
+					<div class="milestone sidebyside" id="timeline-cfp">
+						<h4 class="uppercase white">Call for<br /> Proposals</h4>
+						<h2 class="uppercase white">Jun</h2>
+						<div class="circle"><i class="fa fa-check"></i></div>
+					</div>		
+					<div class="milestone sidebyside future" id="timeline-agenda">
+						<h4 class="uppercase white">Agenda<br /> Announced</h4>
+						<h2 class="uppercase white">Jul</h2>
+						<div class="circle"></div>
+					</div>
+					<div class="milestone sidebyside future" id="timeline-sessions">
+						<h4 class="uppercase white">Sessions<br /> Announced</h4>
+						<h2 class="uppercase white">Aug</h2>
+						<div class="circle"></div>
+					</div>
+					<div class="milestone sidebyside future" id="timeline-training">
+						<h4 class="uppercase white">Pre-Conference<br /> Training</h4>
+						<h2 class="uppercase white">Dec03</h2>
+						<div class="circle"></div>
+					</div>
+					<div class="milestone sidebyside future" id="timeline-conference">
+						<h4 class="uppercase white">Conference<br /> Begins</h4>
+						<h2 class="uppercase white">Dec04</h2>
+						<div class="circle"></div>
+						<div class="line"></div>
+					</div>
+				</div>
+			</div>
+			<div id="sponsors" class="center">
+				<div class="container">
+					<h2 class="white">thank you to our 2016 sponsors</h2>
+					<div class="short-line bg-white"></div>
+					<p class="gray">
+							Want to become a sponsor? 
+							<br />
+							<a href="https://d1ophd2rlqbanb.cloudfront.net/SpringOne-Platform-2017-Prospectus.pdf">Download the prospectus</a> or email <a href="mailto:sponsors1p@pivotal.io">sponsorS1P@pivotal.io</a>
+					</p>
+					<br />
+					<br />
+					<br />
+
+					<h4 class="uppercase white">Platinum</h4>
+
+					<div class="sponsors">
+						<div class="sponsor" id="accenture">
+							<a href="https://www.accenture.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/accenture.svg" /></a>
+						</div>
+						<div class="sponsor" id="apigee">
+							<a href="http://apigee.com/about/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/apigee.svg" /></a>
+						</div>
+						<div class="sponsor" id="delltech">
+							<a href="https://www.delltechnologies.com"><img src="https://d1fto35gcfffzn.cloudfront.net/images/partners/strategic/logo-delltech-white.svg" /></a>
+						</div>
+						<div class="sponsor" id="gcp">
+							<a href="https://cloud.google.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/gcp.svg" /></a>
+						</div>
+						<div class="sponsor" id="hortonworks">
+							<a href="http://hortonworks.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/hortonworks.svg" /></a>
+						</div>
+						<div class="sponsor" id="msft">
+							<a href="https://www.microsoft.com"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/microsoft.svg" /></a>
+						</div>
+					</div>
+
+					<h4 class="uppercase white">Gold</h4>
+
+					<div class="sponsors">
+						<div class="sponsor" id="atos">
+							<a href="http://atos.net/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/atos.svg" /></a>
+						</div>
+						<div class="sponsor" id="cognizant">
+							<a href="https://www.cognizant.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/cognizant.svg" /></a>
+						</div>
+						<div class="sponsor" id="dynatrace">
+							<a href="http://www.dynatrace.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/dynatrace.svg" /></a>
+						</div>
+						<div class="sponsor" id="enterprisedb">
+							<a href="http://www.enterprisedb.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/edb.svg" /></a>
+						</div>
+						<div class="sponsor" id="heroku">
+							<a href="https://www.heroku.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/heroku.svg" /></a>
+						</div>
+						<div class="sponsor" id="stormpath">
+							<a href="https://stormpath.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/stormpath.svg" /></a>
+						</div>
+					</div>
+
+					<h4 class="uppercase white">Silver</h4>
+
+					<div class="sponsors">
+						<div class="sponsor" id="aws">
+							<a href="https://aws.amazon.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/aws.svg" /></a>
+						</div>
+						<div class="sponsor" id="broadleaf">
+							<a href="http://www.broadleafcommerce.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/broadleaf.svg" /></a>
+						</div>
+						<div class="sponsor" id="cloudfoundry">
+							<a href="https://www.cloudfoundry.org/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/cloudfoundry.svg" /></a>
+						</div>
+						<div class="sponsor" id="forgerock">
+							<a href="https://www.forgerock.com"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/forgerock.svg" /></a>
+						</div>
+						<div class="sponsor" id="hazelcast">
+							<a href="https://hazelcast.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/hazelcast.svg" /></a>
+						</div>
+						<div class="sponsor" id="insys">
+							<a href="http://www.insys.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/insys.svg" /></a>
+						</div>
+						<div class="sponsor" id="jetbrains">
+							<a href="https://www.jetbrains.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/jetbrains.svg" /></a>
+						</div>
+						<div class="sponsor" id="mimacom">
+							<a href="http://www.mimacom.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/mimacom.svg" /></a>
+						</div>
+						<div class="sponsor" id="mongodb">
+							<a href="https://www.mongodb.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/mongodb.svg" /></a>
+						</div>
+						<div class="sponsor" id="newrelic">
+							<a href="https://newrelic.com"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/newrelic.svg" /></a>
+						</div>
+						<div class="sponsor" id="ntt">
+							<a href="http://www.nttdata.com/global/en/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/nttdata.svg" /></a>
+						</div>
+						<div class="sponsor" id="predix">
+							<a href="https://www.predix.io/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/predix.svg" /></a>
+						</div>
+						<div class="sponsor" id="target">
+							<a href="http://www.target.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/target.svg" /></a>
+						</div>
+						<div class="sponsor" id="tcs">
+							<a href="http://www.tcs.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/tcs.svg" /></a>
+						</div>
+						<div class="sponsor" id="techolution">
+							<a href="http://www.techolution.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/techolution.svg" /></a>
+						</div>
+						<div class="sponsor" id="wwt">
+							<a href="https://www2.wwt.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/wwt.svg" /></a>
+						</div>
+						<div class="sponsor" id="zeroturnaround">
+							<a href="https://zeroturnaround.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/zeroturnaround.svg" /></a>
+						</div>
+					</div>
+
+					<h4 class="uppercase white">Bronze</h4>
+
+					<div class="sponsors">
+						<div class="sponsor" id="galvanize">
+							<a href="http://www.galvanize.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/galvanize.svg" /></a>
+						</div>
+						<div class="sponsor" id="gemalto">
+							<a href="http://www.gemalto.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/gemalto.svg" /></a>
+						</div>
+						<div class="sponsor" id="kenzan">
+							<a href="http://kenzan.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/kenzan.svg" /></a>
+						</div>
+						<div class="sponsor" id="perficient">
+							<a href="http://www.perficient.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/perficient.svg" /></a>
+						</div>
+					</div>
+
+					<h4 class="uppercase white">Media</h4>
+
+					<div class="sponsors">
+						<div class="sponsor" id="dzone">
+							<a href="https://dzone.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/dzone.svg" /></a>
+						</div>
+						<div class="sponsor" id="infoq">
+							<a href="https://www.infoq.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/infoq.svg" /></a>
+						</div>
+						<div class="sponsor" id="oreilly">
+							<a href="http://www.oreilly.com/"><img src="https://d1ophd2rlqbanb.cloudfront.net/sponsors/grayscale/oreilly.svg" /></a>
+						</div>
+					</div>
+				</div>
+			</div><!--end #sponsors-->
+		</div><!--end of content-->
+    </div><!--end of main-->
+    <div id="footer">
+      <div class="container">
+        <div id="stay-up-to-date" class="float-left">
+          <h4 class="supersize white">Stay up to date</h4>
+          <script src="//app-sj05.marketo.com/js/forms2/js/forms2.min.js"></script>
+          <form id="mktoForm_3768"></form>
+          <script>
+            MktoForms2.loadForm("https://app-sj05.marketo.com", "625-IUJ-009", 3768 , function(form){
+              $('.mktoButton').html('<span>Get Updates</span><span>Get Updates</span>');
+              form.onSuccess(function(values, followUpUrl){
+                location.href = "/on-the-list";
+                form.getFormElem().hide();
+                return false;
+              });
+            });
+          </script>
+        </div>
+        <div id="social">
+          <p>
+            <a href="https://twitter.com/hashtag/springone">#springone</a>
+            <a href="https://twitter.com/@s1p"><i class="fa fa-twitter"></i> @s1p</a>
+            <a href="mailto:platform@pivotal.io"><i class="fa fa-envelope"></i> Contact Us</a>
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <hr />
+      <br />
+      <div class="container">
+        <p class="sizefourteen float-left gray">
+          <a href="/2016">2016 Highlights</a>
+          &middot;
+          <a href="https://pivotal.io/terms-of-use">Terms of Use</a>
+          &middot;
+          <a href="https://pivotal.io/privacy-policy">Privacy</a>
+          &middot;
+          <a href="/code-of-conduct">Code of Conduct</a>
+          <br />
+          &copy;
+          <script>
+            var d = new Date();
+            document.write(d.getFullYear());
+          </script>
+          Pivotal Software, Inc. All rights reserved. 
+        </p>
+        <img id="logo-s1pbypivotal" src="https://d1ophd2rlqbanb.cloudfront.net/2017/refresh/logo-s1p-by-pivotal.svg" />
+      </div>
+    </div>
+    <script src="/js/2017/app.js?v=09155946"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/2017/fancybox.css" />
+  </body>
+</html>

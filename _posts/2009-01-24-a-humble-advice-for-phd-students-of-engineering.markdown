@@ -1,0 +1,26 @@
+---
+layout: post
+title: "A Humble Advice for PhD Students of Engineering"
+date: 2009-01-24 20:03:00 +0200
+categories: uncategorized conference europe research strategy
+---
+
+This week I presented my thesis in an European doctoral consortium, talking about the current state of my research, which is in a beginning stage but already with a valuable content. The purpose of this consortium is to give some industrial audience for PhD Students, which presented their works with a more realistic approach.
+
+I appreciated the purpose of this conference, the organization as a whole, my own session, and some speakers there, but I was really disappointed with the invited speaker, who gave an inappropriate advice for all those PhD students there. He has a PhD degree and was hired by a Belgian industry when he finished his research in the university. He had worked for other industries until he stabilized this career in his current company. Well, indeed a very well managed career, which started 10 years ago when the world was very different. Is his real story still valid for students who don’t have yet a clear vision about their future?
+
+He concluded his speech saying that there is a big probability that most PhD students nowadays get jobs in the industry because of their needs for constant innovation. A co-chair of the conference added that 70% of new PhDs get a job in the industry, giving some credibility to the speaker’s arguments. I should agree that there is some logic on what they are trying to say. Actually they explained the standard logic of the market today. Of course PhD students will find an excellent work environment in the industry, of course they will find funds to make more research, of course they will get good salaries, of course the 70% above is realistic, but they should also know that the industry is migrating from Europe to other countries because of pressure for competitiveness.
+
+I couldn’t resist to open a discussion about global tendencies. I mentioned about a fact very present on newspapers, books, magazines, saying that the industry in Europe, the USA, Japan and other rich nations is in decline because they are migrating to countries with more human resources and lower operation costs. These countries compose the famous acronym “<a href="http://en.wikipedia.org/wiki/BRIC">BRIC</a>“: Brazil, Russia, India and China. The answer of the speaker scared me: “This is what the international press is creating. The reality is different.” – Oh My God! I don’t know what it is. Blindness? Lack of reading? Over confidence? Fear? He complemented saying that what is produced there has lower quality and they should not threaten the European industry for a long time. Now, I think I know what it is: Blindness!
+
+You and I know about the low quality of products coming from the BRIC. They sell a lot, but they still offer not so good products. About this I agree with the speaker, but he forgot that the current generation of people there are poor, offering their services by a shaming salary. The consequence is, of course, production of low quality products. However, their children will grow-up healthy and educated because, now, they have better conditions than ever. The second generation will place the BRIC economies in a higher competitive position, with an important differential: scale – exactly what the USA, Europe and Japan is losing now, aggravated by the current economic crisis. 
+
+So, is it fair to hide this facts from students? I don’t think so. Get that 70% and check previous years. Is this index growing or decreasing? My position is that the predominant model in Europe will be service providing. Europe should take its high educated people to innovate in high scale and offer these innovations for one or more industries spread around the world instead of creating their own industries. This is only possible if universities and colleges redesign their programs emphasizing entrepreneurship. PhD students should be highly motivated to transform their thesis in real products, opening spin offs to develop ideas until their economical viability.
+
+I’m very proud to study in an university where this process already started and with great results. The <a href="http://www.uclouvain.be/">Université catholique de Louvain</a> is really committed to transform research in real business. My lab in particular – <a href="http://www.tele.ucl.ac.be/">TELE</a> – already pushed many spin-offs to the market and many others are born in the offices of that building. 
+
+My adviser, <a href="http://www.tele.ucl.ac.be/view-people.php?id=83">Benoit Macq</a>, is a great enthusiast of entrepreneurship. He pushes everybody here to make the difference, to develop something really useful, unique and, why not, salable. One month ago, he saw me tired, not so motivated and I got one of his special massages to keep my motivation higher. Thanks Boss!
+
+<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/01/DSC00838.jpg">![DSC00838-300x225.jpg](/images/posts/DSC00838-300x225.jpg)</a>
+
+Little tip: Always keep your camera with you. Singular moments can unexpectedly happen with you or around you.

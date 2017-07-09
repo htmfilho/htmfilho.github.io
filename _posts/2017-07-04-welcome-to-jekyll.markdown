@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bye Wordpress. Nice to meet you, Jekyll!"
-date:   2017-07-04 19:32:05 +0200
+date: 2017-07-04 19:32:05 +0200
 categories: jekyll wordpress python
 ---
 

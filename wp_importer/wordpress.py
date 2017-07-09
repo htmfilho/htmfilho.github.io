@@ -19,9 +19,11 @@ class Article:
         markdown_content = markdown_content.replace("<blockquote>", "> ")
         markdown_content = markdown_content.replace("</blockquote>", "\n")
         markdown_content = markdown_content.replace("<pre>", "```\n")
-        markdown_content = markdown_content.replace("</pre>", "\n```")
+        markdown_content = markdown_content.replace("</pre>", "\n```\n")
         markdown_content = markdown_content.replace("<code>", "`")
         markdown_content = markdown_content.replace("</code>", "`")
+        markdown_content = markdown_content.replace("&lt;", "<")
+        markdown_content = markdown_content.replace("&gt;", ">")
 
         for image in images:
             image_file_name = Article.__get_image_name(image)
@@ -48,12 +50,13 @@ def get_previous_post_url(content_html):
 
 
 def build_article(post_url, content_html):
+    print(post_url)
     article_html = content_html.find("article")
 
     url = post_url
     title = article_html.header.h1.string
     content = article_html.find("div", attrs={"class": "entry-content"})
-    date = article_html.header.div.span.time["datetime"]
+    date = article_html.find("time", attrs={"class": "entry-date"})["datetime"]
     categories = [category.string for category in article_html.find_all("a", attrs={"rel": "tag"})]
     images = [img for img in content.find_all("img")]
 
@@ -74,7 +77,7 @@ def get_articles(current_post_url, articles=None):
     if content_html:
         articles.append(build_article(current_post_url, content_html))
         previous_post_url = get_previous_post_url(content_html)
-#        if previous_post_url:
-#            return get_articles(previous_post_url, articles)
+        if previous_post_url:
+            return get_articles(previous_post_url, articles)
 
     return articles

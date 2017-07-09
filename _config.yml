@@ -42,6 +42,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-exclude: [Gemfile, 
-          Gemfile.lock, 
+exclude: [Gemfile,
+          Gemfile.lock,
           wp_importer/]
+
+port: 4001

@@ -1,0 +1,3 @@
+[submodule "jekyllfly"]
+	path = jekyllfly
+	url = https://github.com/htmfilho/jekyllfly.git

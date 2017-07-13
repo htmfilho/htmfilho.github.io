@@ -5,40 +5,41 @@ date: 2017-07-04 19:32:05 +0200
 categories: jekyll wordpress python
 ---
 
-This is the second large migration of my blog to another technology. It was
-initially hosted at Blogger, but its features to write about programming were
-very limited at that time. I couldn't actually use a custom plugin, css or
-JavaScript file. Then I moved everything to Wordpress, managed by myself in a
-private hosting service. There, I've got more flexibility in terms of content,
-but it was significantly slower than Blogger. The combination PHP + MySQL is
-known as low cost, but I was actually moving from free to $200/y, which is too
-expensive for a slow website. After years annoyed with performance, I've decided
-to migrate to Jekyll, a static website generator that transform plain markdown
-content into modern web content.
+This blog used to be a Wordpress website. That's the second large migration over
+the period of 10 years. It was initially hosted at Blogger, but its features to
+write about programming were very limited at that time. I couldn't actually use
+a custom plugin, css or JavaScript file. Then I moved everything to Wordpress,
+managed by myself in a private hosting service. There, I've got more flexibility
+in terms of content, but it was significantly slower than Blogger. The
+combination PHP + MySQL is known as low cost, but I was actually moving from
+free to $200/y, which is too expensive for a slow website. After years annoyed
+with performance, I've decided to migrate to Jekyll, a static website generator
+that transform plain markdown content into modern web content.
 
 While the migration from Blogger to Wordpress was quite straightforward, the
-migration to Jekyll is definitely a challenge. You are looking at my 3rd and
+migration to Jekyll was definitely a challenge. You are looking at my 3rd and
 last attempt to do it. I've succeed because I've decided to have fun, writing it
 myself in Python. This post explains how I've done it using Jekyll, Python and
-GitHub without having any access to the Wordpress database, using any exported
-data or accessing the server file system, by simply using a web crawling
-technique.
+GitHub without having any access to the Wordpress database, neither using any
+exported data or accessing the server file system. I did it by simply using a
+web crawling technique.
 
 ## What you have to know
 
 I consider that you know what Jekyll is, how to install it and you have a
 Wordpress blog publicly available on the web. You don't need to have access
 to Wordpress' database or any exported files, but you do need a way to navigate
-chronologically through posts using links like "Previous" or "Next". At last, in
-order to understand the solution, you need to have some knowledge of Python.
+chronologically through posts using links like "Previous" or "Next". You also
+need some knowledge of Git and a GitHub account to be able to version your code
+and reuse existing code. At last, but not least, you should be able prepare a
+Python runtime environment and run Python scripts with it.
 
 Python is an extremely useful programming language. The combination of a
 readable and expressive syntax with a rich collection of libraries make it one
 of the most powerful languages available. It can also be severely criticized but
-I have been working with it since 2015, achieving amazing results so far,
-including this one.
+I have been working with it since 2015, achieving amazing results so far.
 
-## Getting started
+## Getting everything set up
 
 To start, let's create a Jekyll site on your home folder and test it using the
 following commands:
@@ -64,8 +65,8 @@ the following command in the same folder of the website you just created:
 
     $ git clone https://github.com/htmfilho/jekyllfly.git
 
-It creates the subfolder `jekyllfly/` that contains the Python scripts we
-explains in details below.
+It creates the subfolder `jekyllfly/` that contains the Python scripts that does
+the migration job.
 
 ## The code
 

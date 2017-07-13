@@ -40,8 +40,10 @@ including this one.
 
 ## Getting started
 
-To start, let's create a Jekyll site on your home folder and test it using the
-following commands:
+Here, we put together a website based on Jekyll and Jekyllfly. The second one is
+a Python script that populates a Jekyll website with content extracted from a
+published Wordpress website. To start, let's create a Jekyll site on your home
+folder and test it using the following commands:
 
     $ jekyll new website
     $ cd website
@@ -54,18 +56,34 @@ default port:
 
     port: 4001
 
-During the migration process, all your posts will be copied to the folder
-`_posts/` and all the images to the folder `images/posts`. If those folders
-don't exist they will be created automatically. If you want something different
-from these then you can customize them in the Jekyllfly config file later on.
-
 The next step is to clone the GitHub repository that actually does the job. Run
 the following command in the same folder of the website you just created:
 
     $ git clone https://github.com/htmfilho/jekyllfly.git
 
 It creates the subfolder `jekyllfly/` that contains the Python scripts we
-explains in details below.
+explains in details later. Before running it, create a configuration file based
+on the available example:
+
+    $ cd jekyllfly
+    $ cp config-example.py config.py
+
+The module `config.py` is the one that will be taken into consideration. Open it
+and add a link to the most recent post of your blog. At the time of this writing
+my `config.py` was configured like that:
+
+```
+wordpress_url = "http://www.hildeberto.com/2017/02/cleaner-code-with-functional-programming.html"
+posts_path = "_posts"
+images_path = "images/posts"
+```
+
+During the migration process, all your posts will be copied to the folder
+`_posts/` and all the images to the folder `images/posts`. If those folders
+don't exist they will be created automatically. If you want something different
+from these then you can customize them in the Jekyllfly config file later on.
+
+
 
 ## The code
 

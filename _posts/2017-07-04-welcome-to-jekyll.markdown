@@ -55,10 +55,9 @@ default port:
     port: 4001
 
 During the migration process, all your posts will be copied to the folder
-`_posts/` and all the images to the folder `images/posts`. This one doesn't
-exist yet. So, let's create it:
-
-    $ mkdir -p images/posts
+`_posts/` and all the images to the folder `images/posts`. If those folders
+don't exist they will be created automatically. If you want something different
+from these then you can customize them in the Jekyllfly config file later on.
 
 The next step is to clone the GitHub repository that actually does the job. Run
 the following command in the same folder of the website you just created:

@@ -1,34 +1,35 @@
 ---
 layout: post
-title:  "Bye Wordpress. Nice to meet you, Jekyll!"
+title:  "Bye WordPress. Nice to meet you, Jekyll!"
 date: 2017-07-04 19:32:05 +0200
-categories: jekyll wordpress python
+categories: jekyll WordPress python
 ---
 
-This blog used to be a Wordpress website. That's the second large migration over
-the period of 10 years. It was initially hosted at Blogger, but its features to
-write about programming were very limited at that time. I couldn't actually use
-a custom plugin, css or JavaScript file. Then I moved everything to Wordpress,
-managed by myself in a private hosting service. There, I've got more flexibility
-in terms of content, but it was significantly slower than Blogger. The
-combination PHP + MySQL is known as low cost, but I was actually moving from
-free to $200/y, which is too expensive for a slow website. After years annoyed
-with performance, I've decided to migrate to Jekyll, a static website generator
-that transform plain markdown content into modern web content.
+This blog used to be a [WordPress](https://wordpress.com) website. That's the
+second large migration over the period of 10 years. It was initially hosted at
+[Blogger](https://www.blogger.com), but its features to write about programming
+were very limited at that time. I couldn't actually use a custom plugin, css or
+JavaScript file. Then I moved everything to WordPress, managed by myself in a
+private hosting service. There, I've got more flexibility in terms of content,
+but it was significantly slower than Blogger. The combination PHP + MySQL is
+known as low cost, but I was actually moving from free to $200/y, which is too
+expensive for a slow website. After years annoyed with performance, I've decided
+to migrate to [Jekyll](http://jekyllrb.com), a static website generator that
+transform plain markdown content into modern web content.
 
-While the migration from Blogger to Wordpress was quite straightforward, the
+While the migration from Blogger to WordPress was quite straightforward, the
 migration to Jekyll was definitely a challenge. You are looking at my 3rd and
 last attempt to do it. I've succeed because I've decided to have fun, writing it
-myself in Python. This post explains how I've done it using Jekyll, Python and
-GitHub without having any access to the Wordpress database, neither using any
-exported data or accessing the server file system. I did it by simply using a
-web crawling technique.
+myself in [Python](https://www.python.org). This post explains how I've done it
+using Jekyll, Python and [GitHub](https://www.github.com) without having any
+access to the WordPress database, neither using any exported data or accessing
+the server file system. I did it by simply using a web crawling technique.
 
 ## What you have to know
 
 I consider that you know what Jekyll is, how to install it and you have a
-Wordpress blog publicly available on the web. You don't need to have access
-to Wordpress' database or any exported files, but you do need a way to navigate
+WordPress blog publicly available on the web. You don't need to have access
+to WordPress' database or any exported files, but you do need a way to navigate
 chronologically through posts using links like "Previous" or "Next". You also
 need some knowledge of Git and a GitHub account to be able to version your code
 and reuse existing code. At last, but not least, you should be able prepare a
@@ -41,10 +42,11 @@ I have been working with it since 2015, achieving amazing results so far.
 
 ## Getting everything set up
 
-Here, we put together a website based on Jekyll and Jekyllfly. The second one is
-a Python script that populates a Jekyll website with content extracted from a
-published Wordpress website. To start, let's create a Jekyll site on your home
-folder and test it using the following commands:
+Here, we put together a website based on Jekyll with the help of
+[Jekyllfly](https://github.com/htmfilho/jekyllfly). The second one is a Python
+script that populates a Jekyll website with content extracted from a published
+WordPress website. To start, let's create a Jekyll site on your home folder and
+test it using the following commands:
 
     $ jekyll new website
     $ cd website
@@ -79,53 +81,26 @@ posts_path = "_posts"
 images_path = "images/posts"
 ```
 
-During the migration process, all your posts will be copied to the folder
-`_posts/` and all the images to the folder `images/posts`. If those folders
-don't exist they will be created automatically. If you want something different
-from these then you can customize them in the Jekyllfly config file later on.
+During the migration process, all your posts are copied to the folder `_posts/`
+and all the images to the folder `images/posts`. If those folders don't exist
+they will be created automatically. If you want something different from these
+then you can customize them in the Jekyllfly config file later on.
 
-## The code
+Let's get the Python part done. As stated before, I assume you have Python
+3 installed and know how to use `pip` to install dependencies. Now, go to the
+Jekyllfly directory and install the dependencies:
 
-The code is organized in three modules (In Python a file is actually called a
-module):
+    $ cd jekyllfly
+    $ pip install -r requirements.txt
 
-1. `wordpress.py`: implementation of a simple web crawler that navigates through
-   the posts of a Wordpress blog from the most recent to the oldest one. It is
-   possible because at the end of every post there is a link to the previous
-   one.
-2. `jekyll.py`: transforms the data extracted from wordpress.py in a format
-   understandable by Jekyll and save them in locations of a Jekyll project to
-   have them published.
-3. `migration.py`: launch the whole migration process.
-4. `config.py`: configuration file, where we define the url of the source blog.
+## Run it!
 
-The execution starts at the `migration.py` module, which simply loads the config
-and calls the module `wordpress.py`.
+You're all set. Let's run it:
 
-{% highlight python %}
-import wordpress
-import config
+    $ python3 migration.py
 
-wordpress.import_articles(config.wordpress_url)
-{% endhighlight %}
-
-The function `import_articles` in the module `wordpress` iterates recursively
-through the posts in descendent chronological order. While doing this, it
-extracts the content of each post, analyze the extracted content, creates an
-object with the extracted content and saves them in Jekyll's folders.
-
-{% highlight python %}
-def import_article(current_post_url, recursive=False):
-    content_html = get_content_html(current_post_url)
-
-    if content_html:
-        save_article(build_article(current_post_url, content_html))
-        if recursive:
-            previous_post_url = get_previous_post_url(content_html)
-            if previous_post_url:
-                import_article(previous_post_url, recursive)
-
-
-def import_articles(post_url):
-    import_article(post_url, True)
-{% endhighlight %}
+The time it takes to finish depends on the number of posts and images published
+and the speed of your internet connection. In my case, it took 4 minutes to
+download 156 posts and 182 images. The script shows the path to every resource
+it is downloading to give you and idea of progress. When it finished, go to
+[http://localhost:4000](http://localhost:4000) to check the result.

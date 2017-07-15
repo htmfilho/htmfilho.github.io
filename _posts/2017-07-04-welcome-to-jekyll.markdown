@@ -2,7 +2,7 @@
 layout: post
 title:  "Bye WordPress. Nice to meet you, Jekyll!"
 date: 2017-07-04 19:32:05 +0200
-categories: jekyll WordPress python
+categories: jekyll wordpress python
 ---
 
 This blog used to be a [WordPress](https://wordpress.com) website. That's the
@@ -14,8 +14,8 @@ private hosting service. There, I've got more flexibility in terms of content,
 but it was significantly slower than Blogger. The combination PHP + MySQL is
 known as low cost, but I was actually moving from free to $200/y, which is too
 expensive for a slow website. After years annoyed with performance, I've decided
-to migrate to [Jekyll](http://jekyllrb.com), a static website generator that
-transform plain markdown content into modern web content.
+to migrate to [Jekyll](http://jekyllrb.com), a static website generator written
+in Ruby that transforms plain markdown content into modern web content.
 
 While the migration from Blogger to WordPress was quite straightforward, the
 migration to Jekyll was definitely a challenge. You are looking at my 3rd and
@@ -45,8 +45,8 @@ I have been working with it since 2015, achieving amazing results so far.
 Here, we put together a website based on Jekyll with the help of
 [Jekyllfly](https://github.com/htmfilho/jekyllfly). The second one is a Python
 script that populates a Jekyll website with content extracted from a published
-WordPress website. To start, let's create a Jekyll site on your home folder and
-test it using the following commands:
+WordPress website. To start, let's create a Jekyll website on your home folder
+and test it using the following commands:
 
     $ jekyll new website
     $ cd website
@@ -104,3 +104,59 @@ and the speed of your internet connection. In my case, it took 4 minutes to
 download 156 posts and 182 images. The script shows the path to every resource
 it is downloading to give you and idea of progress. When it finished, go to
 [http://localhost:4000](http://localhost:4000) to check the result.
+
+If you liked the result, great! You can get rid of Jekyllfly until the next
+migration from WordPress to Jekyll. To proceed, go back to the website root
+folder and delete Jekyllfly:
+
+    $ cd ..
+    $ rm -rf jekyllfly
+
+If not, then let's talk. The code works in my case, but maybe it has some issues
+in your case. The best thing to do is to describe your problem in the repo's
+[issue tracking](https://github.com/htmfilho/jekyllfly/issues). I would be happy
+to make it work for your case.
+
+## Publishing on GitHub
+
+Now, the posts of your website are pure text and there is no database neither
+PHP anymore. While you are working on the content everything seems dynamic, but
+in reality, Jekyll is constantly generating static content for you. When you
+finish a post, either you publish the generated static content to your hosting
+provider or you push everything on GitHub. Well known as a Ruby shop, GitHub can
+recognize Jekyll and generate the static content for you. This way I can keep
+everything (site and content) under version control.
+
+To have a website associated with your GitHub account, create an empty
+repository named `[username].github.io`. Go to your local website root folder
+and perform the following commands to add the local website to the repository:
+
+```
+    $ git init
+    $ echo "_site" >> .gitignore
+    $ echo ".sass-cache" >> .gitignore
+    $ echo ".jekyll-metadata" >> .gitignore
+    $ git add .
+    $ git commit -m "Initial commit"
+    $ git remote add origin "https://github.com/[username]/[username].github.io.git"
+    $ git push origin master
+```
+
+Check your repository at https://github.com/[username]/[username].github.io to
+see if your local files were properly added to the repository. If everything
+looks fine then check your new website at https://[username].github.io. If not,
+then let me know, so we can figure it out together.
+
+## Side effects
+
+Jekyllfly works but it isn't perfect. It depends a lot on the quality of the
+data. Some posts were not imported correctly because the HTML had some
+inconsistent tags. Some images were downloaded, properly referenced in the
+markdown content, but they were also surrounded by other html tags such as
+`<a>`, `<span>` and `table`, that were used to show a legend. Those tags were
+hiding the images in the posts. Unfortunately, they are not that easy to remove,
+so I did it manually because it impacted just a dozen posts. There are still
+some formatting issues in very old posts that I will gradually fix as I find
+time to do so. The good new is that I finally have the opportunity
+to preserve the quality of the content that I have produced through all these
+years.

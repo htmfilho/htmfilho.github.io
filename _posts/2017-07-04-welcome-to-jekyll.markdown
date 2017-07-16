@@ -156,7 +156,7 @@ Jekyllfly works but it isn't perfect. It depends a lot on the quality of the
 data. Some posts were not imported correctly because the HTML had some
 inconsistent tags. Some images were downloaded, properly referenced in the
 markdown content, but they were also surrounded by other html tags such as
-`<a>`, `<span>` and `table`, used to show a legend near the image. Those tags
+`<a>`, `<span>` and `<table>`, used to show a legend near the image. Those tags
 were hiding the images in the posts. Unfortunately, they are not that easy to
 remove, so I did it manually because it impacted just a dozen posts. There are
 still some formatting issues in very old posts that I will gradually fix as I

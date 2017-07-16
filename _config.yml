@@ -17,7 +17,7 @@ title: No Time To Make It Shorter
 author: Hildeberto Mendonça
 description: > # this means to ignore newlines until "baseurl:"
   You are reading my personal website, where I share my own views, knowledge and
-  interests. I do not represent the views of my employee or anybody else I work
+  interests. I do not represent the views of my employer or anybody else I work
   for. I do my best to publish exclusive content, which usually comes out after
   some research or thoughts of my own.
 baseurl: "" # the subpath of your site, e.g. /blog

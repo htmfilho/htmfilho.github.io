@@ -15,8 +15,8 @@ private hosting service. There, I've got more flexibility in terms of content,
 but it was significantly slower than Blogger. The combination PHP + MySQL is
 known as low cost, but I was actually moving from free to $200/y, which is too
 expensive for a slow website. After years annoyed with performance, I've decided
-to migrate to [Jekyll](http://jekyllrb.com), a static website generator written
-in Ruby that transforms plain markdown content into modern web content.
+to migrate to Jekyll, a static website generator written in Ruby that transforms
+plain markdown content into modern web content.
 
 While the migration from Blogger to WordPress was quite straightforward, but the
 migration to Jekyll was definitely a challenge. You are looking at my 3rd and
@@ -134,14 +134,14 @@ and perform the following commands to add the local website to the repository
 (don't forget to replace `[username]` by your actual GitHub username):
 
 ```
-    $ git init
-    $ echo "_site" >> .gitignore
-    $ echo ".sass-cache" >> .gitignore
-    $ echo ".jekyll-metadata" >> .gitignore
-    $ git add .
-    $ git commit -m "Initial commit"
-    $ git remote add origin "https://github.com/[username]/[username].github.io.git"
-    $ git push origin master
+$ git init
+$ echo "_site" >> .gitignore
+$ echo ".sass-cache" >> .gitignore
+$ echo ".jekyll-metadata" >> .gitignore
+$ git add .
+$ git commit -m "Initial commit"
+$ git remote add origin "https://github.com/[username]/[username].github.io.git"
+$ git push origin master
 ```
 
 Check your repository at https://github.com/[username]/[username].github.io to

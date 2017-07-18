@@ -11,22 +11,108 @@ When I started working with this <a href="http://developers.sun.com/javadb/">emb
 
 Today I’m using the option “do nothing”, keeping in mind my constant concern for simplifying the life of end users when installing and using the application. So, every time the application is started I check if the database exists. If not, I execute a ddl script bundled inside the main jar file. I’m using the following code:
 
-<pre style="font-family:courier;font-size: 11px;"><br/>public static void main(String[] args) {<br/>  {...}<br/>  boolean applicationPropertiesLoaded = false;<br/>  int attempts = 0;<br/>  do {<br/>    try {<br/>      attempts++;<br/>      loadApplicationProperties();<br/>      applicationPropertiesLoaded = true;<br/>    }<br/>    catch(Exception e) {<br/>      logger.warning("Application properties"+ <br/>         "not found. Trying to create the database");<br/>      createDatabase();<br/>      if(attempts == 2) {<br/>        logger.severe(<br/>           "Problem to load application properties.");<br/>      }<br/>    }            <br/>  } while(!applicationPropertiesLoaded || <br/>           (attempts < 2));<br/>  {...}<br/>}<br/>
-```
+{% highlight java %}
+public static void main(String[] args) {
+  {...}
+  boolean applicationPropertiesLoaded = false;
+  int attempts = 0;
+  do {
+    try {
+      attempts++;
+      loadApplicationProperties();
+      applicationPropertiesLoaded = true;
+    }
+    catch(Exception e) {
+      logger.warning("Application properties"+
+                     "not found. Trying to create the database");
+      createDatabase();
+      if(attempts == 2) {
+        logger.severe("Problem to load application properties.");
+      }
+    }
+  } while(!applicationPropertiesLoaded || (attempts < 2));
+  {...}
+}
+{% endhighlight %}
 
 The code above tries to access the database, executing a basic operation like loading the application properties. If the database doesn’t exist an exception is thrown and the respective catch block is executed. Inside the catch block the method “createDatabase()” is invoked to create the database. This process is performed at least 2 times, since the application properties should be loaded anyway. See the “createDatabase()” method below:
 
-<pre style="font-family:courier;font-size: 11px;"><br/>private static void createDatabase() {<br/>  logger.info("Creating the database"+<br/>              " for the first time");<br/>  List<string> sqlCommands = <br/>    loadSQLCommands(Main.class<br/>      .getResourceAsStream(<br/>          "/META-INF/create-database.sql"));<br/>  EntityManagerFactory emf = <br/>    Persistence.createEntityManagerFactory(<br/>       AbstractEntity.ENTITY_MANAGER);<br/>  EntityManager em = emf.createEntityManager();<br/>  EntityTransaction et = null;<br/>  String sqlCommand = null;<br/>  try {<br/>    et = em.getTransaction();<br/>    et.begin();<br/>    for(int i = 0;i < sqlCommands.size();i++) {<br/>      sqlCommand = sqlCommands.get(i);<br/>      em.createNativeQuery(sqlCommand).executeUpdate();<br/>      logger.info("database update: " + sqlCommand);<br/>    }<br/>    initializeDatabase(em);<br/>  }<br/>  catch(Exception ex) {<br/>    logger.log(Level.WARNING, <br/>       "Problem to execute the sql command: "+ <br/>       sqlCommand, ex);<br/>    et.rollback();<br/>  }<br/>  finally {<br/>    et.commit();<br/>    em.close();<br/>  }<br/>}<br/></string>
-```
+{% highlight java %}
+private static void createDatabase() {
+  logger.info("Creating the database for the first time");
+  List<string> sqlCommands =
+    loadSQLCommands(Main.class
+            .getResourceAsStream("/META-INF/create-database.sql"));
+  EntityManagerFactory emf = Persistence.createEntityManagerFactory(
+    AbstractEntity.ENTITY_MANAGER);
+  EntityManager em = emf.createEntityManager();
+  EntityTransaction et = null;
+  String sqlCommand = null;
+  try {
+    et = em.getTransaction();
+    et.begin();
+    for(int i = 0;i < sqlCommands.size();i++) {
+      sqlCommand = sqlCommands.get(i);
+      em.createNativeQuery(sqlCommand).executeUpdate();
+      logger.info("database update: " + sqlCommand);
+    }
+    initializeDatabase(em);
+  }
+  catch(Exception ex) {
+    logger.log(Level.WARNING,
+               "Problem to execute the sql command: "+
+               sqlCommand, ex);
+    et.rollback();
+  }
+  finally {
+    et.commit();
+    em.close();
+  }
+}
+{% endhighlight %}
 
-The code above accesses the file “create-database.sql” embedded inside the application jar, extracts a list of sql commands, executes one by one, and initializes the database, inserting some initial default data. I list below the method “loadSQLCommands()” that opens the embedded file and reads its content:
+The code above accesses the file `create-database.sql` embedded inside the application jar, extracts a list of sql commands, executes one by one, and initializes the database, inserting some initial default data. I list below the method “loadSQLCommands()” that opens the embedded file and reads its content:
 
-<pre style="font-family:courier;font-size: 11px;"><br/>public static List<string> loadSQLCommands(<br/>                           InputStream stream) {<br/>  List<string> sqlCommands = new ArrayList<string>();<br/>  try {<br/>    BufferedReader reader = new BufferedReader(<br/>        new InputStreamReader(stream));<br/>    StringBuffer sb = new StringBuffer();<br/>    String line = null;<br/>    while((line = reader.readLine()) != null) {<br/>      sb.append(line.trim());<br/>    }<br/>    StringTokenizer st = <br/>        new StringTokenizer(sb.toString(), ";");<br/>    while(st.hasMoreTokens()) {<br/>      sqlCommands.add(st.nextToken());<br/>    }<br/>    return sqlCommands;<br/>  } catch (MalformedURLException ex) {<br/>    logger.log(Level.SEVERE, <br/>               "Malformed URI of the file.", ex);<br/>  } catch (FileNotFoundException fnfe) {<br/>    logger.log(Level.WARNING,<br/>               "Database script not found.", fnfe);<br/>  } catch (IOException ioe) {<br/>    logger.log(Level.WARNING,<br/>               "Problem to read the script.", ioe);<br/>  }<br/>  return null;<br/>}<br/></string></string></string>
-```
+{% highlight java %}
+public static List<string> loadSQLCommands(InputStream stream) {
+  List<string> sqlCommands = new ArrayList<string>();
+  try {
+    BufferedReader reader = new BufferedReader(
+      new InputStreamReader(stream));
+    StringBuffer sb = new StringBuffer();
+    String line = null;
+    while((line = reader.readLine()) != null) {
+      sb.append(line.trim());
+    }
+    StringTokenizer st = new StringTokenizer(sb.toString(), ";");
+    while(st.hasMoreTokens()) {
+      sqlCommands.add(st.nextToken());
+    }
+    return sqlCommands;
+  } catch (MalformedURLException ex) {
+    logger.log(Level.SEVERE, "Malformed URI of the file.", ex);
+  } catch (FileNotFoundException fnfe) {
+    logger.log(Level.WARNING, "Database script not found.", fnfe);
+  } catch (IOException ioe) {
+    logger.log(Level.WARNING, "Problem to read the script.", ioe);
+  }
+  return null;
+}
+{% endhighlight %}
 
-Finally, the method ‘initializeDatabase()”, invoked at the end of the method “createDatabase()”, is listed below:
+Finally, the method ‘initializeDatabase()”, invoked at the end of the method `createDatabase()`, is listed below:
 
-<pre style="font-family:courier;font-size: 11px;"><br/>public static void initializeDatabase(<br/>                   EntityManager em) {<br/>  logger.info("Initializing the database"+ <br/>              "for the first time.");<br/>  List<string> sqlCommands = loadSQLCommands(<br/>     Main.class.getResourceAsStream(<br/>         "/META-INF/initialize-database.sql"));<br/>  for(String sqlCommand:sqlCommands) {<br/>    em.createNativeQuery(sqlCommand).executeUpdate();<br/>    logger.info("data update: " + sqlCommand);<br/>  }<br/>}<br/></string>
-```
+{% highlight java %}
+public static void initializeDatabase(EntityManager em) {
+  logger.info("Initializing the database"+
+              "for the first time.");
+  List<string> sqlCommands = loadSQLCommands(
+    Main.class.getResourceAsStream("/META-INF/initialize-database.sql"));
+  for(String sqlCommand:sqlCommands) {
+    em.createNativeQuery(sqlCommand).executeUpdate();
+    logger.info("data update: " + sqlCommand);
+  }
+}
+{% endhighlight %}
 
 With all this code above we could solve only the database creation process. There are still more code to update the database when needed. Because this post became so big, I’m going to describe the update process in a future post in this blog. Maybe, I missed some point here because there are so many details. So, if you had problems to implement it, please leave your comments below and I will try to complement the content to fulfill your needs. Keep following me!

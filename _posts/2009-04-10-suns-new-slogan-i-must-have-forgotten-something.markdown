@@ -2,13 +2,14 @@
 layout: post
 title: "SUN’s new slogan: “I must have forgotten something”"
 date: 2009-04-10 19:12:00 +0200
-categories: uncategorized cejug conference java jvm open source
+categories: cejug conference java jvm open source
 ---
 
-I’m refactoring the code of a Swing application to implement the logging facilities offered by the Java Virtual Machine (JVM). It seems to be easy until you need some special feature like a personalized configuration file. Well, it is actually easy to use because we can declare the configuration file in the command line to start the application, like in the code below. 
+I’m refactoring the code of a Swing application to implement the logging facilities offered by the Java Virtual Machine (JVM). It seems to be easy until you need some special feature like a personalized configuration file. Well, it is actually easy to use because we can declare the configuration file in the command line to start the application, like in the code below.
 
 ```
-java -Djava.util.logging.config.file=C:Templogging.properties <br/>-cp . myapp.business.SimpleApp
+java -Djava.util.logging.config.file=C:\Temp\logging.properties -cp .
+     myapp.business.SimpleApp
 ```
 
 But if we don’t use a command line to start the application because we love the simplicity of the double click on the jar file or the facilities provided by the JavaWebstart, what the hell should we do to keep things like it always was? I couldn’t find any useful code until now to fulfill my needs. If you know any solution, please add it here as a comment to this post.

@@ -7,9 +7,9 @@ categories: development enterprise application integration javaee jms software a
 
 If you didn’t get in contact with messaging systems yet you better do it soon. This concept is a key element in the architecture of scalable applications. Before it was a product but now it’s pervasive even natively embedded in some programming languages.
 
-Let me help you to use messaging in a JavaEE application server. The Java application code is portable between application servers. Unfortunately, each application server has its own way to configure a messaging system. Since I can’t cover all of them, I will concentrate on JBoss 7 or superior (JavaEE 6/7). JBoss uses a messaging system called <a href="http://hornetq.jboss.org" target="_blank">HornetQ</a>, an open source message-oriented middleware. It offers queues (point-to-point) and topics (publisher-subscriber). I’m covering only queues in this post. Queues and topics can be used within a JavaEE application or across several applications. It’s a kind of integration pattern, but sadly less popular than web services. Since I’m not dealing with integration, I will narrow even more this post to cover a queue accessible locally only.
+Let me help you to use messaging in a JavaEE application server. The Java application code is portable between application servers. Unfortunately, each application server has its own way to configure a messaging system. Since I can’t cover all of them, I will concentrate on JBoss 7 or superior (JavaEE 6/7). JBoss uses a messaging system called [HornetQ](http://hornetq.jboss.org), an open source message-oriented middleware. It offers queues (point-to-point) and topics (publisher-subscriber). I’m covering only queues in this post. Queues and topics can be used within a JavaEE application or across several applications. It’s a kind of integration pattern, but sadly less popular than web services. Since I’m not dealing with integration, I will narrow even more this post to cover a queue accessible locally only.
 
-<a href="http://www.hildeberto.com/wp-content/uploads/2015/06/metro-crowd.jpg">![metro-crowd.jpg](/images/posts/metro-crowd.jpg)</a>
+![metro-crowd.jpg](/images/posts/metro-crowd.jpg)
 
 I recently had to use a queue to asynchronously generate large files. Users were waiting too much for a response from the server after requesting those large files. The problem became serious when multiple users were doing that request simultaneously. By using a queue, I was able to generate files asynchronously, so the users didn’t have to wait anymore, and in sequence, avoiding exponential use of memory and IO.
 
@@ -17,17 +17,17 @@ To put some pepper on the issue, we were using JBoss Web Profile and it doesn’
 
 The first idea that came to my mind was to simply identify the messaging configuration in the full profile (standalone-full.xml) and copy it to the web profile (standalone.xml). I started by adding the extension module:
 
-```
+{% highlight xml %}
 <extensions>
 ...
 <extension module="org.jboss.as.messaging"/>
 ...
 </extensions>
-```
+{% endhighlight %}
 
 and with it comes its respective rather long subsystem:
 
-```
+{% highlight xml %}
 <subsystem xmlns="urn:jboss:domain:messaging:1.4">
   <hornetq-server>
     <persistence-enabled>true</persistence-enabled>
@@ -35,7 +35,7 @@ and with it comes its respective rather long subsystem:
     <journal-min-files>2</journal-min-files>
     <connectors>
       <netty-connector name="netty" socket-binding="messaging"/>
-      <netty-connector name="netty-throughput" 
+      <netty-connector name="netty-throughput"
             socket-binding="messaging-throughput">
         <param key="batch-delay" value="50"/>
       </netty-connector>
@@ -108,11 +108,11 @@ and with it comes its respective rather long subsystem:
     </jms-destinations>
   </hornetq-server>
 </subsystem>
-```
+{% endhighlight %}
 
 No changes from the original. I just copied and pasted the entire messaging subsystem. Then I added a socket binding just in case I needed queues and topics for integration purposes later on:
 
-```
+{% highlight xml %}
 <socket-binding-group
    name="standard-sockets"
    default-interface="public"
@@ -126,11 +126,11 @@ No changes from the original. I just copied and pasted the entire messaging subs
   <socket-binding name="messaging-throughput" port="5455"/>
   ...
 </socket-binding-group>
-```
+{% endhighlight %}
 
 Finally, I added a reference to the resource adapter, defined above, in the EJB subsystem, as follows:
 
-```
+{% highlight xml %}
 <subsystem xmlns="urn:jboss:domain:ejb3:1.4">
   ...
   <mdb>
@@ -140,22 +140,21 @@ Finally, I added a reference to the resource adapter, defined above, in the EJB 
   </mdb>
   ...
 </subsystem>
-```
+{% endhighlight %}
 
 And it worked! Be aware you can simply use the full profile to make the messaging work. No need to do all this configuration. But keep in mind that the full profile is going to load additional things you don’t need at all, such as:
 
-<ul>
-<li><strong>org.jboss.as.cmp</strong>: container-managed persistence, deprecated in favour of JPA.</li>
-<li><strong>org.jboss.as.jacorb</strong>: an implementation of CORBA.</li>
-<li><strong>org.jboss.as.jsr77</strong>: abstracts manageable aspects of the J2EE architecture to provide a model for implementing instrumentation and information access.</li>
-</ul>
-<a href="http://www.hildeberto.com/wp-content/uploads/2015/06/metro-queue.jpg">![metro-queue-1024x768.jpg](/images/posts/metro-queue-1024x768.jpg)</a>
+- `org.jboss.as.cmp`: container-managed persistence, deprecated in favour of JPA.
+- `org.jboss.as.jacorb`: an implementation of CORBA.
+- `org.jboss.as.jsr77`: abstracts manageable aspects of the J2EE architecture to provide a model for implementing instrumentation and information access.
+
+![metro-queue-1024x768.jpg](/images/posts/metro-queue-1024x768.jpg)
 
 On the application side I did three things:
 
-1 – add the deployment descriptor hornetq-jms.xml to the folder WEB-INF to automatically create a queue during the deployment process. The descriptor has the following content:
+1 - add the deployment descriptor hornetq-jms.xml to the folder WEB-INF to automatically create a queue during the deployment process. The descriptor has the following content:
 
-```
+{% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
 <messaging-deployment xmlns="urn:jboss:messaging-deployment:1.0">
   <hornetq-server>
@@ -166,11 +165,11 @@ On the application side I did three things:
     </jms-destinations>
   </hornetq-server>
 </messaging-deployment>
-```
+{% endhighlight %}
 
-2 – create a MDB (Message-Driven Bean) to listen to the queue and process the messages as they arrive. For example:
+2 - create a MDB (Message-Driven Bean) to listen to the queue and process the messages as they arrive. For example:
 
-```
+{% highlight java %}
 @MessageDriven(name="FileGenerationQueue", activationConfig = {
      @ActivationConfigProperty(propertyName = "destination",
                                propertyValue = "queue/FileGeneration"),
@@ -184,12 +183,11 @@ public class LargeFileGenerationBean implements javax.jms.MessageListener {
     // Code that will process messages coming from the queue.
   }
 }
-```
+{% endhighlight %}
 
-3 – and modify a Request Scoped Managed Bean to send messages to the queue. For example:
+3 - and modify a Request Scoped Managed Bean to send messages to the queue. For example:
 
-```
-
+{% highlight java %}
 @ManagedBean
 @RequestScoped
 public class MyManagedBean implements Serializable {
@@ -217,6 +215,6 @@ public class MyManagedBean implements Serializable {
     }
   }
 }
-```
+{% endhighlight %}
 
 Let me know if you have any issues, then we can find the solution and make it better.

@@ -5,7 +5,7 @@ date: 2017-02-23 21:34:55 +0200
 categories: development algorithm python workspace
 ---
 
-I’m a Technical Team Leader at <a href="https://www.uclouvain.be" target="_blank">Université catholique de Louvain</a> and one of my responsibilities is to analyse pull requests sent by my team mates and all other contributors of <a href="http://uclouvain.github.io/osis/about/" target="_blank">OSIS project</a>. Each pull request is analysed according to some acceptance criteria, which determine if the pull request is accepted right away, accepted after completing requests for changes or refused. This process was taking too long because of excessive requests for changes, revealing too many problems to be fixed before the merges.
+I’m a Technical Team Leader at [Université catholique de Louvain](https://www.uclouvain.be) and one of my responsibilities is to analyse pull requests sent by my team mates and all other contributors of [OSIS project](http://uclouvain.github.io/osis/about/). Each pull request is analyzed according to some acceptance criteria, which determine if the pull request is accepted right away, accepted after completing requests for changes or refused. This process was taking too long because of excessive requests for changes, revealing too many problems to be fixed before the merges.
 
 To gain some time on pull requests, I’ve decided to invest part of my time training the team to improve the general sense of maintainability, stability and reusability of the code. We’ve started with some pressure to change the established culture by following Robert C. Martin’s Clean Code video series. Uncle Bob, as he’s well known, seems to have radical ideas, but he is quite good at convincing us that he is not that radical at all. This initiative has been very valuable and the quality of recent pull requests has increased substantially.
 
@@ -13,11 +13,9 @@ Training sessions are now a weekly commitment. Nowadays, I’m reinforcing what 
 
 > Given a list of programmers and the maximum number of team members, let’s write an algorithm to randomly distribute programmers into teams. The maximum number of members is greater than 1. The minimum number of members is implicitly equal to 2. The list of programmers should contain at least two elements. A programmer can be member of only one team or no team at all but never member of 2 or more teams. The return should be a list of lists where the lists represent the teams.
 
-
 We started writing a failing test and then just enough code to pass it. In this loop we ended up writing 7 tests to check the algorithm. Here is what we’ve got:
 
-```
-
+{% highlight python %}
 import random
 import unittest
 
@@ -45,13 +43,13 @@ class TeamBuildingTest(unittest.TestCase):
     self.assertEqual(len(teams), 2)
 
   def test_odd_size_of_programmers_teams(self):
-    programmers = ['John', 'Mary', 'Carl', 'Smith', 'Luc', 
+    programmers = ['John', 'Mary', 'Carl', 'Smith', 'Luc',
                    'Paul', 'Ringo']
     teams = build_teams(programmers, 3)
     self.assertEqual(len(teams), 2)
 
   def test_minimal_and_maximal_team_size(self):
-    programmers = ['John', 'Mary', 'Carl', 'Smith', 'Luc', 
+    programmers = ['John', 'Mary', 'Carl', 'Smith', 'Luc',
                    'Paul', 'Ringo', 'Adam']
     teams = build_teams(programmers, 3)
     self.assertEqual(len(teams), 3)
@@ -60,18 +58,16 @@ class TeamBuildingTest(unittest.TestCase):
     self.assertEqual(len(teams[2]), 2)
 
   def test_random_teams(self):
-    programmers = ['John', 'Mary', 'Carl', 'Smith', 'Luc', 
+    programmers = ['John', 'Mary', 'Carl', 'Smith', 'Luc',
                    'Paul']
     first_round = build_teams(programmers, 2)
     second_round = build_teams(programmers, 2)
     self.assertNotEqual(first_round, second_round)
-
-```
+{% endhighlight %}
 
 We arrived together to the following solution:
 
-```
-
+{% highlight python %}
 def build_teams(programmers, size):
   if not programmers or len(programmers) < 2:
     return []
@@ -98,25 +94,21 @@ def partition_teams(programmers, size=2):
   if len(team) > 1:
     teams.append(team)
   return teams
+{% endhighlight %}
 
-```
+To run all of it yourself, just put all the code in a file named `team_building.py` and run the tests using the following command in the same folder of the file:
 
-To run all of it yourself, just put all the code in a file named “team_building.py” and run the tests using the following command in the same folder of the file:
+    $ python3 -m unittest -f 'team_building.py'
 
-```
-$ python3 -m unittest -f 'team_building.py'
-```
+When we were done with the code we realized we didn’t do a good job in the function `partition_teams()`. It was written in the imperative style, with more variables and less meaningful controls. It’s difficult to extract another function from it without breaking other programming rules. However, with a 100% test coverage, we could rethink the problem and refactor the code without breaking the algorithm. Look at what we’ve got:
 
-When we were done with the code we realised we didn’t do a good job in the function `partition_teams()`. It was written in the imperative style, with more variables and less meaningful controls. It’s difficult to extract another function from it without breaking other programming rules. However, with a 100% test coverage, we could rethink the problem and refactor the code without breaking the algorithm. Look at what we’ve got:
-
-```
-
+{% highlight python %}
 def partition_teams(progs, s):
   return [progs[x:y] for x in range(0, len(progs), s)
                      for y in range(s, len(progs) + s, s)
-                     if x < y and y - x == s and 
+                     if x < y and y - x == s and
                         len(progs[x:y]) > 1]
-```
+{% endhighlight %}
 
 The new `partition_teams()` function uses list comprehension, a functional programming concept implemented in Python and many other languages nowadays. We’ve initially thought about nesting maps, filters and reduces, but it seemed to be heading towards complexity. List comprehension was proposed to address exactly the nested cases of higher order list operations, making the code more expressive.
 
@@ -124,4 +116,4 @@ The point about this list comprehension is to manipulate list slicing intervals 
 
 Notice that it has more semantics than the imperative solution because we get a dataset and we keep working with datasets in mind, while the imperative solution is more value-oriented and requires more control. Functional programming fascinates me and I'm glad to work with such a powerful language.
 
-<a href="http://www.hildeberto.com/wp-content/uploads/2017/02/sponge-bob-functional-programming.jpg">![sponge-bob-functional-programming.jpg](/images/posts/sponge-bob-functional-programming.jpg)</a>
+![sponge-bob-functional-programming.jpg](/images/posts/sponge-bob-functional-programming.jpg)

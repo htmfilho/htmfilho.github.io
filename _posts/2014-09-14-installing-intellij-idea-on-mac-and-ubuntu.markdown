@@ -83,8 +83,7 @@ Create a desktop file:
 
 ```
 cd /opt/idea
-gedit idea.desktop    
-
+gedit idea.desktop
 ```
 
 Copy the content bellow to the file:
@@ -106,7 +105,6 @@ Install the desktop file:
 
 ```
 desktop-file-install idea.desktop
-
 ```
 
 Create a symlink:
@@ -114,14 +112,12 @@ Create a symlink:
 ```
 cd /usr/local/bin
 ln -s /opt/idea/bin/idea.sh /usr/local/bin/idea.sh
-
 ```
 
 Finally, display the idea icon in dash:
 
 ```
 cp /opt/idea/bin/idea.png /usr/share/pixmaps/idea.png
-
 ```
 
 At this point, you will finally feel IntelliJ as an application, integrated with the desktop and always ready to be executed.

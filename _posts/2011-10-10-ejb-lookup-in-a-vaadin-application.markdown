@@ -9,28 +9,91 @@ It has been a long time since the last Service Locator I have implemented. I tho
 
 Before going too far, I have read the article “<a href="https://vaadin.com/wiki/-/wiki/Main/Adding%20JPA%20to%20the%20Address%20Book%20Demo">Adding JPA to the Address Book Demo</a>“, published on Vaadin’s wiki, which explains how to call EJBs from Vaadin’s classes to retrieve and persist data from the business layer. EJBs use JPA to get and put data in the database. They suggested to call EJBs from a custom servlet, which, according to the Java EE specification, has the ability to make EJB calls using CDI. If we have 1 or 3 EJBs to call, it seems to be an appropriate solution, but what to do in the Servlet when we have ~40 EJBs to deal with? How to pass all these references to Vaadin’s application class? The interface of this class can go nuts! That’s why I believe that the lookup using JNDI is desirable.
 
-The following code is the Service Locator that I’m using in my Proof of Concept (PoC). 
+The following code is the Service Locator that I’m using in my Proof of Concept (PoC).
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>import java.util.Collections;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>import java.util.HashMap;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>import java.util.Map;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>import javax.naming.Context;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>import javax.naming.InitialContext;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>import javax.naming.NamingException;</span>
+{% highlight java %}
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>public class ClientServiceLocator {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   private Context initialContext;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   private Map<string, object=""> cache;</string,></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   private static ClientServiceLocator </span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>           ourInstance = new ClientServiceLocator();</span>
+public class ClientServiceLocator {
+  private Context initialContext;
+  private Map<string, object=""> cache;
+  private static ClientServiceLocator ourInstance =
+      new ClientServiceLocator();
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   public static ClientServiceLocator getInstance() {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      return ourInstance;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   }</span>
+  public static ClientServiceLocator getInstance() {
+    return ourInstance;
+  }
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   private ClientServiceLocator() {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      try {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         this.initialContext = new InitialContext();</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         this.cache = Collections.synchronizedMap(new HashMap<string, object="">());</string,></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      }</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      catch(NamingException ne) { </span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         System.err.printf(</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            “Error in CTX looking up %s because of %s while %s”,</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            ne.getRemainingName(),</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            ne.getCause(),</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            ne.getExplanation());</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      }</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   }</span>
+  private ClientServiceLocator() {
+    try {
+      this.initialContext = new InitialContext();
+      this.cache = Collections.synchronizedMap(
+          new HashMap<string, object="">());
+    } catch(NamingException ne) {
+      System.err.printf(
+          "Error in CTX looking up %s because of %s while %s",
+          ne.getRemainingName(), 
+          ne.getCause(),
+          ne.getExplanation());
+    }
+  }
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   public Object lookupEjb(String ejbName) {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      if(this.cache.containsKey(ejbName)) {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         return this.cache.get(ejbName);</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      }</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      else {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         try {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            Object ejbRef = </span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>               initialContext.lookup(“java:comp/env/”+ ejbName);</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            this.cache.put(ejbName, ejbRef);</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            return ejbRef;</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         } catch (NamingException ne) {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            throw new RuntimeException(ne);</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         } catch (Exception e) {</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>            throw new RuntimeException(e);</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         }</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      }</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   }</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>}</span>
+  public Object lookupEjb(String ejbName) {
+    if(this.cache.containsKey(ejbName)) {
+      return this.cache.get(ejbName);
+    }
+    else {
+      try {
+        Object ejbRef = initialContext.lookup("java:comp/env/"+ ejbName);
+        this.cache.put(ejbName, ejbRef);
+        return ejbRef;
+      } catch (NamingException ne) {
+        throw new RuntimeException(ne);
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+    }
+  }
+}
+{% endhighlight %}
 
-The class <span style='font-family: "Courier New",Courier,monospace;'>MyServiceLocator</span> follows the <i>Singleton</i> design pattern, making sure that there is only one instance of the object to serve all requests from the web application. The unique instance is created at the class’ initialization process and since the constructor is private, the class cannot be instantiated by another class, being available only through the method <span style='font-family: "Courier New",Courier,monospace;'>getInstance()</span>. The constructor initializes the context and creates a synchronized map where we store all references already created. The method <span style='font-family: "Courier New",Courier,monospace;'>lookupEjb(String ejbName)</span> locates EJBs whose names are available in the local JNDI context. This method only works for those EJBs whose references are declared in the web.xml file, as listed below.
+The class `MyServiceLocator` follows the <i>Singleton</i> design pattern, making sure that there is only one instance of the object to serve all requests from the web application. The unique instance is created at the class’ initialization process and since the constructor is private, the class cannot be instantiated by another class, being available only through the method `getInstance()`. The constructor initializes the context and creates a synchronized map where we store all references already created. The method `lookupEjb(String ejbName)` locates EJBs whose names are available in the local JNDI context. This method only works for those EJBs whose references are declared in the web.xml file, as listed below.
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'><web-app version=”2.5″</span><br/><span style="font-size: x-small;"><span style='font-family: "Courier New",Courier,monospace;'>    xmlns:xsi=”</span><span style='font-family: "Courier New",Courier,monospace;'>http://www.w3.org/2001/XMLSchema-instance</span><span style='font-family: "Courier New",Courier,monospace;'>” </span></span><br/><span style="font-size: x-small;"><span style='font-family: "Courier New",Courier,monospace;'>    xmlns=”</span><span style='font-family: "Courier New",Courier,monospace;'>http://java.sun.com/xml/ns/javaee</span><span style='font-family: "Courier New",Courier,monospace;'>” </span></span><br/><span style="font-size: x-small;"><span style='font-family: "Courier New",Courier,monospace;'>    xsi:schemalocation=”</span><span style='font-family: "Courier New",Courier,monospace;'>http://java.sun.com/xml/ns/javaee</span><span style='font-family: "Courier New",Courier,monospace;'> </span><span style='font-family: "Courier New",Courier,monospace;'></span></span><br/><span style="font-size: x-small;"><span style='font-family: "Courier New",Courier,monospace;'>        http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd</span><span style='font-family: "Courier New",Courier,monospace;'>“></span></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   </span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   <display-name>Information Systems</display-name></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   …</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   <ejb-local-ref></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      <ejb-ref-name>InformationSystemBean</ejb-ref-name></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      <ejb-ref-type>Session</ejb-ref-type></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      <local></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         example.business.InformationSystemBeanLocal</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      </local></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      <ejb-link></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>         eac-architecture-ejb.jar#InformationSystemBean</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>      </ejb-link></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   </ejb-local-ref></span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'></web-app></span>
+{% highlight xml %}
+<web-app version=”2.5″
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemalocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
-The tag <ejb-local-ref> is used to declare a reference to a local EJB. The example above maps only one EJB. So, you have to repeat it for each EJB you want to map. Details about this tag can be found <a href="http://download.oracle.com/docs/cd/E13222_01/wls/docs81/webapp/web_xml.html#1013984">here</a>. Once declared, we can get an instance of the EJB in any part of the application using the following code:
+  <display-name>Information Systems</display-name>
+  ...
+  <ejb-local-ref>
+    <ejb-ref-name>InformationSystemBean</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <local>example.business.InformationSystemBeanLocal</local>
+    <ejb-link>eac-architecture-ejb.jar#InformationSystemBean</ejb-link>
+  </ejb-local-ref>
+</web-app>
+{% endhighlight %}
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>private InformationSystemLocal informationSystemBsn = </span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>   (InformationSystemLocal)MyServiceLocator.getInstance()</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>                              .lookupEjb(“InformationSystemBean”);</span>
+The tag `<ejb-local-ref>` is used to declare a reference to a local EJB. The example above maps only one EJB. So, you have to repeat it for each EJB you want to map. Details about this tag can be found <a href="http://download.oracle.com/docs/cd/E13222_01/wls/docs81/webapp/web_xml.html#1013984">here</a>. Once declared, we can get an instance of the EJB in any part of the application using the following code:
 
-The variable is typed with the EJB local interface, which is <span style='font-family: "Courier New",Courier,monospace;'>InformationSystemLocal</span>. The service locator returns an instance of the EJB named as <span style='font-family: "Courier New",Courier,monospace;'>InformationSystemBean</span>, which is by default the EJB’s implementation class. Notice that none of the code above is necessary when we use CDI. The invocation of AjudaBsn would be simply like that:
+{% highlight java %}
+private InformationSystemLocal informationSystemBsn =
+    (InformationSystemLocal)MyServiceLocator.getInstance()
+        .lookupEjb("InformationSystemBean");
+{% endhighlight %}
 
-<span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>@EJB</span><br/><span style='font-family: "Courier New",Courier,monospace; font-size: x-small;'>private InformationSystemLocal informationSystemBsn;</span>
+The variable is typed with the EJB local interface, which is `InformationSystemLocal`. The service locator returns an instance of the EJB named as `InformationSystemBean`, which is by default the EJB’s implementation class. Notice that none of the code above is necessary when we use CDI. The invocation of AjudaBsn would be simply like that:
+
+{% highlight java %}
+@EJB
+private InformationSystemLocal informationSystemBsn;
+{% endhighlight %}
 
 CDI is good and elegant, but not widely applicable. The way it is implemented today is the main weakness of the Java EE specification. Maybe there is some strong reason why EJB’s annotations don’t work in every Java class. I simply don’t see this misterious reason because Spring has addressed this issue since long time ago simply using aspect orientation.

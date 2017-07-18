@@ -18,12 +18,17 @@ Then I decided to make a little search on Google and I could find that JSF 2.0 R
 </ol>
 On your domain configuration file, domain.xml, set the classpath-prefix parameter as the example below:
 
-<pre style="font-family:courier;font-size: 11px;"><br/><java-config<br/>  classpath-prefix="${com.sun.aas.installRoot}/lib/jsf-api.jar"<br/>  classpath-suffix="" ... ><br/>  ...<br/>  ...<br/></java-config><br/>
-```
+{% highlight xml %}
+<java-config
+    classpath-prefix="${com.sun.aas.installRoot}/lib/jsf-api.jar"
+    classpath-suffix="" ... >
+  ...
+  ...
+</java-config>
+{% endhighlight %}
 
 Probably, you won’t find the classpath-prefix parameter there, so there is no problem if you add it. 😉 To check whether it is running correctly, open the Glassfish Admin Console (http://localhost:4848/), which is a JSF application, and see if it is running normally. The following line will be printed on the application server log file (server.log) when starting the JSF application:
 
-<pre style="font-family:courier;font-size: 11px;"><br/>Initializing Mojarra 2.0.0 (RC b16) for context ''<br/>
-```
+    Initializing Mojarra 2.0.0 (RC b16) for context ''
 
 That’s all! I’m not sure if it is enough. I’m going to start the migration in the next days. If I find issues during the process, I will come here to report them in details. I just hope that, when I finish this implementation, the market will finally offer an application server supporting JSF 2.0 by default.

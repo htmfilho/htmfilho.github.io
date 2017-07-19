@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Bye WordPress. Nice to meet you, Jekyll!"
 date: 2017-07-16 19:32:05 +0200
 categories: jekyll wordpress python

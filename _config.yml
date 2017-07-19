@@ -49,3 +49,6 @@ exclude: [Gemfile,
           wp_importer/]
 
 port: 4001
+
+disqus:
+  shortname: hildeberto

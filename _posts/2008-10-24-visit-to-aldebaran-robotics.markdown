@@ -2,7 +2,7 @@
 layout: post
 title: "Visit to Aldebaran Robotics"
 date: 2008-10-24 09:56:00 +0200
-categories: uncategorized conference europe java research
+categories: conference europe java research
 ---
 
 One of the most exciting aspects of the work in a research lab is the constant contact with new technologies. We travel very often to scientific events, research labs, industries, etc. I had described how the eNTERFACE workshop was valuable for me (<a href="http://planexstrategy.blogspot.com/2008/08/enterface08-workshop-finished.html">here</a> and <a href="http://planexstrategy.blogspot.com/2008/08/enterface-workshop.html">here</a>) and now I will talk about a recent visit to the <a href="http://www.aldebaran-robotics.com/eng/">Aldebaran Robotics</a>, a high tech company hosted in Paris focused on the development and production of a humanoid robot.

@@ -2,7 +2,7 @@
 layout: post
 title: "JavaPolis: Just Started!!!"
 date: 2007-12-11 10:23:00 +0200
-categories: uncategorized conference
+categories: conference
 ---
 
 Monday, December 10, 2007: The first day, the first CEJUG experience in a JavaPolis edition. But, before starting, I would like to say that Antwerp is a really nice city, a good mix of a calm city and a big one. We can feel the Belgian peace of mind and kindness in all places here. Even not understanding the language (Flemish), it’s relatively easy to use the public transportation and go to the conference venue. Anyway, if you have problems, everybody is able to speak English and help you.As you already know, the conference was sold out. All slots are in. So, I expected a crowded  place, difficult to walk and find people. Fortunately, it is not true. The place is incredible, comfortable, beautiful and really appropriate to support the JavaPolis dimension.

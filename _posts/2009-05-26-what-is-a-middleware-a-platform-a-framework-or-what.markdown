@@ -2,7 +2,7 @@
 layout: post
 title: "What is a Middleware? A Platform, A Framework or What?"
 date: 2009-05-26 18:59:00 +0200
-categories: uncategorized enterprise application integration java operating system software architecture
+categories: enterprise application integration java operating system software architecture
 ---
 
 Some time ago I <a href="http://69.89.31.239/~hildeber/?p=154">wrote a post</a> about the difference between “platform” and “framework” and recently a reader, <a href="http://www.blogger.com/profile/17997742353906252825">Hemanth Gowda</a>,  posted a <a href="http://69.89.31.239/~hildeber/?p=154?showComment=1243356440638#c1591495791544562672">comment</a> to that text, asking how the concept of “<a href="http://en.wikipedia.org/wiki/Middleware">middleware</a>” is positioned between those definitions.

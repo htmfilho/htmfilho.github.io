@@ -2,7 +2,7 @@
 layout: post
 title: "Hibernate and Jersey Conflict on Glassfish"
 date: 2008-05-25 10:51:00 +0200
-categories: uncategorized enterprise application ide integration java jvm netbeans software architecture
+categories: enterprise application ide integration java jvm netbeans software architecture
 ---
 
 Last weekend I tried to use <a href="http://jersey.dev.java.net/">Jersey</a> in an enterprise application to make some <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">RESTful</a> web services available. The idea was to generate data to be plot by <a href="http://teethgrinder.co.uk/open-flash-chart/index.php">flash charts</a>. So, I created a new web module in addition to the already existent one. I thought it was better to keep it in a separate module to avoid changing the original web application,  since it still uses <a href="http://struts.apache.org/">Struts</a> as web framework. Before adding any RESTful web service, I just created the web application and deployed it successfully as an additional enterprise module. I’m happy about that because I will use the same strategy to migrate the web module from Struts to JSF, keeping the Struts version working in parallel to the JSF version, both sharing the same business logic.

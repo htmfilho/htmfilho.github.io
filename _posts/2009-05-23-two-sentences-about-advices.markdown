@@ -2,7 +2,7 @@
 layout: post
 title: "Two Sentences about Advices"
 date: 2009-05-23 11:57:00 +0200
-categories: uncategorized culture literature
+categories: culture literature
 ---
 
 This week two sentences about “advices” called my attention:
@@ -20,4 +20,3 @@ My understanding is that we have to be good people to give good advices and do n
 To conclude, a sentence extracted from the book of <a href="http://download.srv.cs.cmu.edu/~pausch/">Randy Pausch</a>, <a href="http://www.thelastlecture.com/">The Last Lecture</a>:
 
 > “<span style="font-style:italic;">Almost every day I mention my dad. I do this because when you try to teach something new, most people tend not to pay attention. But if you refer to the experience of someone else, everything seems less arrogant and more acceptable.</span>” – Randy Pausch
-

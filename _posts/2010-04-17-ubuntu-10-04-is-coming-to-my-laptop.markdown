@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu 10.04 is coming to my Laptop"
 date: 2010-04-17 17:04:00 +0200
-categories: uncategorized culture open source operating system user interface workspace
+categories: culture open source operating system user interface workspace
 ---
 
 I was gradually moving from Windows to Linux in the last years and the definitive migration finally came in November, 2009. Today, all my work is done in the Ubuntu 9.10 operating system (a Linux distribution), running in a Sony Vaio Laptop, with 4GB RAM and dual core. In other words, the fastest machine I’ve ever had, not because of the hardware, but because this operating system doesn’t waste hardware resources as Windows does.

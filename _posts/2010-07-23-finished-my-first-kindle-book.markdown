@@ -2,7 +2,7 @@
 layout: post
 title: "Finished My First Kindle Book"
 date: 2010-07-23 07:51:00 +0200
-categories: uncategorized book culture literature
+categories: book culture literature
 ---
 
 Recently I finished my first Kindle book. Now, I can tell you that the full experience is very close to reading a real book. Not the same, but better. 🙂 I decided that my first Kindle experience must be a light book, small, easy to read and useful. This way, I would avoid any frustration with Kindle at the beginning.

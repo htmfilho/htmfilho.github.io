@@ -2,7 +2,7 @@
 layout: post
 title: "Definitely e-Books"
 date: 2010-03-05 13:40:00 +0200
-categories: uncategorized e-commerce ecology literature
+categories: e-commerce ecology literature
 ---
 
 I have a lot of books. Really! I love books. I buy them because I need but sometimes just for the pleasure of having them. They are interesting but they are also so beautifully organized on my bookshelf. 8) But I feel deep inside that there is something wrong with it.

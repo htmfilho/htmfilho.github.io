@@ -2,7 +2,7 @@
 layout: post
 title: "Leaving CEJUG’s Leadership Team"
 date: 2012-12-31 17:33:00 +0200
-categories: uncategorized cejug community java open source
+categories: cejug community java open source
 ---
 
 Today is my last day in CEJUG’s leadership team. A journey that lasted for tireless 8 years or something. I’m not sure about the exact date I became Jug Leader, but I remember very well how it happened. I was attending a CEJUG coordination meeting at <a href="http://www.fortesinformatica.com.br/" target="_blank">Fortes Informática</a> because I was helping them to organize an event. Right after the meeting, Felipe Gaúcho invited me to co-lead the group, which was unexpected but very pleasant. I accepted immediately! <a href="http://69.89.31.239/~hildeber/?p=77" target="_blank">Felipe is not among us anymore</a>, but I am eternally grateful to him for this incredible opportunity.

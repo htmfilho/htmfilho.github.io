@@ -2,7 +2,7 @@
 layout: post
 title: "eNTERFACE’08 Workshop Finished"
 date: 2008-08-31 16:54:00 +0200
-categories: uncategorized conference europe java research
+categories: conference europe java research
 ---
 
 After one month working hard in a scientific project, I came back home with many subjects to discuss with you through this blog. I’m very happy with that experience because it was really unique in my life.

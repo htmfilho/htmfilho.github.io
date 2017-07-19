@@ -2,7 +2,7 @@
 layout: post
 title: "Discussion about Context during the UCVP Workshop"
 date: 2009-11-07 01:54:00 +0200
-categories: uncategorized conference research
+categories: conference research
 ---
 
 The 4th and 5th days of the <a href="http://69.89.31.239/~hildeber/?p=96">ICMI-MLMI 2009</a> was dedicated to thematic workshops. On the 4th day I attended the <a href="http://hmi.ewi.utwente.nl/ucvp09">Workshop on Use of Context in Vision Processing</a> (UCVP), which was an opportunity for observing recent works on employing contextual information in problems of <a href="http://en.wikipedia.org/wiki/Computer_vision">Computer Vision</a>. There were very good talks all over the day, but what really interested me was a half-hour discussion about “Context” at the end of the workshop.

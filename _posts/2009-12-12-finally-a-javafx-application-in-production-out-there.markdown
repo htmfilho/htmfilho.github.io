@@ -2,7 +2,7 @@
 layout: post
 title: "Finally a JavaFX Application in Production Out There"
 date: 2009-12-12 07:19:00 +0200
-categories: uncategorized javafx web
+categories: javafx web
 ---
 
 For the first time ever, I finally saw a JavaFX application in production. I received this news from someone I’m following on Twitter. Check it out and come back for my comments:

@@ -2,7 +2,7 @@
 layout: post
 title: "May I Wish You a Good Day?"
 date: 2009-01-31 10:55:00 +0200
-categories: uncategorized europe
+categories: europe
 ---
 
 Bonjour,
@@ -11,7 +11,7 @@ For French speakers, at least in France and south of Belgium, greetings are a ve
 
 – Bonjour, ça va ?<br/>– Bonjour, ça va bien. Et vous?<br/>– ça va. Merci!
 
-Not a big deal, but this definitively isn’t a “hi!” … “hi!”. When you already know the person, have a good relationship or see that person very often, then the greeting is simplified to a simple “salut!” … “salut!”, a French version of “hi”. Not a big deal too, right? 
+Not a big deal, but this definitively isn’t a “hi!” … “hi!”. When you already know the person, have a good relationship or see that person very often, then the greeting is simplified to a simple “salut!” … “salut!”, a French version of “hi”. Not a big deal too, right?
 
 Here, to say “bonjour” to a friend could sound too formal. A friend accepts better a simple “salut”. Hey, but I want to wish you a good day. May I? Salut is not enough for me. I want to say “bonjour!” to everybody and I want to listen to the same in return, but some people here don’t even look at you when you wish a good day for them. I simply cannot understand that. It may be something personal. Hum, I don’t know.
 

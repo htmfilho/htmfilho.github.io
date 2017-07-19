@@ -2,7 +2,7 @@
 layout: post
 title: "You Know What? I Love My Blog"
 date: 2010-03-03 08:19:00 +0200
-categories: uncategorized blog culture europe web
+categories: blog culture europe web
 ---
 
 During some procrastination time that I gave to myself last night, I’ve spent some time exploring all posts that I have published on my blog since 2007. I’m talking about 105 posts, an average of 4 per month, which is not that much in comparison to other more popular blogs, but at least I’ve been quite regular over the years.

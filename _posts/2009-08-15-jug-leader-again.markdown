@@ -2,7 +2,7 @@
 layout: post
 title: "JUG Leader Again"
 date: 2009-08-15 15:07:00 +0200
-categories: uncategorized cejug
+categories: cejug
 ---
 
 First of all, I’m back to my blog after some days of writing vacations. I’ve accumulated a lot to tell you here and I plan to do it slowly and without any chronological order. This restart as a blog writer is naturally zen, nothing in a hurry and getting back to the normality in a couple of days. So, I decided to start with my experience of going back to the <a href="http://www.cejug.org/">CEJUG</a> administration.

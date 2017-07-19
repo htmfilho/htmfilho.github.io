@@ -2,7 +2,7 @@
 layout: post
 title: "Netbeans 6.1 will solve our pacience problem"
 date: 2008-03-08 15:15:00 +0200
-categories: uncategorized ide java netbeans
+categories: ide java netbeans
 ---
 
 Definitively I adopted Netbeans 6.0 for all my projects. It is so mature that the only criticism nowadays is about its startup delay. Yes. It is true, but only in the Windows platform. If you execute Netbeans on Linux or Solaris you will see how fast it is. But in all platforms it is still slower than Eclipse to startup.

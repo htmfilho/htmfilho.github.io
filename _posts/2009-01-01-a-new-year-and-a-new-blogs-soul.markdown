@@ -2,7 +2,7 @@
 layout: post
 title: "A New Year and a New Blog’s Soul"
 date: 2009-01-01 21:16:00 +0200
-categories: uncategorized europe research
+categories: europe research
 ---
 
 A new year means change. Change is not only what Barack Obama promised to American people. Change actually comes from inside out and it’s always time to start it, better if we do that on January 1st (easier to control). So, I decided to start the year with some important changes in my life (as every year ;)) and this blog is actually the visible and public part of them.

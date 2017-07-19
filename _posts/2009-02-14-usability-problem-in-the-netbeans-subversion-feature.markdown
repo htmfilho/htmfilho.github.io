@@ -2,7 +2,7 @@
 layout: post
 title: "Usability Problem in the Netbeans Subversion Feature"
 date: 2009-02-14 12:34:00 +0200
-categories: uncategorized ide java netbeans user interface
+categories: ide java netbeans user interface
 ---
 
 These days I will complete one year using <a href="http://www.netbeans.org/">Netbeans</a> uninterruptedly in all my projects. I mean, 12 months without any successful attempt to go back to <a href="http://www.eclipse.org/">Eclipse</a>. Fortunately, the company that I work for (University) doesn’t force me to use Eclipse like many others I have seen. The priority here is creativity and not the IDE. For that you can use whatever you want.

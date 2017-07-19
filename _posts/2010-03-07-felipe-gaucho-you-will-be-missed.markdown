@@ -2,7 +2,7 @@
 layout: post
 title: "Felipe Gaúcho, You Will Be Missed"
 date: 2010-03-07 11:17:00 +0200
-categories: uncategorized cejug friendship
+categories: cejug friendship
 ---
 
 How can I write about such a delicate subject? How can I find strength and inspiration in a hard moment like this one? I would summarize this post in only one word: <i>speechless</i>, but the absence of words may let my thoughts and emotions incomplete. So, I decided to write as the words come to my mind, and they are not easy.

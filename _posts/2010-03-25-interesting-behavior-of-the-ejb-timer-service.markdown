@@ -2,7 +2,7 @@
 layout: post
 title: "Interesting Behavior of the EJB Timer Service"
 date: 2010-03-25 16:25:00 +0200
-categories: uncategorized cejug enterprise application java
+categories: cejug enterprise application java
 ---
 
 In a recent discussion in the <a href="http://www.cejug.org/">CEJUG</a> technical <a href="https://cejug.dev.java.net/servlets/SummarizeList?listName=discussao">discussion list</a>, we figured out an interesting behavior of the EJB Timer Service that is very important to know when implementing a time service.

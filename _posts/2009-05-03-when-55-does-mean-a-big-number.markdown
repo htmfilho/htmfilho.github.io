@@ -2,7 +2,7 @@
 layout: post
 title: "When 55 Does Mean a Big Number"
 date: 2009-05-03 18:48:00 +0200
-categories: uncategorized europe sport trip
+categories: europe sport trip
 ---
 
 Last Saturday we were committed with what seemed to be a pleasant and relaxing tour through the interior of Belgium. A friend invited us to follow her family in an exciting bike experience, cycling during some hours to complete a route of 55 km called “De 8 Van Zemst”, a Flemish name that means “the 8 of the city of Zemst”.
@@ -11,7 +11,7 @@ Yes, it was a pleasant and exciting tour, but it was far from relaxing. Actually
 
 Looking at other participants I was wondering if they were feeling the same pain. Well, they certainly would say “yes, we feel that pain” but I would hardly believe that, since they looked perfectly smiling, talking and joking sometimes. They are going to repeat this journey during seven days in their July holidays. Well, all we can do is wish all of them a really nice trip! We will be waiting for the news in a safe place in Louvain-La-Neuve.
 
-What I’ve learned in addition is that there are dozen of other routes in the Belgian territory. The picture below shows the sign of our route on the bottom and the sign of other routes above. I can’t really understand the green one but it shows how well organized Belgian people are when dealing with trips and adventures. This is indeed a motivation to explore this nice country, choosing easy routes and progressively migrating to complex ones. 
+What I’ve learned in addition is that there are dozen of other routes in the Belgian territory. The picture below shows the sign of our route on the bottom and the sign of other routes above. I can’t really understand the green one but it shows how well organized Belgian people are when dealing with trips and adventures. This is indeed a motivation to explore this nice country, choosing easy routes and progressively migrating to complex ones.
 
 <a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/05/11.jpg">![11-300x227.jpg](/images/posts/11-300x227.jpg)</a>
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Belgian-Oriented Company"
 date: 2008-10-29 12:14:00 +0200
-categories: uncategorized conference europe open source
+categories: conference europe open source
 ---
 
 Recently, I was involved in an European research project and I had to prepare and present a sustainable business plan for a set of open source products, produced during this project. The presentation was very good and the feedback too, but I can’t give more details here. What I can say is that the meeting was hosted in a Belgian company located in Mons, very well structured and with an excellent support for the main beverage of the country: Beer. You can see below some pictures, not so good, but still visible.

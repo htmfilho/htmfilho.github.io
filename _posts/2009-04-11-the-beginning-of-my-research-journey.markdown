@@ -2,7 +2,7 @@
 layout: post
 title: "The Beginning of My Research Journey"
 date: 2009-04-11 18:39:00 +0200
-categories: uncategorized research user interface workspace
+categories: research user interface workspace
 ---
 
 The <a href="http://luqs.unifor.br/luqs">Laboratory of Studies on the Use and Quality of Systems</a> (LUQS), at <a href="http://www.blogger.com/luqs.unifor.br/luqs">University of Fortaleza</a> (UNIFOR), is celebrating 10 years in 2009. LUQS was the first computer science lab of the university and I was part of the research team in 2001, which is called today the first generation of young researchers. The picture below shows the initial team and how united we were.

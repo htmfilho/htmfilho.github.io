@@ -2,7 +2,7 @@
 layout: post
 title: "Table Generation Strategy Revised"
 date: 2009-05-24 05:30:00 +0200
-categories: uncategorized database enterprise application java
+categories: database enterprise application java
 ---
 
 The JEE platform (EJB 3.0) offers, since its previous version (EJB 2.1), a feature to generate database tables during the application deployment. This feature is currently part of the Java Persistence API (JPA), which can be used even outside the JEE environment, like in desktop applications. My case is exactly a desktop application where <a href="http://69.89.31.239/~hildeber/?p=144">I’m using an embedded database</a> to simplify as much as possible the application installation and configuration.

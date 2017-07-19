@@ -2,7 +2,7 @@
 layout: post
 title: "Usi4Biz Brazilian Tour"
 date: 2009-12-27 18:52:00 +0200
-categories: uncategorized business process user interface
+categories: business process user interface
 ---
 
 We are in Brazil now, giving several presentations of the Usi4Biz Framework for some software companies, a big corporation and a university. Our intention is to listen to the vision and opinion of Brazilian business and research people about the framework and its adoption by companies of a country like Brazil. Our vision so far was built in a rich and well developed European country, where companies are more open to innovative ideas. Therefore, this geographical and cultural validation is very important to test how global the Usi4Biz Framework can be.

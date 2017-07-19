@@ -2,7 +2,7 @@
 layout: post
 title: "Choosing Between Vaadin and JSF"
 date: 2012-01-31 16:01:00 +0200
-categories: uncategorized browser java jsf open source software architecture user interface web
+categories: browser java jsf open source software architecture user interface web
 ---
 
 With the recent release of <a href="http://blog.primefaces.org/?p=1588" target="_blank">Primefaces 3.0</a>, JSF finally reaches an unprecedent level of maturity and utility that puts it face to face with other popular Rich Internet Applications (RIA) options, such as Google Web Toolkit (GWT), ExtJS, Vaadin, Flex and others. This open source project also proved to be very active and in a constant growing path.
@@ -28,7 +28,7 @@ Users of internal applications are more homogeneous and in limited number, which
 
 A company website targets heterogeneous users in unlimited environments. It is not possible to train all this people, thus simpler user interfaces with short and self-explanatory interactions are desirable.
 
-<b>Considering the environment, we would recommend Vaadin for homogeneous users in limited environments and JSF for heterogeneous users in unlimited environments.</b> 
+<b>Considering the environment, we would recommend Vaadin for homogeneous users in limited environments and JSF for heterogeneous users in unlimited environments.</b>
 
 <b><span style="background-color: white; color: #3d85c6; font-size: large;">Device</span></b><br/>Different devices demand multiple sets of UI components, designed to look great from small to large screens. Fortunately, both frameworks have components to support the full range of screen sizes from regular desktops to mobile devices. The problem is that different devices bring different connectivity capabilities and the application should be ready to deal with short band-width and reduced transfer rates. In this case, <b>Vaadin seems to be more suitable for multiple devices, as long as the variety of devices is not so extensive, because the user interface is rendered locally, using JavaScript, and it has a richer Ajax support to optimize the exchange of application data with the server.</b>
 

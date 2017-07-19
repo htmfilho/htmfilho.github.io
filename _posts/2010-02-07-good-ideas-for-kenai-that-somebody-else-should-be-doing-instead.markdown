@@ -2,7 +2,7 @@
 layout: post
 title: "Good Ideas for Kenai That Somebody Else Should be Doing Instead"
 date: 2010-02-07 10:10:00 +0200
-categories: uncategorized database enterprise application open source operating system strategy web
+categories: database enterprise application open source operating system strategy web
 ---
 
 As you <a href="http://69.89.31.239/~hildeber/?p=86">already know</a>, Oracle is planning to deactivate Kenai for community developers. Yes, it is sad but let’s move on and spread our code before it is destroyed. It is also time to make public some ideas I’ve been sharing with Sun’s folks last year. I have criticized Oracle for some decisions they have made, that’s true, but I don’t want to criticize and shut up. I have to propose something better and realistic to show that they are lazy thinkers, growing by buying other people’s innovation, not actually doing their own.

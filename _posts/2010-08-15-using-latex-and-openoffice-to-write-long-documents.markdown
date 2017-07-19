@@ -2,7 +2,7 @@
 layout: post
 title: "Using Latex and OpenOffice to Write Long Documents"
 date: 2010-08-15 18:53:00 +0200
-categories: uncategorized latex open source research
+categories: latex open source research
 ---
 
 <a href="http://www.latex-project.org/">Latex</a> is a “<i>document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing</i>” (Latex project website). Latex compiles a script language into a formated document. This script language is not so easy to learn, but the effort may be worthwhile, since the resulting documents look more professional than their equivalent made using <a href="http://www.openoffice.org/">OpenOffice</a> or <a href="http://office.microsoft.com/">Microsoft Word</a>.

@@ -2,7 +2,7 @@
 layout: post
 title: "Easier Multi-Field Validation with JSF 2.0"
 date: 2012-12-23 17:25:00 +0200
-categories: uncategorized enterprise application java java ee jsf user interface web
+categories: enterprise application java java ee jsf user interface web
 ---
 
 One of the most frequent needs when developing application forms is multi-field validation (or cross-field, but I'm not using this term because when I put it on Google I actually got some post-war pictures). I'm talking about situations where we need to compare whether an initial date is earlier than an end date or a value is lower than another one. Isn't it an obvious feature in every business-oriented framework? Not really. Unfortunately, the JSF specification doesn't support it by default. Therefore, until its latest production release (JSR 245 - JSF 2.1), JSF did not offer an out-of-the-box multi-field validation feature.

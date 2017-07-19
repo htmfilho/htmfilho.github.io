@@ -2,10 +2,10 @@
 layout: post
 title: "New CEJUG Open Source Project"
 date: 2011-01-02 11:29:00 +0200
-categories: uncategorized cejug enterprise application integration java netbeans open source security software architecture web
+categories: cejug enterprise application integration java netbeans open source security software architecture web
 ---
 
-As <a href="http://69.89.31.239/~hildeber/?p=52">I have mentioned yesterday</a>, I’m working on a new project, managed by the <a href="http://www.cejug.org/">CEJUG</a> community, which aims to develop a web application for managing Java User Groups. We put it into <a href="http://www.cejug.org/jug">production</a> in the first day of the decade, January 1st, 2011, and we made the <a href="http://java.net/projects/cejug/sources/svn/show/trunk/jug">source code freely available</a> on our <a href="http://www.java.net/projects/cejug">java.net project</a>. 
+As <a href="http://69.89.31.239/~hildeber/?p=52">I have mentioned yesterday</a>, I’m working on a new project, managed by the <a href="http://www.cejug.org/">CEJUG</a> community, which aims to develop a web application for managing Java User Groups. We put it into <a href="http://www.cejug.org/jug">production</a> in the first day of the decade, January 1st, 2011, and we made the <a href="http://java.net/projects/cejug/sources/svn/show/trunk/jug">source code freely available</a> on our <a href="http://www.java.net/projects/cejug">java.net project</a>.
 
 The first goal we want to achieve is the definition of what is actually being a CEJUG member. Nowadays, we simply consider all those registered in our technical mailing as members. This simplicity is good for management purposes, but we lose lots of information because of that. We don’t know, for instance, for what reasons a member is leaving the group. Did we do something wrong? What can we do to get better and get members back into the boat? We also noticed that even non-technical people, as entrepreneurs, recruiters, and those  who decided to unsubscribe because of too many messages, would like to keep in touch with the group, not necessarily going into technical discussions, but proposing other ways to help. Adopting a separate application to manage subscriptions would help us to collect more feedback and be more inclusive.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Finding Inspiration on Movies"
 date: 2008-10-26 07:44:00 +0200
-categories: uncategorized movie
+categories: movie
 ---
 
 Some months ago the movie theater of the city was closed. Indeed, that is very sad news for the population of a small city like Louvain-La-Neuve. Looking for a plan B, we found a DVD rental shop in the local train station. Unexpectedly, it closed its doors, losing the opportunity to get a public of movie fans. Continuing to a plan C, we decided to buy some good movies in a local DVD store, but with a strong restriction in mind: we should be able to watch the movie many many times without getting bored. What movie could be so entertaining to get attention repeatedly for so long and still be interesting every time we watch it? For me there is a simple answer: when you want to be like the character in some moments of your real life, and watching the movie again works like a motivational experience.

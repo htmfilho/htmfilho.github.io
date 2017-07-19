@@ -2,7 +2,7 @@
 layout: post
 title: "Did Oracle Regret about Kenai Ultimatum?"
 date: 2010-02-09 09:39:00 +0200
-categories: uncategorized open source strategy web
+categories: open source strategy web
 ---
 
 All Kenai Project Leaders received a message from Oracle trying to explain a possible misunderstanding about the message they transmitted before. From my understanding there is no misunderstanding, but a change of plans due to the community reaction. Take a look at the open letter below:

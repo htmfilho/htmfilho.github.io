@@ -2,7 +2,7 @@
 layout: post
 title: "Oracle buys SUN"
 date: 2009-04-20 12:56:00 +0200
-categories: uncategorized database enterprise application java open source operating system
+categories: database enterprise application java open source operating system
 ---
 
 The news is simple like that: “Oracle buys SUN”, but it means a lot! Today <a href="http://www.oracle.com/">Oracle</a> changes the history of the information technology acquiring one of most important technology players in the world: <a href="http://www.sun.com/">SUN Microsystems</a>. SUN created the Java programming language, the most used programming languages on the earth, and the Solaris Operating Systems, a very good Unix system for servers and definitively not good for final users. SUN was originally a hardware company with good ideas in the software world.

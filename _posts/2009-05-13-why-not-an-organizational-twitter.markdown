@@ -2,7 +2,7 @@
 layout: post
 title: "Why not an Organizational Twitter?"
 date: 2009-05-13 22:30:00 +0200
-categories: uncategorized culture enterprise application strategy web
+categories: culture enterprise application strategy web
 ---
 
 In the organization that I’m working on nowadays people who are allocated in national and international projects should fulfill a long form in the first week of every month, describing their working activities and allocation in the previous month. To be honest, I’ve never seen something as unnecessary as that. They won’t have a precise idea about what people were doing with this. Of course, it is not going to be reliable because we don’t remember exactly what we did a month ago, how long it took and they don’t have a way to validate it. So, we try hard but even for us the information is not that precise. Probably, they use it to calculate salaries or it is an imposition of project funding institutions or something else. Whatever they do with this data, it cannot be used to generate analytical data, since the source is not reliable.

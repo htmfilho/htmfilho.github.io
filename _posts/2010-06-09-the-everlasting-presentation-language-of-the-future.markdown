@@ -2,7 +2,7 @@
 layout: post
 title: "The Everlasting Presentation Language of the Future"
 date: 2010-06-09 16:25:00 +0200
-categories: uncategorized javafx user interface
+categories: javafx user interface
 ---
 
 Let’s consider that you have to create a website with a dynamic presentation and you own a technology specially made for this purpose. Strangely, you do not use your own technology to make the presentation, but the technology offered by a competitor. Is it a recognition that your own technology sucks? Is there any other explanation?

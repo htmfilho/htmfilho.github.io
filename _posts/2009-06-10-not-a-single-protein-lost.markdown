@@ -2,7 +2,7 @@
 layout: post
 title: "Not a Single Protein Lost"
 date: 2009-06-10 17:00:00 +0200
-categories: uncategorized culinary culture europe
+categories: culinary culture europe
 ---
 
 One of the things I really miss from Brazil is the Japanese food! – WHAT??!! Japanese food in Brazil?! :O – I’m serious! At least in my city, there are dozens of Japanese restaurants offering all kinds of Japanese food. They started around 10..12 years ago and we all thought that they would stay opened for a while only, since they were offering raw food for a culture of well cooked meal, but they have consolidated and expanded business through the years.

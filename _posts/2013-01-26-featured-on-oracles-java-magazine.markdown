@@ -2,7 +2,7 @@
 layout: post
 title: "Featured on Oracle’s Java Magazine"
 date: 2013-01-26 14:08:00 +0200
-categories: uncategorized art career cejug community
+categories: art career cejug community
 ---
 
 I’m glad to see I was featured on the latest edition of <a href="http://oracle.com/javamagazine" target="_blank">Oracle’s Java Magazine</a> (Issue January/February 2013, page 67). I would like to thank <a href="http://oracle.com/" target="_blank">Oracle</a> on behalf of the <a href="http://cejug.org/" target="_blank">CEJUG Community</a>. We have been partners for so long and this is a nice way to demonstrate that you guys, at Oracle, recognise our contribution to the Java Community.

@@ -2,7 +2,7 @@
 layout: post
 title: "CEJUG Mission: Café com Tapioca de Coco"
 date: 2008-02-22 09:05:00 +0200
-categories: uncategorized cejug community java
+categories: cejug community java
 ---
 
 The Ceará Java User Group has become even more active in 2008. In the <a href="http://planexstrategy.blogspot.com/2007/12/where-is-cejug.html">last post</a> you saw where my Java User Group is located in Brazil. Now, you will know that we organized in February 12 an event with more than 500 people, which represents the biggest Java event ever organized in Ceará.

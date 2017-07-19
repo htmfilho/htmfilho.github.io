@@ -2,7 +2,7 @@
 layout: post
 title: "Remembering Good Moments to have Good Moments"
 date: 2008-12-14 17:56:00 +0200
-categories: uncategorized europe integration research user interface
+categories: europe integration research user interface
 ---
 
 It has been 6 months since my DEA defense (June, 18) and I hadn’t blogged about that yet. Not because it wasn’t a great moment. It was, but sometimes I don’t like to promote myself here. However, December is the month that we spend more time thinking about our achievements during the year. At times when we really need an incentive, why not do it myself?

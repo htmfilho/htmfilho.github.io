@@ -2,7 +2,7 @@
 layout: post
 title: "Yet Another System for Multimedia Information Management – YASMIM"
 date: 2010-05-02 11:04:00 +0200
-categories: uncategorized enterprise application integration java javafx open source research software architecture web services
+categories: enterprise application integration java javafx open source research software architecture web services
 ---
 
 As part of my research, I’m developing a system for media archiving with features that makes it a media information management. I figured out a nice acronym for this system: Yet Another System for Multimedia Information Management – YASMIM. The reason why it is “Yet Another System” is because there are several multimedia archiving systems out there and I’m going to create one more (I’m so brave! :P). It is not just a multimedia archiving system, but also a system to organize all information possibly related to the content of the media.

@@ -2,7 +2,7 @@
 layout: post
 title: "Preparing Ubuntu to Write Latex Documents"
 date: 2010-11-22 14:54:00 +0200
-categories: uncategorized latex operating system research
+categories: latex operating system research
 ---
 
 That’s a self-reference post that might be useful for you too. I just installed Ubuntu in a new laptop and I was surprised by how easy is to install a Latex editor and the packages needed to compile and render documents. As a <a href="http://69.89.31.239/~hildeber/?p=57">Texmaker user</a>, I’m going to explain the installation using this editor.

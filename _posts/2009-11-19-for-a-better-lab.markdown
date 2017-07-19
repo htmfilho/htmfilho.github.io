@@ -2,7 +2,7 @@
 layout: post
 title: "For a Better Lab"
 date: 2009-11-19 22:53:00 +0200
-categories: uncategorized research strategy workspace
+categories: research strategy workspace
 ---
 
 My current research experience has taught me some lessons that I would like to share with my readers. For some reason, I had an incredible wish to write about it today and I’m doing it now after getting some inspiration from some Belgian beers.

@@ -2,7 +2,7 @@
 layout: post
 title: "Linking Business Processes and User Interfaces at Devoxx’09"
 date: 2009-11-19 19:03:00 +0200
-categories: uncategorized business process conference research user interface
+categories: business process conference research user interface
 ---
 
 This Monday, November 17th, we presented the Usi4Biz Platform at <a href="http://www.devoxx.com/">Devoxx</a> and we are specially happy that the energy of this idea is as strong as the energy of this event and its 2,5 thousands attendees. It was the first time this idea was disseminated for the general public in an European level, since Devoxx is currently the biggest IT Conference in Europe.

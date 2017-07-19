@@ -2,10 +2,10 @@
 layout: post
 title: "Why the Multi-language Wave Changed my Mind"
 date: 2008-08-03 08:28:00 +0200
-categories: uncategorized integration java php software architecture web
+categories: integration java php software architecture web
 ---
 
-You can notice that I’m deeply involved with Java if you read my posts. Java is so powerful and complete that I haven’t needed anything else in the last 8 years. I could develop everything, from academic works to widely distributed systems, thus I can consider me as a master in Java. 
+You can notice that I’m deeply involved with Java if you read my posts. Java is so powerful and complete that I haven’t needed anything else in the last 8 years. I could develop everything, from academic works to widely distributed systems, thus I can consider me as a master in Java.
 
 Suddenly, with a strong influence from the <a href="http://agilemanifesto.org/principles.html">Agile Manifest</a> and from the <a href="http://domaindrivendesign.org/">Domain-Driven Design</a>, people started to program using many other languages outside the Java/.NET world. Groove, Ruby, PHP, Python, JavaScript, Scala, and many others won their own space and their adoption is growing every day.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Activiti by Alfresco: A BPMN 2 Implementation"
 date: 2010-05-22 12:37:00 +0200
-categories: uncategorized business process java
+categories: business process java
 ---
 
 I’m giving a try on the recent open source project <a href="http://www.activiti.org/">Activiti</a>, which implements BPMN 2 (Business Process Management Notation). Despite being in its first alpha version, Activiti already called <a href="http://www.jorambarrez.be/blog/2010/05/19/reactions-to-the-activiti-launch/">a lot of attention</a> from the community. I think it is due to the fact that the leaders are quite reliable people. They are former <a href="http://www.jboss.org/">JBoss</a>‘ employees, who created and maintained the <a href="http://www.jboss.org/jbpm">JBPM</a> project, a business process management framework, and it is quite successful nowadays.

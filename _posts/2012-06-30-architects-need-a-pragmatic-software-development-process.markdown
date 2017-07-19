@@ -2,7 +2,7 @@
 layout: post
 title: "Architects Need a Pragmatic Software Development Process"
 date: 2012-06-30 05:24:00 +0200
-categories: uncategorized agile business process software architecture software engineering
+categories: agile business process software architecture software engineering
 ---
 
 I have been a non-stop software architect since 2006. During my experience, I realized that it’s really hard to perform the role of architect in an organization that doesn’t have a software development process or have it too simplified. When the development is not fairly organized, project managers don’t find a room in their schedule to implement architectural recommendations. They probably have time, people and resources, but since they don’t have a precise idea of the team’s productivity, they feel afraid of accepting new non-functional requirements or changing existing ones. I’ve noticed that, in a chaotic environment, people become excessively pragmatic, averse to changes.

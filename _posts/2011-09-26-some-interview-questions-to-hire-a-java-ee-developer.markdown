@@ -2,12 +2,12 @@
 layout: post
 title: "Some Interview Questions to Hire a Java EE Developer"
 date: 2011-09-26 10:24:00 +0200
-categories: uncategorized career enterprise application java software architecture software engineering web services
+categories: career enterprise application java software architecture software engineering web services
 ---
 
 The Internet is full of interview questions for Java developers. The main problem of those questions is that they only prove that the candidate has a good memory, remmembering all that syntax, structures, constants, etc. There is not real evaluation of his/her logical reasoning.
 
-I’m listing bellow some examples of interview questions that check the knowledge of the candidate based on his/her experience. The questions were formulated to verify whether the candidate is capable of fulfilling the role of a Java enterprise applications developer. I’m also putting the anwsers in case anybody want to discuss the questions. 
+I’m listing bellow some examples of interview questions that check the knowledge of the candidate based on his/her experience. The questions were formulated to verify whether the candidate is capable of fulfilling the role of a Java enterprise applications developer. I’m also putting the anwsers in case anybody want to discuss the questions.
 
 <strong>1. <span style="font-style: italic;">Can you give some examples of improvements in the Java EE5/6 specification in comparison to the J2EE specification?</span></strong>
 

@@ -2,10 +2,10 @@
 layout: post
 title: "Meritocracy in Action"
 date: 2008-12-15 20:24:00 +0200
-categories: uncategorized cejug open source strategy
+categories: cejug open source strategy
 ---
 
-> “Meritocracy is a system of a government or another organization wherein appointments are made and responsibilities are given based on demonstrated talent and ability (merit), rather than by wealth (plutocracy), family connections (nepotism), class privilege (oligarchy), cronyism, tenurocracy (based in seniority), popularity (as in democracy) or other historical determinants of social position and political power. In a meritocracy, society rewards (by wealth, position, and social status) those who demonstrated talent and competence, demonstrated through past actions or by competition.” – Wikipedia (<a href="http://en.wikipedia.org/wiki/Meritocracy">Meritocracy</a>) 
+> “Meritocracy is a system of a government or another organization wherein appointments are made and responsibilities are given based on demonstrated talent and ability (merit), rather than by wealth (plutocracy), family connections (nepotism), class privilege (oligarchy), cronyism, tenurocracy (based in seniority), popularity (as in democracy) or other historical determinants of social position and political power. In a meritocracy, society rewards (by wealth, position, and social status) those who demonstrated talent and competence, demonstrated through past actions or by competition.” – Wikipedia (<a href="http://en.wikipedia.org/wiki/Meritocracy">Meritocracy</a>)
 
 
  I think “Meritocracy” is a very beautiful concept. In my humble opinion, it is a subclass of Democracy, but with highly honest and fair people even with their worse enemies. In a democracy, a person can get higher positions in the society just because she can convince other people about her competence. In a meritocracy, she doesn’t have to convince, she has to prove her competence and other skills.

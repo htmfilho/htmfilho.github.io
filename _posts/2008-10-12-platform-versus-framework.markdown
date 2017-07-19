@@ -2,7 +2,7 @@
 layout: post
 title: "Platform versus Framework"
 date: 2008-10-12 20:03:00 +0200
-categories: uncategorized integration java jvm open source operating system research software architecture user interface
+categories: integration java jvm open source operating system research software architecture user interface
 ---
 
 In the last 30 days I had the pleasure to work in the context of the <a href="http://www.openinterface.org/">OpenInterface</a> project, writing a document that delineates how the platform will continue after the project period. They thought I could help because of my long experience with the open source community. Actually, it was a great challenging experience with hard and pleasant moments. The most exciting one was in Porto, Portugal, on the border of the river, when I found inspiration to write some killer sentences.
@@ -11,17 +11,17 @@ In the last 30 days I had the pleasure to work in the context of the <a href="ht
 
 During the elaboration of this document, many people from the project gave contributions, comments, critics, which was essential to get a better result at the end. But one of them called my attention. One of the contributors, asked to change the term <span style="font-style: italic;">platform</span> to <span style="font-style: italic;">framework</span>, which was funny because the name <span style="font-style: italic;">platform</span> is spread through many other documents and on the website. So, the person had some fundamentals to propose this change. What are they? Then I decided to make a short research about the difference between both concepts and the best place to start is, of course, the dictionary.
 
-The word <span style="font-style: italic;">platform</span> has many meanings, including the computer science one. In the Cambridge English Dictionary: 
+The word <span style="font-style: italic;">platform</span> has many meanings, including the computer science one. In the Cambridge English Dictionary:
 
 > “Platform describes the type of computer system you are using, in connection with the type of software you can use on it.”
 
 
-This is a very generic definition, which doesn’t help me at all. So, I went to Wikipedia, where I found a definition without any alert about its sources or impartiality: 
+This is a very generic definition, which doesn’t help me at all. So, I went to Wikipedia, where I found a definition without any alert about its sources or impartiality:
 
 > “In computing, a platform describes some sort of hardware architecture or software framework (including application frameworks), that allows software to run. Typical platforms include a computer’s architecture, operating system, programming languages and related runtime libraries or graphical user interface.”
 
 
-Oh God! It mentions framework on the definition of platform. Is it some sort of recursive definition? Well, let’s go to the framework’s definition: 
+Oh God! It mentions framework on the definition of platform. Is it some sort of recursive definition? Well, let’s go to the framework’s definition:
 
 > “A software framework is a re-usable design for a software system (or subsystem). A software framework may include support programs, code libraries, a scripting language, or other software to help develop and glue together the different components of a software project. Various parts of the framework may be exposed through an API.”
 

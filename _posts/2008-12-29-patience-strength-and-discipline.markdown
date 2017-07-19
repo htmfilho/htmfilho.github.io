@@ -2,7 +2,7 @@
 layout: post
 title: "Patience, Strength and Discipline"
 date: 2008-12-29 08:22:00 +0200
-categories: uncategorized europe trip
+categories: europe trip
 ---
 
 I’ve just arrived from a short Christmas trip to Bordeaux, France. This city is the capital of a region with the same name, world wide famous for their wines. As beginners in the art of wine appreciation, this place is definitely a very important destination, like India is for meditation, Italy is for food and Brazil is for happiness. We decided to appreciate wines while they are cheap to appreciate and while living very close to a big variety of it. One day, when we go back to Brazil or maybe go far from Europe for a new foreign experience, wine appreciation will become an expensive and rare experience. So, the time is now!

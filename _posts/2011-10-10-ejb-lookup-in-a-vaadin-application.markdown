@@ -2,7 +2,7 @@
 layout: post
 title: "EJB Lookup in a Vaadin Application"
 date: 2011-10-10 09:16:00 +0200
-categories: uncategorized design patterns enterprise application java ee software architecture
+categories: design patterns enterprise application java ee software architecture
 ---
 
 It has been a long time since the last Service Locator I have implemented. I thought it wouldn’t be necessary anymore considering the maturity of the <a href="http://download.oracle.com/javaee/6/tutorial/doc/gjbnr.html">Java EE CDI</a> (Contexts and Dependency Injection). My first implementation was to make use of EJBs in a Struts-based web application. After that, I started working with JSF, which only requires annotated attributes with @EJB or @Resource to communicate with the business layer. So far, it has been a great experience until they asked me to evaluate <a href="http://www.vaadin.com/">Vaadin</a> as a front-end technology for business applications.

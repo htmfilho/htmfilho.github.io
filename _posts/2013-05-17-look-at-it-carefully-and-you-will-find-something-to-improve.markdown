@@ -2,7 +2,7 @@
 layout: post
 title: "Look At It Carefully And You Will Find Something To Improve"
 date: 2013-05-17 08:05:00 +0200
-categories: uncategorized java refactoring
+categories: java refactoring
 ---
 
 I propose you an exercise: when you come back to work tomorrow morning, navigate through the source code of your project and try to find opportunities of refactoring. Do it even if your boss didn’t ask for it. Do it because you want some exciting time at work.

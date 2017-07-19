@@ -2,7 +2,7 @@
 layout: post
 title: "Real Social Values that We Can’t Find on Facebook"
 date: 2011-08-20 10:55:00 +0200
-categories: uncategorized culinary culture ecology family picture
+categories: culinary culture ecology family picture
 ---
 
 Every working day, my wife and I go walking from home to the train station very early in the morning. Sometime ago, there was a singular thing on the way that caught our attention: a litle “burnt yellow” pumpkim was beautifully growing in the garden of a house in the neighborhood. Over the next 3 months we patiently followed the growth of that pumpkim, which was slowly becoming gorgeous.

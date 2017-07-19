@@ -2,7 +2,7 @@
 layout: post
 title: "Initial Experiences with Project Kenai"
 date: 2008-10-16 07:30:00 +0200
-categories: uncategorized open source research user interface
+categories: open source research user interface
 ---
 
 A few days ago I decided to start a new open source project, as described in a <a href="http://planexstrategy.blogspot.com/2008/10/framework-for-future-of-user.html">previous post</a>. Between many options of services to manage open source projects available on the web, I decided for a particular one, managed by Sun Microsystems, called <a href="http://www.kenai.com/">Project Kenai</a>. What about SourceForge, Java.net or Google Code? Yes, all of them are great too, but why not try out Kenai first and see what is gonna happen? I took the risk.

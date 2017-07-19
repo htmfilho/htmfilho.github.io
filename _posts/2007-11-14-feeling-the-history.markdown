@@ -2,7 +2,7 @@
 layout: post
 title: "Feeling the History"
 date: 2007-11-14 10:13:00 +0200
-categories: uncategorized experiences trip
+categories: experiences trip
 ---
 
 The history tell us good and bad experiences that we learn to make decisions for the future. But we know that the context has a strong influence on the decision process despite human behavior and intuition. Now, imagine to feel the past in a place where strategic decisions were taken some centuries ago. This place is Carcassonne.

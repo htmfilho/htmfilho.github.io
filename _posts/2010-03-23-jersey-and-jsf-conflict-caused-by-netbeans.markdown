@@ -2,7 +2,7 @@
 layout: post
 title: "Jersey and JSF Conflict caused by Netbeans"
 date: 2010-03-23 16:14:00 +0200
-categories: uncategorized enterprise application ide integration java netbeans software architecture web services
+categories: enterprise application ide integration java netbeans software architecture web services
 ---
 
 Have you noticed that JSF 2.0 has a new pre-defined directory called “resources” that is located in the web content? According to <a href="http://www.amazon.com/JavaServer-Faces-2-0-Complete-Reference/dp/0071625097?ie=UTF8&amp;tag=c03ce-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969" target="_blank">JavaServer Faces 2.0, The Complete Reference</a>![ir?t=c03ce-20&l=btl&camp=213689&creative=392969&o=1&a=0071625097](/images/posts/ir?t=c03ce-20&l=btl&camp=213689&creative=392969&o=1&a=0071625097), “<i>files in this directory are treated specially by the JSF Runtime. (…) files and directories within the /resources directory are intended to be included in other pages in the application. Content here can be images, stylesheets, and composite components.</i>“. Therefore, if your Java web application has a /resources directory with a different meaning, then you have to consider renaming it to avoid conflicts when migrating to JSF 2.0.

@@ -2,7 +2,7 @@
 layout: post
 title: "The eNTERFACE Workshop"
 date: 2008-08-10 19:50:00 +0200
-categories: uncategorized conference europe research user interface
+categories: conference europe research user interface
 ---
 
 Imagine an event where people from different parts of the world meet in a great touristic place to work during one month in a project of their choice. This is an <a href="http://www.enterface.net/">eNTERFACE workshop</a>, a special event conceived by <a href="http://tcts.fpms.ac.be/~dutoit/">Thierry Dutoit</a> in the context of an European project called <a href="http://www.similar.cc/">Similar Network of Excellence</a>.

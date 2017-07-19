@@ -2,7 +2,7 @@
 layout: post
 title: "A Funny Error Using Windows XP"
 date: 2008-04-28 18:33:00 +0200
-categories: uncategorized operating system workspace
+categories: operating system workspace
 ---
 
 Definitively, it is not an anti-Microsoft blog, but I did not resist to tell you about a funny experience using Microsoft Windows XP. Take a look at the error dialog below:

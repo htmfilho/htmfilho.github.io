@@ -2,7 +2,7 @@
 layout: post
 title: "JUG Management Now on Git"
 date: 2011-01-27 21:32:00 +0200
-categories: uncategorized cejug configuration management java open source
+categories: cejug configuration management java open source
 ---
 
 The JUG community asked and we have moved the JUG Management source code from SVN to Git. I have to admit that I’m new in Git and it seems to be a quite change of paradigm from SVN. My first feeling is that it is more complex. For the moment, my motivation to learn Git comes from the fact that there is a big probability that the market will value this knowledge.

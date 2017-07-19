@@ -2,7 +2,7 @@
 layout: post
 title: "ICMI-MLMI 2009 at MIT"
 date: 2009-11-04 15:52:00 +0200
-categories: uncategorized conference research user interface
+categories: conference research user interface
 ---
 
 I’m visiting Boston, USA, right now to attend the Eleventh International Conference on Multimodal Interfaces and the Sixth Workshop on Machine Learning for Multimodal Interaction – <a href="http://icmi2009.acm.org/">ICMI-MLMI 2009</a>. This is the most important conference on the field of Multimodal Interaction, which is one of my PhD’s case studies.

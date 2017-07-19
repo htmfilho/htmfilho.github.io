@@ -2,7 +2,7 @@
 layout: post
 title: "Preparing Glassfish V2 for JSF 2.0"
 date: 2009-10-06 20:27:00 +0200
-categories: uncategorized enterprise application software architecture web
+categories: enterprise application software architecture web
 ---
 
 I’m planning to migrate the web client of a JEE application from Apache Struts to JSF in order to reduce the complexity of the implementation and the number of required libraries. These libraries make the distribution package (ear) a giant file of 10MB, too much for a web application. 😛 However, since I don’t like JSF version 1.2 because of several design issues, I decided to wait a bit more for a stable release of JSF 2.0. I think I’m waiting too much :(. The first time I saw a presentation about JSF 2.0 was in December 2008, during the last edition of JavaPolis (now Devoxx), and since that time I haven’t seen any application server in its production release already available for this last JSF version.

@@ -2,7 +2,7 @@
 layout: post
 title: "Accessing an Embedded Database Using JPA in a Desktop Application"
 date: 2008-11-16 13:56:00 +0200
-categories: uncategorized database java jvm research
+categories: database java jvm research
 ---
 
 The problem of developing an unusual application is that we spend most of the time thinking about the architecture. Every single additional code is a big decision, unless you are not so obsessed like me. When you are developing a traditional web application or an enterprise application the architecture definition is relatively easy because there are many references available to inspire you, like specialized books, professional blogs, speakers, frameworks ready to use, and so on. On the other hand, when you are developing something new, like an innovative framework, a device driver or a concurrent application (which is my case), architecture is your main concern, isn’t it?

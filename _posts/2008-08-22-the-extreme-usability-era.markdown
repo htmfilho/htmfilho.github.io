@@ -2,7 +2,7 @@
 layout: post
 title: "The Extreme Usability Era"
 date: 2008-08-22 04:58:00 +0200
-categories: uncategorized research user interface
+categories: research user interface
 ---
 
 Is it time to rethink how we develop user interfaces nowadays? The video below proves that it is. It shows why user interfaces must respect natural abilities of human beings instead of humans being adapted to operate machines.

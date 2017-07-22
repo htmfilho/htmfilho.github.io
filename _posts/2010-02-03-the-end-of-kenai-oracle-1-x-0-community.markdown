@@ -2,7 +2,7 @@
 layout: post
 title: "The End of Kenai: Oracle (1) x (0) Community"
 date: 2010-02-03 14:29:00 +0200
-categories: uncategorized open source strategy
+categories: open source strategy
 ---
 
 I’m very disappointed with Oracle about Kenai’s discontinuation. SUN was working to provide a better service for the community, besides solving their own internal development management. But now, Oracle changes the rules, saying implicitly that the community doesn’t deserve that, but a simpler, less integrated, difficult to manage platform, which is java.net.

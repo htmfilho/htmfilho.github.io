@@ -2,7 +2,7 @@
 layout: post
 title: "I Don’t Wanna Work Alone !!!"
 date: 2010-11-11 15:25:00 +0200
-categories: uncategorized culture europe research workspace
+categories: culture europe research workspace
 ---
 
 If I remember well, the last time I have worked in a <a href="http://69.89.31.239/~hildeber/?p=158">consistent and competent team</a> was in 2008, in a <a href="http://69.89.31.239/~hildeber/?p=160">workshop in Paris</a>, France. That workshop produced <a href="http://69.89.31.239/~hildeber/?p=127">incredible results afterwards</a> that helped me a lot to conclude my PhD successfully. After that, I have been working alone or in pairs, but never in a real team.

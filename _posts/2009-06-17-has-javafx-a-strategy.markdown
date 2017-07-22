@@ -2,7 +2,7 @@
 layout: post
 title: "Has JavaFX a Strategy?"
 date: 2009-06-17 09:00:00 +0200
-categories: uncategorized java javafx strategy
+categories: java javafx strategy
 ---
 
 Some time ago I was a bit severe with Sun Microsystems <a href="http://69.89.31.239/~hildeber/?p=126">here</a>. Now I don’t care anymore because Sun is Oracle and Oracle for me is a database, not a company. I never stopped to think about Oracle’s stocks, or Oracle’s acquisitions, or even the Oracle support for the Java platform, which sucks! But I was always worried about SUN, criticizing and praising as an independent observer. I did that because I admired the work that SUN has been doing on the Java Platform and the proximity the community has to Sun’s top engineers. Even criticizing, it doesn’t mean I don’t like Sun. On the contrary. I do care about them in the pure essence of carefulness, as <a href="http://download.srv.cs.cmu.edu/~pausch/">Randy Pausch</a> stated in his book, transcribing the words of his football coach:

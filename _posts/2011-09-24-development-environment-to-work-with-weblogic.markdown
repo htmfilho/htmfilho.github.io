@@ -2,7 +2,7 @@
 layout: post
 title: "Development Environment to Work with WebLogic"
 date: 2011-09-24 16:15:00 +0200
-categories: uncategorized enterprise application ide java ee workspace
+categories: enterprise application ide java ee workspace
 ---
 
 I have to confess that, despite not evolving as fast as the Java EE specification, Oracle WebLogic is a f*** good application server. Its stability is impressive and works smoothly with popular IDEs, such as Eclipse and Netbeans. Of course its qualities come with a cost, which is expensive for poor developers like us, but it’s worthwhile for companies.

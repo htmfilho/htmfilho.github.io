@@ -2,7 +2,7 @@
 layout: post
 title: "What about my PhD?"
 date: 2009-10-31 20:02:00 +0200
-categories: uncategorized conference research software engineering trip
+categories: conference research software engineering trip
 ---
 
 My PhD is something that was not planned but it is happening. The full story about how I got into it is too long and too complicated, but to summarise, it was a consequence of some good results I got at work, which gave a good confidence to my adviser to put me in. I couldn’t say “no” because the opportunity to do a PhD in a prestigious university like <a href="http://www.uclouvain.be/">UCL</a> was really good.

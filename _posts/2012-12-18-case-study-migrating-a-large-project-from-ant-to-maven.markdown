@@ -2,7 +2,7 @@
 layout: post
 title: "Case Study: Migrating a Large Project from Ant to Maven"
 date: 2012-12-18 09:09:00 +0200
-categories: uncategorized configuration management enterprise application ide java java ee jsf netbeans refactoring
+categories: configuration management enterprise application ide java java ee jsf netbeans refactoring
 ---
 
 The truth is we had been under difficult times. We spent almost three months to migrate our build mechanism from <a href="http://ant.apache.org/" target="_blank">Ant</a> to <a href="http://maven.apache.org/" target="_blank">Maven</a>. That’s the minimum time you have to put in your schedule if you are planning to do the same in a large project. There are still some collateral effects of this migration that we are struggling to solve, but fortunately they are not so critical.

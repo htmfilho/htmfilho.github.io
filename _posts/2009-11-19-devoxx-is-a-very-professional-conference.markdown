@@ -2,7 +2,7 @@
 layout: post
 title: "Devoxx is a Very Professional Conference"
 date: 2009-11-19 17:11:00 +0200
-categories: uncategorized cejug conference europe
+categories: cejug conference europe
 ---
 
 This week I attended, once again, the <a href="http://www.devoxx.com/">Devoxx</a> Conference in Antwerp, Belgium. This time I had the opportunity to give a talk there about a <a href="http://www.usi4biz.com/">software project</a> that I’m working on. Of course, it was a greeeat experience! I have to say that this one was the most professional infra-structure I ever had to give a talk. Amazing! So, congratulations for the whole Devoxx’09 team including organizers, technicians, assistants and others who made our sessions so comfortable, professional and attractive (yeah, I also had my biggest audience 😉 ).

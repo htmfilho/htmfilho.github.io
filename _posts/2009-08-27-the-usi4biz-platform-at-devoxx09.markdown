@@ -2,7 +2,7 @@
 layout: post
 title: "The Usi4Biz Platform at Devoxx’09"
 date: 2009-08-27 19:02:00 +0200
-categories: uncategorized business process conference research user interface
+categories: business process conference research user interface
 ---
 
 We are very glad to announce that our presentation about the <a href="http://usi4biz.com/2009/08/24/usi4biz-platform/">Usi4Biz Platform</a>, submitted for the appreciation of the <a href="http://www.devoxx.com/">Devoxx’09</a> Committee,  was accepted to be presented in the “Tools in Action” session. See more details <a href="http://www.devoxx.com/display/DV09/Linking+Business+Processes+with+User+Interfaces">here</a>.

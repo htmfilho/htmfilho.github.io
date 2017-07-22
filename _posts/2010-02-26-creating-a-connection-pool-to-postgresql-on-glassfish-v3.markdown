@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a Connection Pool to PostgreSQL on Glassfish V3"
 date: 2010-02-26 09:32:00 +0200
-categories: uncategorized database enterprise application open source
+categories: database enterprise application open source
 ---
 
 I recently created a new connection pool to PostgreSQL on Glassfish and I would like to share the steps I followed with you. Obviously, you need <a href="http://www.postgresql.org/">PostgreSQL</a> and <a href="http://glassfish.dev.java.net/">Glassfish</a> installed on your machine and a database already created in PostgreSQL. If you didn’t configure your new PostgreSQL installation yet, follow the steps I described at this <a href="http://69.89.31.239/~hildeber/?p=190">previous post</a> and come back here to continue with the connection pool. The necessary steps are:

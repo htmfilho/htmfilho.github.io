@@ -2,7 +2,7 @@
 layout: post
 title: "The Beer Globalization"
 date: 2008-11-22 10:00:00 +0200
-categories: uncategorized culinary europe
+categories: culinary europe
 ---
 
 You know, I’m living in Belgium and <a href="http://en.wikipedia.org/wiki/Belgium">Belgium</a> is a very small country (We can put 100% of Belgium inside my state in Brazil 🙂 ), with 12 million people and considered in 2007 the <a href="https://www.cia.gov/library/publications/the-world-factbook/rankorder/2078rank.html">world’s 15th largest trading nation</a>. It’s amazing how a small piece of land can be so economically powerful.

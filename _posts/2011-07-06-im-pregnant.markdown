@@ -2,7 +2,7 @@
 layout: post
 title: "I’m Pregnant!"
 date: 2011-07-06 16:35:00 +0200
-categories: uncategorized culture europe family
+categories: culture europe family
 ---
 
 Today, my wife gave me the greatest news I’ve ever received. She said that I’m gonna be a DAD! Uhuu! o/ This is something very powerful, you know?! I have no words to describe my expectation to become a father. The news has an immediate impact on the way we see life from now on. All plans we made for ourselves in the coming days, months, years, are now totally forgotten. This new life has the power of attracting all our attention and dedication, which makes me think that the future cannot be designed, at least for the next nine months, and everything that will happen is unpredictable and deserves immediate response.
@@ -23,4 +23,3 @@ This boy or girl will probably have some time in the future to visit this post. 
 
 
 > <i>By the way, your mother is feeling great now! She is reading a lot of books that try to explain how to take care of you. We know they are not always right and the real thing will start when you show up here 🙂 God! You have no idea how life already changed so far. Good changes of course. We have nothing to complain about. Just waiting for you now.</i>“
-

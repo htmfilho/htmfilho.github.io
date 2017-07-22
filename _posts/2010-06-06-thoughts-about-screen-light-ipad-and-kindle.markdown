@@ -2,7 +2,7 @@
 layout: post
 title: "Thoughts About Screen Light, iPad and Kindle"
 date: 2010-06-06 21:38:00 +0200
-categories: uncategorized culture user interface workspace
+categories: culture user interface workspace
 ---
 
 Some people complain but everybody reads a lot of text on computer screens. In my particular case, I think I read more text in computer screens than in printed paper and I´m not doing it alone. The press industry has been scared about the end of printed media. Many small newspapers have closed their doors and big newspapers have substantially reduced their staff, due to the fact that the internet has become a rich source of reliable information.

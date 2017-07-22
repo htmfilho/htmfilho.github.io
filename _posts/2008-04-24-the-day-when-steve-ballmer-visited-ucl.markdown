@@ -2,7 +2,7 @@
 layout: post
 title: "The Day When Steve Ballmer Visited UCL"
 date: 2008-04-24 14:42:00 +0200
-categories: uncategorized conference europe operating system strategy
+categories: conference europe operating system strategy
 ---
 
 It’s spring in Belgium and the weather looks great! The sun is doing a great job in the sky and flowers are making the <a href="http://www.uclouvain.be/">UCL</a> campus even more beautiful. This morning, as all of others, thousands of students were going on all directions, from home to class, from class to restaurants, shops, laboratories, etc. Most of the people didn’t realize that there was a multimilioner guy giving a speech at Louvain-La-Neuve: <a href="http://en.wikipedia.org/wiki/Steve_Ballmer">Steve Ballmer</a>, CEO of <a href="http://www.microsoft.com/">Microsoft</a>, one of the largest software companies in the world.

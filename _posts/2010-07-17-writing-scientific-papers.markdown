@@ -2,7 +2,7 @@
 layout: post
 title: "Writing Scientific Papers"
 date: 2010-07-17 10:54:00 +0200
-categories: uncategorized conference publication research
+categories: conference publication research
 ---
 
 When I was a young researcher nobody taught me how to write a paper. Maybe, it is a sort of a test: if we prove we can write one, without any guidance, just taking into consideration other papers, we are ready to face the research world. In fact, many young researchers don’t even know what a paper is useful for. Their lack of understanding and absence of instructions bring them fear and low self-esteem to write one.

@@ -2,7 +2,7 @@
 layout: post
 title: "Java: My Past, Present, and Future"
 date: 2009-06-11 18:38:00 +0200
-categories: uncategorized cejug conference java
+categories: cejug conference java
 ---
 
 Last week San Francisco hosted the last edition of <a href="http://java.sun.com/javaone/">JavaOne</a> under the responsibility of Sun Microsystem. From now on, <a href="http://www.oracle.com/">Oracle</a> owns Sun and all its technologies. They promised to invest more and more on the Java platform and all related technologies. Oracle is a powerful company and this new juncture makes me relax and keep believing that my present and future are definitively Java-oriented.

@@ -2,7 +2,7 @@
 layout: post
 title: "A Framework for the Future of the User Interaction"
 date: 2008-10-04 14:48:00 +0200
-categories: uncategorized conference open source research user interface
+categories: conference open source research user interface
 ---
 
 If you follow my blog, you may know about my interest on the extreme usability era (<a href="http://planexstrategy.blogspot.com/2008/08/extreme-usability-era.html">1</a>, <a href="http://planexstrategy.blogspot.com/2008/09/more-examples-of-extreme-usability.html">2</a>). You may also know that this interest was born during the <a href="http://planexstrategy.blogspot.com/2008/08/enterface08-workshop-finished.html">eNTERFACE workshop in Paris</a>. So, this interest has been growing every day in an intense manner that made me choose this subject as the theme of my PhD research project at <a href="http://www.uclouvain.be/">UCL</a>. More: I decided to start an open source project, first to share my knowledge and second, to get contributions from the community.

@@ -2,7 +2,7 @@
 layout: post
 title: "Thank You For The Music"
 date: 2009-04-19 06:09:00 +0200
-categories: uncategorized movie music
+categories: movie music
 ---
 
 Some time ago I <a href="http://twitter.com/htmfilho/status/1251033077">declared </a>: <span style="font-style:italic;">“I will ALWAYS pay for music. No matter how much it costs. Music saved my day and it has a great value for me. So, I’m extremely grateful!”</span>. I’m here again to reinforce this message and say that it becomes more and more true in my life every day.

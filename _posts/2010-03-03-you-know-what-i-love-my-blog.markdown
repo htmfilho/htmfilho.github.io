@@ -2,7 +2,7 @@
 layout: post
 title: "You Know What? I Love My Blog"
 date: 2010-03-03 08:19:00 +0200
-categories: uncategorized blog culture europe web
+categories: blog culture europe web
 ---
 
 During some procrastination time that I gave to myself last night, I’ve spent some time exploring all posts that I have published on my blog since 2007. I’m talking about 105 posts, an average of 4 per month, which is not that much in comparison to other more popular blogs, but at least I’ve been quite regular over the years.
@@ -17,17 +17,16 @@ Now, I would like to conclude with a attempt of poem that stays in the subconsci
 
 > <b>I might regret but I don’t</b>
 
-“<i>I might regret doing things not related to my work just to solve other people’s problem, but I don’t because those things taught me many other things that I didn’t expect to learn.</i>
+> “<i>I might regret doing things not related to my work just to solve other people’s problem, but I don’t because those things taught me many other things that I didn’t expect to learn.</i>
 
-I might regret starting my research so late, but I don’t because pressure is also part of the game.
+> I might regret starting my research so late, but I don’t because pressure is also part of the game.
 
-I might regret allowing my love to spend several weeks far from home, but I don’t because it would be very selfish, these trips are great for her carrier, and I admire her achievements.
+> I might regret allowing my love to spend several weeks far from home, but I don’t because it would be very selfish, these trips are great for her carrier, and I admire her achievements.
 
-I might regret losing contact with some friends that I’ve made here, but I don’t because they proved to be more selfish than the friendly acceptable.
+> I might regret losing contact with some friends that I’ve made here, but I don’t because they proved to be more selfish than the friendly acceptable.
 
-I might regret drinking and eating too much some times, but I don’t because Belgium has the best beers in the world, Europe has the best cuisine and I won’t be here for so long.
+> I might regret drinking and eating too much some times, but I don’t because Belgium has the best beers in the world, Europe has the best cuisine and I won’t be here for so long.
 
-I might regret giving up opening a business in Europe, but I don’t because what I’m planning now will help a lot more people than I was planning to help before.
+> I might regret giving up opening a business in Europe, but I don’t because what I’m planning now will help a lot more people than I was planning to help before.
 
-Last but not least, I might regret to be too much optimistic even not archiving many wishes I had, but I don’t because so many miracles have happened in my life, proving that optimism brings most of my wishes and what it doesn’t bring I also gain in terms of lessons learned.
-</blockquote
+> Last but not least, I might regret to be too much optimistic even not archiving many wishes I had, but I don’t because so many miracles have happened in my life, proving that optimism brings most of my wishes and what it doesn’t bring I also gain in terms of lessons learned.

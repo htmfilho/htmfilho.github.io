@@ -2,7 +2,7 @@
 layout: post
 title: "Javapolis: Spirit of Friendship"
 date: 2007-12-09 10:21:00 +0200
-categories: uncategorized conference java
+categories: conference java
 ---
 
 Yesterday I was surprised about what I saw in the Javapolis homepage. Stephan, the Javapolis chairman, <a href="http://www.javapolis.com/" target="_blank">published my picture there</a>! Actually, I’m a simple guy, a little bit shy and I don’t want to become famous, but it is very cool for me and totally unexpected.

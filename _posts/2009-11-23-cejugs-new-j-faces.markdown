@@ -2,7 +2,7 @@
 layout: post
 title: "CEJUG’s New J Faces"
 date: 2009-11-23 16:41:00 +0200
-categories: uncategorized cejug java
+categories: cejug java
 ---
 
 <div>If we compare the current moment of <a href="http://www.cejug.org/">CEJUG</a> with its first semester in 2009, we would say that the group came back to its old good shape. We have been very active during the last months, thanks to a restructuring process which started in July and since that time it has produced a positive impact on the local Java community. However, this restructuring wouldn’t be possible without the direct collaboration of the community. They took the initiative, got mobilised with the coordinators, and became committed to a serious project for the whole community.</div>

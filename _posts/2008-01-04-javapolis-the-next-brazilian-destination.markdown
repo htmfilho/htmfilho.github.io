@@ -2,7 +2,7 @@
 layout: post
 title: "JavaPolis: the Next Brazilian Destination"
 date: 2008-01-04 06:45:00 +0200
-categories: uncategorized conference
+categories: conference
 ---
 
 I attended <a href="http://www.javapolis.com/">JavaPolis</a> in December and I have to agree that it was one of the best conferences that I have ever seen. I met very important people there, including the big guy: James Gosling. Everybody was very kind and happy talking with a Brazilian guy: me. I’m not so young anymore, but my behaviour was close to a fun boy 😛 .

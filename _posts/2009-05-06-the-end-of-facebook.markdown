@@ -2,7 +2,7 @@
 layout: post
 title: "The End of Facebook"
 date: 2009-05-06 20:20:00 +0200
-categories: uncategorized integration user interface web
+categories: integration user interface web
 ---
 
 Some time ago I <a href="http://69.89.31.239/~hildeber/?p=129">reported here</a> the reasons I decided to leave Facebook and review my practices in terms of socialization on the web. Believe me: I left Facebook for no other reason, but too much time dedicated to explore my network and expose myself. I wasn’t influenced by anybody else or offended somehow. Since that time I’ve followed many news about this social network. Between many discussions, I was particularly curious about rumors of the end of Facebook and other social networks following the same model. Reading those articles I realized that part of my behavior when I left the site helps to justify existing theories. In addition, some market tendencies also reinforce their theory by comparing previous collapses with the current scenario. Then I recently decided to go back to observe this trend beside my own curiosity about my friends’ news.

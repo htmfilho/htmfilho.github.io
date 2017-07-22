@@ -2,7 +2,7 @@
 layout: post
 title: "Book Review: Programming Collective Intelligence"
 date: 2012-07-08 11:37:00 +0200
-categories: uncategorized book database machine learning python web
+categories: book database machine learning python web
 ---
 
 When the volume of data managed by our application significantly grows, we start thinking about ways of extracting information from the databases. We know that there are a lot of hidden information there, but we don’t know exactly what they are and how to get them. Year after year, people have been working on solutions such as data mining, data-warehouse, business intelligence, and others to figure out those hidden information. At the same time, people also look for ways of using those new information not only for reporting, but also to give constant feedback to the application in order to achieve better results over time. This looks very much to a self-learning mechanism, that we can formally call <a href="http://en.wikipedia.org/wiki/Machine_learning" target="_blank">machine learning</a>.

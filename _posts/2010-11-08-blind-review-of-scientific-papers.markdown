@@ -2,7 +2,7 @@
 layout: post
 title: "Blind Review of Scientific Papers"
 date: 2010-11-08 08:12:00 +0200
-categories: uncategorized publication research
+categories: publication research
 ---
 
 Some time ago, I wrote a post about how to <a href="http://69.89.31.239/~hildeber/?p=62">write scientific papers</a>. This post is not quite famous like other technical ones, but it might help those who are starting in the research world. I’m revisiting this topic again by explaining how to prepare a blind copy of a paper for reviewing.

@@ -2,7 +2,7 @@
 layout: post
 title: "5/3 things that make me happy/crazy using Netbeans"
 date: 2008-04-11 11:56:00 +0200
-categories: uncategorized cejug conference ide java netbeans
+categories: cejug conference ide java netbeans
 ---
 
 As <a href="http://planexstrategy.blogspot.com/2008/03/netbeans-61-will-solve-our-pacience.html">reported before</a>, I decide to adopt <a href="http://www.netbeans.org/">Netbeans</a> for all my Java projects. Definitively, it was a better decision than to continue using Eclipse. However, the world is not perfect and I have been having some problems with Netbeans too. First, I have to say that I don’t want to pay for a tool because I would be even more stressed if something, that I paid for, starts to break! So, don’t suggest creatures like MyEclipse, IntelliJ IDEA or developer studios out there. I know some Netbeans gurus, we drunk some beers before and I like them. So, don’t ask me to move to the Eclipse 3.3 version because I won’t!

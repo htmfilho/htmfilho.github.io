@@ -2,7 +2,7 @@
 layout: post
 title: "Integrating Jira with Netbeans"
 date: 2012-05-06 11:26:00 +0200
-categories: uncategorized agile cejug ide integration java netbeans open source
+categories: agile cejug ide integration java netbeans open source
 ---
 
 One of the advantages of hosting your open source project at Java.net is the availability of <a href="http://www.atlassian.com/software/jira/overview">Jira</a> to track your issues. Jira is one of the most popular issue tracking system available on the market, which drives tool developers to support it. This is the case of <a href="http://www.netbeans.org/">Netbeans</a>, my working IDE, and also the case of <a href="http://www.eclipse.org/" target="_blank">Eclipse</a>.

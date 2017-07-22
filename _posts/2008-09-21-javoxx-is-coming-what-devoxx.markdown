@@ -2,7 +2,7 @@
 layout: post
 title: "Javoxx is coming…. what? Devoxx?"
 date: 2008-09-21 08:32:00 +0200
-categories: uncategorized cejug conference europe java
+categories: cejug conference europe java
 ---
 
 Some weeks ago, <a href="http://www.devoxx.com/display/JV08/Stephan+Janssen">Stephan Janssen</a> announced in the JUG Leaders’ mailing list that he decided to change the name of his conference again. It was definitively a big surprise. At the beginning of this year, Stephan had announced the need to change the name from JavaPolis to Javoxx because Sun Microsystems had claimed for their trademark protection. It means that, no name related with technology should have the term “Java” embedded in it, which is the case of “JavaPolis”.

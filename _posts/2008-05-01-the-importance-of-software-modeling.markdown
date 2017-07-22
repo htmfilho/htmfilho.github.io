@@ -2,7 +2,7 @@
 layout: post
 title: "The Importance of Software Modeling"
 date: 2008-05-01 20:57:00 +0200
-categories: uncategorized enterprise application java software architecture software engineering strategy
+categories: enterprise application java software architecture software engineering strategy
 ---
 
 During my free time I made a very big refactoring of the Planexstrategy business layer. I transformed static business methods to EJB3 (Enterprise Java Beans version 3). All business classes are now stateless session beans and my entity classes are now mapped using JPA (Java Persistence API) to an Oracle database. Putting it in numbers, I converted 73 business classes to EJBs and I mapped 81 entity classes using JPA. I also had to update 270 references to business components in the control layer, fix a lot of bad code and retest the whole application. I spent at least two months to do everything.

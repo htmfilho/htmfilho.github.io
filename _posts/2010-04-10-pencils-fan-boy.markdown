@@ -2,7 +2,7 @@
 layout: post
 title: "Pencil’s Fan Boy"
 date: 2010-04-10 10:09:00 +0200
-categories: uncategorized culture workspace
+categories: culture workspace
 ---
 
 When I was a kid my parents never gave me the opportunity of having fancy school things, like a beautiful and thick notebook, a pen with 10 different colors, a nice pencil-case, a big backpack with dozens of compartments, but I never complained. My father always bought everything in volume to save money. So, if I wanted parents sponsorship for school materials, I had to use the standard notebook, the standard pen, the standard everything.

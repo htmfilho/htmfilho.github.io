@@ -2,7 +2,7 @@
 layout: post
 title: "User-centered Design Helping Java Programmers"
 date: 2009-06-28 21:00:00 +0200
-categories: uncategorized java research user interface
+categories: java research user interface
 ---
 
 In general, analysts and programmers spend time taking care of user interfaces but researchers at Carnegie Mellon University’s <a href="http://www.cs.cmu.edu/">School of Computer Science</a> decided to focus on the user experience of those analysts and programmers instead. They developed the tools <a href="http://edelstein.pebbles.cs.cmu.edu/jadeite/">Jadeite</a> and <a href="http://edelstein.pebbles.cs.cmu.edu/apatite/">Apatite</a> which are intended to help Java developers exploring the language API (Application Programming Interface) using human-centered design techniques.

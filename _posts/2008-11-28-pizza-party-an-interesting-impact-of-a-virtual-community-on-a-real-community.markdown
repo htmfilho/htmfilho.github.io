@@ -2,7 +2,7 @@
 layout: post
 title: "Pizza Party: An Interesting Impact of a Virtual Community on a Real Community"
 date: 2008-11-28 16:18:00 +0200
-categories: uncategorized cejug open source
+categories: cejug open source
 ---
 
 Just three days ago I was presented to a social network totally dedicated to university students who are involved somehow with open source projects. This community is called <a href="http://osum.sun.com/">Open Source University Meetup</a> (OSUM). This is a <a href="http://www.sun.com/">SUN Microsystems</a> initiative to stimulate the involvement of students on the open source world. This strategy might be efficient because, in parallel, SUN is also preparing the next generation of professionals to work with their set of open source products, increasing the work force available, and consequently the market for their solutions.

@@ -2,7 +2,7 @@
 layout: post
 title: "On The Illusion of Controlling People’s Time"
 date: 2013-01-27 16:41:00 +0200
-categories: uncategorized agile career strategy
+categories: agile career strategy
 ---
 
 Software Engineering is going through an identity crisis. The old school has failed because of too much control, moving people away from what they really have to deliver. The new school, or agile fever, is more focused on humanities, directing all the attention to human beings. This approach practically decimated the old school, showing that writing software is not an exact science. It is actually unpredictable and cannot be done without creativity, inspiration and transpiration. Maybe the old school, which insists to exist, got confused by the fact that software execution, data processing, and system and hardware design are engineering stuff, but it doesn’t mean that developing those stuff is also engineering. On the contrary… it’s human and social.

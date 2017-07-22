@@ -2,7 +2,7 @@
 layout: post
 title: "The eNTERFACE’08 Effect"
 date: 2009-04-08 20:00:00 +0200
-categories: uncategorized conference europe open source research trip user interface
+categories: conference europe open source research trip user interface
 ---
 
 It has been 8 months since the end of the last eNTERFACE’08 workshop, held in Paris, last year. I reported it here through two posts: “<span style="font-style: italic;">The <a href="http://69.89.31.239/~hildeber/?p=160">eNTERFACE Workshop</a></span>” and “<span style="font-style: italic;">The <a href="http://69.89.31.239/~hildeber/?p=158">eNTERFACE’08 Workshop Finished</a></span>“. Before this workshop I would say that I was scientifically lost, without any perspective about the subject of my PhD thesis. At that time, I even wasn’t motivated to participate because this decision meant to be far from home during a whole month. Fortunately, everything was fine in Paris and at home.
@@ -25,6 +25,6 @@ This project has produced a lot of results, more than we actually expected. We h
 <li><span style="font-style: italic;">The basis of a new project accepted in <a href="http://www.infomus.org/enterface09/">eNTERFACE’09</a></span>: we submitted a project to the next edition of the eNTERFACE that is actually a continuation of the previous one. This time we are going to prepare a scenario and collect data with the help of eNTERFACE’s attendees. The result of the data analysis will validate our fusion mechanism in a variety of new situations, increasing its robustness.</li>
 <li><span style="font-style: italic;">Part of a special session in <a href="http://icmi2009.acm.org/">ICMI-MLMI 2009</a></span>: at last the greatest result. This conference is sponsored at the same time by ACM and IEEE, which means a great achievement and recognition of this work. This session is focused on multimodal fusion engines and will put together important researchers in this domain to discuss different approaches of multimodal fusion on the direction of a theoretical definition and validation. </li>
 </ol>
-Wow! All these results in less than one year! Of course this is the work of a team and I have to thank Prof. <a href="http://www.tele.ucl.ac.be/view-people.php?name=Benoit.Macq">Benoit Macq</a> for his support, <a href="http://www.tele.ucl.ac.be/view-people.php?id=178">Olga Vybornova</a> for our efficient collaborative work, <a href="http://www.tele.ucl.ac.be/view-people.php?id=148">Lionel Lawson</a> for the technological basis, all members of the eNTERFACE’08 project and also Kênia for her unconditional support and love. 
+Wow! All these results in less than one year! Of course this is the work of a team and I have to thank Prof. <a href="http://www.tele.ucl.ac.be/view-people.php?name=Benoit.Macq">Benoit Macq</a> for his support, <a href="http://www.tele.ucl.ac.be/view-people.php?id=178">Olga Vybornova</a> for our efficient collaborative work, <a href="http://www.tele.ucl.ac.be/view-people.php?id=148">Lionel Lawson</a> for the technological basis, all members of the eNTERFACE’08 project and also Kênia for her unconditional support and love.
 
 By the way, there is no other explanation to such great achievements, but LOVE! Everything you do with love becomes unbelievably possible! I don’t call it dream because dream is part of the future and love is 100% present.

@@ -2,10 +2,10 @@
 layout: post
 title: "Configuring Glassfish to Support Hibernate"
 date: 2008-11-20 13:37:00 +0200
-categories: uncategorized database enterprise application java
+categories: database enterprise application java
 ---
 
-This is just a short post to remember how I prepared <a href="https://glassfish.dev.java.net/">Glassfish </a>to use <a href="http://hibernate.org/">Hibernate 3</a> as a JPA persistence framework.
+This is just a short post to remember how I prepared <a href="https://glassfish.dev.java.net/">Glassfish</a>to use <a href="http://hibernate.org/">Hibernate 3</a> as a JPA persistence framework.
 
 The first step is to add Hibernate libraries in #glassfish_home#/lib . Those libraries are:
 
@@ -31,6 +31,29 @@ All these libraries are distributed with Hibernate on this web page: <a href="ht
 
 The next step is to create a connection pool and a JDBC resource, but I will assume that you know how to do that or you have read a post like <a href="http://blogs.sun.com/JagadishPrasath/entry/creating_jdbc_connection_pool_resource">the one written by Jagadish</a>.
 
-Finally, you have to configure your persistence unit in order to use Hibernate. See parts of my persistence.xml file below:<br/><span style="font-size:85%;"><br/><span style="font-family:courier new;">‹persistence version=”1.0″ </span><br/><span style="font-family:courier new;">    xmlns=”http://java.sun.com/xml/ns/persistence” </span><br/><span style="font-family:courier new;">    xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance” </span><br/><span style="font-family:courier new;">    xsi:schemaLocation=”http://java.sun.com/xml/ns/persistence </span><br/><span style="font-family:courier new;">        http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd”›</span><br/><span style="font-family:courier new;">    ‹persistence-unit name=”#persistence-unit-name#” transaction-type=”JTA”›</span><br/><span style="font-family:courier new;">        ‹provider›org.hibernate.ejb.HibernatePersistence‹/provider›</span><br/><span style="font-family:courier new;">        ‹jta-data-source›#jdbc-datasource#‹/jta-data-source›</span><br/><span style="font-family:courier new;">        ‹class>#persistence-class#‹/class›</span><br/><span style="font-family:courier new;">        … ‹!– Your persistence classes –›</span><br/><span style="font-family:courier new;">        ‹exclude-unlisted-classes›true‹/exclude-unlisted-classes></span><br/><span style="font-family:courier new;">        ‹properties›</span><br/><span style="font-family:courier new;">            ‹property name=”hibernate.dialect” </span><br/><span style="font-family:courier new;">                value=”org.hibernate.dialect.Oracle10gDialect”/›</span><br/><span style="font-family:courier new;">            ‹property name=”hibernate.show_sql” value=”false”/›</span><br/><span style="font-family:courier new;">            ‹property name=”hibernate.cache.provider_class”</span><br/><span style="font-family:courier new;">                value=”org.hibernate.cache.HashtableCacheProvider”/›</span><br/><span style="font-family:courier new;">        ‹/properties›</span><br/><span style="font-family:courier new;">    ‹/persistence-unit›</span><br/><span style="font-family:courier new;">‹/persistence›</span></span>
+Finally, you have to configure your persistence unit in order to use Hibernate. See parts of my persistence.xml file below:
 
-Basically, you have to set the provider tag with “org.hibernate.ejb.HibernatePersistence” and set some properties according to specific needs. That’s all!
+{% highlight xml %}
+<persistence version=”1.0″
+  xmlns="http://java.sun.com/xml/ns/persistence"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+       http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="#persist-unit-name#" transaction-type="JTA">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <jta-data-source>#jdbc-datasource#</jta-data-source>
+    <class>#persistence-class#</class>
+      ... <!-- Your persistence classes -->
+      <exclude-unlisted-classes>true</exclude-unlisted-classes>
+      <properties>
+        <property name="hibernate.dialect"
+          value="org.hibernate.dialect.Oracle10gDialect"/>
+        <property name="hibernate.show_sql" value="false"/>
+        <property name="hibernate.cache.provider_class"
+          value="org.hibernate.cache.HashtableCacheProvider"/>
+      </properties>
+    </persistence-unit>
+  </persistence>
+{% endhighlight %}
+
+Basically, you have to set the provider tag with `org.hibernate.ejb.HibernatePersistence` and set some properties according to specific needs. That’s all!

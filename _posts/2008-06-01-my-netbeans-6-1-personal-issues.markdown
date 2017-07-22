@@ -2,7 +2,7 @@
 layout: post
 title: "My Netbeans 6.1 Personal Issues"
 date: 2008-06-01 20:11:00 +0200
-categories: uncategorized ide java netbeans
+categories: ide java netbeans
 ---
 
 After an intensive work with <a href="http://www.netbeans.org/">Netbeans 6.1</a> in all my projects this year, I was able to create my personal list of annoying issues. It doesn’t mean I will leave Netbeans. Far from that! What I really want is to draw attention for those issues in order to get them solved on the next Netbeans version (probably 6.5 in October 2008). So, lets have fun!

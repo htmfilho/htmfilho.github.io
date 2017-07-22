@@ -2,7 +2,7 @@
 layout: post
 title: "The OpenInterface Platform"
 date: 2007-12-04 10:17:00 +0200
-categories: uncategorized research
+categories: research
 ---
 
 In the last few months, I’ve been dedicating some time to collaborate with the OpenInterface platform, an open source project conceived to integrate components developed in different programming languages. But, why am I so interested on it? Basically, because it is part (not the main issue) of my research in multi modalities and because it is a project managed by people in my laboratory at Université catholique de Louvain.

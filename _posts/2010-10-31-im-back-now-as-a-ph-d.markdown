@@ -2,10 +2,10 @@
 layout: post
 title: "I’m Back, Now as a Ph.D."
 date: 2010-10-31 12:22:00 +0200
-categories: uncategorized blog research trip
+categories: blog research trip
 ---
 
-Hi everyone, I had to spend sometime far from my blog because I was heavily busy finishing my Ph.D. Since May this year, I have written hundreds of pages, but the hardest part was not writing so many pages, but to review all of them. 
+Hi everyone, I had to spend sometime far from my blog because I was heavily busy finishing my Ph.D. Since May this year, I have written hundreds of pages, but the hardest part was not writing so many pages, but to review all of them.
 
 The first version of my thesis was ready on July 31st. I submitted it to the jury on August 2nd. After this, I had only one week to summarize everything in a journal article and submit it to the editor on August 12th. I did it, but I had no expectation about its acceptance due to the hurry to prepare the article.
 

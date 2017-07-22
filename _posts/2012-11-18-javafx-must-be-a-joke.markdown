@@ -2,7 +2,7 @@
 layout: post
 title: "JavaFX Must be a Joke"
 date: 2012-11-18 09:13:00 +0200
-categories: uncategorized java javafx jvm user interface
+categories: java javafx jvm user interface
 ---
 
 More than 3 years ago, I wrote the post “<a href="http://69.89.31.239/~hildeber/?p=105" target="_blank">Has JavaFX a Strategy?</a>” saying:

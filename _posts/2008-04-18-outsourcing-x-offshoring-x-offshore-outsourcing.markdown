@@ -2,14 +2,14 @@
 layout: post
 title: "Outsourcing x Offshoring x Offshore Outsourcing"
 date: 2008-04-18 06:09:00 +0200
-categories: uncategorized cejug literature strategy
+categories: cejug literature strategy
 ---
 
 I went to my city last month, <a href="http://www.fortaleza.ce.gov.br/novo/">Fortaleza</a>, <a href="http://www.turismo.ce.gov.br/">Ceará</a>, Northeast of Brazil, and I visited some software companies there, mainly to meet old friends and also to see how they are doing on this competitive market nowadays. <a href="http://www.ivia.com.br/">Ivia</a> was the one that impressed me a lot. They started with less than 10 people in the 90’s, and now they have more than 300 professionals, and they are looking for more to fulfill a growing and hard demand.
 
-I visited other companies, but moments at Ivia were very nice because I started my professional life there and I was one of those ten professionals at the beginning. I explained what I’m doing in my research projects and they talked about their market today, which has a strong emphasis in outsourcing. 
+I visited other companies, but moments at Ivia were very nice because I started my professional life there and I was one of those ten professionals at the beginning. I explained what I’m doing in my research projects and they talked about their market today, which has a strong emphasis in outsourcing.
 
-<span style="font-weight:bold;">Outsourcing</span> is considered a big strategy nowadays. It was the main reason of the Indian transformation, from a completely poor country to an emergent world power. It means that companies, mainly from the United States, decide to give part of their processes to be executed in India, by Indian companies. 
+<span style="font-weight:bold;">Outsourcing</span> is considered a big strategy nowadays. It was the main reason of the Indian transformation, from a completely poor country to an emergent world power. It means that companies, mainly from the United States, decide to give part of their processes to be executed in India, by Indian companies.
 
 Ivia does outsourcing internally and now for Europe and the United States as well. When doing services for foreign companies, Ivia calls it Offshore, or <span style="font-weight:bold;">Offshore Outsourcing</span>, which means processes of a company are executed by other companies in other countries. It is also a practice of Secrel International, a software industry located in Fortaleza, producing software for the United States and Europe too. Ivia and Secrel International are leading IT foreign relationships in Ceará. It is a direct impact of the CMMi certification achieved by both in the last years. CMMi is a kind of guarantee that IT services will be done in a high quality independent of the place in the world.
 

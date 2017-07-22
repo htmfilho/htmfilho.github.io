@@ -2,7 +2,7 @@
 layout: post
 title: "Great Experience at Frankfurt Airport and with Lufthansa"
 date: 2013-04-17 14:45:00 +0200
-categories: uncategorized culture europe family trip
+categories: culture europe family trip
 ---
 
 With all those crazy things going on all around the world these days, I believe sharing good news may help to compensate with good vibes all the negativity out there. <b>It’s a good thing to recognize good actions made by people around us</b>.

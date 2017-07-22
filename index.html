@@ -9,7 +9,8 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {{site.posts[0].content}}
+    {{site.posts[0].excerpt}}
+    <a class="post-link" href="{{ site.posts[0].url | prepend: site.baseurl }}">Continue reading...</a>
   </div>
 
   <hr style="border-width: 5px;" noshade>

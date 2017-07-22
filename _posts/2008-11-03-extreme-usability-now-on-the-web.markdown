@@ -2,7 +2,7 @@
 layout: post
 title: "Extreme Usability Now on the Web"
 date: 2008-11-03 07:25:00 +0200
-categories: uncategorized user interface web
+categories: user interface web
 ---
 
 Since my recent posts about the Extreme Usability Era (<a href="http://planexstrategy.blogspot.com/2008/09/more-examples-of-extreme-usability.html">here</a> and <a href="http://planexstrategy.blogspot.com/2008/08/extreme-usability-era.html">here</a>), it was just a matter of time to find a good example on the web. A friend of mine, <a href="http://leoayres.blogspot.com/">Leonardo Ayres</a>, sent to me a link to the <a href="http://www.windowshop.com/">Amazon Windowshop</a>, a virtual shop with an incredible navigation feature. You can navigate using a mouse, of course, but using arrow keys to navigate left, right, top, bottom and the space bar to zoom in/out, you actually have an easier and faster way to explore products.

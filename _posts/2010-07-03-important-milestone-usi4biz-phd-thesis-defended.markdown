@@ -2,7 +2,7 @@
 layout: post
 title: "Important Milestone: Usi4Biz PhD Thesis Defended"
 date: 2010-07-03 17:46:00 +0200
-categories: uncategorized business process research user interface
+categories: business process research user interface
 ---
 
 An important milestone was achieved last month at IBM Forum Brussels. Kênia Sousa, who is now a doctor in Management Science, defended her PhD thesis on June 24th. Her thesis represents the consolidation of all research produced on the promising field of UI-Business alignment so far.

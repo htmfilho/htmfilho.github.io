@@ -14,7 +14,7 @@ back whenever you need a reading recommentation.<br><br>
 {% assign reading = site.data.books[0] %}
 <div class="row">
   <div class="col-xs-6 col-md-3">
-    <a target="_blank"  href="{{ reading.link }}" class="thumbnail"><img border="0" src="{{ reading.image }}" ></a><img src="{{ reading.another_image }}" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+    <a target="_blank"  href="{{ reading.link }}"><img border="0" src="{{ reading.image }}" ></a><img src="{{ reading.another_image }}" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   </div>
   <h3>{{ reading.title }} <small>by {{ reading.author }}</small></h3>
   <p>{{ reading.description }}</p>
@@ -25,7 +25,7 @@ back whenever you need a reading recommentation.<br><br>
 {% assign reviewed = site.data.books[1] %}
 <div class="row">
   <div class="col-xs-6 col-md-3">
-    <a target="_blank"  href="{{ reviewed.link }}" class="thumbnail"><img border="0" src="{{ reviewed.image }}" ></a><img src="{{ reviewed.another_image }}" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+    <a target="_blank"  href="{{ reviewed.link }}"><img border="0" src="{{ reviewed.image }}" ></a><img src="{{ reviewed.another_image }}" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   </div>
   <h3>{{ reviewed.title }} <small>by {{ reviewed.author }}</small></h3>
   <p>{{ reviewed.description }}</p>

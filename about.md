@@ -25,11 +25,11 @@ But research gave me three habilities that I'm pround of:
 1. **resilience** - I don't quit, I have no fear, I do not hesitate. My Ph.D was
    one of the hardest think I ever did. Everything else seems easy to deal with,
    which explains my permanent state of optimism.
-2. **love of reading and writing** - I've read and wrote so much that I feel
-   imense pleasure during my reading and writing sessions. By the way, I
-   strongly disagree with a statement in the agile manifesto that says:
-   "_Working software over comprehensive documentation_". You don't use any
-   library without documentation, do you?
+2. **reading and writing** - I've read and wrote so much that I feel imense
+   pleasure during my reading and writing sessions. By the way, I strongly
+   disagree with a statement in the agile manifesto that says: "_Working
+   software over comprehensive documentation_". You don't use any library
+   without documentation, do you?
 3. **problem solving oriented** - problems are what keep me motivated. When
    solutions come, and they always come, I fullfil my need of being usefull
    for others. Part of the solution for every problem is to contagiate our pears

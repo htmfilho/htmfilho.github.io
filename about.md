@@ -38,6 +38,6 @@ But research gave me three habilities that I'm pround of:
 At last, but not least, I love swimming! That's my sport, the one that I spent
 years practicing when I was a kid and changed my life recently, when I decided
 to resume it after 20 years, leaving behind a sedentary life weighing 103kg to a
-healthier and stronger one with 15kg less. So, next time you ask me "How
-are you doing?" and I tell you "Everything is great!" you will know I'm telling
-you the truth.
+healthier and stronger one with 15kg less. So, next time you ask me "_How
+are you doing?_" and I tell you "_Everything is great!_" you will know I'm
+telling you the truth, no matter the circunstancies.

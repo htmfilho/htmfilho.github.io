@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-My name is Hildeberto Mendonça and I'm currently managing a team of programmers
-on the development of core business applications for the [Université catholique
-de Louvain](http://www.uclouvain.be). I'm also busy with the architecture of the
+My name is Hildeberto Mendonça, father of two amazing kids and husband of a
+wonderful woman. I'm currently managing a team of programmers on the development
+of core business applications for the [Université catholique de
+Louvain](http://www.uclouvain.be). I'm also busy with the architecture of the
 systems, coaching the team in Java, Python, object-oriented and functional
-programming, as well as planning releases and shipping them.
+programming, as well as planning and shipping releases.
 
 I have accumulated experience on software architecture since 2010 with constant
 programming hands-on to master the principles and practices of software
@@ -28,8 +29,8 @@ But research gave me three abilities that I'm proud of:
 2. **reading and writing** - I've read and wrote so much that I feel immense
    pleasure during my reading and writing sessions. By the way, I strongly
    disagree with a statement in the agile manifesto that says: "_Working
-   software over comprehensive documentation_". You don't use any library
-   without documentation, do you?
+   software over comprehensive documentation_". You don't have any dependencies
+   in your project without documentation, do you?
 3. **problem solving oriented** - problems are what keep me motivated. When
    solutions come, and they always come, I fulfill my need of being useful
    for others. Part of the solution for every problem is to influence our peers

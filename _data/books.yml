@@ -1,6 +1,13 @@
+- title: Your Code as a Crime Scene
+  author: Adam Tornhill
+  description: It explains how to use forensic techniques to arrest defects, bottlenecks, and bad design in our programmes.
+  link: https://www.amazon.com/gp/product/1680500384/ref=as_li_tl?ie=UTF8&tag=c03ce-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1680500384&linkId=751044a1d3428473450283c75ebbad1e
+  image: //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1680500384&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=c03ce-20
+  another_image: //ir-na.amazon-adsystem.com/e/ir?t=c03ce-20&l=am2&o=1&a=1680500384
+
 - title: Programming Beyond Practices
   author: Gregory T. Brown
-  description: I've bought this one in an O'Reilly booth at FOSDEM'17. Quite thin but very valuable so far. The author explores the topics, which go from requirements discovery and rapid prototyping to business analysis and design for maintainability, describing real world situations.
+  description: Excellent book! Quite thin but valuable. The author explores the topics, which go from requirements discovery and rapid prototyping to business analysis and design for maintainability, describing real world situations. It is in the same category of The Phoenix Project and The Goal, but with more technical details and organized in short stories, instead of a long novel.
   link: https://www.amazon.com/gp/product/B01LYRCGA8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01LYRCGA8&linkCode=as2&tag=c03ce-20&linkId=4723ca13b811faedab0b1b51b1ce654c
   image: //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01LYRCGA8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=c03ce-20
   another_image: //ir-na.amazon-adsystem.com/e/ir?t=c03ce-20&l=am2&o=1&a=B01LYRCGA8

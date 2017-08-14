@@ -84,4 +84,4 @@ Wait a minute... he uses first and last names! So, let me test with mine:
 >> true
 {% endhighlight %}
 
-**Yeeeeeesssss! I’m prime-numered!!!**
+**Yeeeeeesssss! I’m prime-numbered!!!**

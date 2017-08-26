@@ -43,8 +43,21 @@ reading and would certainly recommend to you.
 {% endtablerow %}
 </table>
 
-### Other Books
+### Other Read Books
 
 {% for book in site.data.books offset:14 %}
 - <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}
 {% endfor %}
+
+### What I've Writen About Books
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains 'book' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

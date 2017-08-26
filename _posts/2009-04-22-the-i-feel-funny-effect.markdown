@@ -2,7 +2,7 @@
 layout: post
 title: "The “I Feel Funny!” Effect"
 date: 2009-04-22 12:28:00 +0200
-categories: culture database literature
+categories: culture database literature book
 ---
 
 Some time ago a little boy went to the dentist with his father to do a surgery in one of his teeth. The dentist gave him an extra dosage of medicine and the boy became dizzy. His father took a camera and filmed his child in that situation, doing and saying funny things. The video was <a href="http://www.youtube.com/watch?v=txqiwrbYGrs">published on YouTube</a> and it had a great audience. However, the video was polemic because it gave the impression the father was exploring a worse image of his son. Thousands of people produced content on the web about this episode, good and bad, mainly emphasizing the sentences said by the little boy, like: “Why is this happening to me?”, “Is this real life?”, “Is it going to be forever?” and the remarkable one: “I feel funny!”.

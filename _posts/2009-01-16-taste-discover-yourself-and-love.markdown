@@ -2,7 +2,7 @@
 layout: post
 title: "Taste, Discover Yourself and Love"
 date: 2009-01-16 07:54:00 +0200
-categories: literature
+categories: book 
 ---
 
 After years reading technical books and scientific papers I finally stopped to read a novel (non-fiction) during this last three weeks. It was a hard decision to tell you about this reading through this blog, first because it is a totally different subject that I never discussed about before. Second, and the shaming one, this is a book written by a woman for the women public :O Ok, ok… it sounds like a man reading (and enjoying) the <a href="http://www.marieclaire.com/">Marie Claire</a> magazine, but, you know? It’s very useful to learn a little bit more about them in order to better take care of my own.

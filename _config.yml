@@ -25,7 +25,8 @@ url: "http://www.hildeberto.com" # the base hostname & protocol for your site, e
 permalink: /:year/:month/:title.html
 
 twitter_username: htmfilho
-github_username:  htmfilho
+github_username: htmfilho
+google_analytics: UA-2938015-2
 
 # Build settings
 markdown: kramdown

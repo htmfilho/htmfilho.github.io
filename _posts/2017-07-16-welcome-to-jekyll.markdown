@@ -19,14 +19,15 @@ expensive for a slow website. After years annoyed with performance, I've decided
 to migrate to Jekyll, a static website generator written in Ruby that transforms
 plain markdown content into modern web content.
 
-While the migration from Blogger to WordPress was quite straightforward, but the
+While the migration from Blogger to WordPress was quite straightforward, the
 migration to Jekyll was definitely a challenge. You are looking at my 3rd and
 last attempt to do it. I've succeed because I've decided to have fun, writing it
 myself in [Python](https://www.python.org). The idea was to do it without having
 any access to the WordPress database, neither using any exported data or
 access the server file system. I made a simple web crawler, named
 [Jekyllfly](https://github.com/htmfilho/jekyllfly), that navigates through the
-blog, downloads the content and transform it to a format recognized by Jekyll.
+blog, downloads the content and transforms it into a format recognized by
+Jekyll.
 
 ## What you have to know
 
@@ -35,11 +36,11 @@ WordPress blog publicly available on the web. You don't need to have access
 to WordPress' database or any exported files, but you do need a way to navigate
 chronologically through posts using links like "Previous" or "Next". You also
 need some knowledge of Git and a GitHub account to be able to version your code
-and reuse existing code. At last, but not least, you should be able prepare a
+and reuse existing code. Last, but not least, you should be able prepare a
 Python runtime environment and run Python scripts with it.
 
 Python is an extremely useful programming language. The combination of a
-readable and expressive syntax with a rich collection of libraries make it one
+readable and expressive syntax with a rich collection of libraries makes it one
 of the most powerful languages available. It can also be severely criticized but
 I have been working with it since 2015, achieving amazing results so far. That's
 a "Get Your Shit Done"® kind of language.

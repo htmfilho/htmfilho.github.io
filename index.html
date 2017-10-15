@@ -2,30 +2,37 @@
 layout: default
 ---
 
-<div class="home">
-  <header class="post-header">
-    <span class="post-meta">{{ site.posts[0].date | date: "%b %-d, %Y" }}</span>
-    <a href="{{ site.posts[0].url | prepend: site.baseurl }}"><h1 class="post-title">{{site.posts[0].title}}</h1></a>
-  </header>
+<div class="row">
+  <div class="col-md-8">
+    <div class="home">
+      <header class="post-header">
+        <span class="post-meta">{{ site.posts[0].date | date: "%b %-d, %Y" }}</span>
+        <a href="{{ site.posts[0].url | prepend: site.baseurl }}"><h1 class="post-title">{{site.posts[0].title}}</h1></a>
+      </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{site.posts[0].excerpt}}
-    <a class="post-link" href="{{ site.posts[0].url | prepend: site.baseurl }}">Continue reading...</a>
+      <div class="post-content" itemprop="articleBody">
+        {{site.posts[0].excerpt}}
+        <a class="post-link" href="{{ site.posts[0].url | prepend: site.baseurl }}">Continue reading...</a>
+      </div>
+
+      <hr style="border-width: 5px;" noshade>
+      <h3 style="text-align: right;">Recent Posts</h3>
+      <ul class="post-list">
+        {% for post in site.posts offset:1 limit:5 %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+    </div>
   </div>
-
-  <hr style="border-width: 5px;" noshade>
-  <h3 style="text-align: right;">Recent Posts</h3>
-  <ul class="post-list">
-    {% for post in site.posts offset:1 limit:5 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
-  <hr style="border-width: 5px;" noshade>
+  <div class="col-md-4">
+    <a class="twitter-timeline" data-height="800" href="https://twitter.com/htmfilho?ref_src=twsrc%5Etfw">Tweets by htmfilho</a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 </div>

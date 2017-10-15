@@ -1,34 +1,54 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <span class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</span>
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
+<div class="row">
+  <div class="col-md-8">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <span class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+          </time>
+          {% if page.author %}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+          {% endif %}</span>
+          <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+      <div class="post-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
+
+      <div class="PageNavigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}" title="{{page.previous.title}}">&laquo; Previous</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}" title="{{page.next.title}}">Next &raquo;</a>
+      {% endif %}
+    </div>
+    </article>
   </div>
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-
-  <div class="PageNavigation">
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}" title="{{page.previous.title}}">&laquo; Previous</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}" title="{{page.next.title}}">Next &raquo;</a>
-  {% endif %}
+  <div class="col-md-4">
+    <h2>Recent Posts</h2>
+    <hr style="border-width: 5px;" noshade>
+    <ul class="post-list">
+      {% for post in site.posts limit:15 %}
+        {% if post.title != page.title %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </div>
-</article>

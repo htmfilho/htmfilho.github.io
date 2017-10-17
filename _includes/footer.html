@@ -1,32 +1,16 @@
 <footer class="site-footer">
-  <div class="wrapper">
+  <div class="container">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="htmfilho"><a class="LI-simple-link" href='https://be.linkedin.com/in/htmfilho?trk=profile-badge'>Hildeberto Mendonça</a></div>
       </div>
 
       <div class="footer-col footer-col-2">
-
+        <p>{{ site.description | escape }}</p>
       </div>
 
       <div class="footer-col footer-col-3">
-        <ul class="contact-list">
-          <li>
-            <span class="skype-button rounded" data-contact-id="live:me_7861" data-text="Chat With Me"></span>
-            <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
-            {% if site.author %}
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              {% if site.github_username %}
-                {% include icon-github.html username=site.github_username %}
-              {% endif %}
-              &nbsp;
-              {% if site.twitter_username %}
-                {% include icon-twitter.html username=site.twitter_username %}
-              {% endif %}
-            {% endif %}
-          </li>
-        </ul>
-        <p>{{ site.description | escape }}</p>
+
       </div>
     </div>
   </div>

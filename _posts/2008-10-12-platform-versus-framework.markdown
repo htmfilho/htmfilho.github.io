@@ -7,8 +7,6 @@ categories: integration java jvm open source operating system research software 
 
 In the last 30 days I had the pleasure to work in the context of the <a href="http://www.openinterface.org/">OpenInterface</a> project, writing a document that delineates how the platform will continue after the project period. They thought I could help because of my long experience with the open source community. Actually, it was a great challenging experience with hard and pleasant moments. The most exciting one was in Porto, Portugal, on the border of the river, when I found inspiration to write some killer sentences.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/DSC00527.jpg">![DSC00527-300x225.jpg](/images/posts/DSC00527-300x225.jpg)</a>
-
 During the elaboration of this document, many people from the project gave contributions, comments, critics, which was essential to get a better result at the end. But one of them called my attention. One of the contributors, asked to change the term <span style="font-style: italic;">platform</span> to <span style="font-style: italic;">framework</span>, which was funny because the name <span style="font-style: italic;">platform</span> is spread through many other documents and on the website. So, the person had some fundamentals to propose this change. What are they? Then I decided to make a short research about the difference between both concepts and the best place to start is, of course, the dictionary.
 
 The word <span style="font-style: italic;">platform</span> has many meanings, including the computer science one. In the Cambridge English Dictionary:

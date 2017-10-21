@@ -24,27 +24,27 @@ developed in the last 18 months by three different teams.
 
 However, those apps have tripled the OSIS' codebase, making it larger than what
 was originally planned. It isn't so serious in the case of a [Python] project
-because there is not such things like compilation, packaging or startup
-time. But a large codebase is harder to maintain and, when developed by multiple
+because there is not such things like compilation, packaging or startup time.
+But a large codebase is harder to maintain and, when developed by multiple
 teams, may cause several workflow issues.
 
 To address this problem, we picked one of the apps, externalized it in a
-different repository and added it back to OSIS as a [Git submodule][git-submodule].
-Some of you may argue that [Git subtree][git-subtree] would be a better option
-compared to Git submodule because of its transparency to other developers, but
-it is so much more complex to configure, push and pull with the remote
-repository. Actually, we have been working with submodule for a while and we had
-no major issues so far.
+different repository and added it back to OSIS as a
+[Git submodule][git-submodule]. Some of you may argue that
+[Git subtree][git-subtree] would be a better option compared to Git submodule
+because of its transparency to other developers, but it is so much more complex
+to configure, push and pull with the remote repository. Actually, we have been
+working with submodule for a while and we had no major issues so far.
 
 ![GIT submodule](/images/posts/github-repo-submodule.png)
 
-Others may also argue that its time for microservices.
-I don't see it as an advantage just yet because we may reduce the codebase but
-we would, at the same time, complexify the architecture with an additional web
-service layer, additional secury measures and more configurations. We don't even
-have the excuse of a performance issue, so the added value is obviously not
-there yet. But when the time comes, what we are doing now will certainly
-simplify the transition to microservices.
+Others may also argue that it's time for microservices. Well, I don't see it as
+an advantage just yet because we may reduce the codebase but we would, at the
+same time, complexify the architecture with an additional web service layer,
+additional secury measures and more configurations. We don't even have the
+excuse of a performance issue, so the added value is obviously not there yet.
+But when the time comes, what we are doing now will certainly simplify the
+transition to microservices.
 
 ## Moving the Internship App to a New Repository
 

@@ -60,5 +60,3 @@ public class UserAccountBsn {
 The @Resource annotation receives the JNDI name of the JavaMail session and injects an instance of the session in the variable <i>mailSession</i>. This variable is used within the <i>sendMessage</i> method to create a new <i>MimeMessage</i>. The content of the message is built and finally sent to the recipient by the method <i>Transport.send</i>. The method receives as parameter an entity class representing an user registered on the application. It is so simple, isn’t it? 😉
 
 Using this feature, we avoid any additional implementation to add those parameters hardcoded or parameterized, saving a lot of time, simplifying the maintenance of the applications, and reusing existing resources naturally shared by the container.
-
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/02/dilbert-email.gif" style="margin-left: 1em; margin-right: 1em;">![dilbert-email-300x107.gif](/images/posts/dilbert-email-300x107.gif)</a></div>

@@ -18,3 +18,7 @@ In my judgement, it isn't the developer's fault because the code was behaving as
 expected and passing its tests. So, I didn't ask him to fix the documentation
 because it means an additional overhead to the code reviewing process for
 something that doesn't cause compilation neither runtime errors.
+
+
+
+![The power of the written word at GitHub](/images/posts/code_documentation_github.png)

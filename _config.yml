@@ -28,6 +28,8 @@ excerpt_separator: "<!-- more -->"
 twitter_username: htmfilho
 github_username: htmfilho
 google_analytics: UA-2938015-2
+disqus:
+  shortname: hildeberto
 
 # Build settings
 markdown: kramdown
@@ -47,10 +49,6 @@ plugins:
 #   - vendor/ruby/
 
 exclude: [Gemfile,
-          Gemfile.lock,
-          wp_importer/]
+          Gemfile.lock]
 
 port: 4001
-
-disqus:
-  shortname: hildeberto

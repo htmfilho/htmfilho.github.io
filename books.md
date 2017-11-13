@@ -4,12 +4,14 @@ title: Books
 permalink: /books/
 ---
 
+![Family Reading](/images/pages/family-reading.jpg)
+
 Books are among my greatest passions. I buy more books than I can possibly read.
 I read books in a daily basis, but I know I will never catch up because I can't
 help buying more and more. Here I share with you my reading experience. Come
 back whenever you need a reading recommentation.<br><br>
 
-## What I'm Reading
+## [What I'm Reading](#what-im-reading)
 
 {% assign reading = site.data.books[0] %}
 <div class="row">
@@ -20,7 +22,7 @@ back whenever you need a reading recommentation.<br><br>
   <p>{{ reading.description }}</p>
 </div><br>
 
-## Latest Review
+## [Latest Review](#latest-review)
 
 {% assign reviewed = site.data.books[1] %}
 <div class="row">
@@ -31,7 +33,7 @@ back whenever you need a reading recommentation.<br><br>
   <p>{{ reviewed.description }}</p>
 </div><br>
 
-## Bookshelf
+## [Bookshelf](#bookshelf)
 
 My bookshelf is organized chronologically, from the most recently read to the
 oldest one. I try to compile here my favority books, the ones I've enjoyed

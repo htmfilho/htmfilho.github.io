@@ -42,3 +42,26 @@ to resume it after 20 years, leaving behind a sedentary life weighing 103kg to a
 healthier and stronger one with 15kg less. So, next time you ask me "_How
 are you doing?_" and I tell you "_Everything is great!_" you will know I'm
 telling you the truth, no matter the circumstances.
+
+## My Permanent Goals
+
+Inspired by the book [Deep Work](/books), here are my permanent goals:
+
+### Personal Goals
+
+1. Keep family in harmony by taking actions to improve union, resilience and
+   health.
+2. Educate kids intellectually, physically, economically and with humanitarian
+   values.
+3. Run an organized, simplified, and cost-efficient household.
+
+### Professional Goals
+
+1. Craft well-written and organized programs that serves their purpose for a
+   long time.
+2. Make sure the organization has enough information about my work so they don't
+   become too much dependent on me.
+3. Be well informed and educated to make the best technical decisions for every
+   business context.
+4. Be kind, professional and positive with everybody, but also be honest when
+   the situation requires.

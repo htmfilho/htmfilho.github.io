@@ -13,7 +13,7 @@ cope with the disease. The child out of his usual environment can be
 entertained in many ways: laughter, storytelling, play, clowning, singing, 
 music, puppetry and painting.
 
-<iframe width="750" height="500" src="https://www.youtube.com/embed/X5q1b2UmPSw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/X5q1b2UmPSw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 ## Running for ELA
 

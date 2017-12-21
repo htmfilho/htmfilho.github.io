@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-![Family](/images/pages/family.jpg)
-
 My name is Hildeberto Mendonça, father of two amazing kids and husband of a
 wonderful woman. I'm currently managing a team of programmers on the development
 of core business applications for the [Université catholique de

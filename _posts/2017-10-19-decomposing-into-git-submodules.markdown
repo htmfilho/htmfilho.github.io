@@ -22,6 +22,8 @@ instead of other heterogenous choices. We kindly call them satellite apps in the
 OSIS constellation. The strategy seems to work because three apps were already
 developed in the last 18 months by three different teams.
 
+<!-- more -->
+
 However, those apps have tripled the OSIS' codebase, making it larger than what
 was originally planned. It isn't so serious in the case of a [Python] project
 because there is not such things like compilation, packaging or startup time.
@@ -157,7 +159,7 @@ their respective repositories. Therefore, developing `osis-internship` consists
 of pulling, branching, committing, pushing and everything else in the submodule
 `internship`.
 
-[Django]: https://www.djangoproject.org
+[Django]: https://www.djangoproject.com
 [git-submodule]: https://git-scm.com/docs/git-submodule
 [git-subtree]: https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging
 [OSIS]: https://github.com/uclouvain/osis

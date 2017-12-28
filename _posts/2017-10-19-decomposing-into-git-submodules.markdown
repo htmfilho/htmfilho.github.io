@@ -7,7 +7,7 @@ categories: git
 
 I recognize good developers by their capacity of cleaning existing code and
 adding a minimal amount of code for new features. Their pull requests are
-compact, favoring reusability and elegancy. But even with their effort, some
+compact, favoring reusability and elegance. But even with their effort, some
 codebases are simply large because the implemented business is complex. This
 is the case of [OSIS], an open source software designed to manage the core
 business of the [Université catholique de Louvain][UCL].
@@ -26,16 +26,17 @@ developed in the last 18 months by three different teams.
 
 However, those apps have tripled the OSIS' codebase, making it larger than what
 was originally planned. It isn't so serious in the case of a [Python] project
-because there is not such things like compilation, packaging or startup time.
-But a large codebase is harder to maintain and, when developed by multiple
-teams, may cause several workflow issues.
+because there are no such things as compilation, packaging or startup time. But
+a large codebase is harder to maintain and, when developed by multiple teams,
+may cause several workflow issues.
 
 To address this problem, we picked one of the apps, externalized it in a
 different repository and added it back to OSIS as a
 [Git submodule][git-submodule]. Some of you may argue that
 [Git subtree][git-subtree] would be a better option compared to Git submodule
 because of its transparency to other developers, but it is so much more complex
-to configure, push and pull with the remote repository. Actually, we have been
+to configure, push and pull with the remote repository than to perform a single
+command like `git submodule update` whenever needed. Actually, we have been
 working with submodule for a while and we had no major issues so far.
 
 ![GIT submodule](/images/posts/github-repo-submodule.png)
@@ -43,7 +44,7 @@ working with submodule for a while and we had no major issues so far.
 Others may also argue that it's time for microservices. Well, I don't see it as
 an advantage just yet because we may reduce the codebase but we would, at the
 same time, complexify the architecture with an additional web service layer,
-additional secury measures and more configurations. We don't even have the
+additional security measures and more configurations. We don't even have the
 excuse of a performance issue, so the added value is obviously not there yet.
 But when the time comes, what we are doing now will certainly simplify the
 transition to microservices.
@@ -105,7 +106,7 @@ Internship app.
 
 ## Creating the Submodule in the OSIS Repository
 
-Moving back to osis, I remove the folder `internship` and commit the change:
+Moving back to `osis`, I removed the folder `internship` and commit the change:
 
     $ cd ../osis
     $ git rm -rf internship/
@@ -148,9 +149,9 @@ command I need to remember is:
     $ git submodule update
 
 which will be useful when somebody else updates the reference to the `internship`
-repository, thus the lastest modifications are not in loco yet.
+repository, thus the lastest modifications are not _in loco_ yet.
 
-Using `submodule` we have a repository inside of another one. So, when we are at
+Using `submodule` we have a repository inside another one. So, when we are at
 the `osis` repository and type `git status` we see the active branch is `dev`.
 But when we enter in the submodule `internship` and type `git status`, we see
 the active branch is `master`. These repositories have different remote origins
@@ -159,7 +160,16 @@ their respective repositories. Therefore, developing `osis-internship` consists
 of pulling, branching, committing, pushing and everything else in the submodule
 `internship`.
 
-[Django]: https://www.djangoproject.com
+I would add, in conclusion, that another important motivation to move an
+application to another repository is to have an independent lifecycle from the
+rest of the system. This is particulary important in applications developed by
+different teams under distinct context and subordination. Imagine how difficult
+it is to coordinate all parties to have a synchronized release under short
+iteration cycles. Using submodules, the application can evolve according to the
+pace of its team and be released without interfearing on other projects'
+deadlines.
+
+[Django]: https://www.djangoproject.org
 [git-submodule]: https://git-scm.com/docs/git-submodule
 [git-subtree]: https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging
 [OSIS]: https://github.com/uclouvain/osis

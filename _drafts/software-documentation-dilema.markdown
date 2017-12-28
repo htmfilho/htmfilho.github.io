@@ -18,3 +18,8 @@ In my judgement, it isn't the developer's fault because the code was behaving as
 expected and passing its tests. So, I didn't ask him to fix the documentation
 because it means an additional overhead to the code reviewing process for
 something that doesn't cause compilation neither runtime errors.
+
+Tom Preston-Werner, the co-founder of Github, suggests to start the project by
+[writing the readme file before writing the code](readme-first).
+
+[readme-first]: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html

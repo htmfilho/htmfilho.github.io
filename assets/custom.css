@@ -30,6 +30,7 @@ blockquote {
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-top: 3px;
   float: left;
   color: #14a3e5; }
 
@@ -267,3 +268,11 @@ blockquote {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.codewars-panel {
+  background-color: black;
+  padding: 10px;
+  padding-bottom: 13px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}

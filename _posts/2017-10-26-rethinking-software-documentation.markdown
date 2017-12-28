@@ -3,6 +3,7 @@ layout: post
 title: "Rethinking Software Documentation"
 date: 2017-10-21 12:00:00 +0200
 categories: asciidoc
+excerpt_separator: <!--more-->
 ---
 
 Recently, I was reviewing a [pull request][pull-request] when I caught an
@@ -13,35 +14,56 @@ previous return logic.
 
 ![Flagrant of outdated code documentation](/images/posts/code_documentation.png)
 
-<!-- more -->
+<!--more-->
 
-In my judgment, it isn't the developer's fault because the code was behaving as
-expected and passing its tests. So, I didn't ask him to fix the documentation
-because it means an additional overhead to the code reviewing process for
-something that doesn't cause compilation neither runtime errors. In addition,
-the names used to identify functions and variables were sufficiently clear to
-understand the code. No documentation was actually needed.
+Is it the developer's fault? Can (s)he be held accountable for this omission
+even when the code runs as expected and passes all tests? I understood that the
+names used to identify functions and variables were sufficiently clear to
+understand the code. No documentation was actually needed. So, I didn't ask the
+programmer to fix the documentation. It would mean an additional overhead to the
+code reviewing process for something that doesn't cause compilation neither
+runtime errors.
 
-On the other hand, there are some cases where the business is difficult to
-understand and the code needs to be well documented. As an example, we have
-[an algorithm][documenting-complexity] that assigns students to internships
-based on their individual constraints. The documentation is necessary because
-the code is not trivial.
+On the other hand, there are some cases where it's difficult to represent the
+business into code. As an example, we have [an algorithm][documenting-complexity]
+that assigns students to internships based on their individual constraints. The
+documentation is necessary because the code is not trivial.
+
+Code documentation is sometimes useful, but it comes too late, when the code is
+already written. There is another kind of documentation that comes first: the
+specification. This term makes people scary these days because it is associated
+with old fashion software processes, but it is just another name for use cases,
+user stories, and other fancy synonyms created recently. The point is: The
+documentation written earlier is a guidance to write code that effectively
+serves the real intent, minimizing the frustration of developing something that
+isn't useful for the users.
 
 ## Misunderstanding Agility
 
-Leaving the code aside, there is another kind of documentation that is in frank
-decay, mainly because of the agile manifesto stating:
+Earlier documentation doesn't have to be extensive. Done iteratively, it may
+initially cover just enough content to enable a minimal viable product and then
+progressively cover more and more features as the project advances. That's what
+is stated in the agile manifesto.
 
 > "Working software over comprehensive documentation."
 
-This is a totally valid statement, but people interprets the part of
-"comprehensive documentation" as "no documentation at all". Comprehensive
-documentation is something I learned in early 2000s because of the great success
-of RUP (Rational Unified Process) and CMM (Capability Maturity Model). At that
-time, Agile and REST were disruptive practices that ended up dominating the
-market years later. But we had no choice but to produce tons of documents
-describing something that was changing all the time: software.
+This statement is often misunderstood. Recently talking to some consultants, I
+realized they interpreted "comprehensive documentation" as a problem to be
+solved with "no documentation at all". The disseminated approach is to be
+limited by a post-its or index cards in an informal language description. Once
+they are implemented they can be completely discarded, no strings attached. The
+documentation is transient and summarized in a few sentences. If not registered
+in an issue tracker, they are lost forever.
+
+That's sad. Discarding real useful work disturbs me. Unless the users changed
+their minds about the requirements or a major architectural flaw was discovered,
+or something can be substantially improved, there is no reason to throw
+something away. This is waste and waste is avoided in every industry. People's
+work must be constructive, the results must be useful and valuable. But how can
+this principle be applied on software documentation?
+
+Actually, requirements have been often discarded since the waterfall age. It
+wasn't discarded in the sense of throwing away, but in the sense of abandonment.
 
 Nowadays, we rarely document software as before, and that's a good thing. The
 problem with that kind of documentation is the lack of readers. If a document

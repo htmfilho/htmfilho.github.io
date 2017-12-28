@@ -16,7 +16,7 @@ OSIS is a monolithic [Django] project, composed of several applications.
 These applications can have their own resources or share resources with other
 applications. They can even be activated or deactivated at runtime, which means
 the entire codebase is not necessarily running in production. This architecture
-is so flexible that the IT department of the university decided to estimulate
+is so flexible that the IT department of the university decided to stimulate
 other departments, in need of a business application, to develop apps for OSIS,
 instead of other heterogenous choices. We kindly call them satellite apps in the
 OSIS constellation. The strategy seems to work because three apps were already
@@ -41,13 +41,13 @@ working with submodule for a while and we had no major issues so far.
 
 ![GIT submodule](/images/posts/github-repo-submodule.png)
 
-Others may also argue that it's time for microservices. Well, I don't see it as
+Others may also argue that it's time for micro services. Well, I don't see it as
 an advantage just yet because we may reduce the codebase but we would, at the
 same time, complexify the architecture with an additional web service layer,
 additional security measures and more configurations. We don't even have the
 excuse of a performance issue, so the added value is obviously not there yet.
 But when the time comes, what we are doing now will certainly simplify the
-transition to microservices.
+transition to micro services.
 
 ## Moving the Internship App to a New Repository
 
@@ -91,7 +91,7 @@ folder `internship`:
 This is an important step, so I commit these changes. In this project, we put
 the number of the issue we are working on in the commit message:
 
-    $ git commit -m "INTERNSHIP-1 Removed unecessary resources and moved the " \
+    $ git commit -m "INTERNSHIP-1 Removed unnecessary resources and moved the " \
                     "content of the folder 'internship' to the root."
 
 The last steps for the repository `osis-internship` is to create a new
@@ -143,13 +143,13 @@ Then I setup the local submodule:
     $ git submodule init
     $ git submodule update
 
-This setup is necessary everytime the repository is cloned. After that, the only
+This setup is necessary every time the repository is cloned. After that, the only
 command I need to remember is:
 
     $ git submodule update
 
 which will be useful when somebody else updates the reference to the `internship`
-repository, thus the lastest modifications are not _in loco_ yet.
+repository, thus the latest modifications are not _in loco_ yet.
 
 Using `submodule` we have a repository inside another one. So, when we are at
 the `osis` repository and type `git status` we see the active branch is `dev`.

@@ -7,9 +7,9 @@ excerpt_separator: <!--more-->
 ---
 
 Recently, I was reviewing a [pull request][pull-request] when I caught an
-inconsistency between the code and the documentation. The image below shows a
+inconsistency between a code snippet and its documentation. The image below shows a
 new return case added to the function `is_program_manager`, but the developer
-didn't not update the documentation accordingly. So, the text still explains the
+didn't update the documentation accordingly. So, the text still explains the
 previous return logic.
 
 ![Flagrant of outdated code documentation](/images/posts/code_documentation.png)
@@ -17,12 +17,12 @@ previous return logic.
 <!--more-->
 
 Is it the developer's fault? Can (s)he be held accountable for this omission
-even when the code runs as expected and passes all tests? I understood that the
-names used to identify functions and variables were sufficiently clear to
-understand the code. No documentation was actually needed. So, I didn't ask the
-programmer to fix the documentation. It would mean an additional overhead to the
-code reviewing process for something that doesn't cause compilation neither
-runtime errors.
+even when the code runs as expected and passes all tests? In the role of code
+reviewer I understood that the names used to identify functions and variables
+were sufficiently clear to make the code readable. No documentation was actually
+needed. So, I didn't ask the programmer to fix the documentation. It would mean
+an additional overhead to the code reviewing process for something that doesn't
+cause compilation neither runtime errors.
 
 On the other hand, there are some cases where it's difficult to represent the
 business into code. As an example, we have [an algorithm][documenting-complexity]
@@ -40,74 +40,79 @@ isn't useful for the users.
 
 ## Misunderstanding Agility
 
-Earlier documentation doesn't have to be extensive. Done iteratively, it may
-initially cover just enough content to enable a minimal viable product and then
-progressively cover more and more features as the project advances. That's what
-is stated in the agile manifesto.
+The agile manifesto states:
 
 > "Working software over comprehensive documentation."
 
-This statement is often misunderstood. Recently talking to some consultants, I
-realized they interpreted "comprehensive documentation" as a problem to be
-solved with "no documentation at all". The disseminated approach is to be
-limited by a post-its or index cards in an informal language description. Once
-they are implemented they can be completely discarded, no strings attached. The
-documentation is transient and summarized in a few sentences. If not registered
-in an issue tracker, they are lost forever.
+As every philosophical text, this manifesto is also subject of antagonic
+interpretations. In my understanding, early documentation doesn't have to be
+comprehensive. Done iteratively, it may initially have just enough content
+to enable a minimal viable product and then progressively covering more and more
+features as the project advances.
+
+However, in recent talks to some consultants, I realized they interpreted
+"comprehensive documentation" as a problem to be solved with "no documentation
+at all". The disseminated approach is to be limited by post-its or index cards
+in an informal language description. Once they are implemented they can be
+completely discarded, no strings attached. The documentation is transient and
+summarized in a few sentences. If not registered in an issue tracker, they are
+lost forever.
 
 That's sad. Discarding real useful work disturbs me. Unless the users changed
 their minds about the requirements or a major architectural flaw was discovered,
 or something can be substantially improved, there is no reason to throw
-something away. This is waste and waste is avoided in every industry. People's
-work must be constructive, the results must be useful and valuable. But how can
-this principle be applied on software documentation?
+something away. This is waste and every industry avoids it. People's work must
+be constructive, the results must be useful and valuable. But how can this
+principle be applied on software development?
 
 Actually, requirements have been often discarded since the waterfall age. It
 wasn't discarded in the sense of throwing away, but in the sense of abandonment.
-
-Nowadays, we rarely document software as before, and that's a good thing. The
-problem with that kind of documentation is the lack of readers. If a document
-targets only reviewers and developers it is hardly updated. As the software
-evolves, only verbal, visual (mock-ups, some diagrams, templates, etc.) and
-short textual (emails, issue trackers) communication prevails. The rest remains
-forgotten into "dusty" folders, sometimes used as a notepad to draw more useful
-artifacts. But we shouldn't be ignoring documentation all together.
-
-We should think about a kind of documentation that people actually read, enjoy,
-learn and share. Where errors and obsolescence are considered as bugs to be
-urgently fixed, with the same pressure as bugs in software. In some cases,
-poor documentation might be the primary reason of a software failure. Classical
-examples are programming languages, frameworks and platforms (software to build
-software) where the more documentation is available the higher is the
-probability of adoption. Citing a personal example, I recently recommended the
-rejection of an ERP system called [Odoo] simply because of its lack of updated
-documentation for plugin developers. We would need a consultant all the time to
-address all our questions, which is not practical neither cheap. We ended up
-using [Django] because of its extensive documentation, which was interpreted as
-a low risk adoption.
-
-![Car owner manual](/images/posts/car-owner-manual.jpg)
+Architecture documents, use case specifications, project guidelines, deployment
+models, they were created but seldom updated. It was very expensive to keep
+documentation and implementation synchronized. Aparently, this problem hasn't
+be solved yet by any agile methodology. There is indeed an opportunity of
+rethinking - not reinventing - how documentation should be produced to achieve
+durability and real added value.
 
 ## The User Manual
 
-My answer to an effective documentation is to write it in the format of a **user
+The problem with documentation in general is the lack of readers. With a boring
+writing style and only developers as audience, a document will hardly be updated
+as frequent as needed. As the software evolves, only verbal, visual (mock-ups,
+diagrams, templates, etc.) and short textual communication (emails, issue
+trackers) prevail. The rest remains forgotten into "dusty" folders.
+
+We should rethink documentation to become something that people actually read,
+enjoy, learn and share. Where errors and obsolescence are considered as serious
+as bugs in software. It happens that documentation might be the primary reason
+of software success. Classical examples are programming languages, frameworks
+and platforms (software to build software) where the more documentation is
+available the higher is the probability of adoption. Not so long ago, we decided
+to adopt Django for business applications because of its extensive
+documentation, which helps to reduce the learning curve. On the other hand, my
+great passion for Clojure has been faded out because of too many gaps in its
+documentation. Taking this for our businesses, a good documentation might be a
+key success factor.
+
+![Car owner manual](/images/posts/car-owner-manual.jpg)
+
+**My answer to an effective documentation is to write it in the format of a user
 manual**. As the sense of usability grows with good UI practices supported by
 modern frameworks, the idea of writing a user manual seems to be absurd, until
-the user asks for one or simply abandon the app because it doesn't have one.
-Take your car as an example. You are so used to drive a car that when you took
-the current one for the first time, it just happened naturally. You didn't even
-touch the owner's manual. But when the engine's red indicator lights up, guess
-what comes first in your mind? Yes, the manual. You want to know the
-implications of continuing driving with that light on and how much time you have
-before sending the car to maintenance.
+the user asks for one. Take your car as an example. You are so used to drive
+cars that when you took your current one for the first time, it just happened
+naturally. You didn't even touch the owner's manual. But when the engine's red
+indicator lights up, guess what comes first in your mind? Yes, that heavy manual.
+You want to know the implications of continuing driving with that light on and
+how much time you have before sending the car to maintenance.
 
 You may say cars are different, old fashion stuff, that it isn't the same in
 software. Well, not really. What your browser, your favorite text editor, Gmail,
 Facebook and Google have in common ? They all have a help system, which is just
 another name for user manual. You never noticed it until Facebook changed its
 privacy rules or you wanted to [delete searches & other activity][google-help]
-from your Google account. The fact that you are not doing the same in your
-application may explain why your users are not so happy using it.
+from your Google account. The fact that your users aren't doing the same in your
+applications may explain why they aren't so happy using it.
 
 ![Gmail and Facebook help systems](/images/posts/help-gmail-facebook.png)
 
@@ -132,40 +137,6 @@ are the main reasons why:
   When all tests pass then the user manual is also correct.
 
 ## Documentation as Code
-
-All details about installing Asciidoctor on your system can be found on
-[Asciidoctor's website][asciidoctor]. For practical reasons, we consider here
-the installation on [Ubuntu] only:
-
-    $ sudo apt-get install asciidoctor asciidoctor-pdf
-
-{% highlight python %}
-import subprocess
-
-def generate_html():
-    subprocess.check_output(
-           ['asciidoctor', "user-manual.adoc"])
-
-def generate_pdf():
-    subprocess.check_output(
-           ['asciidoctor-pdf',
-            '-a', 'pdf-stylesdir=resources/themes',
-            '-a', 'pdf-styles=osis', "{}{}".format(path, "user-manual.adoc")])
-
-def build():
-    generate_html()
-    generate_pdf()
-
-if __name__ == '__main__':
-    build()
-{% endhighlight %}
-
-A more feature-complete version of this code is available at the repository
-[uclouvain/osis-internship][doc-build].
-
-Execute it:
-
-    $ python3 build.py
 
 [asciidoctor]: http://asciidoctor.org/docs/install-toolchain/
 [Django]: https://www.djangoproject.com

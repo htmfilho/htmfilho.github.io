@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rethinking Software Documentation"
-date: 2017-10-21 12:00:00 +0200
+date: 2018-01-01 12:00:00 +0200
 categories: asciidoc
 excerpt_separator: <!--more-->
 ---

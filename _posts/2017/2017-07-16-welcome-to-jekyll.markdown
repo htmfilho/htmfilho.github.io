@@ -19,6 +19,8 @@ expensive for a slow website. After years annoyed with performance, I've decided
 to migrate to Jekyll, a static website generator written in Ruby that transforms
 plain markdown content into modern web content.
 
+<!-- more -->
+
 While the migration from Blogger to WordPress was quite straightforward, the
 migration to Jekyll was definitely a challenge. You are looking at my 3rd and
 last attempt to do it. I've succeed because I've decided to have fun, writing it

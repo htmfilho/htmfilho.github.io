@@ -189,7 +189,7 @@ the user manual the same way code is maintained.
 [Clojure]: https://clojure.org
 [Django]: https://www.djangoproject.com
 [doc-build]: https://github.com/uclouvain/osis-internship/blob/master/docs/build.py
-[documenting-complexity]: https://github.com/uclouvain/osis/blob/13f0ec5d7002aa8c33e922a121011ea51b066f59/internship/utils/student_assignment/solver.py#L89
+[documenting-complexity]: https://github.com/uclouvain/osis-internship/blob/master/utils/student_assignment/solver.py#L87
 [GitHub]: https://github.com
 [google-help]: https://support.google.com/websearch/answer/465?hl=en-BE&ref_topic=3378866
 [osis-internship]: https://github.com/uclouvain/osis-internship

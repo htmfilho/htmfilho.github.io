@@ -34,27 +34,6 @@ blockquote {
   float: left;
   color: #14a3e5; }
 
-#carbonads{
-  position: static;
-  box-sizing: border-box;
-  padding: 1.5rem;
-  max-width:400px;  
-  line-height:1.4;
-  text-align:left !important;
-  margin: 0;
-  background-color:rgba(0,0,0,0.1)
-}
-
-#carbonads .carbon-img {
-  float: left;
-  width: 14.5rem;
-}
-
-#carbonads .carbon-poweredby {
-  margin-top: 1rem;
-  display: block;
-}
-
 .post-header {
   margin-bottom: 30px; }
 

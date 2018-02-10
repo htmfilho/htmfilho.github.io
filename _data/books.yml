@@ -1,14 +1,6 @@
-- title: Functional thinking
-  author: Neal Ford
-  description: As a backend engineer, it is important for me to deal with
-    concurrency, paralelism, and the usage of resources. These subjects are so
-    complex that they forced functional programming to lift from its grave.
-    Shifting from object-oriented to functional is a challenge for a mind that
-    has been strugling with objects, design patterns and good practices since
-    2002. Dispite having some practice programming in Clojure, a functional
-    language, I hope to consolidate my knowledge starting from this book, which
-    shows that the main challenge to master a functional language is not the
-    syntax, but the paradigm.
-  link: https://www.amazon.com/gp/product/1449365515/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449365515&linkCode=as2&tag=c03ce-20&linkId=ebebe602d6240e6b33784bb2de8a06e4
-  image: //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1449365515&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=c03ce-20
-  another_image: //ir-na.amazon-adsystem.com/e/ir?t=c03ce-20&l=am2&o=1&a=1449365515
+- title: "Soft Skills: The software developer's life manual"
+  author: John Sonmez
+  description: We've been living in Belgium since 2006 and at this point we have absorbed a good deal of the European culture and lifestyle. Soon, we will move to Canada and the cultural differences may certainly impact our working habits. To get ready for this shift, I've decided to read this book to get a good grasp of the North American working culture.
+  link: https://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617292397&linkCode=as2&tag=c03ce-20&linkId=f403142ce2787c220efd0889b131689c
+  image: //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1617292397&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=c03ce-20
+  another_image: //ir-na.amazon-adsystem.com/e/ir?t=c03ce-20&l=am2&o=1&a=1617292397

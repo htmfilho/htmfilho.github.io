@@ -65,3 +65,15 @@ Inspired by the book [Deep Work](/books), here are my permanent goals:
    business context.
 4. Be kind, professional and positive with everybody, but also be honest when
    the situation requires.
+
+## This Blog
+
+In this blog I typically write about software development and other topics surrounding it. Sometimes I try to explain things, mainly for myself, so I can repeat them later. But most of the time I analyse, compare and contrast to conclude giving my opinion about the subject.
+
+After 10 years maintaining this blog, I can confirm my love for writing is consolidated. It is also spreading. For instance, it wasn't the case before, but now I confidently believe that every software must have an up to date documentation; I try to write in front of my kids in order to influence them and I already noticed they trying to mimic their father. I also pushed my wife to revive her blog and now I'm afraid she will become more active than me overtime.
+
+![Kids writing](/images/pages/about-website.jpg)
+
+I love to write but it doesn't mean I'm happy with it. I have been shooting in all directions so far and I think it's time to focus. So, I've decided to direct my thoughts to help IT professionals to improve their technical writing skills. I talk about practices, tools and techniques, even programming to increase writing productivity. Overtime, It will eventually become more opinionated, but I hope to keep pushing you to write more, not less.
+
+I wish you a good read!

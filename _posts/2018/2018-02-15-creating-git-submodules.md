@@ -7,7 +7,7 @@ categories: git submodule python django osis
 
 In a [recent post][previous-post], I explained how to decompose a large codebase into [Git submodules][git-submodule]. In that occasion, I explained how we did that in the [OSIS] project for existing applications. This time, I'm going to explain the creation of a new submodule that isn't a relocation of an existing application, but a brand new application for new users.
 
-![](/images/posts/creating-git-submodules.jpg)
+![Lego](/images/posts/creating-git-submodules.jpg)
 
 <!-- more -->
 

@@ -42,7 +42,7 @@ From the Git perspective it is done. Let's move on to [Django].
 
 ## The Submodule as a Django App
 
-I'm using django-admin to generate the app in the new repository. To use it I have to activate the project virtual environment:
+I'm using django-admin to generate the app in the new repository. To use it, I have to activate the project virtual environment:
 
     $ source venv/bin/activate
     $ cd mobility

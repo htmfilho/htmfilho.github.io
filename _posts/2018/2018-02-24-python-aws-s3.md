@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Using Python to Backup Files on Amazon S3"
-date: 2018-02-18 12:00:00 +0200
-categories: python aws boto3 backup restore
+date: 2018-02-24 12:00:00 +0200
+categories: python aws s3 boto3 backup restore
 ---
 
 ![AWS S3 with Python](/images/posts/python-aws-s3.jpg)

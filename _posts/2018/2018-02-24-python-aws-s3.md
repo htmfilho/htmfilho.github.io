@@ -9,6 +9,8 @@ categories: python aws s3 boto3 backup restore
 
 I was planning to upgrade my Linux System and one of my concerns was preserving my files. I don't have a lot of files, but they are quite important. They occupe approximately 100GB. To solve this trivial problem I would simply perform a backup in an external drive with enough capacity and restore them later, hoping the driver won't have any mounting issues. I could also upgrade my Dropbox account, which would give me a lot of space on the cloud, but for a bitter price.
 
+<!-- more -->
+
 In short, I decided to make my life harder by implementing my own backup application to copy my files to [Amazon S3][amazon-s3] and recover them later in case of losses. It definitively took longer, but at least I'm in control and paying less. For Dropbox, I would need to pay €10/month. With Amazon S3, I'm paying only €2.5/month.
 
 I wanted this problem to be solved in a hard way, but not that hard. So I chose Python to focus on the problem not in technicalities. I found this quite powerful library, [boto3], which allows Python scripts to make use of a vast variety of Amazon web services.

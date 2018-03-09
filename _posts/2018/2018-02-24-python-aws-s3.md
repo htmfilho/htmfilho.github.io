@@ -48,7 +48,7 @@ This VE is used to isolate the dependencies of the project from the rest of your
 
 Every time you want to use the app, don't forget to activate the virtual environment, where the dependencies are available. Once activated, the prompt shows the name of the VE on the left. Let's install the dependencies:
 
-(venv)$ pip install -r requirements.txt
+    (venv)$ pip install -r requirements.txt
 
 The app is ready, but we have some additional work to do to be able to connect to AWS. Create a directory in your user's home folder named `.aws` to put AWS' configuration files:
 

@@ -5,6 +5,8 @@ date: 2018-03-16 12:00:00 +0200
 categories: jekyll blog linux ruby rbenv
 ---
 
+![Recursion](/images/posts/installing-using-jekyll-linux.jpg)
+
 This website looks like a dynamic web application accessing content stored in a database and relying on a PHP runtime, but it is not. As [described previously here][welcome-to-jekyll], this website is made of static resources, versioned in a Git repository, and published in a simple server without database or runtime available. It's insane to think I'm maintaining it by hand. I actually write the content in [Markdown], then [Jekyll][jekyll] transforms it into HTML content and generate the website for me, taking care of the entire navigation.
 
 So far, I never took the time to explain how I installed and used Jekyll, but now is the time because, after migrating from Ubuntu to Linux Mint, I had to reinstall it to continue writing my blog. I'm documenting here the steps I've followed.

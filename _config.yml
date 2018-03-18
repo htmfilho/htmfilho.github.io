@@ -15,13 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: No Time To Make It Shorter
 author: Hildeberto Mendonça
-description: > # this means to ignore newlines until "baseurl:"
-  This is my personal website, where I share my own views, knowledge and
-  interests. I don't represent the views of my employer or clients. I do my best
-  to publish exclusive content, which usually comes out after some research or
-  thoughts of my own.
+description: In my personal website I write about myself, my career, my robbies and mainly about technology. My favorite topics are functional programming, software documentation, processes, and architecture. I use Python, Java and Clojure when talking about programming.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.hildeberto.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://hildeberto.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:title.html
 excerpt_separator: "<!-- more -->"
 
@@ -38,6 +34,7 @@ kramdown:
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

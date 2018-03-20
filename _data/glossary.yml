@@ -2,6 +2,10 @@
   definition: a write-up of an experiment, research project, or opinion, meant to be read by other scholars. An academic paper usually involves citations to other literature.
   example: I read an academic paper on the subject of revision and editing that was very interesting.
 
+- term: Aurora
+  definition:
+  example:
+
 - term: book review
   definition: a written opinion and analysis of a book relevant to the writer's field of study.
   example: Dr. Wang wrote a very interesting book review of The Underground Railroad, which was published in the New York Review of Books.
@@ -10,17 +14,41 @@
   definition: a longer piece of research writing typically assigned in order to complete a degree.
   example: Students pursuing a master's degree usually have to write a thesis.
 
+- term: Cassandra
+  definition:
+  example:
+
+- term: Chef
+  definition:
+  example:
+
+- term: DynamoDB
+  definition:
+  example:
+
 - term: email
   definition: a message sent over the internet, usually using software for formatting.
   example: I need to send my supervisor email about my upcoming vacation time.
+
+- term: EMR
+  definition:
+  example:
 
 - term: essay
   definition: a composition (usually short) on a specific idea or subject, usually in prose form. Essays take different forms, such as persuasive, analytical, and many others.
   example: My essay for this course will be about the history of the Roman alphabet.
 
+- term: Hadoop
+  definition:
+  example:
+
 - term: journal entry
   definition: a style of personal writing, recording ideas, events of the day, responses to reading, etc.
   example: Our professor asked us to make journal entries about our opinions on the book we are reading.
+
+- term: Kinesis
+  definition:
+  example:
 
 - term: letter
   definition: a formal, written communication, sent either over the internet as an attachment to an email message or by regular postal mail on paper.
@@ -30,17 +58,53 @@
   definition: documentation of processes or procedures to follow.
   example: The company personnel manual outlines the rules for hiring employees.
 
+- term: Memcached
+  definition:
+  example:
+
 - term: memo
   definition: a somewhat informal message, usually sent between two or more employees of the same company, concerning company business.
   example: I received a memo this morning about a new policy for business travel.
+
+- term: MongoDB
+  definition:
+  example:
+
+- term: MySQL
+  definition:
+  example:
+
+- term: Oracle
+  definition:
+  example:
 
 - term: pitch
   definition: A very brief proposal; it can be done in a presentation, email, letter, or a casual conversation.
   example: My pitch for a new product is only a paragraph long.
 
+- term: PostgreSQL
+  definition:
+  example:
+
 - term: proposal
   definition: a written document that puts forward ideas for a business innovation, funding, or other project.
   example: Ms. Jones submitted a proposal to increase her department's budget.
+
+- term: Puppet
+  definition:
+  example:
+
+- term: Redis
+  definition:
+  example:
+
+- term: RDBMS
+  definition:
+  example:
+
+- term: RedShift
+  definition:
+  example:
 
 - term: report
   definition: a written description of a business activity.
@@ -57,6 +121,14 @@
 - term: slide presentation
   definition: Outlines, bullet points, graphs, and charts brought together to help in a presentation of an idea.
   example: Jennifer and I are working with PowerPoint to put our slide presentation together.
+
+- term: Spark
+  definition:
+  example:
+
+- term: SQL Server
+  definition:
+  example:
 
 - term: thesis
   definition: a longer piece of research writing typically assigned in order to complete a degree.

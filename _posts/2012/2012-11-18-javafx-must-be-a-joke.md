@@ -16,9 +16,7 @@ Meanwhile, Adobe gave up Flex and Microsoft gave up Silverlight. Strangely, Orac
 
 ![javafx-mobile.jpg](/images/posts/javafx-mobile.jpg)
 
-I was about to be excited when Oracle announced JavaFX running on OS6 with an app called <a href="http://fxexperience.com/2012/10/javafx-ensemble-in-the-mac-app-store/" target="_blank">JavaFX Ensemble</a>, but when I realised that the goal of the app was simply to add more demos to the shelf, I got immediately frustrated 🙁 Is it so difficult to convince a company out there to write a useful app in JavaFX and make it available on OS6?! Come on! We are tired of demos! In fact, this “alpha” project is not enough to convince us that Java is going mobile. In <a href="http://69.89.31.239/~hildeber/?p=34" target="_blank">my previous post</a> I made the following prediction:
-
-> <i>“… in 3 or 4 years there will be no Java on devices, and the development community will have enough knowledge to live with that. Therefore, Java will be basically a server-side technology.”</i>
+I was about to be excited when Oracle announced JavaFX running on OS6 with an app called <a href="http://fxexperience.com/2012/10/javafx-ensemble-in-the-mac-app-store/" target="_blank">JavaFX Ensemble</a>, but when I realised that the goal of the app was simply to add more demos to the shelf, I got immediately frustrated 🙁 Is it so difficult to convince a company out there to write a useful app in JavaFX and make it available on OS6?! Come on! We are tired of demos!
 
 Now, let’s imagine that JavaFX is a great technology and everybody is adopting it. Is everything ok now? Nooooooo! Even if everybody is convinced about JavaFX, <a href="http://www.pcworld.com/article/261843/time_to_give_java_the_boot_.html" target="_blank">there is no stable, reliable and easy to use JVM out there for the client side at the moment</a>. Therefore, we cannot efficiently distribute JavaFX apps on desktops. We have to be within a company, with full control over the network, to manage the installation, security and upgrades of the JVM in all desktops in order to distribute the application. Well, that’s silly :-/
 

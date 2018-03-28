@@ -15,4 +15,4 @@ Oracle should remember, or even learn, that we spend a considerable time of our 
 
 So far, just words coming from Oracle. Words just saying that nothing worse is going to happen besides some projects they already have eliminated. Some positive words full of promises and empty of actions. I’m not willing to keep listening to excuses or explanations. I’m willing to continue promoting new Oracle’s products. But, what can Oracle do to make it happen in the best way possible, even better than before?
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/02/dilbert.gif" style="margin-left: 1em; margin-right: 1em;">![dilbert-300x103.gif](/images/posts/dilbert-300x103.gif)</a></div>
+![dilbert-300x103.gif](/images/posts/dilbert-300x103.gif)

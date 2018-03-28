@@ -21,6 +21,6 @@ I’m very proud to study in an university where this process already started an
 
 My adviser, <a href="http://www.tele.ucl.ac.be/view-people.php?id=83">Benoit Macq</a>, is a great enthusiast of entrepreneurship. He pushes everybody here to make the difference, to develop something really useful, unique and, why not, salable. One month ago, he saw me tired, not so motivated and I got one of his special massages to keep my motivation higher. Thanks Boss!
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/01/DSC00838.jpg">![DSC00838-300x225.jpg](/images/posts/DSC00838-300x225.jpg)</a>
+![DSC00838-300x225.jpg](/images/posts/DSC00838-300x225.jpg)
 
 Little tip: Always keep your camera with you. Singular moments can unexpectedly happen with you or around you.

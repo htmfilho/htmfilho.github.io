@@ -13,7 +13,7 @@ Looking at other participants I was wondering if they were feeling the same pain
 
 What I’ve learned in addition is that there are dozen of other routes in the Belgian territory. The picture below shows the sign of our route on the bottom and the sign of other routes above. I can’t really understand the green one but it shows how well organized Belgian people are when dealing with trips and adventures. This is indeed a motivation to explore this nice country, choosing easy routes and progressively migrating to complex ones.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/05/11.jpg">![11-300x227.jpg](/images/posts/11-300x227.jpg)</a>
+![11-300x227.jpg](/images/posts/11-300x227.jpg)
 
 This post is one more opportunity to say Thanks to the family who gave us such a warm welcome. To celebrate and remember this experience we have produced a video with some images of the get together. Enjoy it!
 

@@ -11,10 +11,10 @@ The community became mad with this change and, of course, they directed their cr
 
 Well, the fact is that time passed and people got used to the new name (Javoxx). Stephan started the dissemination in July, the community helped through their blogs and websites, including <a href="http://planexstrategy.blogspot.com/2008/04/javapolis-becomes-javoxx.html">me</a> and we also started to promote CEJUG’s Techtrip to Antwerp, Belgium. However, Javoxx was not yet a stable name to be adopted. Stephan sent the <a href="http://www.devoxx.com/newsletters/2008/2/index.html">second conference newsletter</a> announcing the new name of the conference, now <a href="http://www.devoxx.com/">Devoxx</a>, and explaining the whole polemic behind it. According to his explanation, the problem was a trademark issue again, but Sun seemed more open, offering a free license agreement for the usage of both JavaPolis and JaVoxx, but Stephan said “no” to their offer and changed the name to Devoxx, definitively.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/09/LogoDevoxx150dpi.jpg">![LogoDevoxx150dpi.jpg](/images/posts/LogoDevoxx150dpi.jpg)</a>
+![LogoDevoxx150dpi.jpg](/images/posts/LogoDevoxx150dpi.jpg)
 
 It’s true that all these changes gave some level of frustration, but when we think more about Stephan’s decision, we can conclude that it was actually a good decision, again. With this new name, Devoxx became more coherent with its content. They have space for other languages, frameworks, methodologies, sometimes not related with Java at all, showing that Devoxx is a developer-oriented conference, attracting people who want to improve their developer skills.
 
 I will be there in December and I’m helping CEJUG to organize a Brazilian group to attend Devoxx this year. If you are Brazilian and you want to improve your developer skills, go to <a href="http://www.cejug.org/display/cejug/Caravana+do+CEJUG+Rumo+ao+Devoxx+08">CEJUG’s Techtrip page</a> and get more information about the group.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/09/Devoxx08Theme.jpg">![Devoxx08Theme.jpg](/images/posts/Devoxx08Theme.jpg)</a>
+![Devoxx08Theme.jpg](/images/posts/Devoxx08Theme.jpg)

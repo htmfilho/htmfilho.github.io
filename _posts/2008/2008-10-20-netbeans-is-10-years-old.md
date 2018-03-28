@@ -5,7 +5,7 @@ date: 2008-10-20 18:50:00 +0200
 categories: conference ide java netbeans
 ---
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/logo-10y-nb-outline-180.png">![logo-10y-nb-outline-180.png](/images/posts/logo-10y-nb-outline-180.png)</a> The <a href="http://www.netbeans.org/">Netbeans IDE</a> is becoming 10 years old these days and I’m particularly happy about that. This is the IDE that I have been using uninterruptedly since version 6.0, when I left <a href="http://www.eclipse.org/">Eclipse</a> behind, after 5 years on it. Today I’m very happy with the version 6.1, and I know I will be even happier with the new next version, 6.5, which is coming out on the following days.
+![logo-10y-nb-outline-180.png](/images/posts/logo-10y-nb-outline-180.png) The <a href="http://www.netbeans.org/">Netbeans IDE</a> is becoming 10 years old these days and I’m particularly happy about that. This is the IDE that I have been using uninterruptedly since version 6.0, when I left <a href="http://www.eclipse.org/">Eclipse</a> behind, after 5 years on it. Today I’m very happy with the version 6.1, and I know I will be even happier with the new next version, 6.5, which is coming out on the following days.
 
 This is the list of posts I’ve written about Netbeans. I would like to invite you to revisit those posts if you don’t mind. It was a love and hate story, with more love than hate 😉 :
 
@@ -19,6 +19,6 @@ This is the list of posts I’ve written about Netbeans. I would like to invite 
 
 Because of one of these posts, the Netbeans project sent to me a nice t-shirt that fit me very well. Take a look below.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/DSC00706.jpg">![DSC00706-300x225.jpg](/images/posts/DSC00706-300x225.jpg)</a>
+![DSC00706-300x225.jpg](/images/posts/DSC00706-300x225.jpg)
 
 I hope to celebrate this anniversary drinking some beers with the Netbeans Dream Team during the <a href="http://www.devoxx.com/">Devoxx Conference</a>, in December.

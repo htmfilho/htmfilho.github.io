@@ -9,7 +9,7 @@ It has been 6 months since my DEA defense (June, 18) and I hadn’t blogged abou
 
 The picture below shows the moment when my DEA adviser, <a href="http://www.isys.ucl.ac.be/bchi/members/jva/">Jean Vanderdonckt</a>, gave me a document that attests me as approved with great distinction in my DEA. This picture represents a lot for me because it shows my first concrete step in my academic experience in Belgium.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/12/DSCN2239.jpg">![DSCN2239-300x225.jpg](/images/posts/DSCN2239-300x225.jpg)</a>
+![DSCN2239-300x225.jpg](/images/posts/DSCN2239-300x225.jpg)
 
 The title of my dissertation was “<span style="font-style: italic;">Web Services for Model-Driven Engineering of User Interfaces</span>“, which is, basically, the definition and classification of a library of web services to manage an user interface definition language (<a href="http://www.usixml.org/">UsiXML</a>). I’m proud of this work because it was used as the technical basis for an European Project submitted by Mr. Vanderdonckt some time ago, and he just received the great news that the project was accepted at the European level. That’s great when you come from a distant city in Brazil to a well established and competitive country like Belgium and  directly contribute to a great achievement as a foreign student.
 

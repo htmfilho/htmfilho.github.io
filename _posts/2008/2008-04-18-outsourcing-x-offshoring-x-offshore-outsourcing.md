@@ -17,4 +17,4 @@ Nowadays, Ceará is not strong in <span style="font-weight:bold;">Offshoring</sp
 
 Great initiatives are helping to solve the problem in a long term. An undergraduate course was created just to prepare professionals on technologies demanded by local companies. In addition, three universities and many faculties are graduating hundreds of professionals every year. In parallel, <a href="http://planexstrategy.blogspot.com/2007/12/where-is-cejug.html">CEJUG</a> is doing a great job, reinforcing the knowledge of Java developers and promoting new technologies to increase the sort of current capabilities. However, it is not enough yet and a lot of work should be done.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/04/2408150459_7e59ee3b89.jpg">![2408150459_7e59ee3b89-300x225.jpg](/images/posts/2408150459_7e59ee3b89-300x225.jpg)</a>
+![2408150459_7e59ee3b89-300x225.jpg](/images/posts/2408150459_7e59ee3b89-300x225.jpg)

@@ -18,4 +18,5 @@ Actually, my motivation to write this post came from another post written by <a 
 <li>What really matters in a pencil is not its wooden exterior, but the graphite inside. So we must always pay attention to what is happening inside us.</li>
 <li>Finally, the pencil always leaves a mark. In just the same way, we should know that everything we do in life will leave a mark, so let’s try to be conscious of that in our every actions.</li>
 </ol>
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/04/pencils-pens.jpg" style="margin-left: 1em; margin-right: 1em;">![pencils-pens-300x205.jpg](/images/posts/pencils-pens-300x205.jpg)</a>
+
+![pencils-pens-300x205.jpg](/images/posts/pencils-pens-300x205.jpg)

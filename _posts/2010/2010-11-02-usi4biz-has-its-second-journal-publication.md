@@ -7,7 +7,7 @@ categories: business process research
 
 We are happy to inform that an article reporting recent contributions on Usi4Biz research was accepted to be published on the <a href="http://www.emeraldinsight.com/products/journals/journals.htm?id=bpmj" target="_blank">Business Process Management Journal</a>. The article is entitled “Getting Users Involved in the Alignment of their Needs with Business Processes Models and Systems” and it was written to report the experience of applying the Usi4Biz methodology at <a href="http://www.belgacom.be/" target="_blank">Belgacom</a>, the biggest telecommunication company in Belgium.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/11/belgacom-customer.png">![belgacom-customer.png](/images/posts/belgacom-customer.png)</a>
+![belgacom-customer.png](/images/posts/belgacom-customer.png)
 
 This work was possible thanks to the support of Amandine Lievyns, a <a href="http://www.uclouvain.be/" target="_blank">UCL</a> master student at the time, who had an internship at Belgacom and helped us to apply the methodology in some internal processes. Her master dissertation was about this experience and she could give a significant contribution for this article.
 

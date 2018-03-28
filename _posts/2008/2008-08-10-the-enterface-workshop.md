@@ -9,7 +9,7 @@ Imagine an event where people from different parts of the world meet in a great 
 
 I’m talking about eNTERFACE because I’m part of it now. Just to contextualize you, I’m working in an Electrical Engineering Lab at Université catholique de Louvain and my advisor, Benoit Macq, is the head of the Similar Network. Thierry Dutoit and him have been colleagues for a long time and Thierry is also part of the network. Thierry created the eNTERFACE model 3 years ago and he promoted the first eNTERFACE workshop in the <a href="http://www.fpms.ac.be/">Faculté Polytechnique de Mons</a> in the summer of 2005. It was the beginning of a successful event on the field of <a href="http://en.wikipedia.org/wiki/Human-computer_interaction">Human Computer Interaction</a>, which was hosted in Dubrovnik Croatia in 2006, Istanbul Turkey in 2007 and now we are in its <a href="http://enterface08.limsi.fr/">4th edition</a> in Orsay-Paris, France.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/08/PIE_0304.jpg">![PIE_0304-300x199.jpg](/images/posts/PIE_0304-300x199.jpg)</a> eNTERFACE Workshop
+![PIE_0304-300x199.jpg](/images/posts/PIE_0304-300x199.jpg) eNTERFACE Workshop
 
 A collegue from my lab, called Olga Vybornova, submitted a project to the workshop and I was invited to be the architect. The project was accepted at the end of 2007, which means that we were one of the projects that people can apply to work on. So, the second step was to analyze many CVs of people who were interested in our project. We chose 3 of them to work in our team during the workshop.
 
@@ -17,4 +17,4 @@ The title of our project is “Multimodal High Level Data Integration”, which 
 
 The workshop started in August 4th and we finished the first week with good results. We also had a speech given by Lotfi A. Zadeh, the creator of Fuzzy Logic :O. It was great and he deserves a complete post just about him and his talk.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/08/PIE_0288.jpg">![PIE_0288-300x199.jpg](/images/posts/PIE_0288-300x199.jpg)</a> Lotfi Zadeh at eNTERFACE
+![PIE_0288-300x199.jpg](/images/posts/PIE_0288-300x199.jpg) Lotfi Zadeh at eNTERFACE

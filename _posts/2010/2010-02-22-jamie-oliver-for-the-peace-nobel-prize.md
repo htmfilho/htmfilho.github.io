@@ -20,10 +20,10 @@ You may think I’m exaggerating, but I’m not. I’m 31 years old and I starte
 
 These two pictures below show two of Jamie’s recipes that we have made at home and they are simply amazing.
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/02/6828_161111613822_609678822_2929828_8122740_n.jpg" style="margin-left: 1em; margin-right: 1em;">![6828_161111613822_609678822_2929828_8122740_n-300x225.jpg](/images/posts/6828_161111613822_609678822_2929828_8122740_n-300x225.jpg)</a></div>
+![6828_161111613822_609678822_2929828_8122740_n-300x225.jpg](/images/posts/6828_161111613822_609678822_2929828_8122740_n-300x225.jpg)
 Poulet et Poireaux Stroganoff
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/02/20053_304780003822_609678822_3640497_3458526_n.jpg" style="margin-left: 1em; margin-right: 1em;">![20053_304780003822_609678822_3640497_3458526_n-300x225.jpg](/images/posts/20053_304780003822_609678822_3640497_3458526_n-300x225.jpg)</a></div>
+![20053_304780003822_609678822_3640497_3458526_n-300x225.jpg](/images/posts/20053_304780003822_609678822_3640497_3458526_n-300x225.jpg)
 Côtelettes D’Agneau Grillées Avec Une Riche Salsa
 
 Look at the details about Jamie’s plan <a href="http://www.tedprize.org/jamie-oliver/">here</a> and start helping him to accomplish this by just spreading the wonderful art of cooking. If somehow you are not motivated enough, watch the movie <a href="http://www.sonypictures.com/homevideo/julieandjulia/">Julie &amp; Julia</a> and you will be sufficiently motivated. Trust me! 😉

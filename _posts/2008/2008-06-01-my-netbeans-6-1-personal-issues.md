@@ -11,19 +11,19 @@ After an intensive work with <a href="http://www.netbeans.org/">Netbeans 6.1</a>
 
 If you add jar files, which are independent from those libraries managed by Netbeans, to your project, Netbeans will store absolute references for them in the <span style="font-style: italic;">nbproject/project.properties</span> file. The problem is that Netbeans tries to share this file when you configure the project to commit versions to a SVN repository (I don’t know about CVS, but it could be a common problem). Sharing this file will cause problems for other team members, mainly for those who use Linux, OpenSolaris and other ones that implement a different path syntax. My suggestion is to create a lib folder, as important as the test folder is, copy all independent libraries to that folder and store relative paths in the <span style="font-style: italic;">nbproject/project.properties</span> file.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/06/netbeans-project-library.png">![netbeans-project-library-300x254.png](/images/posts/netbeans-project-library-300x254.png)</a>
+![netbeans-project-library-300x254.png](/images/posts/netbeans-project-library-300x254.png)
 
 <span style="font-weight: bold;">JSP Auto-complete </span><span style="font-weight: bold;">Doesn’t Work Very Well</span>
 
 I’m developing some JSF pages these days using <a href="http://facelets.dev.java.net/">Facelets</a>, which adopts XHTML (XML based) format to code the view. I found a simple but very significant issue, as you can see in the figure below. When you finish to type a tag, which name follows the camel notation, the auto-complete feature doesn’t understand that the closing tag should also follow the camel notation. If it’s able to recognize the tag, why doesn’t it just reuse its name instead of invoking a String.toLowerCase() method before? Then we press enter to confirm the auto-completing suggestion and the issue remains there.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/06/netbeans-issue.png">![netbeans-issue-300x161.png](/images/posts/netbeans-issue-300x161.png)</a>
+![netbeans-issue-300x161.png](/images/posts/netbeans-issue-300x161.png)
 
 It seems to be a very simple issue, but if you are writing hundreds and hundreds of code, it is absolutely annoying.
 
 Another XML auto-complete issue is shown in the figure below.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/06/netbeans-issue-2.png">![netbeans-issue-2-300x58.png](/images/posts/netbeans-issue-2-300x58.png)</a>
+![netbeans-issue-2-300x58.png](/images/posts/netbeans-issue-2-300x58.png)
 
 If you see carefully, the tag <h:outputtext> doesn’t have a body because there is a “/” character at the end, but the auto-complete suggests to add one</h:outputtext>. It’s a minor problem because I can go on just pressing “Esc”, but it’s still inconsistent. The figure is pretty illustrative because it shows the previous issue as well, since the camel notation is not respected.
 
@@ -31,7 +31,7 @@ If you see carefully, the tag <h:outputtext> doesn’t have a body because there
 
 One of the most important advantages reported about the version 6.1 was the startup time reduction. They succeeded to reduce in 40% the time to start the IDE since the previous version. However, this apparent performance improvement was resultant from an on-demand loading, since resources load when the user asks for them. The figure below shows the exact moment of a project being loaded when the user selects it in the project tab.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/06/netbeans-performance.png">![netbeans-performance-300x143.png](/images/posts/netbeans-performance-300x143.png)</a>
+![netbeans-performance-300x143.png](/images/posts/netbeans-performance-300x143.png)
 
 So, you wait less time to load the IDE, but you wait the same time to start working. It’s important to mention that the performance issue is only an issue at the beginning. During the work, the IDE behaves very well.
 

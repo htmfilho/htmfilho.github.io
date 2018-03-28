@@ -18,7 +18,7 @@ In order to have this facility I have made some choices:
 </ul>
 I’m writing a lot, but we don’t have much to do. Just enjoying the opportunity to talk more with you. Basically, you have to add 3 more libraries within your project. To embed the database, add derby.jar (available at <a href="http://db.apache.org/derby/">http://db.apache.org/derby/</a>). To use JPA, add toplink-essentials.jar and toplink-essentials-agent.jar (available at <a href="http://oss.oracle.com/toplink-essentials-jpa.html">http://oss.oracle.com/toplink-essentials-jpa.html</a>). This is 40% of all you have to do.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/11/embedded.png">![embedded.png](/images/posts/embedded.png)</a>
+![embedded.png](/images/posts/embedded.png)
 
 The next step is to create the file persistence.xml in the directory META-INF, which should be packaged within your application (jar file). The content of the file is available <a href="http://kenai.com/projects/meanings4fusion/sources/1193/content/src/META-INF/persistence.xml?id=1193-Subversion-Source-Code-Repository">here</a>. At this line – <span style="font-style: italic;">property name=”toplink.jdbc.url” value=”jdbc:derby:meanings4fusion;create=true”</span> – be aware of “create=true”. It will automatically create a database if it doesn’t exist yet. Something else important is this line – <span style="font-style: italic;">property name=”toplink.ddl-generation” value=”create-tables”</span> – which specifies the automatic creation of tables according to the implemented entity classes. This step represents 20% of everything. We are almost there.
 

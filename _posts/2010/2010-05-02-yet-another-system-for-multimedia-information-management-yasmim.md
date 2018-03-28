@@ -16,7 +16,8 @@ This system has 3 personal goals:
 </ol>
 According to my plans, I’m going to finish my PhD in October, 2010. I’m writing the thesis right now and it is all about the YASMIM system. it’s planned to support several kinds of media, including images, videos, audios, and 3D models. The main differentials are the possibility to segment and annotate all these kinds of media within only one integrated system and provide these features through a web service interface, in addition to the conventional web interface. This system is open source, but I can only make it fully available after my thesis defense. However, I have published an initial (but compilable) source on <a href="http://github.com/htmfilho/Yasmim">GitHub</a>. If you wish, you can help me to develop it and we can figure out together many other innovative aspects. 😉
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/05/yasmim-images.png" style="margin-left: 1em; margin-right: 1em;">![yasmim-images-300x184.png](/images/posts/yasmim-images-300x184.png)</a></div>
+![yasmim-images-300x184.png](/images/posts/yasmim-images-300x184.png)
+
 Why did I chose JEE6 and JavaFX? The first reason is that I’m supposed to get into the market soon and I have to update my knowledge of enterprise systems, which was what I used to work before the PhD. But of course, I cannot put in the thesis this reason. Better to find reasonable technical reasons. So, the technical reasons to choose JEE6 were:
 
 <ul>

@@ -11,7 +11,7 @@ Day after day, the temptation to take that away was inevitably increasing. Howev
 
 When the pumpkim was finally looking ripe, the residents put a lovely message for those of us who resisted to that daily temptation.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2011/08/IMAG0106.jpg">![IMAG0106-300x179.jpg](/images/posts/IMAG0106-300x179.jpg)</a>
+![IMAG0106-300x179.jpg](/images/posts/IMAG0106-300x179.jpg)
 
 The message translated from French was:<br/>
 

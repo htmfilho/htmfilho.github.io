@@ -7,8 +7,6 @@ categories: business process conference research user interface
 
 This Monday, November 17th, we presented the Usi4Biz Platform at <a href="http://www.devoxx.com/">Devoxx</a> and we are specially happy that the energy of this idea is as strong as the energy of this event and its 2,5 thousands attendees. It was the first time this idea was disseminated for the general public in an European level, since Devoxx is currently the biggest IT Conference in Europe.
 
-The speech this time was made exclusively by <a href="http://69.89.31.239/~hildeber/">Hildeberto</a>, who is responsible for the technical part of the Usi4Biz Framework.
-
 ![12937_178201023822_609678822_3082889_6793108_n-300x199.jpg](/images/posts/12937_178201023822_609678822_3082889_6793108_n-300x199.jpg)
 
 The main direction of the presentation was about the tooling support for the Usi4Biz methodology, which has been developed for 6 months so far. To understand the purpose of the tool, we dedicated most of the time to explain the current problematic of usability on enterprise systems and why it is not going to be solved through traditional advances on the field of Business Process and Information Technology.

@@ -16,7 +16,7 @@ To have peace of mind and no regrets, I’ve built a way that my staying in Euro
 <table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
 <tr>
-<td style="text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2011/01/DSCN0626.jpg" style="margin-left: auto; margin-right: auto;">![DSCN0626-300x225.jpg](/images/posts/DSCN0626-300x225.jpg)</a></td>
+<td style="text-align: center;">![DSCN0626-300x225.jpg](/images/posts/DSCN0626-300x225.jpg)</td>
 </tr>
 <tr>
 <td style="text-align: center;">CEJUG Event with Oracle representatives</td>

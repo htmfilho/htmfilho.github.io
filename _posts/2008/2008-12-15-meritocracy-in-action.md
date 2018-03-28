@@ -14,7 +14,7 @@ Meritocracy is not perfect, as democracy is nether. To deploy a meritocratic sys
 
 There are also those who deserve or not to be in a meritocracy. If you become very disappointed when your closest colleague is promoted and you are not or you work exactly on the boundaries of your rule or salary, then meritocracy may not be a good social system for you. To be part of a meritocracy is all about entrepreneurship with managed expectations, which means you have to do your best and don’t expect for immediate recognition. If you are like that and you are still waiting for recognition, it means that you are a meritocratic in a non-meritocratic system. Then you have two options: quit as soon as possible or adapt yourself to the true reality.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/12/32782.strip_.gif">![32782.strip_-300x93.gif](/images/posts/32782.strip_-300x93.gif)</a>
+![32782.strip_-300x93.gif](/images/posts/32782.strip_-300x93.gif)
 
 The best example of meritocracy I’ve ever seen happened in CEJUG in 2008. Before, some previous facts: Years ago, we (the JUG leader team) decided to adopt a meritocratic system, where normal members can become JUG leaders when they show constant contributions to the community and some level of leadership. Our first great example of meritocratic promotion happened in 2007 with <a href="http://www.rafaelcarneiro.org/blog">Rafael Carneiro</a>, who started to organize monthly events with a religious discipline. Today he is famous because of that. Rafael really deserved that, even being a very good friend of the current leaders.
 
@@ -22,7 +22,7 @@ At the end of 2007, <a href="http://www.sun.com/">SUN</a> created the Campus Amb
 
 The best example of meritocracy comes now: that guy, with strong disagreements with the current CEJUG’s leadership and our strong disagreement with the Campus Ambassador’s philosophy too, was unanimously selected by all current JUG Leaders to become a JUG Leader too. His name is <a href="http://silveiraneto.net/">Silveira Neto</a>, who you may know if you carefully follow this blog. In 2008, Silveira just ignored our disagreements and strongly supported all CEJUG initiatives during the year. He helped Rafael to promote CEJUG’s local events, he promoted CEJUG in national events and also in international events hosted in Brazil and he produces many artistic works, like the figure below to promote the last event of the year during Christmas time.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/12/duke_natal.png">![duke_natal-300x217.png](/images/posts/duke_natal-300x217.png)</a>
+![duke_natal-300x217.png](/images/posts/duke_natal-300x217.png)
 
 <span style="font-weight: bold;">This is the spirit of Meritocracy: ignore all differences and recognize people by their competence and abilities.</span> On January 1st Silveira Neto will become a CEJUG leader, which is a strong responsibility and, at the same time, a great personal achievement. Even with some disagreements, Silveira decided to strictly follow all CEJUG’s rules, which is a guarantee of continuity and respect to all previous decisions.
 

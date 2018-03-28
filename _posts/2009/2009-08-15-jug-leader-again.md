@@ -12,8 +12,7 @@ a hurry and getting back to the normality in a couple of days. So, I decided to
 start with my experience of going back to the <a href="http://www.cejug.org/">CEJUG</a>
 administration.
 
-As I wrote <a href="http://69.89.31.239/~hildeber/search/label/cejug">many
-times</a>, CEJUG is a <a href="http://java.sun.com/community/usergroups/">Java
+CEJUG is a <a href="http://java.sun.com/community/usergroups/">Java
 User Group</a> of my state in Brazil. I left the administration in January of
 this year, when I was overloaded by several projects and I couldn’t take care
 of everything at the same time.

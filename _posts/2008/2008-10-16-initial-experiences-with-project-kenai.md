@@ -11,23 +11,23 @@ For now, to open a project in Kenai you will need an invitation from somebody th
 
 The most exciting idea about Kenai is that it gives you a great visibility since the beginning of your project. Just after creating the project it appeared in <span style="font-style: italic;">Recent Projects</span> in the home page as shown in the figure below when you see “Meanings4Fusion”.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/projects.jpg">![projects-300x224.jpg](/images/posts/projects-300x224.jpg)</a>
+![projects-300x224.jpg](/images/posts/projects-300x224.jpg)
 
 The project is also very well positioned in the internal section <span style="font-style: italic;">Projects</span>, where it appears with the full size logo and the complete description.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/project.jpg">![project-300x97.jpg](/images/posts/project-300x97.jpg)</a>
+![project-300x97.jpg](/images/posts/project-300x97.jpg)
 
 I created a new topic in the project forum, called “What is the fastest way to communicate through a TCP/IP network”, and for my surprise, it also appeared in the homepage, which attracted more people to participate in the discussion.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/forum-posts.jpg">![forum-posts-300x224.jpg](/images/posts/forum-posts-300x224.jpg)</a>
+![forum-posts-300x224.jpg](/images/posts/forum-posts-300x224.jpg)
 
 Even the cloud of tags immediately showed up with a new tag that had been included in my project, such as “multimodality” in the figure below.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/cloud.jpg">![cloud.jpg](/images/posts/cloud.jpg)</a>
+![cloud.jpg](/images/posts/cloud.jpg)
 
 The logic is simple: your participation implies in more visibility for you and your project, more collaboration from the community and an increasing probability to succeed.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/most-active-people.jpg">![most-active-people-300x127.jpg](/images/posts/most-active-people-300x127.jpg)</a>
+![most-active-people-300x127.jpg](/images/posts/most-active-people-300x127.jpg)
 
 Project Kenai is still in beta and many features are missing right now. However, what we need to start off an open source project is already available, like version control system, forum, mailing list, bug tracking and wiki.
 

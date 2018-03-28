@@ -13,7 +13,8 @@ To understand this particular behavior, consider a routine scheduled to execute 
 
 We could observe that, if the current execution lasts longer than the configured interval, then the next execution won’t happen. The schedule will be back to normal only when the current execution finishes. The figure below illustrates this behavior.
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/03/timer.png" style="margin-left: 1em; margin-right: 1em;">![timer-300x142.png](/images/posts/timer-300x142.png)</a></div>
+![timer-300x142.png](/images/posts/timer-300x142.png)
+
 The timer process P3 was expected to execute at T3, but it didn’t because P2 execution hadn’t finish yet. However, P2 finishes before T4, then P4 is still expected to run on time. The stateless session bean bellow simulates this behavior:
 
 {% highlight java %}

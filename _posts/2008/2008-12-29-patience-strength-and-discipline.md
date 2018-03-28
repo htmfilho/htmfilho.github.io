@@ -13,11 +13,11 @@ December 25, we woke up in a bad mood, but at least we had a great breakfast, th
 
 Our luck was gradually improving and the rest of the trip was simply perfect. The top of our luck was exactly on the last day, December 27, when we learned great lessons about the three words in the title of this post. And all these lessons were gotten as we learned about wines. We realized that wines have more to give than just the pleasure of drinking it with a wonderful person and a great meal. We were able to buy two of the last places in a wine guided tour to visit two castles, producers of important appellations, in the fields of Bordeaux. After some bottles in many local restaurants, the time for an awesome experience finally came.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/12/DSC01071.jpg">![DSC01071-300x225.jpg](/images/posts/DSC01071-300x225.jpg)</a>
+![DSC01071-300x225.jpg](/images/posts/DSC01071-300x225.jpg)
 
 At the first stop of our tour we learned the first word: <span style="font-weight:bold;">Patience</span>. We stopped on a castle where the wine <span style="font-style:italic;">Chateau Lanessan Haut-Médoc</span> is produced, a controlled appellation of the Bordeaux region, which means a high quality wine with a rigid control by competent authorities. To produce a wine with such quality they have to work a lot, invest a considerable amount of money and wait for a long time, from 1 to 5 years to transform grapes in wine and aging for a minimum period to be well appreciated. All people in the vine know the consequences of their work has a long term impact and there is no space for anxiety. They have to focus on the present, follow the planned schedule and be optimistic about the future. When we think the wine got old enough in the castle to be immediately consumed, they still ask to wait for a few more years. It demands patience and patience is what we need to achieve our dreams.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/12/DSC01047.jpg">![DSC01047-300x225.jpg](/images/posts/DSC01047-300x225.jpg)</a>
+![DSC01047-300x225.jpg](/images/posts/DSC01047-300x225.jpg)
 
 The process to get grapes in the perfect shape to be collected tells a beautiful story about <span style="font-weight:bold;">Strength</span>. The castle guide explained that grapes are like human beings. They are able to get better and stronger after every hard experience of life. That’s why the soil to cultivate good grapes should be poor and stony. Those grapes will fight to survive, sharing scarce resources. Soil with abundance of organic material will make grapes lazy, with a weak soul, thus without dignity to give us any pleasure.
 

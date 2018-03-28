@@ -7,7 +7,7 @@ categories: business process user interface
 
 We are in Brazil now, giving several presentations of the Usi4Biz Framework for some software companies, a big corporation and a university. Our intention is to listen to the vision and opinion of Brazilian business and research people about the framework and its adoption by companies of a country like Brazil. Our vision so far was built in a rich and well developed European country, where companies are more open to innovative ideas. Therefore, this geographical and cultural validation is very important to test how global the Usi4Biz Framework can be.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/12/brasil.jpg">![brasil.jpg](/images/posts/brasil.jpg)</a>
+![brasil.jpg](/images/posts/brasil.jpg)
 
 First of all, this experience has been very positive, actually, more than expected. We could feel a strong wave of positiveness as if there was no financial crisis out there. “We didn’t have any impact from the recent financial crisis. In fact, we are growing faster than ever and our single limitation today is the lack of high qualified professionals to perform more challenging projects”, said Márcio Braga, <a href="http://www.ivia.com.br/" target="_blank">Ivia</a>‘s Manager.
 

@@ -18,5 +18,7 @@ The point is, how to create a creative environment where people feel really comf
 <li><span style="color: blue;">There are real scientific contributions between the edges of two or more projects</span>: projects are usually focused on a certain problem or a category of problems, but there is no doubt that the results of a project can produce considerable contributions to other projects. So, it’s a sort of blindness when projects just follow their natural course and do not spread a wave of benefits for all other projects around.</li>
 <li><span style="color: blue;">Write alone and write less</span>: if you are desperate about the progress of your research, be sure that one of the causes for this feeling is the fact that you are working mostly alone on your goals. So, find a way to get contribution by contributing for other people’s work.</li>
 </ul>
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/11/phd070609s.gif" style="margin-left: 1em; margin-right: 1em;">![phd070609s-300x222.gif](/images/posts/phd070609s-300x222.gif)</a></div>
+
+![phd070609s-300x222.gif](/images/posts/phd070609s-300x222.gif)
+
 That’s it! Be my guest and comment this post because I’m very curious about your opinion. 😉

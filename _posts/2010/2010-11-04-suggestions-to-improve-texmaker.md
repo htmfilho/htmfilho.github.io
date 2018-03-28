@@ -7,7 +7,8 @@ categories: latex research user interface
 
 <a href="http://www.xm1math.net/texmaker/">Texmaker</a> is a Latex editor used to write well structured documents. <a href="http://www.latex-project.org/">Latex</a> is a text processing language not so trivial, but once mastering it the writer gets very good results on the overall quality of his/her documents.
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/11/texmaker.png" style="margin-left: 1em; margin-right: 1em;">![texmaker-300x173.png](/images/posts/texmaker-300x173.png)</a></div>
+![texmaker-300x173.png](/images/posts/texmaker-300x173.png)
+
 I have been using Texmaker for a while, but only recently I could experience most of its features. I spent a long time using it to write my thesis and I figured out some possible improvements that would make this tool more usable. The evaluated version was the 2.0 one, but the latest version is currently the 2.1 one. Maybe some of my suggestions are already available. I didn’t have time to check yet. Anyway, the improvements are:
 
 <ol>

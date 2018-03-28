@@ -11,7 +11,8 @@ I’ve met <a href="http://processdevelopments.blogspot.com/">Tom Baeyens</a> an
 
 My first impression was nice. Activiti is very simple to install and the team made a very good work on the design of the user interfaces. Of course, I cannot be so critical right now because it is just beginning, but I will follow the project from now on to give constructive feedbacks to the team.
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/05/Screenshot-Activiti-Explorer-Tasks-Google-Chrome.png" style="margin-left: 1em; margin-right: 1em;">![Screenshot-Activiti-Explorer-Tasks-Google-Chrome-300x192.png](/images/posts/Screenshot-Activiti-Explorer-Tasks-Google-Chrome-300x192.png)</a></div>
+![Screenshot-Activiti-Explorer-Tasks-Google-Chrome-300x192.png](/images/posts/Screenshot-Activiti-Explorer-Tasks-Google-Chrome-300x192.png)
+
 On the other hand, I was expecting something different, simpler, like a process engine 100% controlled by REST web services. I don’t like the fact of a web application handling the processes execution (screenshot above). Using Activiti Explorer, you can start processes and perform their activities, but it forces the user to be aware of processes’ details. I think an application that implements a business process should be more focused on:
 
 <ul>

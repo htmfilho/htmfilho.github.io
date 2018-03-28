@@ -9,4 +9,4 @@ This week I attended, once again, the <a href="http://www.devoxx.com/">Devoxx</a
 
 The subject of the talk is not in the scope of this blog, but you can learn more about it in another blog that I contribute to. Here, I’m going to share only the nicest picture of myself in conferences. 😀 hehehe. Many thanks for the professional photographer there. All the rest you can check out <a href="http://usi4biz.com/2009/11/19/linking-business-processes-and-user-interfaces-at-devoxx09/">here</a>.
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/11/12937_178201023822_609678822_3082889_6793108_n1.jpg" style="margin-left: 1em; margin-right: 1em;">![12937_178201023822_609678822_3082889_6793108_n1-300x199.jpg](/images/posts/12937_178201023822_609678822_3082889_6793108_n1-300x199.jpg)</a></div>
+![12937_178201023822_609678822_3082889_6793108_n1-300x199.jpg](/images/posts/12937_178201023822_609678822_3082889_6793108_n1-300x199.jpg)

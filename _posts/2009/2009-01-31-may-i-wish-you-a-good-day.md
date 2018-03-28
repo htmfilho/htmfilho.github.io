@@ -17,6 +17,6 @@ Here, to say “bonjour” to a friend could sound too formal. A friend accepts 
 
 I spent 28 years saying “bom dia!!” in Brazil. There, it really sounds like a wish. It comes out with an additional smile, full of energy, followed by a strong shake of hands, sometimes choreographic shake of hands. 😉
 
-Well, never mind! I will wish you a good day anyway. If you forget to wish the same, no problem for me. So, bonjour, have a wonderfull Day!
+Well, never mind! I will wish you a good day anyway. If you forget to wish the same, no problem for me. So, bonjour, have a wonderful Day!
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/01/DSC01921.jpg">![DSC01921-300x260.jpg](/images/posts/DSC01921-300x260.jpg)</a>
+![DSC01921-300x260.jpg](/images/posts/DSC01921-300x260.jpg)

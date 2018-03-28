@@ -5,7 +5,7 @@ date: 2009-06-17 09:00:00 +0200
 categories: java javafx strategy
 ---
 
-Some time ago I was a bit severe with Sun Microsystems <a href="http://69.89.31.239/~hildeber/?p=126">here</a>. Now I don’t care anymore because Sun is Oracle and Oracle for me is a database, not a company. I never stopped to think about Oracle’s stocks, or Oracle’s acquisitions, or even the Oracle support for the Java platform, which sucks! But I was always worried about SUN, criticizing and praising as an independent observer. I did that because I admired the work that SUN has been doing on the Java Platform and the proximity the community has to Sun’s top engineers. Even criticizing, it doesn’t mean I don’t like Sun. On the contrary. I do care about them in the pure essence of carefulness, as <a href="http://download.srv.cs.cmu.edu/~pausch/">Randy Pausch</a> stated in his book, transcribing the words of his football coach:
+I've been severe with Sun Microsystems. Now I don’t care anymore because Sun is Oracle and Oracle for me is a database, not a company. I was always worried about SUN, criticizing and praising as an independent observer. I did that because I admired the work that SUN has been doing on the Java Platform and the proximity the community has to Sun’s top engineers. Even criticizing, it doesn’t mean I don’t like Sun. On the contrary. I do care about them in the pure essence of carefulness, as <a href="http://download.srv.cs.cmu.edu/~pausch/">Randy Pausch</a> stated in his book, transcribing the words of his football coach:
 
 > “<span style="font-style: italic;">– When you are doing something badly and no one’s bothering to tell you anymore, that’s a very bad place to be. Your critics are the ones still telling you they love you and care.</span>“
 
@@ -22,6 +22,6 @@ And then I replied to his message:
 
 Since we can use other programming languages (Scala, Python, Ruby, and Grove) to develop our applications on the Java Platform, why not execute JavaFX script in our existing applications too? For instance: I need to develop a special animation in my application and doing it using threads and pure Java AWT will consume a lot of time. If the JavaFX team had prioritized the execution of their scripts in existing Java applications, I would save a lot of time doing this task using JavaFX. What they did was exactly the contrary. They allowed JavaFX scripts to reuse existing Java classes, which is useful only for new projects or features out of the existing contexts. It reminds me of an interesting sentence: “Who was born first: the egg or the chicken?”
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/06/dilbert-js-joke.gif">![dilbert-js-joke-300x106.gif](/images/posts/dilbert-js-joke-300x106.gif)</a>
+![dilbert-js-joke-300x106.gif](/images/posts/dilbert-js-joke-300x106.gif)
 
 Yes, I’m criticizing SUN again. Maybe, this is my last chance to do it before the expected announcement of the completed fusion between SUN and Oracle. I hope Oracle gets the point here and does something to fulfill the expectations of most Java Developers. If I feel things getting better, in the right path, I will keep my support as I have been doing. Otherwise, I will be excited to evaluate and definitively adopt other platforms as I have been thinking about.

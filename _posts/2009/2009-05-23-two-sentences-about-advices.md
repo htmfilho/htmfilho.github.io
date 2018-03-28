@@ -15,7 +15,7 @@ This week two sentences about “advices” called my attention:
 
 My understanding is that we have to be good people to give good advices and do not expect that people will follow them. It sounds like the principle of forgiveness and generosity, which we can give and do not expect anything in return.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2009/05/advice_mod.jpg">![advice_mod-300x171.jpg](/images/posts/advice_mod-300x171.jpg)</a>
+![advice_mod-300x171.jpg](/images/posts/advice_mod-300x171.jpg)
 
 To conclude, a sentence extracted from the book of <a href="http://download.srv.cs.cmu.edu/~pausch/">Randy Pausch</a>, <a href="http://www.thelastlecture.com/">The Last Lecture</a>:
 

@@ -5,7 +5,7 @@ date: 2012-11-18 09:13:00 +0200
 categories: java javafx jvm user interface
 ---
 
-More than 3 years ago, I wrote the post “<a href="http://69.89.31.239/~hildeber/?p=105" target="_blank">Has JavaFX a Strategy?</a>” saying:
+More than 3 years ago, I wrote the post “<a href="http://www.hildeberto.com/2009/06/has-javafx-a-strategy.html" target="_blank">Has JavaFX a Strategy?</a>” saying:
 
 > <span style="background-color: white; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; line-height: 20px;">“</span><span style="background-color: white; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; font-style: italic; line-height: 20px;">Don’t you think that the fastest way to spread the JavaFX adoption is allowing the improvement of existing applications? Why to spend a lot of resources to drag an applet from the browser to the desktop if we need the network anyway?</span><span style="background-color: white; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; line-height: 20px;">“</span>
 

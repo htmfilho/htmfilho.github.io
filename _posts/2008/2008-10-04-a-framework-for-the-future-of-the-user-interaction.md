@@ -11,6 +11,6 @@ The project was published at: <a href="http://kenai.com/projects/meanings4fusion
 
 I’m not doing it alone, of course. <a href="http://enterface08.limsi.fr/participant/gomez">David Gómez</a>, <a href="http://enterface08.limsi.fr/participant/neiberg">Daniel Neiberg</a>, <a href="http://enterface08.limsi.fr/participant/vybornova">Olga Vybornova</a> and <a href="http://enterface08.limsi.fr/participant/shen">Ao Shen</a> are also involved and they are founders too. Actually, we started everything during eNTERFACE and it is a continuation for consolidation. This is a challenging project and we really worked hard, as you can see in the picture below.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/DSC00370.jpg">![DSC00370-300x225.jpg](/images/posts/DSC00370-300x225.jpg)</a><br/>From the left to the right: Olga Vybornova, David Gómez, Daniel Neiberg, Ao Shen and me, holding the camera.
+![DSC00370-300x225.jpg](/images/posts/DSC00370-300x225.jpg)<br/>From the left to the right: Olga Vybornova, David Gómez, Daniel Neiberg, Ao Shen and me, holding the camera.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/10/DSC00364.jpg">![DSC00364-300x225.jpg](/images/posts/DSC00364-300x225.jpg)</a><br/>Some thoughts about the architecture.
+![DSC00364-300x225.jpg](/images/posts/DSC00364-300x225.jpg)<br/>Some thoughts about the architecture.

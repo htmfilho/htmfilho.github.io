@@ -9,7 +9,7 @@ After one month working hard in a scientific project, I came back home with many
 
 In a recent <a href="http://planexstrategy.blogspot.com/2008/08/enterface-workshop.html">post</a> I wrote about this project during the <a href="http://enterface08.limsi.fr/">eNTERFACE ’08</a> workshop, where I spent the whole month of August with a multidisciplinary and multicultural team. Just to give you a fast overview, the project was about the fusion of 2 different modalities in order to help people on their every day life. The two modalities were speech and image, detected by a speech recognition tool and an image processing tool respectively. The fusion mechanism combines speech and movements to predict what people are planning to do in a certain scenario and the computer should help them to complete their tasks as fast as possible. For a scientific project and considering many challenges and limitations, actually it was a successful project. We are all happy with the results.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/08/DSC00352.jpg">![DSC00352-300x225.jpg](/images/posts/DSC00352-300x225.jpg)</a><br/><span style="font-size:85%;">I’m presenting the evolution of the project in a middle term presentation.</span>
+![DSC00352-300x225.jpg](/images/posts/DSC00352-300x225.jpg)<br/><span style="font-size:85%;">I’m presenting the evolution of the project in a middle term presentation.</span>
 
 So, what could be so challenging in a project like this? This is a list of challenges we had and I would like to share it with you and with future eNTERFACE attendees:<br/><span style="font-weight: bold;"></span>
 
@@ -21,4 +21,4 @@ So, what could be so challenging in a project like this? This is a list of chall
 </ol>
 The most important thing is to finish the project looking as a family, but also keeping our friendship and scientific links always active.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2008/08/DSC00386-2.jpg">![DSC00386-2-300x225.jpg](/images/posts/DSC00386-2-300x225.jpg)</a><br/><span style="font-size:85%;">Our eNTERFACE team (from the left to the right): David Gomez (Mexican), Olga Vybornova (Russian), Daniel Neiberg (Swedish), Me (Brazilian) and Shen Ao (Chinese).</span>
+![DSC00386-2-300x225.jpg](/images/posts/DSC00386-2-300x225.jpg)<br/><span style="font-size:85%;">Our eNTERFACE team (from the left to the right): David Gomez (Mexican), Olga Vybornova (Russian), Daniel Neiberg (Swedish), Me (Brazilian) and Shen Ao (Chinese).</span>

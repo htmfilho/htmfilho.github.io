@@ -9,12 +9,14 @@ categories: latex open source research
 
 I wrote my PhD dissertation using Latex and the result was very satisfactory. The dissertation was gradually getting the shape of a book, which is pretty exciting for me, who admires authors but never intended to become one of them. To write Latex script, I use a tool called <a href="http://www.xm1math.net/texmaker/">Texmaker</a>, a Latex editor maintained by Pascal Brachet, a teacher of mathematics in a French secondary school. There are other interesting editors, but Texmaker’s simplicity is more attractive for me. The figure below depicts the source of my dissertation opened in Texmaker.
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/08/thesis-texmaker.png" style="margin-left: 1em; margin-right: 1em;">![thesis-texmaker-300x216.png](/images/posts/thesis-texmaker-300x216.png)</a></div>
+![thesis-texmaker-300x216.png](/images/posts/thesis-texmaker-300x216.png)
+
 The problem of doing the whole work using exclusively Texmaker is its limitations in terms of language support and versioning. The spell check feature, for instance, is very limited (you cannot add new words to the dictionary), there is no grammar assistance and no versioning feature to highlight what was modified since the last revision. I consider these three features essential for those who are writing  important documents. No other tools can offer these features either.
 
 To address some of these limitations, I decided to include OpenOffice in the process to fulfill the need for spell and grammar checking and versioning. The figure below depicts, step by step, the writing process.  It starts by writing the dissertation’s content in OpenOffice with the change control feature enabled. While writing, the editor automatically checks spelling and grammar. When finished, the added content is copied to Texmaker. Because Texmaker is a plain text editor, it doesn’t support rich formats coming from OpenOffice, such as tables, figures, bullets, enumerations, italic text and others. In these cases, the correspondent Latex formating script should be used after pasting OpenOffice’s contents. Once the format is done, we can finally compile and visualize the result.
 
-<div style="clear: both; text-align: center;"><a href="http://69.89.31.239/~hildeber/wp-content/uploads/2010/08/dissertation-writing-process.png" style="margin-left: 1em; margin-right: 1em;">![dissertation-writing-process-300x130.png](/images/posts/dissertation-writing-process-300x130.png)</a></div>
+![dissertation-writing-process-300x130.png](/images/posts/dissertation-writing-process-300x130.png)
+
 After each transference of text from OpenOffice to Texmaker, we have to approve all changes in the OpenOffice document in order to identify all new and updated texts that should be transfered to Texmaker in the next iteration.
 
 Two important details:

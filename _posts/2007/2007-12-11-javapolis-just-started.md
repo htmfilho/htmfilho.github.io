@@ -7,7 +7,7 @@ categories: conference
 
 Monday, December 10, 2007: The first day, the first CEJUG experience in a JavaPolis edition. But, before starting, I would like to say that Antwerp is a really nice city, a good mix of a calm city and a big one. We can feel the Belgian peace of mind and kindness in all places here. Even not understanding the language (Flemish), it’s relatively easy to use the public transportation and go to the conference venue. Anyway, if you have problems, everybody is able to speak English and help you.As you already know, the conference was sold out. All slots are in. So, I expected a crowded  place, difficult to walk and find people. Fortunately, it is not true. The place is incredible, comfortable, beautiful and really appropriate to support the JavaPolis dimension.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2007/12/DSCN1496.jpg">![DSCN1496-300x225.jpg](/images/posts/DSCN1496-300x225.jpg)</a>Stephan, the JavaPolis organizer, talked in the Parleys Press news about the main attractions. This year, JavaPolis attracted about 10% more visitants than 2006. It shows the consolidation of the conference as a permanent schedule in your agenda, and it shows also a constant increasing of size, quality, importance and responsibility.
+![DSCN1496-300x225.jpg](/images/posts/DSCN1496-300x225.jpg) Stephan, the JavaPolis organizer, talked in the Parleys Press news about the main attractions. This year, JavaPolis attracted about 10% more visitants than 2006. It shows the consolidation of the conference as a permanent schedule in your agenda, and it shows also a constant increasing of size, quality, importance and responsibility.
 
 The most explored topic is Java Enterprise Edition (JEE). I tried to imagine the relationship between JEE and the Star Wars theme. So, see the list below:
 
@@ -21,4 +21,4 @@ What is also cool is the presence of the Java’s father, James Gosling (We can 
 
 It is all for now!! See you tomorrow!
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2007/12/DSCN1499.jpg">![DSCN1499-300x225.jpg](/images/posts/DSCN1499-300x225.jpg)</a>
+![DSCN1499-300x225.jpg](/images/posts/DSCN1499-300x225.jpg)

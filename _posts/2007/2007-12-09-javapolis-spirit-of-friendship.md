@@ -7,7 +7,7 @@ categories: conference java
 
 Yesterday I was surprised about what I saw in the Javapolis homepage. Stephan, the Javapolis chairman, <a href="http://www.javapolis.com/" target="_blank">published my picture there</a>! Actually, I’m a simple guy, a little bit shy and I don’t want to become famous, but it is very cool for me and totally unexpected.
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2007/12/javapolis-appearance.jpg">![javapolis-appearance-300x182.jpg](/images/posts/javapolis-appearance-300x182.jpg)</a>
+![javapolis-appearance-300x182.jpg](/images/posts/javapolis-appearance-300x182.jpg)
 
 What I would like to say is that Javapolis is not yet another Java conference. It is a moment for friendship, where people are more important than technologies. Where everybody is simple, even our Java superstars.
 

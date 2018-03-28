@@ -9,7 +9,7 @@ Next week, I will attend <a href="http://www.javapolis.com/" target="_blank">Jav
 
 I started to plan my participation in the conference, as you can see in the picture below:
 
-<a href="http://69.89.31.239/~hildeber/wp-content/uploads/2007/12/cejug-t-short.jpg">![cejug-t-short-300x225.jpg](/images/posts/cejug-t-short-300x225.jpg)</a>
+![cejug-t-short-300x225.jpg](/images/posts/cejug-t-short-300x225.jpg)
 
 I’m using a special CEJUG t-shirt edition, created by <a href="http://silveiraneto.net/">Silveira Neto</a>, one of the most active members of our Brazilian community. He is a technical guy with special talents in arts, as you can see in my back. At that moment, I was visiting the Javapolis website and checking the schedule to organize my agenda.
 

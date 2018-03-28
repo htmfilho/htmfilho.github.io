@@ -269,10 +269,12 @@ blockquote {
   .highlight .il {
     color: #099; }
 
-.codewars-panel {
+.code-panel {
   background-color: black;
+  margin: 5px;
   padding: 10px;
   padding-bottom: 13px;
   border: 1px solid #000000;
   border-radius: 5px;
+  text-align: center;
 }

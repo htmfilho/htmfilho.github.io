@@ -58,6 +58,8 @@ It has an irregular path, going from well paved streets to muddy, bumpy ways int
 
 Another lesson learned was the hydration. It is really difficult to hydrate during the race because it causes abdominal pain. Even small sips were painful. So, I have to hydrate before, but in a way that doesn't make me want to pee during the race. I arrived a bit dizzy at the finish line and I drunk 6 x 300ml glasses of water to feel relieved (1.8l). I still have to figure out how to manage hydration with my coach.
 
+Two more things: I forgot to put a tape on my nipples. It is important to check the weather because if it rains my feet will suffer, thus I have to wear some waterproof shoes or socks.
+
 Finishing a challenging race is a really fulfilling experience. I feel inspired in every aspect of life, willing to take risks, move faster, solve problems, everything that tests my limits. And my next race is the [20km de Bruxelles][20kmdebruxelles], end of May. It's almost a half-marathon.
 
 [dh-belgium]: http://www.dhnet.be/sports/omnisports/running/les-10-miles-de-lln-le-plus-grand-jogging-estudiantin-de-belgique-58d1a20bcd705cd98e165af6

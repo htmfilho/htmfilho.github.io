@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Technical Documentation as Code"
-date: 2018-02-22 12:00:00 +0200
+date: 2018-04-13 12:00:00 +0200
 categories: git ruby markdown asciidoc restructuredtext documentation osis
 ---
 

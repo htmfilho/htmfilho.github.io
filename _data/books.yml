@@ -1,5 +1,14 @@
+- title: "Clojure For the Brave and True"
+  author: Daniel Higginbotham
+  progress: 44
+  description: The best book to understand well the magic behind Clojure. A fun way to learn the ultimate functional language with the goal of becoming a better programmer.
+  link: https://www.amazon.com/gp/product/1593275919/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275919&linkCode=as2&tag=c03ce-20&linkId=900306d2607cba0e96f375f608de132c
+  image: //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1593275919&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=c03ce-20
+  another_image: //ir-na.amazon-adsystem.com/e/ir?t=c03ce-20&l=am2&o=1&a=1593275919
+
 - title: "Building Evolutionary Architecture"
   author: Neal Ford, Rebecca Parsons & Patrick Kua
+  progress: 17
   description: I've been working with JavaEE and Django applications, which are very oppinionated frameworks. Now, I'm looking for architectures that can easily communicate the intent of the business and evolve strictly to the point the business needs.
   link: https://www.amazon.com/gp/product/1491986360/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491986360&linkCode=as2&tag=c03ce-20&linkId=3dd3d35c416c086ce958217ca0835aed
   image: //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1491986360&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=c03ce-20

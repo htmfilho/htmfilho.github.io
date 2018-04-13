@@ -35,16 +35,20 @@ layout: default
   </div>
   <div class="col-md-4">
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=hildebertocom" id="_carbonads_js"></script>
-    <br>    
-    {% assign reviewed = site.data.books[0] %}
+    <br>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">What I'm Reading</h3>
       </div>
       <div class="panel-body">
-        <h3>{{ reviewed.title }} <small>by {{ reviewed.author }}</small></h3>
-        <img align="left" border="0" style="margin-right: 10px;" width="90" src="{{ reviewed.image }}" >
-        <p>{{ reviewed.description }}</p>
+        {% for book in site.data.books %}
+          <h3>{{ book.title }} <small>by {{ book.author }}</small></h3>
+          <img align="left" border="0" style="margin-right: 10px;" width="90" src="{{ book.image }}" >
+          <p>{{ book.description }}</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{ book.progress }}%;" aria-valuenow="{{ book.progress }}" aria-valuemin="0" aria-valuemax="100">{{ book.progress }}%</div>
+          </div>
+        {% endfor %}
       </div>
       <div class="panel-footer">
         <a href="books">Read previous book reviews</a>

@@ -5,6 +5,8 @@ date: 2017-07-22 18:32:05 +0200
 categories: sport
 ---
 
+![Swimming AABB](/images/pages/swimming-aabb.jpg)
+
 I came back from a 10 days vacation in Brazil with 103kg, in August 2016. A
 month later, returning to the European diet and getting rid of all the water
 retained in my body due to the salty Brazilian food. I've reached 101kg. For my

@@ -20,3 +20,10 @@ Queuing is not complicated. It is extremely simple, but people can make it compl
 Queuing within programming context, not even outside.
 
 <!-- more -->
+
+Describe why message queuing is important for osis and why a database replication should not be used to replace it, as some may think.
+
+Asynchronous data exchange.
+Data Model independent.
+High availability.
+Decoupled.

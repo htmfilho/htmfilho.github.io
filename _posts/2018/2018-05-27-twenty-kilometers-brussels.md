@@ -42,7 +42,7 @@ Some personal data of this race:
   </tbody>
 </table>
 
-The path is flat with few elevations. 99% on paved streets and crossing the wonderful public park [Bois de la Cambre][bois-de-la-cambre]. This time, I did check the elevations and saved energy for the hardest one at the end of the course. I run together with my friend and former boss Fabrice Degraux, who was familiar with the race and shared some tips about the path, including the painful last elevation.
+The path is flat with few elevations. 99% on paved streets and crossing the wonderful public park [Bois de la Cambre][bois-de-la-cambre]. This time, I did check the elevations and saved energy for the hardest one at the end of the race. I run together with my friend and former boss Fabrice Degraux, who was familiar with the race and shared some tips about the path, including the painful last elevation.
 
 This time I was very careful about the hydration. I drunk 4 glasses of water before leaving home and during the race, instead of throwing away bottles full of water after a few sips, I held the bottles until finishing them. It didn't cause abdominal pain this time, so I will adopt the practice for the next race.
 

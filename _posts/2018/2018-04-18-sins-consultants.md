@@ -52,3 +52,5 @@ Prof of concept...
 ![The seven sins](/images/posts/seven-sins-lust.jpg)
 
 [wikipedia-consultant]: https://en.wikipedia.org/wiki/Consultant
+
+## Bonus Sloth Sin: Do Not Show Up for Work as Planned

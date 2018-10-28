@@ -11,10 +11,11 @@ It came sooner than expected. In my post about the [20 kilometers of Brussels][2
 
 <!-- more -->
 
+We are now living in Toronto, the forth larger city in North America, but it feels like a relatively small city because of the friendly neightbohood.
+
 # The Mental Workout
 
-
-During the second half I imagined running the first half, as a reference .
+During the second half I imagined running the first half as a reference, like mentally visualizing where I was in the first half based on the kilometers of the second half. Thinking about an imediate successful achievement was a very good distraction. It felt like a mindful experience because I could forget about the pain in my legs. 
 
 My training was concentrated at 5:30am 3 times a week in several weather conditions.
 

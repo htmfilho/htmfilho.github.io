@@ -49,6 +49,8 @@ Prof of concept...
 
 ## Lust: Use Company's Resources for Personal Needs
 
+Don't use those resources.
+
 ![The seven sins](/images/posts/seven-sins-lust.jpg)
 
 [wikipedia-consultant]: https://en.wikipedia.org/wiki/Consultant

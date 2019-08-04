@@ -37,7 +37,7 @@ Inspired by the book [Deep Work](/books/2017/10/deep-work.html), here are my per
 
 ## This Blog
 
-In this blog I typically write about software development and other topics surrounding it. Sometimes I try to explain things, mainly for myself, so I can repeat them later. But most of the time I analyse, compare and contrast to conclude giving my opinion about the subject.
+In this blog I typically write about software development and other topics surrounding it. Sometimes I try to explain things, mainly for myself, so I can repeat them later. But most of the time I analyze, compare and contrast to conclude giving my opinion about the subject.
 
 After 10 years maintaining this blog, I can confirm my love for writing is consolidated. It is also spreading. For instance, it wasn't the case before, but now I confidently believe that [every software must have an up to date documentation](/2018/01/rethinking-software-documentation.html). I try to write in front of my kids in order to influence them and I already noticed them trying to mimic their father. I also pushed my wife to revive her blog and now I'm afraid she will become more active than me overtime.
 

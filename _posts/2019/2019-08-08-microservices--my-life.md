@@ -7,7 +7,7 @@ categories: microservices architecture design
 
 ![Brussels Airport](/images/posts/louvain-la-neuve-grand-place.jpg)
 
-In August 2016, the Dean of the [Université catholique de Louvain][uclouvain] was embarrassed. We was hosting a large event at the university and had to make an important decision: Let the portal up and running for the entire academic community to propagate the message he was disseminating at the event or let the students consult the grades of the second cycle of exams. He opted to frustrate the students. The months that followed were full of discussions about how to prevent this problem to happen again.
+In August 2016, the Dean of the [Université catholique de Louvain][uclouvain] was embarrassed. He was hosting a large event at the university and had to make an important decision: Let the portal up and running for the entire academic community to propagate the message he was disseminating at the event or let the students consult the grades of the second cycle of exams. He opted to frustrate the students. The months that followed were full of discussions about how to prevent this problem to happen again.
 
 <!-- more -->
 

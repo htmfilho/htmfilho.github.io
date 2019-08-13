@@ -25,11 +25,13 @@ Working at the university also gave me the most rewarding project of my entire c
 
 ![Students Enrollment](/images/posts/online_encoding.png)
 
-Our mission was to balance the workload of the entire score encoding process. We had to release secretaries from the mountain of paper and repetitive tasks to spread the charge throughout the campus, delegating to teachers and their assistants the encoding into the system. Secretaries still had to review the data, but it was a breeze compared to previous years. After releasing the solution in production, a user reported a bug that we could not reproduce in our environments. So we decided to pay a visit to the user and observe how she was using the application. When the user announced our presence to her colleagues in them room each one of them came to thank for the job we have done. We even got a short round of applause. I will never forget this moment, but I hope to live it again.
+Our mission was to balance the workload of the entire score encoding process. We had to release secretaries from the mountain of paper and repetitive tasks to spread the charge throughout the campus, delegating to teachers and their assistants the encoding into the system. Secretaries still had to review the data, but it was a breeze compared to previous years.
+
+After releasing the solution in production, a user reported a bug that we could not reproduce in our environments. We decided to pay a visit to the user and observe how she was using the application. When the user announced our presence to her colleagues each one of them came to thank for the job we have done. We even got a short round of applause. I will never forget this moment, but I hope to live it again.
 
 ## Online Registration
 
-This image shocked me in 2014. If you look at it carefully, you will see the red sign "Inscriptions" in the entrance of the building. That building is big, thus when you see a queue like this outside that's because there is an even bigger queue inside. These people are trying to become students of the university. How many organizations out there have the privilege of getting so many people interested in their products or services? That university is in this select group, but they were not treating their "clients" well. So, when they gave us the opportunity to get those people registered online, I embarrassed the project like a son.
+This image shocked me in 2014. If you look at it carefully, you will see the red sign "Inscriptions" in the entrance of the building. That building is big, thus when you see a queue like this outside that's because there is an even bigger queue inside. These people are trying to become students of the university. How many organizations out there have the privilege of getting so many people interested in their products or services? That university is in this select group, but they were not treating their "clients" well. So, when they gave us the opportunity to get those people registered online, I embraced the project like a son.
 
 ![Students Enrollment](/images/posts/student-enrollment.jpg)
 
@@ -41,9 +43,9 @@ Curiously, all the above projects helped to improve the monolith. They eliminate
 
 ## Internship Allocation
 
-My latest mission as a team lead there was the recovery of a almost dead project. The Medical School was in need for a solution to assign students to internships in hospitals throughout the country (yes, Belgium is really small) and someone convinced them they could do it themselves with the help of some students. Needless to say that it was a disaster. The application was designed to run a single round of internships. It wasn't ready for the next academic year unless you clean up the database and start all over again.
+My latest mission as a team lead at the university was the recovery of a almost dead project. The Medical School was in need for a solution to assign students to internships in hospitals throughout the country (yes, Belgium is really small) and someone convinced them they could do it themselves with the help of some students. Needless to say that it was a disaster. The application was designed to run a single round of internships. It wasn't ready for the next academic year unless you clean up the database and start all over again.
 
-When I realized that Medical School was feeling cheated, I gave a step ahead and proposed to my boss to assign the project to me since my team was already fully autonomous. I spent 2 months focused on that application and got it in good shape to all up coming cohorts. Since I was leaving, I also spent some days training someone to continue my work.
+When I realized the Medical School was feeling cheated, I gave a step ahead and proposed to my boss to assign the project to me since my team was already fully autonomous. I spent 2 months focused on that application and got it in good shape to all up coming cohorts. Since I was leaving, I also spent some days training someone to continue my work.
 
 ![Admission Form](/images/posts/internship-allocation.jpg)
 
@@ -63,7 +65,7 @@ These are concise, domain specific, and technically advanced projects. Being dev
 
 But the most interesting pattern is that every time we developed something detached from monoliths it was successful. So, you may disagree with the marketing around the word "microservices", but I would be happy if you at least think like a microservices expert.
 
-A big thanks to all the people that helped along this journey.
+A big thanks to all the people that helped me along this journey.
 
 [JSON]: https://json.org
 [uclouvain]: https://uclouvain.be

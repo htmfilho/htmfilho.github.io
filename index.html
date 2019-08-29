@@ -4,15 +4,17 @@ layout: default
 
 <div class="row">
   <div class="col-md-8">
-    <header class="post-header">
-      <span class="post-meta">{{ site.posts[0].date | date: "%b %-d, %Y" }}</span>
-      <a href="{{ site.posts[0].url | prepend: site.baseurl }}"><h1 class="post-title">{{site.posts[0].title}}</h1></a>
-    </header>
+    {% for post in site.posts offset:1 limit:3 %}
+      <header class="post-header">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a href="{{ post.url | prepend: site.baseurl }}"><h1 class="post-title">{{post.title}}</h1></a>
+      </header>
 
-    <div class="post-content" itemprop="articleBody">
-      {{site.posts[0].excerpt}}
-      <a href="{{ site.posts[0].url | prepend: site.baseurl }}" class="btn btn-primary">Continue reading...</a>
-    </div>
+      <div class="post-content" itemprop="articleBody">
+        {{post.excerpt}}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">Continue reading...</a>
+      </div>
+    {% endfor %}
 
     <div class="panel panel-info">
       <div class="panel-heading">
@@ -20,7 +22,7 @@ layout: default
       </div>
       <div class="panel-body">
         <ul class="post-list">
-          {% for post in site.posts offset:1 limit:5 %}
+          {% for post in site.posts offset:3 limit:10 %}
             <li>
               <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
               <h2>

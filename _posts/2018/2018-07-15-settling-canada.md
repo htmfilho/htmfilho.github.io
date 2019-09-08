@@ -7,7 +7,7 @@ categories: canada
 
 ![Google Earth - Toronto](/images/posts/canada-globe.jpg)
 
-[Moving to Canada][2018-06-15] made people ask questions about our motivation to move. This is easy to answer. We moved because we wanted a [better education for our kids][pisa-2015], stay closer to some family members, find better working opportunities, and get out of our comfort zone. The decision was made, many risks were taken and now have been living in Toronto for a month, running a settlement that isn't any easier than [leaving Belgium][Belgium].
+[Moving to Canada][2018-06-15] made people ask questions about our motivation to move. This is easy to answer. We moved because we wanted a [better education for our kids][pisa-2015], stay closer to some family members, find better working opportunities, and get out of our comfort zone. The decision was made, many risks were taken and now we have been living in Toronto for a month, running a settlement that isn't any easier than [leaving Belgium][Belgium].
 
 <!-- more -->
 

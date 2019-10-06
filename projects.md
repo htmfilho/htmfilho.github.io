@@ -80,7 +80,7 @@ We recently moved to Toronto, Canada, and the move made us realize how many thin
 
 ![Minimily Inventory](/images/pages/projects-minimily.png)
 
-## contribute
+## Contribute
 
 All these projects are open source, free to use and open for contributions. Use those apps for your own good, explore the code to learn more about those technologies or contribute to share your knowledge for the good of others.
 

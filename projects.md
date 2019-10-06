@@ -4,9 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-The roles that I've professionally assumed in recent years reduced the time I dedicate to practical programming at work. In normal circumstances, it would shrink my technical influence and expand my management practices. However, I refuse to engage in any project management or product ownership initiative and dive into my passion for the craft of software engineering.
+The roles that I've professionally assumed in recent years reduced the time I dedicate to practical programming at work. In normal circumstances, it would shrink my technical influence and expand my management practices. However, I avoid engaging in project management or product ownership initiatives to keep my passion for the craft of software engineering very much alive.
 
-To keep my engineering skills sharp, I release my serotonin on GitHub projects. In a curated list of repositories, I go beyond my work experience and get my hands dirty in 5 different programming languages. Those projects contribute to community activities, knowledge management at work, knowledge sharing, event-driven monitoring, and life-style simplification. Here they are alphabetically ordered:
+I release my serotonin on GitHub projects to keep my engineering skills sharp. In a curated list of repositories I go beyond my work experience and get my hands dirty in 5 different programming languages. Those projects contribute to community activities, knowledge management at work, knowledge sharing, event-driven monitoring, and life-style simplification. Here they are alphabetically ordered:
 
 ## Brocante
 
@@ -18,6 +18,8 @@ This is a voluntary work to help the organization of a flee market in Belgium. I
 
 [Learn More...][brocante]
 
+![Brocante Registration Form](/images/pages/projects-brocante.png)
+
 ## Controlato
 
 - _Status_: Design
@@ -27,6 +29,8 @@ This is a voluntary work to help the organization of a flee market in Belgium. I
 Controlato is the act of keeping things under control thanks to indicators that monitor events. It's an old idea, actually implemented more than a decade ago, which I intend to revive in a more advanced technology. My wife is a data scientist and I count on her to help me on the design.
 
 [Learn More...][controlato]
+
+![Controlato Indicator](/images/pages/projects-controlato.png)
 
 ## Digger
 
@@ -38,6 +42,8 @@ Digger is the youngest in the list, but it got a minimal viable product in recor
 
 [Learn More...][digger]
 
+![Digger Column Documentation](/images/pages/projects-digger.png)
+
 ## Follow In Steps
 
 - _Status_: Conception
@@ -47,6 +53,8 @@ Digger is the youngest in the list, but it got a minimal viable product in recor
 Imagine you want to explain to someone else how to solve a complex problem. Instead of writing an extensive text like I do, decompose it into steps that can be easily followed by others. That's a lovely idea that has potential to change the world. Still thinking about a model that is not so difficult to use.
 
 [Learn More...][followinsteps]
+
+![Follow In Steps ERM Diagram](/images/pages/projects-follow-in-steps.png)
 
 ## Klakes
 
@@ -58,6 +66,8 @@ Klakes stands for Knowledge Lakes and was designed to organize the knowledge of 
 
 [Learn More...][klakes]
 
+![Klakes Knowledge Model](/images/pages/projects-klakes.png)
+
 ## Minimily
 
 - _Status_: Operational
@@ -67,6 +77,8 @@ Klakes stands for Knowledge Lakes and was designed to organize the knowledge of 
 We recently moved to Toronto, Canada, and the move made us realize how many things we owned and didn't actually needed. To better manage our stuff and minimize waste, we developed Minimily. It manages personal finances, documents, and home inventory. I keep evolving it as our personal needs increase.
 
 [Learn More...][minimily]
+
+![Minimily Inventory](/images/pages/projects-minimily.png)
 
 ## contribute
 

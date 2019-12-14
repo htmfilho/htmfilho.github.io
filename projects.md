@@ -44,18 +44,6 @@ Digger is the youngest in the list, but it got a minimal viable product in recor
 
 ![Digger Column Documentation](/images/pages/projects-digger.png)
 
-## Follow In Steps
-
-- _Status_: Conception
-- _Stack_: Go, PostgreSQL, Graph DB
-- _License_: GNU General Public License 3.0
-
-Imagine you want to explain to someone else how to solve a complex problem. Instead of writing an extensive text like I do, decompose it into steps that can be easily followed by others. That's a lovely idea that has potential to change the world. Still thinking about a model that is not so difficult to use.
-
-[Learn More...][followinsteps]
-
-![Follow In Steps ERM Diagram](/images/pages/projects-follow-in-steps.png)
-
 ## Klakes
 
 - _Status_: Operational
@@ -87,6 +75,5 @@ All these projects are open source, free to use and open for contributions. Use 
 [brocante]: https://www.github.com/htmfilho/brocante
 [controlato]: https://www.github.com/htmfilho/controlato
 [digger]: https://www.github.com/htmfilho/digger
-[followinsteps]: https://www.github.com/htmfilho/followinsteps
 [klakes]: https://www.github.com/htmfilho/klakes
 [minimily]: https://www.github.com/htmfilho/minimily

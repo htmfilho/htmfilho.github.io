@@ -17,9 +17,9 @@ Normally, things get better after the first Canadian experience. If you managed 
 
 The interviews started soon after opening for new opportunities on [LinkedIn]. I was not in a hurry, since I was still employed, but recruiters kept me busy all the time. My first interviews were really a mess, given my lack of practice, but I always took notes of what went well and what went awkward. As my discourse was refining, I was moving forward in those recruitment processes, which usually take weeks. For my surprise, the winning job offer took less than 3 business days!
 
-The hired me to help on introducing Internet of Things (IoT) on their platform. This is pretty surprising, given that I have absolutely no experience on anything related to IoT. I suspect they hired me because I'm an enthusiastic polyglot programmer and they wanted me to learn and use [Groovy] and [Go] in the project. I also appreciated their fast pace and their clear vision about the future of their products.
+The hired me to help on introducing Internet of Things (IoT) on their platform. This is pretty surprising, given that I have absolutely no experience on anything related to IoT. I suspect they hired me because I'm an enthusiastic polyglot programmer and they wanted me to learn and use [Groovy] and [Go] in the project, languages that I have no professional experience with.
 
-It was quite a change. I moved from a leadership position to a heavy engineering one; from a busy and noisy environment to an extremely quiet one; from multiple daily meetings to almost no meetings at all; from pure Java to Go and Groovy; from web only to web, low level, distributed and fault tolerant programming; from slow build processes and low output to fast paced team with high output.
+It was quite a change. I moved from a leadership position to a heavy engineering one; from a busy and noisy environment to an extremely quiet team; from multiple daily meetings to almost no meetings at all; from pure Java to Go and Groovy; from web-only to web, low level, distributed and fault tolerant programming; from rigorous processes to straightforward communication.
 
 [2018-07-15]: https://www.hildeberto.com/2018/07/settling-canada.html
 [Go]: https://golang.org

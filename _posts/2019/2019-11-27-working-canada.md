@@ -17,11 +17,14 @@ Normally, things get better after the first Canadian experience. If you managed 
 
 The interviews started soon after opening for new opportunities on [LinkedIn]. I was not in a hurry, since I was still employed, but recruiters kept me busy all the time. My first interviews were really a mess, given my lack of practice, but I always took notes of what went well and what went awkward. As my discourse was refining, I was moving forward in those recruitment processes, which usually take weeks. For my surprise, the winning job offer took less than 3 business days!
 
-The hired me to help on introducing Internet of Things (IoT) on their platform. This is pretty surprising, given that I have absolutely no experience on anything related to IoT. I suspect they hired me because I'm an enthusiastic polyglot programmer and they wanted me to learn and use [Groovy] and [Go] in the project, languages that I have no professional experience with.
+The hired me to help on introducing Internet of Things ([IoT]) on their platform. This is pretty surprising, given that I had absolutely no experience on anything related to IoT. I suspect they hired me because I'm an enthusiastic polyglot programmer and they wanted me to learn and use [Go] and [Groovy]. These are languages that I have no professional experience with, but I've played enough to build an opinion on them.
 
-It was quite a change. I moved from a leadership position to a heavy engineering one; from a busy and noisy environment to an extremely quiet team; from multiple daily meetings to almost no meetings at all; from pure Java to Go and Groovy; from web-only to web, low level, distributed and fault tolerant programming; from rigorous processes to straightforward communication.
+That was quite a move. From a leadership position to a heavy engineering one; from a busy and noisy environment to an extremely quiet team; from multiple daily meetings to almost no meetings at all; from pure Java to Go and Groovy; from web-only to web + low level + distributed + fault tolerant programming; from rigorous processes to straightforward communication. In summary, I'm spending more time on doing than on the planning of doing, which is extremely gratifying.
+
+That was also my first professional move in Canada. It was simple but not easy. To leave, I just discussed it formally with HR, asking for procedures, and then informally with my direct boss. These are two hard conversations that I didn't want to have, but the circumstances compelled me. We came out of this with a reasonable departure date, which was enough time to handover the work in progress and responsibilities. 
 
 [2018-07-15]: https://www.hildeberto.com/2018/07/settling-canada.html
 [Go]: https://golang.org
 [Groovy]: http://groovy-lang.org
+[IoT]: https://en.wikipedia.org/wiki/Internet_of_things
 [LinkedIn]: https://www.linkedin.com/in/htmfilho/

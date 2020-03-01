@@ -36,5 +36,5 @@ Despite the very short experience in IoT, I intend to stick with it in the long 
 [Groovy]: http://groovy-lang.org
 [IoT]: https://en.wikipedia.org/wiki/Internet_of_things
 [LinkedIn]: https://www.linkedin.com/in/htmfilho/
-[Arduino]:
-[RaspberryPI]:
+[Arduino]: https://www.arduino.cc
+[RaspberryPI]: https://www.raspberrypi.org

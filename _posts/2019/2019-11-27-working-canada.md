@@ -27,9 +27,7 @@ That was also my first professional move in Canada. To leave my previous job I j
 
 My assessment is in no way a general rule, but in comparison to Europe, the stakes at work here are higher. The same way it is easy to move on, it is also easy to get laid off. Funding issues can strike a good deal of people out at once with minimal legal consequences for the business. This is good and bad at the same time. Good because it stimulates entrepreneurship, but bad because it can ruin your financial stability. That's why it is so important to build a consistent and specialized career, so you have a target audience and a network to rely on for fast relocation.
 
-![My Work Desktop](/images/posts/desktop-iot-engineer.jpg)
-
-Despite the very short experience in IoT, I intend to stick with it in the long run. I'm so excited that I already bought [Arduino] and [RaspberryPI] kits, put them to work, and started learning languages like Go, Rust and C to put aside all limitations of high level languages.
+Despite the very short experience in IoT, I intend to stick with it in the long run. I'm so excited that I already bought [Arduino] and [RaspberryPI] kits, put them to work, and started learning languages like [Go], [Rust] and C to put aside all limitations of high level languages.
 
 [2018-07-15]: https://www.hildeberto.com/2018/07/settling-canada.html
 [Go]: https://golang.org
@@ -37,4 +35,5 @@ Despite the very short experience in IoT, I intend to stick with it in the long 
 [IoT]: https://en.wikipedia.org/wiki/Internet_of_things
 [LinkedIn]: https://www.linkedin.com/in/htmfilho/
 [Arduino]: https://www.arduino.cc
+[Rust]: https://www.rust-lang.org
 [RaspberryPI]: https://www.raspberrypi.org

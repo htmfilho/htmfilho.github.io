@@ -19,7 +19,7 @@ The Wikipedia article states that the average number of people an infected perso
 
 You can recognize an exponential distribution when the next point in the chart is the previous point raised to a certain power, forcing the chart to rapidly increase or decrease.
 
-Once sick, 80% of the population gets recovered after 2 weeks, feeling just mild symptoms. 20% of them are immune-suppressive to some degree and remain sick in the third week with complications such as pneumonia and liver failure. Unfortunately, 4% don't make it. What we notice here is that recovery is timeboxed. The cases are closed not in the same exponential rate, but in a geometric rate. Look at the green line in the chart that shows the situation in China.
+Once sick, 80% of the population gets recovered after 2 weeks, feeling just mild symptoms. 20% are immune-suppressive to some degree and remain sick in the third week with complications such as pneumonia and liver failure. Unfortunately, 4% don't make it. What we notice here is that recovery is timeboxed. The cases are closed not in the same exponential rate, but in a geometric rate. Look at the green line in the chart that shows the recovery in China.
 
 ![Geometric Increase](/images/posts/geometric-increase.png)
 

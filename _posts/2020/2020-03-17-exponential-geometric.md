@@ -25,7 +25,7 @@ Once sick, 80% of the population gets recovered after 2 weeks, feeling just mild
 
 Geometric distributions are more general and involve performing operations on numbers such as multiplying or dividing the previous point by a factor to get the next point.
 
-The real world doesn't follow exactly the theory described here, as we can see little discrepancies in the data caused by under reporting, errors, and the randomness of nature. But the theory allows us to identify practical patterns and take appropriate measures.
+The real world doesn't follow exactly the theory described here. We can see little discrepancies in the data caused by under reporting, errors, and the randomness of nature. But the theory allows us to identify practical patterns and take appropriate measures.
 
 [COVID-19]: https://en.wikipedia.org/wiki/Coronavirus_disease_2019
 [pandemic]: https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic

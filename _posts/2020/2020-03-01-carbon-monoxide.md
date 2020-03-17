@@ -25,6 +25,10 @@ Both gases are dangerous for human beings but the lethal concentration varies. C
 
 The best way to prevent gas intoxication is to ensure air circulation in the area. It can be done by simply opening the window, the door, or turning on the exhaust fan. But when it is not convenient to do, due to extreme weather conditions outside or the design of the building or the presence of a high emitter of those gases in the room, then it is crucial to consider installing a sensor.
 
+![Carbon Monoxide Alarm](/images/posts/carbon-monoxide-alarm.png)
+
 Each gas requires its own sensor.
 
 Methods Electrochemical Oxidation of CO Diffusion
+
+![Carbon Monoxide sensor compatible with Arduino](/images/posts/carbon-monoxide-sensor-arduino.jpg)

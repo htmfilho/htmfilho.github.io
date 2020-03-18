@@ -7,7 +7,7 @@ categories: canada work iot go groovy
 
 ![My Arduino and RaspberryPI setup](/images/posts/arduino-raspberrypi-setup.jpg)
 
-I had no previous experience, no future plans, and no ambition to work on Internet of Things, but when I recently decided to do a career move I didn't expect to do a career shift as well. But it happened and I'm loving it!
+I had no previous experience, no future plans, and no ambition to work on Internet of Things, but then they believed me and they are about to get the work done.
 
 <!-- more -->
 

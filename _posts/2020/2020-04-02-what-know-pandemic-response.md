@@ -12,3 +12,7 @@ This is a compilation of what I know so far about the pandemic that is in course
 <!-- more -->
 
 Work in progress every day...
+
+If you want to follow the contributions made to this post, please follow the history of changes available at [GitHub].
+
+[GitHub]: https://github.com/htmfilho/htmfilho.github.io/commits/master/_posts/2020/2020-04-02-what-know-pandemic-response.md

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Exponential and Geometric Distributions: A COVID-19 Example"
-date: 2020-03-17 12:00:00 +0200
-categories: covid19 statistics
+title:  "What I Know So Far About Dealing With A Pandemic Crisis"
+date: 2020-04-02 12:00:00 +0200
+categories: covid19 pandemic
 ---
 
 ![Global Pandemic](/images/posts/pandemic.png)

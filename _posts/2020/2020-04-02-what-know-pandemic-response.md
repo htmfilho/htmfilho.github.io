@@ -25,11 +25,7 @@ A lot of people without income are facing the hard choice of paying their bills 
 
 <hr>
 
-Work in progress every day...
-
-<hr>
-
-If you want to follow the contributions made to this post, please follow the history of changes available at [GitHub].
+That's a work in progress. I make contributions every day as I learn more about these hard times.
 
 [22-airplanes]: https://www.nytimes.com/2020/03/29/business/economy/coronavirus-china-supplies.html
 

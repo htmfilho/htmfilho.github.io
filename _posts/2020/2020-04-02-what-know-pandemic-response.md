@@ -32,13 +32,15 @@ A lot of people without income are facing the hard choice of paying their bills 
 
 Rapid social transformations are increasing the demand for services that were originally designed for low demand. Health ensurance claims, government aid programs, online shopping, are some examples of overloaded services.
 
+![Problem on the Canadian Tire Website](/images/posts/canadiantire-scalability.png)
+
 ## Health
 
 Healthcare professionals and first responders are considered the new heroes.
 
 ## Politics
 
-The difficult access to the healthcare system in the USA has cost countless lifes at the begining of the pandemic. Is this situation going to push for a universal healthcare system? What about a universal income? Are people going to make pressure for such services?
+The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lifes at the begining of the pandemic. Is this situation going to push for a universal healthcare system? What about a universal income? Are people going to make pressure for such services?
 
 <hr>
 
@@ -51,3 +53,5 @@ That's a work in progress. I make contributions every day as I learn more about 
 [france-lost]: https://www.theguardian.com/world/2020/apr/02/global-battle-coronavirus-equipment-masks-tests
 
 [GitHub]: https://github.com/htmfilho/htmfilho.github.io/commits/master/_posts/2020/2020-04-02-what-know-pandemic-response.md
+
+[healthcare-usa]: https://www.theguardian.com/us-news/2020/mar/26/us-insurance-companies-coronavirus-hospitals

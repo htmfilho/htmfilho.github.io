@@ -9,6 +9,11 @@ categories: covid19 pandemic
 
 This is a compilation of what I know so far about the pandemic that is in course. I started writing this post in April 2nd and I keep contributing with content as I learn more about the situation. My goal is to compile knowledge today to be used some time in the future in case a pandemic crisis happens again.
 
+> “It is not the strongest of the species that survives,
+> not the most intelligent that survives.
+> It is the one that is the most adaptable to change.”
+> ― Charles Darwin 
+
 <!-- more -->
 
 ## Tests

@@ -23,6 +23,8 @@ The economy paused for a while to minimize the spread of the virus. Millions of 
 
 A lot of people without income are facing the hard choice of paying their bills or putting food on the table. Before the crises the situation was already concerning. [Over half (53%) of Canadians were living paycheque to paycheque and one in four (25%) say their debt load is overwhelming. More than one-quarter (27%) don’t have enough for their daily needs][affordability-index]. Imagine what these people are facing during this crisis. It may trigger a behavioral change where people may reevaluate their consumption habits in favor of short and long term savings.
 
+<hr>
+
 Work in progress every day...
 
 If you want to follow the contributions made to this post, please follow the history of changes available at [GitHub].

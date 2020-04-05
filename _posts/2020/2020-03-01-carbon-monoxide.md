@@ -7,7 +7,7 @@ categories: canada work iot co co2
 
 ![Mark and his brother in The Client](/images/posts/the-client.png)
 
-Mark was eleven and has been smoking since nine. He mostly relied on the two packs his mother was smoking a day to steal some for himself. One day, he went to a ride with his little brother in the woods around the neighborhood. While he was teaching his brother to smoke, a car parked in the middle of the trees. Hidden, they saw a man get out of the car, attach a hose in the scaping pipe, put the other end through the window, and turn the car on to get himself dead of gas poisoning. Mark was determined to prevent that suicidal attempt, so he crawled to the car, removed the hose and run back to his hiding place. The man felt it was taking too long to die, so he went back there just to notice the hose out. He fixed the hose and got locked again. The boy and the man kept doing this until the man noticed the boy, captured him and got both locked in the car, saying: "We will die together".
+Mark was eleven and has been smoking since nine. He mostly relied on the two packs his mother was smoking a day to steal some for himself. One day, he went to a ride with his little brother in the woods around the neighborhood. While he was teaching his brother to smoke, a car parked in the middle of the trees. Hidden, they saw a man getting out of the car, attaching a hose in the scaping pipe, putting the other end through the window, and turning the car on to get himself dead of gas poisoning. Mark was determined to prevent that suicidal attempt, so he crawled to the car, removed the hose and run back to his hiding place. The man felt it was taking too long to die, so he went back there just to notice the hose out. He fixed the hose and got locked again. The boy and the man kept doing this until the man noticed the boy, captured him and got both locked into the car, saying: "We will die together".
 
 <!-- more -->
 
@@ -26,7 +26,5 @@ The best way to prevent gas intoxication is to ensure air circulation in the are
 ![Carbon Monoxide Alarm](/images/posts/carbon-monoxide-alarm.png)
 
 Each gas requires its own sensor.
-
-Methods Electrochemical Oxidation of CO Diffusion
 
 ![Carbon Monoxide sensor compatible with Arduino](/images/posts/carbon-monoxide-sensor-arduino.jpg)

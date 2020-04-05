@@ -40,7 +40,7 @@ Healthcare professionals and first responders are considered the new heroes.
 
 ## Politics
 
-The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lifes at the begining of the pandemic. Is this situation going to push for a universal healthcare system? What about a universal income? Are people going to make pressure for such services?
+The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lives at the begining of the pandemic. Is this situation going to push for a universal healthcare system? What about a universal income? Are people going to make pressure for such services?
 
 <hr>
 

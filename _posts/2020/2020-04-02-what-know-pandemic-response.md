@@ -30,7 +30,15 @@ A lot of people without income are facing the hard choice of paying their bills 
 
 ## Scalability
 
+Rapid social transformations are increasing the demand for services that were originally designed for low demand. Health ensurance claims, government aid programs, online shopping, are some examples of overloaded services.
 
+## Health
+
+Healthcare professionals and first responders are considered the new heroes.
+
+## Politics
+
+The difficult access to the healthcare system in the USA has cost countless lifes at the begining of the pandemic. Is this situation going to push for a universal healthcare system? What about a universal income? Are people going to make pressure for such services?
 
 <hr>
 

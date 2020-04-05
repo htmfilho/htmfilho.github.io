@@ -15,11 +15,9 @@ It could be a true story if it wasn't the intriguing plot of the novel "The Clie
 
 Carbon dioxide (CO2) is the result of a reaction in which a hydrocarbon (an organic compound consisting entirely of hydrogen and carbon, like most of fuels) reacts with oxygen to produce CO2 and water. Unfortunately, you cannot see or feel this gas because it’s colorless and odorless but you can be sure of its presence when you watch a candle burn or you exhale after inhale. It is essential for the life on earth because it is part of natural cycles, but many scientists believe that the excess of this gas may lead to global warming.
 
-![Molecule of Carbon Dioxide](/images/posts/carbon-dioxide.png)
-
 Carbon monoxide (CO) is the result of a reaction in which a hydrocarbon also reacts with oxygen but in an environment with a limited supply of air, resulting in less oxygen in the molecule. Because of the abundance of oxygen in the air, CO doesn’t occur naturally in the atmosphere, but industrialized equipment, that we can find at our home or office, can produce high levels of this gas. Fuel-burning appliances such as furnaces, stoves, dryers, water heaters, fireplaces, and cars are well known emitters of this colorless and odorless gas that can only be detected with special sensors.
 
-![Molecule of Carbon Monoxide, by Benjah-bmm27 - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=2062504](/images/posts/carbon-monoxide.png)
+![Molecules of Carbon, by Benjah-bmm27 - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=2062504](/images/posts/carbon-molecules.png)
 
 Both gases are dangerous for human beings but the lethal concentration varies. CO2 poisoning is rare because it requires a high concentration of it in a confined space, leading to symptoms like headaches and dizziness before the feeling of suffocation, which triggers the search for fresh air. On the other hand, CO is far more dangerous. It attaches to blood cells and prevents the distribution of oxygen throughout the body, causing a silent and painless lethal intoxication.
 

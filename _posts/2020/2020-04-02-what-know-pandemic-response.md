@@ -36,11 +36,11 @@ Rapid social transformations are increasing the demand for services that were or
 
 ## Health
 
-Healthcare professionals and first responders are considered the new heroes.
+Healthcare professionals and first responders are considered the new heroes. They are working long shifts to keep up with the overflow in hospitals across the globe.
 
 ## Politics
 
-The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lives at the begining of the pandemic. Is this situation going to push for a universal healthcare system? What about a universal income? Are people going to make pressure for such services?
+The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lives at this pandemic. Millions of people are losing their jobs, together with their health insurance. Is this situation going to push for a universal healthcare system at the USA? What about a universal income? Are people going to make pressure for such services?
 
 <hr>
 

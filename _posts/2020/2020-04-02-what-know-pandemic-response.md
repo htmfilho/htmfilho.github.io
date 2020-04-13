@@ -14,6 +14,8 @@ categories: covid19 pandemic
 
 This is a compilation of what I know so far about the pandemic that is in course. I started writing this post in April 2nd and I keep contributing with content as I learn more about the situation. My goal is to compile knowledge today to be used some time in the future in case a pandemic crisis happens again.
 
+Before continuing, please, be aware that this is a speculative article about my own view of the situation and what I believe will happen next. This is NOT news and it may have inacurate information that I didn't have the opportunity to fix yet. For precise information about the situation, please visit the [WHO website][WHO].
+
 <!-- more -->
 
 ## Tests
@@ -55,3 +57,5 @@ That's a work in progress. I make contributions every day as I learn more about 
 [GitHub]: https://github.com/htmfilho/htmfilho.github.io/commits/master/_posts/2020/2020-04-02-what-know-pandemic-response.md
 
 [healthcare-usa]: https://www.theguardian.com/us-news/2020/mar/26/us-insurance-companies-coronavirus-hospitals
+
+[WHO]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019

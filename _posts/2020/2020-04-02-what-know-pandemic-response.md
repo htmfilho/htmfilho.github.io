@@ -14,7 +14,7 @@ categories: covid19 pandemic
 
 This is a compilation of what I know so far about the pandemic that is in course. I started writing this post in April 2nd and I keep contributing with content as I learn more about the situation. My goal is to compile knowledge today to be used some time in the future in case a pandemic crisis happens again.
 
-Before continuing, please, be aware that this is a speculative article about my own view of the situation and what I believe will happen next. This is NOT news and it may have inacurate information that I didn't have the opportunity to fix yet. For precise information about the situation, please visit the [WHO website][WHO].
+Before continuing, please, be aware that this is a speculative article about my own views of the situation and what I believe will happen next. This is NOT news and it may have inacurate information that I didn't have the opportunity to fix yet. For precise information about the situation, please visit the [WHO website][WHO].
 
 <!-- more -->
 

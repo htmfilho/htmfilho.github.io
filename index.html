@@ -43,6 +43,7 @@ layout: default
         <h3 class="panel-title">What I'm Reading</h3>
       </div>
       <div class="panel-body">
+        <div id="reads"></div>
         {% for book in site.data.books %}
           <h3>{{ book.title }} <small>by {{ book.author }}</small></h3>
           <img align="left" border="0" style="margin-right: 10px;" width="90" src="{{ book.image }}" >

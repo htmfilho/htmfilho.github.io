@@ -12,16 +12,22 @@ $(document).ready(function() {
         let html = ``;
         items.forEach(el => {
           html += `
-            <article>
-              <img src="${el.querySelector("image").innerHTML}" alt="">
-              <h2>
-                <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
-                  ${el.querySelector("title").innerHTML}
-                </a>
-              </h2>
-            </article>
+            <h3><a href="${el.querySelector("link").innerHTML}">${el.querySelector("title").innerHTML}</a> <small>${el.querySelector("author").innerHTML}</small></h3>
+            <img align="left" border="0" style="margin-right: 10px;" width="90" src="${el.querySelector("image").innerHTML}">
+            <p>${el.querySelector("summary").innerHTML}</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: ${el.querySelector("progress").innerHTML}%;" aria-valuenow="${el.querySelector("progress").innerHTML}" aria-valuemin="0" aria-valuemax="100">${el.querySelector("progress").innerHTML}%</div>
+            </div>
           `;
         });
         reads.insertAdjacentHTML("beforeend", html);
       });
 });
+
+
+<h3>{{ book.title }} <small>by {{ book.author }}</small></h3>
+<img align="left" border="0" style="margin-right: 10px;" width="90" src="{{ book.image }}" >
+<p>{{ book.description }}</p>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: {{ book.progress }}%;" aria-valuenow="{{ book.progress }}" aria-valuemin="0" aria-valuemax="100">{{ book.progress }}%</div>
+</div>

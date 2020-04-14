@@ -12,7 +12,7 @@ $(document).ready(function() {
         let html = ``;
         items.forEach(el => {
           html += `
-            <h3><a href="${el.querySelector("link").innerHTML}">${el.querySelector("title").innerHTML}</a> <small>${el.querySelector("author").innerHTML}</small></h3>
+            <h3><a href="/books${el.querySelector("link").innerHTML}">${el.querySelector("title").innerHTML}</a> <small>${el.querySelector("author").innerHTML}</small></h3>
             <img align="left" border="0" style="margin-right: 10px;" width="90" src="${el.querySelector("image").innerHTML}">
             <p>${el.querySelector("summary").innerHTML}</p>
             <div class="progress">

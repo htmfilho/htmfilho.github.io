@@ -18,6 +18,10 @@ Before continuing, please, be aware that this is a speculative article about my 
 
 <!-- more -->
 
+## COVID-19
+
+The ongoing pandemic is caused by a virus named SARS-CoV-2, a coronavirus that provokes a viral pneumonia denominated COVID-19. This virus spreads very fast because some people may carry the virus while still be asymptomatic, spreading it without knowing. In addition, it spreads throughout the air in a radius of 2 meters from person to person, or higher if they are in movement. COVID-19 is specially concerning for people with weak immune system, caused by age, medications or sensitive health condition.
+
 ## Tests
 
 The reason why tests are so important is because it allows preparation to what is yet to come. In the case of COVID-19, it is known that 80% of people go through with mild symptoms, 20% need some level of hospitalization, 5% need intensive care, and 2% die. By knowing how many people are sick, we take these percentages of the total, prepare the hospitals for the volume of new patients over time and we also alert the supply chain about the imminent demand. The sooner the tests happen the better because it buys time. The lack of preparation leads to overloaded hospitals, contamination of existing patients, contamination of health professionals, who have to stop working until being tested negative again, among other chaotic situations.
@@ -42,7 +46,7 @@ Healthcare professionals and first responders are considered the new heroes. The
 
 ## Politics
 
-The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lives at this pandemic. Millions of people are losing their jobs, together with their health insurance. Is this situation going to push for a universal healthcare system at the USA? What about a universal income? Are people going to make pressure for such services?
+The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lives at this pandemic. Millions of people are losing their jobs, together with their health insurance. This situation might push for a universal healthcare system policy, in the model that works in Canada.
 
 <hr>
 

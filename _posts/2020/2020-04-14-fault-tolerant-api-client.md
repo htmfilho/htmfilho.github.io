@@ -99,8 +99,9 @@ public class EndpointRetry {
     public void errorOccurred(RuntimeException cause) {
         this.success = false;
         if (numAttemptsLeft <= 0) {
-            this.finalException = new RuntimeException(numAttemptsLeft +
-                "attempts done every "+ waitingTime +"ms failed.");
+            this.finalException = new RuntimeException(
+                String.format("%d attempts done every %d ms failed.",
+                              numAttemptsLeft, waitingTime);
         }
         this.numAttemptsLeft--;
         waitUntilNextAttempt();
@@ -116,7 +117,7 @@ public class EndpointRetry {
         if(failedAttemptCauses.size() > 0) {
             int i = 1;
             for (RuntimeException runtimeException : failedAttemptCauses) {
-                logger.error("Attempt " + i++, runtimeException);
+                logger.error("Attempt #" + i++, runtimeException);
             }
             throw finalException;
         }
@@ -131,12 +132,12 @@ Now, let's see how to use it. The code below calls an endpoint:
 {% highlight java %}
 private BigDecimal convertToCurrency(BigDecimal value, Currency currency) {
     EndpointRetry endpointRetry = new EndpointRetry();
+    BigDecimal convertedValue = null;
 
     while (endpointRetry.retry()) {
         try {
-            // Code to initialize the HTTP call...
-
-            int responseCode = connection.endpointCall();
+            // Code to initialize the HTTP call, call the API and define the
+            // variable convertedValue.
 
             if (responseCode != HttpURLConnection.HTTP_OK) {
                 endpointRetry.setFinalException(
@@ -155,7 +156,13 @@ private BigDecimal convertToCurrency(BigDecimal value, Currency currency) {
                 String.format("Service is unavailable: %s", url), ie));
         }
     }
-    endpointRetry.throwPossibleCauses(LOG);
+
+    try {
+        endpointRetry.throwPossibleCauses(LOG);
+    } catch {
+        return value;
+    }
+    return convertedValue;
 }
 {% endhighlight %}
 

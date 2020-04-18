@@ -69,7 +69,9 @@ standby since 2006.
   ]);
 
   // Configuration for the Timeline
-  var options = {};
+  var options = {
+    zoomMin: 630720000000
+  };
 
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, options);

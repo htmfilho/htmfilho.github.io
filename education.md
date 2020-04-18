@@ -58,12 +58,14 @@ standby since 2006.
   var container = document.getElementById('visualization');
 
   var items = new vis.DataSet([
-    {id: 1, content: 'Visual Basic', start: '1998-10-01', end: '2002-01-31'},
-    {id: 2, content: 'Java', start: '2002-02-01', end: new Date()},
+    {id: 1, content: 'C/C++', start: '1998-10-01', end: '2000-01-31'},
+    {id: 1, content: 'Visual Basic', start: '1999-10-01', end: '2002-01-31'},
+    {id: 2, content: 'Java', start: '1999-02-01', end: new Date()},
     {id: 3, content: 'Clojure', start: '2015-01-01', end: new Date()},
-    {id: 4, content: 'Python', start: '2015-10-16', end: new Date()},
+    {id: 4, content: 'Python', start: '2015-10-01', end: new Date()},
     {id: 5, content: 'Go', start: '2019-10-01', end: new Date()},
-    {id: 6, content: 'Groovy', start: '2020-01-01', end: new Date()}
+    {id: 6, content: 'Groovy', start: '2020-01-01', end: new Date()},
+    {id: 6, content: 'Rust', start: '2020-04-01', end: new Date()}
   ]);
 
   // Configuration for the Timeline

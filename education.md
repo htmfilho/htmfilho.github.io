@@ -55,17 +55,15 @@ standby since 2006.
 <div id="visualization"></div>
 
 <script type="text/javascript">
-  // DOM element where the Timeline will be attached
   var container = document.getElementById('visualization');
 
-  // Create a DataSet (allows two way data-binding)
   var items = new vis.DataSet([
-    {id: 1, content: 'item 1', start: '2014-04-20'},
-    {id: 2, content: 'item 2', start: '2014-04-14'},
-    {id: 3, content: 'item 3', start: '2014-04-18'},
-    {id: 4, content: 'item 4', start: '2014-04-16', end: '2014-04-19'},
-    {id: 5, content: 'item 5', start: '2014-04-25'},
-    {id: 6, content: 'item 6', start: '2014-04-27', type: 'point'}
+    {id: 1, content: 'Visual Basic', start: '1998-10-01', end: '2002-01-31'},
+    {id: 2, content: 'Java', start: '2002-02-01', end: new Date()},
+    {id: 3, content: 'Clojure', start: '2015-01-01', end: new Date()},
+    {id: 4, content: 'Python', start: '2015-10-16', end: new Date()},
+    {id: 5, content: 'Go', start: '2019-10-01', end: new Date()},
+    {id: 6, content: 'Groovy', start: '2020-01-01', end: new Date()}
   ]);
 
   // Configuration for the Timeline

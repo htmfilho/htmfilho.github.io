@@ -47,32 +47,3 @@ Applied Sciences right after finishing my master with great distinction. Thanks
 to the work that was already in progress, I managed to complete the Ph.D in 2
 years, finishing my studies in 2010 to restart my professional career, in
 standby since 2006.
-
-## Self-Taught
-
-### Programming Languages
-
-<div id="visualization"></div>
-
-<script type="text/javascript">
-  var container = document.getElementById('visualization');
-
-  var items = new vis.DataSet([
-    {id: 1, content: 'C/C++', start: '1998-10-01', end: '2000-01-31'},
-    {id: 2, content: 'Visual Basic', start: '1999-10-01', end: '2002-01-31'},
-    {id: 3, content: 'Java', start: '1999-02-01', end: new Date()},
-    {id: 4, content: 'Clojure', start: '2015-01-01', end: new Date()},
-    {id: 5, content: 'Python', start: '2015-10-01', end: new Date()},
-    {id: 6, content: 'Go', start: '2019-10-01', end: new Date()},
-    {id: 7, content: 'Groovy', start: '2020-01-01', end: new Date()},
-    {id: 8, content: 'Rust', start: '2020-04-01', end: new Date()}
-  ]);
-
-  // Configuration for the Timeline
-  var options = {
-    zoomMin: 630720000000
-  };
-
-  // Create a Timeline
-  var timeline = new vis.Timeline(container, items, options);
-</script>

@@ -8,7 +8,7 @@ permalink: /about/
 
 My name is Hildeberto Mendonca, father of two amazing kids and husband of a wonderful woman. I'm a proactive, result-driven, disciplined professional with 18+ years experience in the IT industry. Across a variety of roles, I provide value through my skills in programming, software design, architecture, training and team empowerment. I'm a highly flexible professional, in [permanent state of learning][projects], and driven towards exceeding expectations.
 
-I have a Ph.D. in applied sciences on the field of electrical engineering. I took this degree as a challenge, which I achieved with great honor, but I've decided to follow a different path to pursuit my passion for software engineering. The reason was simple: research has a long Time to Market cycle and I wanted to solve real world problems incrementally, feeling myself useful as frequently as possible. Anyway, my time as a scientist gave me three skills that I'm proud of:
+I have a Ph.D. in applied sciences on the field of electrical engineering. I took this degree as a challenge, which I achieved with great honour, but I've decided to follow a different path to pursuit my passion for software engineering. The reason was simple: research has a long Time to Market cycle and I wanted to solve real world problems incrementally, feeling myself useful as frequently as possible. Anyway, my time as a scientist gave me three skills that I'm proud of:
 
 1. **Resilience** - I don't quit, I have no fear, I do not hesitate. My Ph.D. was one of the hardest things I ever did. Everything else seems easy to deal with, which explains my permanent state of optimism.
 
@@ -51,7 +51,7 @@ Inspired by the armed forces, here are my personal values:
 
 ## The Blog
 
-In this blog I write about personal experiences and software engineering. I've been maintaining this since 2007, with ups and downs overtime. I don't write as frequent as before, but I spend an awful amount of time crafting each post lately.
+In this blog I write about personal experiences and software engineering. I've been maintaining this since 2007, with ups and downs overtime. I don't write as frequent as before, but I still invest a lot of time here.
 
 <canvas id="myChart" width="400" height="200"></canvas>
 <script>
@@ -106,7 +106,7 @@ var myChart = new Chart(ctx, {
 });
 </script>
 
-Coincidently, my most productive years were the ones of my Ph.D. Then it felt considerably down when I went back to the industry after finishing my studies. A bunch of fixed pages give details of my education, projects and interests. They are not updated as frequent as the posts, but I try to update them at least once a year.
+Coincidentally, my most productive years were the ones of my Ph.D. Then it felt considerably down when I went back to the industry after finishing my studies. A bunch of fixed pages give details of my education, projects and interests. They are not updated as frequent as the posts, but I try to update them at least once a year.
 
 My posts are long and I work hard to keep your interest until the end. Sometimes, I write posts in the past to keep historical accuracy, thus recent posts do not necessarily appear in the front page, but I use my social networks to disclose them.
 

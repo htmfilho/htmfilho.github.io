@@ -7,7 +7,7 @@ categories: java circuitbreaker api
 
 ![Tin Can Telephone](/images/posts/unreliable-api-call.png)
 
-The life of system engineers would be a lot easier if they could squeeze all computing needs in a single computing unit. Reality is tougher. The complexity of systems is broken down into several components, some of them so resource consuming that they require their own computing instances. Multiple instances bring the communication of electronic devices to the table and there are countless things that can go wrong there. Good system engineering is the realization that those things should be handled gracefully, according to the rules of a discipline known as [Fault Tolerance].
+The life of system engineers would be a lot easier if they could squeeze all computing needs in a single computing unit. Reality is tougher. The complexity of systems is broken down into several components, some of them so resource intensive that they require their own computing instances. Multiple instances bring the communication of electronic devices to the table and there are countless things that can go wrong there. Good system design is the realization that those things should be handled gracefully, according to the rules of a discipline known as [Fault Tolerance].
 
 <!-- more -->
 

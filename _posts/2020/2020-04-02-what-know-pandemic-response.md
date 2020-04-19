@@ -48,6 +48,10 @@ Healthcare professionals and first responders are considered the new heroes. The
 
 The [difficult access to the healthcare system in the USA][healthcare-usa] has cost countless lives at this pandemic. Millions of people are losing their jobs, together with their health insurance. This situation might push for a universal healthcare system policy, in the model that works in Canada.
 
+## Aftermath
+
+Historically, there is a wave of happiness and positivity after large scale wars and pandemics. The Renascence happened after the blank plague, the fashion influence of France started after the french revolution, jazz and blues happened after the Great War and the Spanish Flu. If the positive wave comes after COVID-19, then it will help to overcome the economic burden.
+
 <hr>
 
 That's a work in progress. I make contributions every day as I learn more about these hard times.

@@ -17,16 +17,23 @@ In the world of money, arithmetic is not fully useful. Consider this simple scen
 
 The accumulation of rounding issues may have an important impact over time, specially when using computers, which are capable of processing millions of operations per second. The accumulation of rounding issues can represent millions in gains or loss for the involved parties. Because of that, programmers must be careful when dealing with money in their applications.
 
+Care starts right in the basics. When looking at the characteristics of monetary values, it is tempting to use a primitive type with support for decimal places, such as float and double. They can't accurately be represented by 0s and 1s. For example, 5000000.02 - 5000000.01 is 0.009..., not 0.01; 165 * 1.40 is 230.9999... not 231. I run to my computer and played with these examples in several programming languages (Java, Python, Ruby, and Go), trying to find one with a different behaviour. Curiously, Go behaved like a calculator, working well with float32 without the above problems. However, the usual problems happen with float64.
+
 ![Tin Can Telephone](/images/posts/float-rounding-go-other-lang.png)
 
-It turns out sum, subtraction, and multiplication can be handled by float32 base 1, but the division is a whole new world. Not even integers can handle this alone.
+I was happy with Go float32 until I run an example I found in the book [Code Complete 2nd Ed.][code-complete]: 1.0 == (0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1) is false, but 1.0 == (0.1 * 10) is true! The reason why Go behaved well above is because numbers with decimal places are float32 by default, while in other languages they are float64 or double. By forcing Java to use float32, we get the same result: 165 * 1.40f == 231.
+
+It is extremely common to use computers to work with monetary values, but no modern programming language implements a primitive type to properly support them. Well, the problem with money is that it is not just about arithmetic operations. It is also about currency, conversions, indexes and traceability.
 
 A few rules/thoughts for money:
-never use float/double or any variation of floating point - (Don’t ask how many times I see 321.31000000001 come back in an API)
-64 bit integers are good, as long as you remember that some currencies have 3 decimal places.
-Remember that some currencies are very different 1 CAD = 16,000 VND (it can be worse, when a country goes hyper inflation)
-We currently have our DB scaled at NUMERIC(19,3) for amounts
-You rarely need performance around amounts - so worrying about float/int/arbitrary-percision is mis placed
-Amounts mean nothing without a currency code attached
-Strings make for good serializations, since you don’t need to worry about the receivers “number” type.
+
+- 64 bit integers are good, as long as you remember that some currencies have 3 decimal places.
+- Remember that some currencies are very different 1 CAD = 16,000 VND (it can be worse, when a country goes hyper inflation)
+- We currently have our DB scaled at NUMERIC(19,3) for amounts
+- You rarely need performance around amounts - so worrying about float/int/arbitrary-percision is mis placed
+- Amounts mean nothing without a currency code attached
+- Strings make for good serializations, since you don’t need to worry about the receivers “number” type.
+
 The reference to shopstring/decimal looks good, but have no direct experience.
+
+[code-complete]: https://amzn.to/3eYyu1G

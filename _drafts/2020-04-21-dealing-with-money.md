@@ -13,7 +13,9 @@ Some time ago I was teaching my kid about money, as an extra activity on top of 
 
 On the spur of the moment, we could tell that's just a matter of scale, but this is not the case. Comparing to the metric system, we can have a table that measures 100cm x 150cm or 1m x 1,5m. In athletics 1500m is a middle-distance, not 1.5km. I'm 1.80m tall, but the measuring tape tells me 180cm. In currency, cents range from 0 to 99¢. Nobody has 230¢ cents in their pockets. They have 2 dollars and 30 cents instead. Any value greater than 99¢ is in dollars, some times followed by fractions in cents. These rules are applicable for the majority of currencies around the world.
 
-In the world of money, arithmetic is not fully useful. Consider this simple scenario: you have 100$ and you want to fairly split it with 3 people. So, you divide 100 by 3 and get 33.3333333... but concretely, money can only represent 33.33. If you multiply 33.33 by 3 you get 99.99, which means you still have 1¢ to give, finding yourself privileging someone. As you can see, money can be split, but not divided. The accumulation of rounding issues may have an important impact over time.
+In the world of money, arithmetic is not fully useful. Consider this simple scenario: you have 100$ and you want to fairly split it with 3 people. So, you divide 100 by 3 and get 33.3333333... but concretely, money can only represent 33.33. If you multiply 33.33 by 3 you get 99.99, which means you still have 1¢ to give, finding yourself privileging someone. As you can see, money can be split, but it is not a good idea to divide it.
+
+The accumulation of rounding issues may have an important impact over time, specially when using computers, which are capable of processing millions of operations per second. The accumulation of rounding issues can represent millions in gains or loss for the involved parties. Because of that, programmers must be careful when dealing with money in their applications.
 
 ![Tin Can Telephone](/images/posts/float-rounding-go-other-lang.png)
 

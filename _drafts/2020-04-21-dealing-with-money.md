@@ -23,7 +23,9 @@ Care starts right in the basics. When looking at the characteristics of monetary
 
 I was happy with Go float32 until I run an example I found in the book [Code Complete 2nd Ed.][code-complete]: 1.0 == (0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1) is false, but 1.0 == (0.1 * 10) is true! The reason why Go behaved well above is because numbers with decimal places are float32 by default, while in other languages they are float64 or double. By forcing Java to use float32, we get the same result: 165 * 1.40f == 231.
 
-It is extremely common to use computers to work with monetary values, but no modern programming language implements a primitive type to properly support them. Well, the problem with money is that it is not just about arithmetic operations. It is also about currency, conversions, indexes and traceability.
+Computers work with monetary values on an immeasurable scale, but no modern programming language implements a primitive type to properly support them. The problem with money is that it is not just about arithmetic operations. It is also about currency, conversions, indexes, formatting, etc. This is a complex type, as recognized by Java through the spec [JSR 354], Python in the library [money], and many others.
+
+In case a good abstraction of money is not available, the book [Patterns of Enterprise Application Architecture][pattern-enterprise-application], page 488, has the requirements to implement a basic one.
 
 A few rules/thoughts for money:
 
@@ -37,3 +39,6 @@ A few rules/thoughts for money:
 The reference to shopstring/decimal looks good, but have no direct experience.
 
 [code-complete]: https://amzn.to/3eYyu1G
+[JSR 354]: https://javamoney.github.io/api.html
+[money]: https://pypi.org/project/money/
+[pattern-enterprise-application]: https://amzn.to/3cY0iRI

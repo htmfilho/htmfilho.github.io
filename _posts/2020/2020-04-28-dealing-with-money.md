@@ -53,7 +53,7 @@ Back to the numeric representation, a popular technique to achieve precision wit
 
 As you can see, this technique is verbose. It requires encapsulation to implement arithmetic operations, comparisons, and presentation. But it works to the point of preventing us from using float or double. The most pragmatic approach is still using an existing library, instead of implementing it ourselves.
 
-To conclude, let's visit an algorithm to split money as fairly as possible in Go:
+To conclude, let's play a bit with an algorithm to split money as fairly as possible in Go:
 
 {% highlight go %}
 package main

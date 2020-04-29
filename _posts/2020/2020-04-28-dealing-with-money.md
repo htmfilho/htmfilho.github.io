@@ -56,34 +56,42 @@ As you can see, this technique is verbose. It requires encapsulation to implemen
 To conclude, let's visit an algorithm to split money as fairly as possible in Go:
 
 {% highlight go %}
-    package main
+package main
 
-    import "fmt"
+import "fmt"
 
-    func main() {
-        parties := split(100, 3)
-        fmt.Printf("split %v", parties)
+func main() {
+    parties := split(100, 3)
+    fmt.Printf("split 100 with 3: %v\n", parties)
+
+    parties = split(67, 4)
+    fmt.Printf("split 67 with 4: %v", parties)
+}
+
+func split(amount, n int) []int {
+    division := amount / n
+    toDistribute := amount - (division * n)
+
+    parties := make([]int, n)
+
+    for i := 0 ; i < n ; i++ {
+        parties[i] = division
     }
 
-    func split(amount, n int) []int {
-        division := amount / n
-        toDistribute := amount - (division * n)
-
-        parties := make([]int, n)
-
-        for i := 0 ; i < n ; i++ {
-            parties[i] = division
-        }
-
-        j := 0
-        for i := toDistribute; i > 0 ; i-- {
-            parties[j] += 1
-            j++
-        }
-
-        return parties
+    j := 0
+    for i := toDistribute; i > 0 ; i-- {
+        parties[j] += 1
+        j++
     }
+
+    return parties
+}
 {% endhighlight %}
+
+Output:
+
+    split 100 with 3: [34 33 33]
+    split 67 with 4: [17 17 17 16]
 
 [code-complete]: https://amzn.to/3eYyu1G
 [JSR 354]: https://javamoney.github.io/api.html

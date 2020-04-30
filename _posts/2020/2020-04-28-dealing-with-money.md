@@ -37,7 +37,7 @@ In case a good abstraction of money is not available, the book [Patterns of Ente
 
  - A value is attached to a currency to give context. Without a context, it is risky to compare two values. For example: 1 CAD != 1 EUR but 20 CAD == 20 CAD.
 
- - A value may have 3 decimal places to minimize rounding differences and to support a larger variety of currencies would wide.
+ - A value may have 3 decimal places to minimize rounding differences and to support a larger variety of currencies would wide. But, as remarked by [@koblas], if the currency works with 2 decimal places, do not consider the third place in any calculation, setting it with 0 all the time.
 
  - The way we represent money is not necessarily the way we show it. We may store 3 decimal places but we may keep the third one hidden. Optionally we can show the symbol of the currency.
 
@@ -89,3 +89,4 @@ To conclude, let's visit an algorithm to split money as fairly as possible in Go
 [JSR 354]: https://javamoney.github.io/api.html
 [money]: https://pypi.org/project/money/
 [pattern-enterprise-application]: https://amzn.to/3cY0iRI
+[@koblas]: https://twitter.com/koblas

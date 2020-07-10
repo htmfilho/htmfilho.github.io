@@ -7,6 +7,6 @@ categories: golang java web
 
 ![Scalability](/images/posts/scalability.jpg)
 
-s
+
 
 <!-- more -->

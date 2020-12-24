@@ -108,6 +108,8 @@ select max(version) as version
 from versioning;
 {% endhighlight %}
 
+A third option, simpler than the `versioning` table, would be a configuration entry or an environment variable that contains the version number.
+
 To prevent downtime the application would need at least 2 live instances. While the first one is upgrading, therefore creating and seeding the new version of the table, the other ones are still serving data from the current version. The first one is the first to serve data from the new version and the next ones will follow as they get upgraded too.
 
 Another possibility is to use Liquibase for table versioning and [Flyway] for other migration needs, but I didn't have time to test this posibility yet. Did you?

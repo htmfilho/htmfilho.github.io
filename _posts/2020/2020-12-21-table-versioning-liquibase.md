@@ -108,7 +108,7 @@ select max(version) as version
 from versioning;
 {% endhighlight %}
 
-A third option, simpler than the `versioning` table, would be a configuration entry or an environment variable that contains the version number.
+A third option, simpler than the `versioning` table, would be a configuration entry or an environment variable set with the version number. A configuration entry would take effect right after the deployment, which is required when working with multiple instances.Changing an environment variable may not be in sync with the app deployment, which may require more careful deployment procedures. 
 
 To prevent downtime the application would need at least 2 live instances. While the first one is upgrading, therefore creating and seeding the new version of the table, the other ones are still serving data from the current version. The first one is the first to serve data from the new version and the next ones will follow as they get upgraded too.
 

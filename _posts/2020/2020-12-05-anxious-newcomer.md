@@ -5,7 +5,7 @@ date: 2020-12-05 12:00:00 +0200
 categories: job newcomer opportunity
 ---
 
-![Programming Activity](/images/posts/anxious-newcomer.png)
+![The Anxious Newcomer](/images/posts/the-anxious-newcomer.png)
 
 I’m over a month in my new job, experiencing some anxiety in my probationary period, and doing what I believe fulfills their expectations for a senior software engineer. It is normal, but not easy. The hardest part is the cultural transition from the previous job.
 

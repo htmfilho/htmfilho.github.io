@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Database Table Versioning With Liquibase"
+title:  "Table Versioning With Liquibase"
 date: 2020-12-21 12:00:00 +0200
 categories: database java
 ---

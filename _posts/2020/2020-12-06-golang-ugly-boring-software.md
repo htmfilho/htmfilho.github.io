@@ -7,7 +7,7 @@ categories: golang clojure java python graalvm programming micronaut quarkus
 
 ![Programming Activity](/images/posts/programming-activity.png)
 
-In most of my 20 years of software development, the Java platform has been my main focus of attention and led my market demand. But after all these years I only considered myself an real programmer in the last 5 years when I was pushed to learn other programming languages like Python, Groovy, JavaScript, Go, and Clojure. Each language gave me a different perspective, pushed me to think about approaches that were not available in Java, increased my expectations about productivity. But above all pleasuring experiences, the one that was most fullfiling was to produce a very efficient software with a minimal toolset. I have achieved that with Go.
+In most of my 20 years of software development, the Java platform has been my main focus of attention and led my market demand. But after all these years I only considered myself a real programmer in the last 5 years when I was pushed to learn other programming languages like Python, Groovy, JavaScript, Go, and Clojure. Each language gave me a different perspective, pushed me to think about approaches that were not available in Java, and increased my expectations about productivity. But above all these satisfying experiences, the one that was most fullfiling was to produce a very efficient software with a minimal toolset. I have achieved that with Go.
 
 <!-- more -->
 
@@ -23,7 +23,7 @@ But not everything is lost in the Java ecosystem. The Java community is trying t
 
 Fortunately, there are some clever people out there that gathered Graal VM compatible libraries and built frameworks out of them. That’s the case of [Quarkus] and [Micronaut]. They don't limit the use of Java libraries but just a subset of them can take full advantage of native features.
 
-When targeting Graal VM, you will navigate in an obscrute world of configurations, environment issues, and limitations. Sure these issues will be solved at some point, but if you don't want to waste time, Go offers over 10 years of efficiency with minimal configuration, fast results, and one of the largest programming communities in the world.
+When targeting Graal VM, you will navigate in an obscure world of configurations, environment issues, and limitations. Sure these issues will be solved at some point, but if you don't want to waste time, Go offers over 10 years of efficiency with minimal configuration, fast results, and one of the largest programming communities in the world.
 
 [Clojure]: https://clojure.org
 [Docker]: https://www.docker.com

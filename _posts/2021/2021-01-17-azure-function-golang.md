@@ -186,4 +186,4 @@ To test it, call the URL using `curl`:
 
     $ curl 'http://localhost:8080/offer?savings=100000&listingPrice=600000&downPayment=10&closingCosts=20000'
 
-In part 2, we are going to explain how to deploy it as an Azure Function. Stay tunned!
+In part 2, we are going to explain how to deploy it as an Azure Function. Stay tuned!

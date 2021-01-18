@@ -15,16 +15,12 @@ The platform has gained popularity nowadays because of many contributions of the
 
 But, OpenInterface is not only a software platform. Actually, a complete environment was created around it. As you can see in the <a href="http://www.openinterface.org/" target="_blank">homepage of the OpenInterface website</a>, there are 4 different and complementary initiatives, which are:
 
-<ul>
-<li><strong>OpenInterface Platform</strong>: it is what we discussed above. A framework to develop multi modal applications rapidly.</li>
+- **OpenInterface Platform**: it is what we discussed above. A framework to develop multi modal applications rapidly.
 
+- **OpenInterface Foundation**: It is a non-profit organization to coordinate, expand and integrate activities of many people around the world involved in the field of multi modal interface research. One of the most important initiatives of the foundation was to create the <a href="http://www.jmui.org/">Journal on Multimodal User Interfaces</a>.
 
-<li><strong>OpenInterface Foundation</strong>: It is a non-profit organization to coordinate, expand and integrate activities of many people around the world involved in the field of multi modal interface research. One of the most important initiatives of the foundation was to create the <a href="http://www.jmui.org/">Journal on Multimodal User Interfaces</a>.</li>
+- **OpenInterface Forge**: The source code of the OpenInterface Platform and all available contributions is available for free in the Forge website, which manages all contributions as open source projects.
 
+- **OpenInterface Strep**: finally, this project is focused on the platform improvements and its integration with the industry.
 
-<li><strong>OpenInterface Forge</strong>: The source code of the OpenInterface Platform and all available contributions is available for free in the Forge website, which manages all contributions as open source projects.</li>
-
-
-<li><strong>OpenInterface Strep</strong>: finally, this project is focused on the platform improvements and its integration with the industry.</li>
-</ul>
 If you want to evaluate or apply OpenInterface in your project, visit <a href="http://forge.openinterface.org/" target="_blank">OpenInterface Forge website</a> and get the binary distribution and other contributions. You can register and be involved in the project as a contributor. Assign to the mailing list of what you want to use and ask for help when necessary.

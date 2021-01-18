@@ -21,8 +21,8 @@ After each transference of text from OpenOffice to Texmaker, we have to approve 
 
 Two important details:
 
-<ol>
-<li>OpenOffice doesn’t support grammar checking by default. It is necessary to install the extension <a href="http://extensions.services.openoffice.org/pt-br/project/languagetool">Language Tool</a> for that. Download the file “LanguageTool-[version].oxt” and import it to OpenOffice using the option “Tools – Extension Manager” in the menu. Click on “Add…” and select the file above. This extension starts working when you restart OpenOffice.</li>
-<li>My intention is not to teach Latex here, but how to overcome some of its limitations by using OpenOffice as a complement.</li>
-</ol>
+1. OpenOffice doesn’t support grammar checking by default. It is necessary to install the extension <a href="http://extensions.services.openoffice.org/pt-br/project/languagetool">Language Tool</a> for that. Download the file “LanguageTool-[version].oxt” and import it to OpenOffice using the option “Tools – Extension Manager” in the menu. Click on “Add…” and select the file above. This extension starts working when you restart OpenOffice.
+
+2. My intention is not to teach Latex here, but how to overcome some of its limitations by using OpenOffice as a complement.
+
 You may ask: since you are writing everything in OpenOffice, why don’t you keep everything there and forget about Latex? Simply because it is very difficult to get the same results and quality that we get using Latex. You can fulfill the OpenOffice role using Microsoft Office. This one also doesn’t offer the same results as Latex, but the grammar checker is much better.

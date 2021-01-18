@@ -21,10 +21,10 @@ When it comes to subjective matters, we might be able to make comparisons, but m
 
 But why lies? There are two good explanations for that:
 
-<ol>
-<li>most people don’t track exactly how much time they spent on their activities, thus they actually inform safer figures, which are usually higher than reality;</li>
-<li>time control gives a feeling of surveillance, making developers believe their manager wants to know whether they are really working or not, thus they smartly add some extra time to mask non-productive time.</li>
-</ol>
+1. most people don’t track exactly how much time they spent on their activities, thus they actually inform safer figures, which are usually higher than reality;
+
+2. time control gives a feeling of surveillance, making developers believe their manager wants to know whether they are really working or not, thus they smartly add some extra time to mask non-productive time.
+
 Managers should also be aware that <b>time control also kills creativity</b>. When developers have new ideas, potentially useful for the project, they cannot simply turn them into activities because of scope constraints or just because those ideas are not clear enough to be described. Without activities, developers cannot report their time. Therefore, if they spend too much time working on their ideas, it will look like huge time gaps for their managers.
 
 Eventually, managers are moved to implement time control because of visible procrastination. I remember once when a new project was starting, a big room was allocated to a team of 12 people, and the project manager asked the team to choose their places in the room. There were 15 places available, 12 with monitors facing the wall and 3 with monitors facing the door. Guess which places were left available? That’s right! The three ones facing the door 😀 I remember the symphony of mouse clicks and sudden movements when the manager walked through the room. That was so funny! 😀 But time control wouldn’t solve that problem because inputing time on activities is also a distraction. Anything that is not building deliverables is a distraction. We may never eliminate them, but we can always reduce them. <b>The solution for procrastination, in a single word, is: Motivation!</b>

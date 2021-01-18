@@ -11,12 +11,14 @@ Monday, December 10, 2007: The first day, the first CEJUG experience in a JavaPo
 
 The most explored topic is Java Enterprise Edition (JEE). I tried to imagine the relationship between JEE and the Star Wars theme. So, see the list below:
 
-<ul>
-<li>People feel like a JEDI when they are programming JEE applications.</li>
-<li>JEE and Spring are stars and they are in a war field.</li>
-<li>JEE is incredible for ones and unbelievable for others.</li>
-<li>When people move from J2EE to JEE, actually, they are changing only the type of war: from a medieval and hard to a intergalactic and fun one.</li>
-</ul>
+- People feel like a JEDI when they are programming JEE applications.
+
+- JEE and Spring are stars and they are in a war field.
+
+- JEE is incredible for ones and unbelievable for others.
+
+- When people move from J2EE to JEE, actually, they are changing only the type of war: from a medieval and hard to a intergalactic and fun one.
+
 What is also cool is the presence of the Java’s father, James Gosling (We can call him Master Yoda as well). He will be there on Wednesday. It is a good opportunity to improve our Jedi skills. We will have two big James’ meetings. The first one is about the current state of the Java universe and the second one is a Q&amp;A session, where people can ask almost everything.
 
 It is all for now!! See you tomorrow!

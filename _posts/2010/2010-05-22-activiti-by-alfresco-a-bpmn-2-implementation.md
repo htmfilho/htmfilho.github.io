@@ -15,8 +15,8 @@ My first impression was nice. Activiti is very simple to install and the team ma
 
 On the other hand, I was expecting something different, simpler, like a process engine 100% controlled by REST web services. I don’t like the fact of a web application handling the processes execution (screenshot above). Using Activiti Explorer, you can start processes and perform their activities, but it forces the user to be aware of processes’ details. I think an application that implements a business process should be more focused on:
 
-<ul>
-<li> the performance of the user when executing his/her activities; and</li>
-<li>the quality of the data inserted.</li>
-</ul>
+- the performance of the user when executing his/her activities; and
+
+- the quality of the data inserted.
+
 Better to wait a little bit more to see the Activiti evolution. I do support the project and hope to see it widely adopted.

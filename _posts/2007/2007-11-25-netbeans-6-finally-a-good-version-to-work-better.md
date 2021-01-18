@@ -15,9 +15,10 @@ The main advantage of the Netbeans IDE is the great support for the new Java 6 a
 
 Of course, there are some negative points:
 
-<ul>
-<li><strong>Versioning</strong>: It is very easy to work with CVS or Subversion. They are already integrated in the IDE. But, the simplicity is also a problem, because sometimes we want to do some fine adjustments and it is not easy. For instance: I tried to change my password to connect with the Subversion repository, but to do it I have to explore carefully the IDE’s options until I find the parameters in one of the last tabs of the miscellaneous area. Why can not we do it directly from a menu item in the versioning menu? </li>
-<li><strong>Component Libraries</strong>: Finally a good support for Java docs. You can use a component and associate its Javadoc to visualize the content during the work in different ways. The problem is that it’s not self evident how to set up a new javadoc and you will spend some time to do that. What is the first thing that you do when you need help about the IDE? (after Google) You will consult the help menu. So, that is the best place to give access to documentations and to add new documentations. </li>
-<li><strong>Slow Startup</strong>: We are in a multi threading world. Why not load modules on demand? Why do I have to wait for all modules to load if I will work only in a desktop application?</li>
-</ul>
+- **Versioning**: It is very easy to work with CVS or Subversion. They are already integrated in the IDE. But, the simplicity is also a problem, because sometimes we want to do some fine adjustments and it is not easy. For instance: I tried to change my password to connect with the Subversion repository, but to do it I have to explore carefully the IDE’s options until I find the parameters in one of the last tabs of the miscellaneous area. Why can not we do it directly from a menu item in the versioning menu?
+
+- **Component Libraries**: Finally a good support for Java docs. You can use a component and associate its Javadoc to visualize the content during the work in different ways. The problem is that it’s not self evident how to set up a new javadoc and you will spend some time to do that. What is the first thing that you do when you need help about the IDE? (after Google) You will consult the help menu. So, that is the best place to give access to documentations and to add new documentations.
+
+- **Slow Startup**: We are in a multi threading world. Why not load modules on demand? Why do I have to wait for all modules to load if I will work only in a desktop application?
+
 There are many other possible refinements, but none of them is so bad to make you give up the Netbeans IDE again. Taste it and give me your opinion.

@@ -15,7 +15,7 @@ Serverless computing is a type of PAAS ([Platform As A Service](https://en.wikip
 
 But not every application can be serverless. Everything is ephemeral. Saving files on disk, even log files, is pointless. Keeping things in memory or any other kind of internal state is hopeless. We have to rely on other cloud services for storage, computing, monitoring, etc. These limitations are actually good for the sake of scalability. If the application works in a serverless environment it probably works well in [Kubernetes](https://kubernetes.io/) and other auto-provisioning technologies.
 
-The main cloud service providers ([AWS](https://aws.amazon.com/lambda/?nc2=h_ql_prod_cp_lbd), [Google Cloud](https://cloud.google.com/appengine), and [Azure](https://azure.microsoft.com/en-us/services/functions/)) offer serveless support, but I'm going to focus on Azure, which is the one I have more experience with. To keep things short, I'm going to divide this tutorial in three parts:
+The main cloud service providers ([AWS](https://aws.amazon.com/lambda/), [Google Cloud](https://cloud.google.com/functions), and [Azure](https://azure.microsoft.com/en-us/services/functions/)) offer serveless support, but I'm going to focus on Azure, which is the one I have more experience with. To keep things short, I'm going to divide this tutorial in three parts:
 
 - **Part 1** is about what is inside of a Go serverless application
 - In **Part 2** we deploy and run the app as an Azure Function

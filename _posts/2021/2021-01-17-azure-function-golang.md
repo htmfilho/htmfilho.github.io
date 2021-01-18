@@ -48,7 +48,7 @@ First, let's wrap this formula in Go functions ([/offer/business.go](https://git
         return listingPrice + CalcMargin(savings, listingPrice, downPayment, closingCosts)
     }
 
-    // CalcMargin returns the remaining savings after taking the downpayment and closing costs out.=
+    // CalcMargin returns the remaining savings after taking out down payment and closing costs
     func CalcMargin(savings, listingPrice, downPayment, closingCosts float32) float32 {
         return savings - (listingPrice * (downPayment / 100.0)) - closingCosts
     }
@@ -161,7 +161,7 @@ To serve the handler, we call it from the entry point ([/buyersmarket.go](https:
 
     // Calls the handlers and starts the HTTP server
     func runHTTPServer(httpPort int) {
-        http.HandleFunc("/offer", offer.GetOffer)
+        http.HandleFunc("/api/offer", offer.GetOffer)
         http.ListenAndServe(fmt.Sprintf(":%d", httpPort), nil)
     }
 

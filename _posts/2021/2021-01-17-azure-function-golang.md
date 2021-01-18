@@ -162,7 +162,7 @@ To serve the handler, we call it from the entry point ([/buyersmarket.go](https:
     // Calls the handlers and starts the HTTP server
     func runHTTPServer(httpPort int) {
         http.HandleFunc("/api/offer", offer.GetOffer)
-        http.ListenAndServe(fmt.Sprintf(":%d", httpPort), nil)
+        log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", httpPort), nil))
     }
 
 Notice that Go is very explicit about everything that is going on. There is no annotation making magical things and no frameworks making design decisions on your behalf. When we write explicit code we communicate it better to other developers. When we read explicit code we understand and maintain it better. Yet, explicit Go code is probably shorted than the equivalent in many languages used in business.

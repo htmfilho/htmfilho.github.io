@@ -134,6 +134,7 @@ To serve the handler, we call it from the entry point ([/buyersmarket.go](https:
     import (
         "buyersmarket/offer"
         "fmt"
+        "log"
         "net/http"
         "os"
         "strconv"

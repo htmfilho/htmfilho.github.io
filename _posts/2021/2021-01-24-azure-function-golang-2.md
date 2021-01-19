@@ -7,7 +7,7 @@ categories: serverless golang api
 
 ![Golang Serverless](/images/posts/golang-serverless.jpg)
 
-In [Part 1](https://www.hildeberto.com/2021/01/azure-function-golang.html) of this series of 3 articles, we have built a simple Go app that can be deployed and served as an Azure Function. This time, we are going to deploy this app on Azure.
+In the [first part](https://www.hildeberto.com/2021/01/azure-function-golang.html) of this series, we have built a simple Go web application that calculates the maximum bid we can make when negociating a house. Again, this is about Go, not real estate. So, be careful when using this calculation in real life. There is nothing special in that code base that makes it suitable for Azure. can be deployed and served as an Azure Function. This time, we are going to deploy this app on Azure.
 
 <!-- more -->
 
@@ -152,9 +152,7 @@ Expect the same response as if we were running the Go app directly:
         "margin": 20000
     }
 
-# Publishing to Azure
-
-
+## Publishing to Azure
 
 If you don't have a resource group then create one:
 

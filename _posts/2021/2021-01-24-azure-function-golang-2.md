@@ -7,15 +7,20 @@ categories: serverless golang api
 
 ![Golang Serverless](/images/posts/golang-serverless.jpg)
 
-In the [first part](https://www.hildeberto.com/2021/01/azure-function-golang.html) of this series, we have built a simple Go web application that calculates the maximum bid we can make when negociating a house. Again, this is about Go, not real estate. So, be careful when using this calculation in real life. There is nothing special in that code base that makes it suitable for Azure. can be deployed and served as an Azure Function. This time, we are going to deploy this app on Azure.
+In the [first part](https://www.hildeberto.com/2021/01/azure-function-golang.html) of this series, we have built a simple Go web application that calculates the maximum bid we can make when negociating a house. Again, this is about Go, not real estate. So, be careful when using this calculation in real life. We are about to publish that app on Azure but there is nothing special in the code that makes it suitable for Azure. Yet, it can be deployed and served as an Azure Function, as we are going to witness in this article.
 
 <!-- more -->
 
-To build a smooth development integration with Azure, we need to install Azure CLI and [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash).
+The Azure response to serverless computing is called [Azure Functions](https://azure.microsoft.com/en-ca/services/functions/). It is a straightforward service, highly configurable, priced by the second and free for up to a million requests per month ([consumption plan](https://azure.microsoft.com/en-ca/pricing/details/functions/)). It offers [language handlers](https://docs.microsoft.com/en-us/azure/azure-functions/supported-languages) for C#, Java, JavaScript, Python, and PowerShell out of the box. Other languages like Go and Rust are supported through a [custom handler](https://docs.microsoft.com/en-us/azure/azure-functions/functions-custom-handlers), which is a lightweight web server that receive events from the Functions host. Since Go implements [HTTP primitives](https://golang.org/pkg/net/http/), it can use a custom handler.
+
+To build a smooth development integration with Azure, we need two tools:
+
+- [Azure CLI](https://docs.microsoft.com/en-ca/cli/azure/): a set of commands to create and manage Azure resources. We will use it to create the resources required by the function, such as the resource group, storage, application insights and the functions host.
+- [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash): enable developing and testing functions on a local computer and deploying it to the cloud.
 
 ## Azure CLI
 
-You can find steps to install Azure CLI in your operating system on the [Azure Command-Line Interface (CLI) Documentation](https://docs.microsoft.com/en-ca/cli/azure/). I use Ubuntu so these are the commands I run:
+You can find steps to install Azure CLI on your operating system in the [Azure Command-Line Interface (CLI) Documentation](https://docs.microsoft.com/en-ca/cli/azure/). I use Ubuntu so these are the steps I followed:
 
 1. Install Azure CLI:
 
@@ -46,7 +51,7 @@ The default web browser opens at https://login.microsoftonline.com/common/oauth2
 
 ## Azure Functions Core Tools
 
-You can find steps to install Azure Functions Core Tools at https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local. I use Ubuntu so these are the commands I run:
+You can find steps to install Azure Functions Core Tools on your operating system in the [Azure Documentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local). I use Ubuntu so these are the steps I followed:
 
 1. Install the Microsoft package repository GPG key, to validate package integrity:
 
@@ -107,7 +112,7 @@ It generates the files:
 All we need to change is:
 
 - set the `defaultExecutablePath` parameter with the binary file name, in this case `buyersmarket`
-- add the `enableForwardingHttpRequest` parameter under `customHandler` and set it to `true`
+- add the `enableForwardingHttpRequest` parameter under `customHandler` and set it to `true`. It indicates that this is a HTTP-only function, making the handler work directly with the HTTP request and response.
 
 ## The Azure Function
 
@@ -175,5 +180,7 @@ After a few seconds call the URL:
     $ curl 'https://buyersmarket.azurewebsites.net/api/offer?savings=134507&listingPrice=700000&downPayment=10&closingCosts=17000'
 
 Expect the same response as if we were running the Function locally.
+
+The primary purpose of the custom handlers feature is to enable languages and runtimes that do not currently have first-class support on Azure Functions. While it may be possible to run web applications using custom handlers, Azure Functions is not a standard reverse proxy. Some features such as response streaming, HTTP/2, and WebSockets are not available. Some components of the HTTP request such as certain headers and routes may be restricted. Your application may also experience excessive cold start.
 
 In part 3, we are going to explore our Function in Azure Portal. Stay tuned!

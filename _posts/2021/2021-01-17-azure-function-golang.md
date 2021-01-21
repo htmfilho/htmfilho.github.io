@@ -11,7 +11,7 @@ In a [previous post](https://www.hildeberto.com/2020/12/go-business-language.htm
 
 <!-- more -->
 
-Serverless computing is a type of PAAS ([Platform As A Service](https://en.wikipedia.org/wiki/Platform_as_a_service)) that, in addition to a runtime environment, also offers on-demand provisioning, automatic scalability, and zero downtime deployability. In other words, a serverless app doesn't consume runtime resources like memory, networking and disk operations until it is triggered by an event like a HTTP request or a message broker. In case the demand increases, it automatically scales from 1 to N instances in a totally transparent way. It may have longer response times while deploying or auto-scaling, but it remains available all the time. Despite the name, serverless does use servers. The only difference is that you don't worry about them.
+Serverless computing is a type of PAAS ([Platform As A Service](https://en.wikipedia.org/wiki/Platform_as_a_service)) that, in addition to a runtime environment, also offers on-demand provisioning, automatic scalability, and zero downtime deployability. In other words, a serverless app doesn't consume runtime resources like memory, networking and disk operations unless it is triggered by an event like a HTTP request or a message broker. In case the demand increases, it automatically scales from 1 to N instances in a totally transparent way. It may have longer response times while deploying or auto-scaling, but it remains available all the time. Despite the name, serverless does use servers. The only difference is that you don't worry about them. It is also known as Function As A Service (FaaS) but this term is limited given what we can achieve these days with serverless apps.
 
 But not every application can be serverless. Everything is ephemeral. Saving files on disk, even log files, is pointless. Keeping things in memory or any other kind of internal state is hopeless. We have to rely on other cloud services for storage, computing, monitoring, etc. These limitations are actually good for the sake of scalability. If the application works in a serverless environment it probably works well in [Kubernetes](https://kubernetes.io/) and other auto-provisioning technologies.
 
@@ -106,7 +106,6 @@ Now, let's call the functions `CalcMaxBid` and `CalcMargin` from a HTTP handler 
         return float32(value)
     }
 
-
 This handler receives a simple get request such as:
 
     /offer?savings=100000&listingPrice=600000&downPayment=10&closingCosts=20000
@@ -134,6 +133,7 @@ To serve the handler, we call it from the entry point ([/buyersmarket.go](https:
     import (
         "buyersmarket/offer"
         "fmt"
+        "log"
         "net/http"
         "os"
         "strconv"

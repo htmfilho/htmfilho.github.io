@@ -15,11 +15,10 @@ Serverless computing is a type of PAAS ([Platform As A Service](https://en.wikip
 
 But not every application can be serverless. Everything is ephemeral. Saving files on disk, even log files, is pointless. Keeping things in memory or any other kind of internal state is hopeless. We have to rely on other cloud services for storage, computing, monitoring, etc. These limitations are actually good for the sake of scalability. If the application works in a serverless environment it probably works well in [Kubernetes](https://kubernetes.io/) and other auto-provisioning technologies.
 
-The main cloud service providers ([AWS](https://aws.amazon.com/lambda/), [Google Cloud](https://cloud.google.com/functions), and [Azure](https://azure.microsoft.com/en-us/services/functions/)) offer serveless support, but I'm going to focus on Azure, which is the one I have more experience with. To keep things short, I'm going to divide this tutorial in three parts:
+The main cloud service providers ([AWS](https://aws.amazon.com/lambda/), [Google Cloud](https://cloud.google.com/functions), and [Azure](https://azure.microsoft.com/en-us/services/functions/)) offer serveless support, but I'm going to focus on Azure, which is the one I have more experience with. To keep things short, I'm going to divide this tutorial in two parts:
 
 - **Part 1** is about what is inside of a Go serverless application
-- In **Part 2** we deploy and run the app as an Azure Function
-- Finally, in **Part 3** we explore the Function App on Azure Portal
+- In [**Part 2**](/2021/01/azure-function-golang-2.html) we deploy and run the app as an Azure Function
 
 Let's start with the business scenario we are going to implement as a Go serverless app:
 
@@ -186,4 +185,4 @@ To test it, call the URL using `curl`:
 
     $ curl 'http://localhost:8080/offer?savings=100000&listingPrice=600000&downPayment=10&closingCosts=20000'
 
-In part 2, we are going to explain how to deploy it as an Azure Function. Stay tuned!
+In [part 2](/2021/01/azure-function-golang-2.html), we are going to explain how to deploy it as an Azure Function. Stay tuned!

@@ -7,7 +7,7 @@ categories: serverless golang api
 
 ![Golang Serverless](/images/posts/golang-serverless.jpg)
 
-In the [first part](https://www.hildeberto.com/2021/01/azure-function-golang.html) of this series, we have built a simple Go web application that calculates the maximum bid we can make when negociating a house. Again, this is about Go, not real estate. So, be careful when using this calculation in real life. We expect to publish that app on Azure without changes because there is nothing special in the code that makes it suitable for Azure. Yet, it can be deployed and served as an Azure Function, as we are going to witness in this article.
+In the [first part](/2021/01/azure-function-golang.html), we have built a simple Go web application that calculates the maximum bid we can make when negociating a house. Again, this is about Go, not real estate. So, be careful when using this calculation in real life. We expect to publish that app on Azure without changes because there is nothing special in the code that makes it suitable for Azure. Yet, it can be deployed and served as an Azure Function, as we are going to witness in this article.
 
 <!-- more -->
 
@@ -74,7 +74,7 @@ You can find steps to install Azure Functions Core Tools on your operating syste
 
 ## Buyersmarket
 
-Buyersmarket is the app created in part 1. We want to prepare it to run as an Azure function. Let's start by going to the root of the project and running the Azure Functions Core Tools to generate the artifacts for a custom handler:
+Buyersmarket is the app created in [part 1](/2021/01/azure-function-golang.html). We want to prepare it to run as an Azure function. Let's start by going to the root of the project and running the Azure Functions Core Tools to generate the artifacts for a custom handler:
 
     $ cd /path/to/buyersmarket
     $ func init --worker-runtime custom
@@ -139,7 +139,7 @@ A application may contain several Azure Functions. In Buyersmarket, we are going
       ]
     }
 
-Notice that all we did so far was setting up configuration files without touching a single line of Go code that we already have writen in part 1. To see the complete setup, take a look at [Buyersmaket repository](https://github.com/htmfilho/buyersmarket).
+Notice that all we did so far was setting up configuration files without touching a single line of Go code that we already have writen in [part 1](/2021/01/azure-function-golang.html). To see the complete setup, take a look at [Buyersmaket repository](https://github.com/htmfilho/buyersmarket).
 
 Now, we are ready to test the `offer` Function locally. Let's run it using Azure Functions Core Tools:
 
@@ -195,4 +195,4 @@ I would like to highlight three characteristics that makes Go suitable to write 
 
 3. **No Lock-In**: if you discover late in the project that Functions are not the answer to your business need or you hit some technical limitation, then it is easy to move out to something more flexible because there is nothing in the code that locks you in.
 
-In part 3, we are going to explore our Function App in Azure Portal. Stay tuned!
+Deploying applications as Azure Functions is the most cost effective solution available on the cloud. This is the state-of-the-art implementation of the on-demand service concept: making the app available only when called and automatically scaling it to very large demand. It might have some flaws today, but it is a matter of time to see it become mainstream.

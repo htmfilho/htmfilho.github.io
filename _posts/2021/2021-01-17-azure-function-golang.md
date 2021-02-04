@@ -40,70 +40,74 @@ where:
 
 First, let's wrap this formula in Go functions ([/offer/business.go](https://github.com/htmfilho/buyersmarket/blob/main/offer/business.go)):
 
-    package offer
+{% highlight go %}
+package offer
 
-    // CalcMaxBid returns the maximum bid
-    func CalcMaxBid(savings, listingPrice, downPayment, closingCosts float32) float32 {
-        return listingPrice + CalcMargin(savings, listingPrice, downPayment, closingCosts)
-    }
+// CalcMaxBid returns the maximum bid
+func CalcMaxBid(savings, listingPrice, downPayment, closingCosts float32) float32 {
+    return listingPrice + CalcMargin(savings, listingPrice, downPayment, closingCosts)
+}
 
-    // CalcMargin returns the remaining savings after taking out down payment and closing costs
-    func CalcMargin(savings, listingPrice, downPayment, closingCosts float32) float32 {
-        return savings - (listingPrice * (downPayment / 100.0)) - closingCosts
-    }
+// CalcMargin returns the remaining savings after taking out down payment and closing costs
+func CalcMargin(savings, listingPrice, downPayment, closingCosts float32) float32 {
+    return savings - (listingPrice * (downPayment / 100.0)) - closingCosts
+}
+{% endhighlight %}
 
 Now, let's call the functions `CalcMaxBid` and `CalcMargin` from a HTTP handler that reacts to requests with GET parameters and responds with JSON ([/offer/controller.go](https://github.com/htmfilho/buyersmarket/blob/main/offer/controller.go)):
 
-    package offer
+{% highlight go %}
+package offer
 
-    import (
-        "encoding/json"
-        "net/http"
-        "strconv"
-    )
+import (
+    "encoding/json"
+    "net/http"
+    "strconv"
+)
 
-    // GetOffer GET: /offer?savings=&listingPrice=&downPayment=&closingCosts=
-    func GetOffer(res http.ResponseWriter, req *http.Request) {
-        type Offer struct {
-            Savings      float32 `json:"savings"`
-            ListingPrice float32 `json:"listingPrice"`
-            DownPayment  float32 `json:"downPayment"`
-            ClosingCosts float32 `json:"closingCosts"`
-            MaximumBid   float32 `json:"maximumBid"`
-            Margin       float32 `json:"margin"`
-        }
-
-        savings := getURLParam(req, "savings")
-        listingPrice := getURLParam(req, "listingPrice")
-        downPayment := getURLParam(req, "downPayment")
-        closingCosts := getURLParam(req, "closingCosts")
-
-        maxBid := CalcMaxBid(savings, listingPrice, downPayment, closingCosts)
-        margin := CalcMargin(savings, listingPrice, downPayment, closingCosts)
-
-        offer := &Offer{
-            Savings:      savings,
-            ListingPrice: listingPrice,
-            DownPayment:  downPayment,
-            ClosingCosts: closingCosts,
-            MaximumBid:   maxBid,
-            Margin:       margin,
-        }
-
-        res.Header().Set("Content-Type", "application/json; charset=UTF-8")
-        err := json.NewEncoder(res).Encode(offer)
-        if err != nil {
-            http.Error(res, err.Error(), http.StatusInternalServerError)
-        }
+// GetOffer GET: /offer?savings=&listingPrice=&downPayment=&closingCosts=
+func GetOffer(res http.ResponseWriter, req *http.Request) {
+    type Offer struct {
+        Savings      float32 `json:"savings"`
+        ListingPrice float32 `json:"listingPrice"`
+        DownPayment  float32 `json:"downPayment"`
+        ClosingCosts float32 `json:"closingCosts"`
+        MaximumBid   float32 `json:"maximumBid"`
+        Margin       float32 `json:"margin"`
     }
 
-    func getURLParam(req *http.Request, param string) float32 {
-        value, err := strconv.ParseFloat(req.URL.Query()[param][0], 32)
-        if err != nil {
-            return 0.0
-        }
-        return float32(value)
+    savings := getURLParam(req, "savings")
+    listingPrice := getURLParam(req, "listingPrice")
+    downPayment := getURLParam(req, "downPayment")
+    closingCosts := getURLParam(req, "closingCosts")
+
+    maxBid := CalcMaxBid(savings, listingPrice, downPayment, closingCosts)
+    margin := CalcMargin(savings, listingPrice, downPayment, closingCosts)
+
+    offer := &Offer{
+        Savings:      savings,
+        ListingPrice: listingPrice,
+        DownPayment:  downPayment,
+        ClosingCosts: closingCosts,
+        MaximumBid:   maxBid,
+        Margin:       margin,
     }
+
+    res.Header().Set("Content-Type", "application/json; charset=UTF-8")
+    err := json.NewEncoder(res).Encode(offer)
+    if err != nil {
+        http.Error(res, err.Error(), http.StatusInternalServerError)
+    }
+}
+
+func getURLParam(req *http.Request, param string) float32 {
+    value, err := strconv.ParseFloat(req.URL.Query()[param][0], 32)
+    if err != nil {
+        return 0.0
+    }
+    return float32(value)
+}
+{% endhighlight %}
 
 This handler receives a simple get request such as:
 
@@ -111,14 +115,16 @@ This handler receives a simple get request such as:
 
 and returns a json response such as:
 
-    {
-        "savings": 100000,
-        "listingPrice": 600000,
-        "downPayment": 10,
-        "closingCosts": 20000,
-        "maximumBid": 620000,
-        "margin": 20000
-    }
+{% highlight json %}
+{
+    "savings": 100000,
+    "listingPrice": 600000,
+    "downPayment": 10,
+    "closingCosts": 20000,
+    "maximumBid": 620000,
+    "margin": 20000
+}
+{% endhighlight %}
 
 In addition to the request parameters, the response includes:
 
@@ -127,42 +133,44 @@ In addition to the request parameters, the response includes:
 
 To serve the handler, we call it from the entry point ([/buyersmarket.go](https://github.com/htmfilho/buyersmarket/blob/main/buyersmarket.go)):
 
-    package main
+{% highlight go %}
+package main
 
-    import (
-        "buyersmarket/offer"
-        "fmt"
-        "log"
-        "net/http"
-        "os"
-        "strconv"
-    )
+import (
+    "buyersmarket/offer"
+    "fmt"
+    "log"
+    "net/http"
+    "os"
+    "strconv"
+)
 
-    // Entry point
-    func main() {
-        httpPort := getHTTPPort()
-        runHTTPServer(httpPort)
-    }
+// Entry point
+func main() {
+    httpPort := getHTTPPort()
+    runHTTPServer(httpPort)
+}
 
-    // We could fix the port number, but cloud environments normally require
-    // some flexibility on defining the server port. This is how it would work
-    // in Azure.
-    func getHTTPPort() int {
-        httpPort := 8080
-        if val, ok := os.LookupEnv("FUNCTIONS_CUSTOMHANDLER_PORT"); ok {
-            httpPort, err := strconv.Atoi(val)
-            if err == nil {
-                return httpPort
-            }
+// We could fix the port number, but cloud environments normally require
+// some flexibility on defining the server port. This is how it would work
+// in Azure.
+func getHTTPPort() int {
+    httpPort := 8080
+    if val, ok := os.LookupEnv("FUNCTIONS_CUSTOMHANDLER_PORT"); ok {
+        httpPort, err := strconv.Atoi(val)
+        if err == nil {
+            return httpPort
         }
-        return httpPort
     }
+    return httpPort
+}
 
-    // Calls the handlers and starts the HTTP server
-    func runHTTPServer(httpPort int) {
-        http.HandleFunc("/api/offer", offer.GetOffer)
-        log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", httpPort), nil))
-    }
+// Calls the handlers and starts the HTTP server
+func runHTTPServer(httpPort int) {
+    http.HandleFunc("/api/offer", offer.GetOffer)
+    log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", httpPort), nil))
+}
+{% endhighlight %}
 
 Notice that Go is very explicit about everything that is going on. There is no annotation making magical things and no frameworks making design decisions on your behalf. When we write explicit code we communicate it better to other developers. When we read explicit code we understand and maintain it better. Yet, explicit Go code is probably shorted than the equivalent in many languages used in business.
 

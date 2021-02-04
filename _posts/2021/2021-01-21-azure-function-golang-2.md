@@ -34,22 +34,24 @@ You can find steps to install Azure CLI on your operating system in the [Azure C
 
 The default web browser opens at https://login.microsoftonline.com/common/oauth2/authorize an asks for your Azure credentials. After a successful sign in, Azure CLI prints out information about the user's subscriptions: 
 
-    [
-      {
-        "cloudName": "AzureCloud",
-        "homeTenantId": "2e6a8af3-h68a-9j2h-vbgh-s456da4gh1a8",
-        "id": "ef789013-g6y8-svj8-24rt-123ujmgf74003",
-        "isDefault": true,
-        "managedByTenants": [],
-        "name": "subscriptionname",
-        "state": "Enabled",
-        "tenantId": "3t7j9s33-f7j9-4w2g-vbgh-s456da4gh1a8",
-        "user": {
-          "name": "user@example.com",
-          "type": "user"
-        }
-      }
-    ]
+{% highlight json %}
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "2e6a8af3-h68a-9j2h-vbgh-s456da4gh1a8",
+    "id": "ef789013-g6y8-svj8-24rt-123ujmgf74003",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "subscriptionname",
+    "state": "Enabled",
+    "tenantId": "3t7j9s33-f7j9-4w2g-vbgh-s456da4gh1a8",
+    "user": {
+      "name": "user@example.com",
+      "type": "user"
+    }
+  }
+]
+{% endhighlight %}
 
 ## Azure Functions Core Tools
 
@@ -87,29 +89,31 @@ It generates the files:
 
 `host.json` configures the app on Azure and `local.settings.json` stores settings used by the app and local development tools. The `.vscode/extensions.json` just prepares the project to be openned in VSCode with Azure extension. The only file we need to change for the time being is `host.json`. Here it is:
 
-    {
-      "version": "2.0",
-      "logging": {
-        "applicationInsights": {
-          "samplingSettings": {
-            "isEnabled": true,
-            "excludedTypes": "Request"
-          }
-        }
-      },
-      "extensionBundle": {
-        "id": "Microsoft.Azure.Functions.ExtensionBundle",
-        "version": "[1.*, 2.0.0)"
-      },
-      "customHandler": {
-        "description": {
-          "defaultExecutablePath": "buyersmarket",
-          "workingDirectory": "",
-          "arguments": []
-        },
-        "enableForwardingHttpRequest": true
+{% highlight json %}
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
       }
     }
+  },
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[1.*, 2.0.0)"
+  },
+  "customHandler": {
+    "description": {
+      "defaultExecutablePath": "buyersmarket",
+      "workingDirectory": "",
+      "arguments": []
+    },
+    "enableForwardingHttpRequest": true
+  }
+}
+{% endhighlight %}
 
 Opem the file and:
 
@@ -120,24 +124,26 @@ Opem the file and:
 
 A application may contain several Azure Functions. In Buyersmarket, we are going to start with `offer` as our first Azure Function. For that, let's create the file `function.json` in the folder `/offer/` with the following content:
 
+{% highlight json %}
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "authLevel": "anonymous",
-          "type": "httpTrigger",
-          "direction": "in",
-          "name": "req",
-          "methods": [
-            "get"
-          ]
-        },
-        {
-          "type": "http",
-          "direction": "out",
-          "name": "res"
-        }
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get"
       ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
     }
+  ]
+}
+{% endhighlight %}
 
 Notice that all we did so far was setting up configuration files without touching a single line of Go code that we already have writen in [part 1](/2021/01/azure-function-golang.html). To see the complete setup, take a look at [Buyersmaket repository](https://github.com/htmfilho/buyersmarket).
 
@@ -152,14 +158,16 @@ After a few seconds, call the URL:
 
 Expect the same response as if you were running the Go app directly:
 
-    {
-        "savings": 100000,
-        "listingPrice": 600000,
-        "downPayment": 10,
-        "closingCosts": 20000,
-        "maximumBid": 620000,
-        "margin": 20000
-    }
+{% highlight json %}
+{
+  "savings": 100000,
+  "listingPrice": 600000,
+  "downPayment": 10,
+  "closingCosts": 20000,
+  "maximumBid": 620000,
+  "margin": 20000
+}
+{% endhighlight %}
 
 ## Publishing to Azure
 

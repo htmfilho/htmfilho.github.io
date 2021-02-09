@@ -16,7 +16,7 @@ The strategy pattern is one of the simplest yet underutilized design patterns ou
 Formally speaking:
 > "The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
 
-### Using the Strategy Pattern
+## Calling the Strategy Pattern Implementation
 
 We start the implementation with constants that represent the stock exchanges:
 
@@ -105,43 +105,59 @@ func prepareExchangeStrategies(stocks []*Stock) *ExchangeCoordinator {
 
 func searchStocks(exchangeCoordinator *ExchangeCoordinator, stocks []*Stock) []*Stock {
   for _, exchange := range exchangeCoordinator.exchanges {
-    exchange.search()
+    err := exchange.search()
+    if err != nil {
+      fmt.Printf("Couldn't fetch prices from %s.\n", exchange.getName())
+    }
   }
   return stocks
 }
 {% endhighlight %}
 
-The `prepareExchangeStrategies()` function does something special. It groups stocks by exchange to optimize, if possible, the calls to the exchange pricing services. Notice it is using the exchange strategies to do the grouping (`pricing.addStock(stock)`). It would also allow making the calls in parallel (but this is not the case in this article). If your particular case doesn't need this facilities then just ignore this function and jump to the `searchStocks()`, which is the one that actually calls the strategy algorithms.
+The `prepareExchangeStrategies()` function does something special. It groups stocks by exchange to optimize, if possible, the calls to the exchange pricing services. Notice it is using the strategies to hold the grouping (`pricing.addStock(stock)`). It helps to illustrate that a strategy can keep some temporary state to use when it's convinient.
 
-### Implemeting the Strategy Pattern
+Now, look at the `searchStocks()` function and notice how clean it is. Those three lines of code are calling distinct algorithms that do different things to achieve the same goal: retrieve the prices of the stocks they hold. The `ExchangeCoordinator` struct and the `search()` function are shaped according to the strategy pattern, making things cleaner and elegant.    
+
+## Implemeting the Strategy Pattern
+
+The `Pricing` interface is the core of the strategy pattern. It makes the caller think that all strategies look the same, but they actually have unique souls.
 
 {% highlight go %}
 // Pricing shapes the strategy pattern to be applied to specialized structs.
 type Pricing interface {
   addStock(stock *Stock)
-  search() ([]*Stock, error)
+  search() error
+  getName() string
 }
+{% endhighlight %}
 
-// ExchangesPricing holds the pricing strategies for the duration of the execution.
-type ExchangesPricing struct {
+We have met Pricing behaviors in the functions `prepareExchangeStrategies()` and `searchStocks()` above. These behaviors have an implementation per stock exchange.
+
+The `ExchangeCoordinator` struct and its method `GetExchangePricing()` figure out which strategy the caller needs based on the stock exchange. It does it using a Map with the exchange's acronym as key.
+
+{% highlight go %}
+// ExchangeCoordinator holds the pricing strategies for the duration of the execution.
+type ExchangeCoordinator struct {
   exchanges map[string]Pricing
 }
 
 // GetExchangePricing returns the Pricing based on the stock exchange.
-func (ep *ExchangesPricing) GetExchangePricing(stock *Stock) Pricing {
-  if ep.exchanges == nil {
-    ep.exchanges = make(map[string]Pricing)
-    ep.exchanges[NASDAQ] = new(NasdaqPricing)
-    ep.exchanges[NYSE] = new(NYSEPricing)
-    ep.exchanges[TSX] = new(TsxPricing)
+func (ec *ExchangeCoordinator) GetExchangePricing(stock *Stock) Pricing {
+  if ec.exchanges == nil {
+    ec.exchanges = make(map[string]Pricing)
+    ec.exchanges[NASDAQ] = new(NasdaqPricing)
+    ec.exchanges[NYSE] = new(NYSEPricing)
+    ec.exchanges[TSX] = new(TsxPricing)
   }
-  return ep.exchanges[stock.Exchange]
+  return ec.exchanges[stock.Exchange]
 }
 {% endhighlight %}
 
-The strategy pattern is implemented below, defining a family of algorithms to search prices on different sources.
+Instances of the strategies are kept in memory for the length of the call. They can't be kept longer because they cache the stocks they work with, as we can see in the following three implementations.
 
-#### NASDAQ Strategy Pattern Implementation
+### NASDAQ Strategy Pattern Implementation
+
+Our goal is to explain the strategy pattern, not fetching prices from stock exchanges. Maybe we can do it in another time, but let's keep this one short. The `NasdaqPricing` struct caches Nasdaq's stocks using a list and the `addStock()` method. The cached stocks are then processed in the `search()` method.
 
 {% highlight go %}
 // NasdaqPricing is the strategy implementation to get prices from Nasdaq.
@@ -153,14 +169,22 @@ func (np *NasdaqPricing) addStock(stock *Stock) {
   np.stocks = append(np.stocks, stock)
 }
 
-func (np *NasdaqPricing) search() ([]*Stock, error) {
-  np.stocks[0].Price = 2344500
-  np.stocks[1].Price = 5439990
-  return np.stocks, nil
+func (np *NasdaqPricing) search() error {
+  if len(np.stocks) > 0 {
+    // Call Nasdaq web api here and set  the prices.
+  }
+
+  return nil
+}
+
+func (np *NasdaqPricing) getName() string {
+  return "Nasdaq"
 }
 {% endhighlight %}
 
-#### NYSE Strategy Pattern Implementation
+The method `getName()` is used just for friendly error handling messages.
+
+### NYSE Strategy Pattern Implementation
 
 {% highlight go %}
 // NYSEPricing is the strategy implementation to get prices from NYSE.
@@ -172,13 +196,20 @@ func (nyp *NYSEPricing) addStock(stock *Stock) {
   nyp.stocks = append(nyp.stocks, stock)
 }
 
-func (nyp *NYSEPricing) search() ([]*Stock, error) {
-  nyp.stocks[0].Price = 344500
-  return nyp.stocks, nil
+func (nyp *NYSEPricing) search() error {
+  if len(nyp.stocks) > 0 {
+    // Call NY Stock Exchange web api here and set  the prices.
+  }
+
+  return nil
+}
+
+func (nyp *NYSEPricing) getName() string {
+  return "New York Stock Exchange"
 }
 {% endhighlight %}
 
-#### TSX Strategy Pattern Implementation
+### TSX Strategy Pattern Implementation
 
 {% highlight go %}
 // TsxPricing is the strategy implementation to get prices from Tsx.
@@ -190,10 +221,23 @@ func (tp *TsxPricing) addStock(stock *Stock) {
   tp.stocks = append(tp.stocks, stock)
 }
 
-func (tp *TsxPricing) search() ([]*Stock, error) {
-  tp.stocks[0].Price = 8344500
-  tp.stocks[1].Price = 239990
-  tp.stocks[2].Price = 39990
-  return tp.stocks, nil
+func (tp *TsxPricing) search() error {
+  if len(tp.stocks) > 0 {
+    // Call Toronto Stock Exchange web api here and set  the prices.
+  }
+
+  return nil
+}
+
+func (tp *TsxPricing) getName() string {
+  return "Toronto Stock Exchange"
 }
 {% endhighlight %}
+
+Here, Go shows a glance of its elegance. It doesn't require you to explicitly indicate the interfaces your structs implement, like in Java:
+
+{% highlight java %}
+public class Foo implements Bar {...}
+{% endhighlight %}
+
+It is enough to have the same method signatures. Simplicity matters and it makes me love this language more than any other.

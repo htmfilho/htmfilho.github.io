@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Applying the Strategy Pattern to Get Prices from Different Sources in Go"
-date: 2021-02-04 12:00:00 +0200
-categories: golang pattern finance
+date: 2021-02-09 12:00:00 +0200
+categories: golang strategy pattern finance
 ---
 
 ![Stock Prices](/images/posts/golang-strategy-pattern.png)

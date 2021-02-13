@@ -13,7 +13,7 @@ My very first job was in an Internet Service Provider. I was a technical support
 
 In my previous post, I applied [the Strategy Pattern to get prices from different sources in Go](https://www.hildeberto.com/2021/02/golang-strategy-pattern.html). The code was designed to visit one stock exchange service at a time, but depending on the number of services to connect to, the response time could increase linearly even with the trick to search stocks in bulks.
 
-Looking closely, no record is processed by more than one exchange. So, the data is certainly [sharded](https://en.wikipedia.org/wiki/Shard_(database_architecture)) by exchange. It means they can be processed in parallel without the risk of concurrent access that may lead to race conditions. On the other hand, we have to find a way to wait all parallel processes to finish before returning the stocks with prices. This wait is important to ensure that all prices are fetched, as expected by the caller.
+Looking closely, no record is processed by more than one exchange. So, the data is certainly [sharded](https://en.wikipedia.org/wiki/Shard_(database_architecture)) by exchange. It means they can be processed in parallel without the risk of concurrent access that may lead to race conditions. On the other hand, we have to find a way that processes wait for one another until the stocks are filled with prices, and then return to the caller.
 
 With these non-functional requirements in mind, what is the impact of this design change on the [code](https://play.golang.org/p/pL7qtlgPwqL)? Surprisingly minimal. Since we adhered to the strategy pattern contract, the strategies are kept unchanged and we only need to adapt the caller, which is the function `searchStocks()`.  Let's take a look at the original implementation:
 
@@ -29,7 +29,7 @@ func searchStocks(exchangeFactory *ExchangeFactory, stocks []*Stock) []*Stock {
 }
 {% endhighlight %}
 
-The optimized implementation preserves the existing code and adds a few more lines related to the way Go implements multithreading. The function signature is preserved and only the body changes. It means there is no impact outside of this scope.
+The following optimized implementation preserves the existing code and adds a few more lines related to the way Go implements multithreading - known as Goroutines. The function signature is preserved and only the body changes. It means there is no impact outside of its scope.
 
 {% highlight go %}
 func searchStocks(exchangeFactory *ExchangeFactory, stocks []*Stock) []*Stock {
@@ -50,14 +50,14 @@ func searchStocks(exchangeFactory *ExchangeFactory, stocks []*Stock) []*Stock {
   wg.Wait()
   close(errors)
 
+  for err := range errors {
+    println(err.Error())
+  }
+
   return stocks
 }
 {% endhighlight %}
 
-The function starts creating a channel, which is a way to collect data from threads, in this case eventual errors: There are two new concepts here that we haven't discussed before. They are:
+The function starts creating a channel, which is a way to collect and share data among goroutines. In this case, the channel collects eventual errors to be handled later. Then it creates a WaitGroup, one of Go's synchronisation primitives, that waits for a collection of goroutines to finish. In the loop, we launch a goroutine for each exchange strategy, running the prices fatchings in parallel.
 
-1. **Goroutines**:
-
-2. **Channels**:
-
-2. **Sync WaitGroup**:
+In theory, working on one thing at a time isn't always the fastest way to finish a task. So, we need to demonstrate that using goroutines will actually make a difference. For our fortune, Go leverage benchmarks

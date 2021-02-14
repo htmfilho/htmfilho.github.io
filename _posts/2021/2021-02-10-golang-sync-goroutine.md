@@ -128,19 +128,36 @@ func BenchmarkGetPricesInParallel(b *testing.B) {
 }
 {% endhighlight %}
 
-Benchmark is part of testing so it bahaves like such. To create a benchmark we prefix a function with `Benchmark` and put it in a `_test.go` file. The difference from a test is that each function runs several times. The value of b.N increases at every call until the runner is satisfied with the stability of the benchmark. Assuming that our main package is in the file `pricing.go` and the test file `pricing_test.go` is right beside it, we can execute the benchmark this way:
+Benchmark is part of testing so it placed and written like such. To create a benchmark we prefix a function with `Benchmark` and put it in a `_test.go` file. The difference from a test is that each function runs several times. The value of b.N increases at every call until the runner is satisfied with the stability of the benchmark. Assuming that our main package is in the file `pricing.go` and the test file `pricing_test.go` is right beside it, we can execute the benchmark this way:
 
     $ go test -bench=.
 
-The result of the benchmark execution is:
+The `.` matches all benchmarks in the main (trade) package. The result of the execution looks like this:
 
 ```
-$ go test -bench=.                                                                                                  
-goos: linux
-goarch: amd64
-pkg: trade
-BenchmarkGetPricesInSequence-8                 1        3000655205 ns/op
-BenchmarkGetPricesInParallel-8                 1        1000305204 ns/op
-PASS
-ok      trade   4.005s
+$ go test -bench=.
+
+  goos: linux
+  goarch: amd64
+  pkg: trade
+  BenchmarkGetPricesInSequence-8        1802668        607 ns/op
+  BenchmarkGetPricesInParallel-8         390738       2883 ns/op
+  PASS
+  ok      trade   4.005s
+```
+
+It starts showing the operating system (`goos: linux`), the processor architecture (`goarch: amd64`), and the main package name (`pkg: trade`), giving some context about where the benchmark was executed. Then it lists all the executed benchmarks where each line shows the executed benchmark (`BenchmarkGetPricesInParallel`), the number of CPUs involved (`8`), the number of times it was executed (`390738`), and how long it took in nanoseconds (`2883 ns`).
+
+The results look blazingly fast because there is nothing in the `search()` methods. But the impact of adding goroutines to the code is noticiable, with a difference of 2276 nanoseconds.
+
+```
+$ go test -bench=.
+
+  goos: linux
+  goarch: amd64
+  pkg: trade
+  BenchmarkGetPricesInSequence-8        1        3000655205 ns/op
+  BenchmarkGetPricesInParallel-8        1        1000305204 ns/op
+  PASS
+  ok      trade   4.005s
 ```

@@ -169,4 +169,4 @@ $ go test -bench=. -cpu=1
   BenchmarkGetPricesInParallel       1036        1183913 ns/op
 ```
 
-A full implementation of the benchmarked code is available at this [Playground]().
+A full implementation of the benchmarked code is available at this [Playground](https://play.golang.org/p/wP5gmoIJt2i).

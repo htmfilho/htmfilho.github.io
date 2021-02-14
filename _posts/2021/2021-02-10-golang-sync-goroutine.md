@@ -58,6 +58,89 @@ func searchStocks(exchangeFactory *ExchangeFactory, stocks []*Stock) []*Stock {
 }
 {% endhighlight %}
 
-The function starts creating a channel, which is a way to collect and share data among goroutines. In this case, the channel collects eventual errors to be handled later. Then it creates a WaitGroup, one of Go's synchronisation primitives, that waits for a collection of goroutines to finish. In the loop, we launch a goroutine for each exchange strategy, running the prices fatchings in parallel.
+The function starts creating a channel, which is a way to collect and share data among goroutines. In this case, the channel collects eventual errors to be handled later. In the sequence, it creates a `WaitGroup`, one of Go's synchronisation primitives, that waits for a collection of goroutines to finish. In the loop, we launch a goroutine for each exchange strategy, prices are fatched in parallel, and after the loop the `WaitGroup` waits for all goroutines before continuing.
 
-In theory, working on one thing at a time isn't always the fastest way to finish a task. So, we need to demonstrate that using goroutines will actually make a difference. For our fortune, Go leverage benchmarks
+In theory, working on one thing at a time isn't always the fastest way to finish a task, but we need to demonstrate goroutines will actually make a difference. Fortunately, we don't have to look elsewhere because Go offers benchmarking out of the box. It is part of the Go [testing package](https://golang.org/pkg/testing/). In order to make a fair comparison, we are going to make a few changes:
+
+1. Make the sequential and parallel versions of the function `searchStocks` available. For that, we need to give them different names:
+  - `searchStocksInSequence()`
+  - `searchStocksInParallel()`
+
+2. Add an extra caller to match the two available functions:
+     
+{% highlight go %}
+    func getPricesInSequence(stocks []*Stock) []*Stock {
+      exchangeFactory := prepareExchangeStrategies(stocks)
+      return searchStocksInSequence(exchangeFactory, stocks) 
+    }
+
+    func getPricesInParallel(stocks []*Stock) []*Stock {
+      exchangeFactory := prepareExchangeStrategies(stocks)
+      return searchStocksInParallel(exchangeFactory, stocks)
+    }
+{% endhighlight %}
+       
+Now we are ready to write the benchmarking functions, one for each of the above functions:
+ 
+{% highlight go %}
+package main
+
+import "testing"
+
+var stocks = []*Stock{
+  {
+    Exchange: NASDAQ,
+    Ticker:   "GOOGL",
+    Name:     "Alphabet Inc.",
+  }, {
+    Exchange: NYSE,
+    Ticker:   "GE",
+    Name:     "General Electric CO",
+  }, {
+    Exchange: TSX,
+    Ticker:   "SHOP",
+    Name:     "Shopify Inc.",
+  }, {
+    Exchange: NASDAQ,
+    Ticker:   "AAPL",
+    Name:     "Apple Inc.",
+  }, {
+    Exchange: TSX,
+    Ticker:   "BMO",
+    Name:     "Bank of Montreal",
+  }, {
+    Exchange: TSX,
+    Ticker:   "CP",
+    Name:     "Canadian Pacific Raiway Ltd.",
+  },
+}
+
+func BenchmarkGetPricesInSequence(b *testing.B) {
+  for n := 0; n < b.N; n++ {
+    stocks = getPricesInSequence(stocks)
+  }
+}
+
+func BenchmarkGetPricesInParallel(b *testing.B) {
+  for n := 0; n < b.N; n++ {
+    stocks = getPricesInParallel(stocks)
+  }
+}
+{% endhighlight %}
+
+Benchmark is part of testing so it bahaves like such. To create a benchmark we prefix a function with `Benchmark` and put it in a `_test.go` file. The difference from a test is that each function runs several times. The value of b.N increases at every call until the runner is satisfied with the stability of the benchmark. Assuming that our main package is in the file `pricing.go` and the test file `pricing_test.go` is right beside it, we can execute the benchmark this way:
+
+    $ go test -bench=.
+
+The result of the benchmark execution is:
+
+```
+$ go test -bench=.                                                                                                  
+goos: linux
+goarch: amd64
+pkg: trade
+BenchmarkGetPricesInSequence-8                 1        3000655205 ns/op
+BenchmarkGetPricesInParallel-8                 1        1000305204 ns/op
+PASS
+ok      trade   4.005s
+```

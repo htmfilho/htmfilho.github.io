@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Using Goroutines to Search Prices in Parallel"
-date: 2021-02-10 12:00:00 +0200
-categories: golang sync goroutine waitgroup
+date: 2021-02-14 12:00:00 +0200
+categories: golang sync goroutine waitgroup pattern
 ---
 
 ![Stock Prices](/images/posts/golang-sync-goroutine.jpg)
@@ -58,7 +58,7 @@ func searchStocks(exchangeFactory *ExchangeFactory, stocks []*Stock) []*Stock {
 }
 {% endhighlight %}
 
-The function starts creating a channel, which is a way to collect and share data among goroutines. In this case, the channel collects eventual errors to be handled later. In the sequence, it creates a `WaitGroup`, one of Go's synchronisation primitives, that waits for a collection of goroutines to finish. In the loop, we launch a goroutine for each exchange strategy (`go func()`), fetching prices in parallel. After the loop, `wg.Wait()` waits for all goroutines to finish before continuing.
+The function starts creating a channel, which is a way to collect and share data among goroutines. In this case, the channel collects eventual errors to be handled later. In the sequence, it creates a [WaitGroup](https://golang.org/pkg/sync/#WaitGroup), one of Go's synchronisation primitives, that waits for a collection of goroutines to finish. In the loop, we launch a goroutine for each exchange strategy (`go func()`), fetching prices in parallel. After the loop, `wg.Wait()` waits for all goroutines to finish before continuing.
 
 In theory, working on one thing at a time isn't always the fastest way to finish a task, but we need to demonstrate goroutines will actually make a difference. Fortunately, we don't have to look elsewhere because Go offers benchmarking out of the box. It is part of the Go [testing package](https://golang.org/pkg/testing/). To make a fair comparison, we are going to make a few changes:
 

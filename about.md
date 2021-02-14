@@ -61,7 +61,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ['2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2020'],
         datasets: [{
-            label: '# of Posts',
+            label: '175 posts over the years',
             data: [8, 34, 42, 29, 8, 9, 7, 2, 6, 4, 5, 12, 9],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',

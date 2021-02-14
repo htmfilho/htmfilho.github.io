@@ -170,3 +170,5 @@ $ go test -bench=. -cpu=1
 ```
 
 A full implementation of the benchmarked code is available at this [Playground](https://play.golang.org/p/wP5gmoIJt2i).
+
+In addition to presenting Goroutines, I also wanted to show that it was a delightful experience to maintain a code designed with patterns. [Donald E. Knuth once said](https://pic.plover.com/knuth-GOTO.pdf) that "__premature optization is the root of all evil__" because it may lead to abuse, with a strong negative impact on debugging and maintenance. So, considering optimization in a second moment has shown how little we changed to achieve a better result.

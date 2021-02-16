@@ -11,22 +11,21 @@ Recently I finished my first Kindle book. Now, I can tell you that the full expe
 
 If you plan to open a new business or simply run an idea smoothly, it is a “must have” book. I highlighted some interesting sentences just to give you an initial idea. The book and its <a href="http://37signals.com/rework/">website</a> give you several others.
 
-> “<i>To keep your momentum and motivation up, get in the habit of accomplishing small victories along the way. Even a tiny improvement can give you a good jolt of momentum.</i>“
+> “_To keep your momentum and motivation up, get in the habit of accomplishing small victories along the way. Even a tiny improvement can give you a good jolt of momentum._“
 
 
-> “<i>Competitors can never copy the ‘you’ in your product.</i>“
+> “_Competitors can never copy the ‘you’ in your product._“
 
 
-> “<i>If you build software, every error message is marketing.</i>“
+> “_If you build software, every error message is marketing._“
 
 
-> “<i>Never hire anyone to do a job until you’ve tried to do it yourself first. That way, you’ll understand the nature of the work.</i>“
+> “_Never hire anyone to do a job until you’ve tried to do it yourself first. That way, you’ll understand the nature of the work._“
 
 
-> “<i>It’s crazy not to hire the best people just because they live far away. Specially now that there’s so much technology out there making it easier to bring everyone together online.</i>“
+> “_It’s crazy not to hire the best people just because they live far away. Specially now that there’s so much technology out there making it easier to bring everyone together online._“
 
 
-> “<i>Write to be read, don’t write just to write.</i>“
+> “_Write to be read, don’t write just to write._“
 
-
-<a href="http://mashable.com/2010/07/19/amazon-kindle-sales/">Amazon has recently announced</a> that “<i>over the past three months, for every 100 hardcover books Amazon.com has sold, it has sold 143 Kindle books. Over the past month, for every 100 hardcover books Amazon.com has sold, it has sold 180 Kindle books.</i>“. I attribute this to the incredible simplicity of buying and getting access to the book in seconds. A closer friend bought the hardcover and he had to wait several days to receive it. I got Rework instantly. That’s the difference.
+<a href="http://mashable.com/2010/07/19/amazon-kindle-sales/">Amazon has recently announced</a> that “_over the past three months, for every 100 hardcover books Amazon.com has sold, it has sold 143 Kindle books. Over the past month, for every 100 hardcover books Amazon.com has sold, it has sold 180 Kindle books._“. I attribute this to the incredible simplicity of buying and getting access to the book in seconds. A closer friend bought the hardcover and he had to wait several days to receive it. I got Rework instantly. That’s the difference.

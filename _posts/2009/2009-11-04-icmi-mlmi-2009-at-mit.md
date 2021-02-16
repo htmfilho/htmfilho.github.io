@@ -14,10 +14,9 @@ Yesterday I made my presentation entitled “A Fusion Framework for Multimodal I
 Well, my presentation was good and their questions were tough but they were satisfied with my answers and some of them even sent emails in private, asking for the presentation. I would say that this was the toughest audience that I’ve ever had. A conference at MIT normally attracts many big names in the field of multimodal interaction. The environment is really appropriate (and magic) to discuss about research and innovation. This year the conference had a big emphasis on robotics, with exciting demos and impressive results on interaction and learning with humans. We also had the chance to make a tour through the lab, visiting different projects and watching live demonstrations (some pictures below).
 
 ![DSC02500-300x225.jpg](/images/posts/DSC02500-300x225.jpg)
-<div style="text-align: center;"><i>One of the dozens of rooms in the MIT Media Lab</i></div>
-
+_One of the dozens of rooms in the MIT Media Lab_
 
 ![DSC02526-225x300.jpg](/images/posts/DSC02526-225x300.jpg)
-<div style="text-align: center;"><i>Social and emotional interaction with a child robot</i></div>
+_Social and emotional interaction with a child robot_
 
 The experience of visiting the <a href="http://www.media.mit.edu/">MIT Media Lab</a> was unique. This is a space where people are totally free to create even if ideas sound totally ridiculous. At the end, they find a way to exploit those ideas. It shows that, sometimes, real problems can also block people’s creativity and great ideas also come from nowhere.

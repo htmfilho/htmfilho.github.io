@@ -62,7 +62,7 @@ public class ClientServiceLocator {
 }
 {% endhighlight %}
 
-The class `MyServiceLocator` follows the <i>Singleton</i> design pattern, making sure that there is only one instance of the object to serve all requests from the web application. The unique instance is created at the class’ initialization process and since the constructor is private, the class cannot be instantiated by another class, being available only through the method `getInstance()`. The constructor initializes the context and creates a synchronized map where we store all references already created. The method `lookupEjb(String ejbName)` locates EJBs whose names are available in the local JNDI context. This method only works for those EJBs whose references are declared in the web.xml file, as listed below.
+The class `MyServiceLocator` follows the _Singleton_ design pattern, making sure that there is only one instance of the object to serve all requests from the web application. The unique instance is created at the class’ initialization process and since the constructor is private, the class cannot be instantiated by another class, being available only through the method `getInstance()`. The constructor initializes the context and creates a synchronized map where we store all references already created. The method `lookupEjb(String ejbName)` locates EJBs whose names are available in the local JNDI context. This method only works for those EJBs whose references are declared in the web.xml file, as listed below.
 
 {% highlight xml %}
 <web-app version=”2.5″

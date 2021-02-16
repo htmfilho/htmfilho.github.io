@@ -17,7 +17,7 @@ Now, I would like to conclude with a attempt of poem that stays in the subconsci
 
 > <b>I might regret but I don’t</b>
 
-> “<i>I might regret doing things not related to my work just to solve other people’s problem, but I don’t because those things taught me many other things that I didn’t expect to learn.</i>
+> “_I might regret doing things not related to my work just to solve other people’s problem, but I don’t because those things taught me many other things that I didn’t expect to learn._"
 
 > I might regret starting my research so late, but I don’t because pressure is also part of the game.
 

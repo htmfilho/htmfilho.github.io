@@ -15,9 +15,9 @@ I have been using Texmaker for a while, but only recently I could experience mos
 
 2. It think it is quite easy to detect which document is the master. It is basically about to find documentclass at the beginning of the document. So, if Texmaker would be able to <b>set the master document automatically instead of forcing us to do so</b>, it would be a great usability improvement. I understand that there is the case when more than one candidate for master is opened. In this case, I would suggest the following rules to decide which document is the master one before compiling the document:
 
-  - <i>only one file is open and this file can be a master</i>: define it automatically as a master.
-  - <i>many files are open, but only one of them can be a master and others are just inclusions (include{})</i>: define as a master the only one that can be a master.
-  - <i>many files are open and there are more than one candidate for master</i>: select one of the candidates for master and compile it to define it as the master. If another candidate is selected and the compilation is invoked, then the current selection will become the new master. If the selected file is not a master and the compilation is invoked, then the last selected master is considered.
+  - _only one file is open and this file can be a master_: define it automatically as a master.
+  - _many files are open, but only one of them can be a master and others are just inclusions (include{})_: define as a master the only one that can be a master.
+  - _many files are open and there are more than one candidate for master_: select one of the candidates for master and compile it to define it as the master. If another candidate is selected and the compilation is invoked, then the current selection will become the new master. If the selected file is not a master and the compilation is invoked, then the last selected master is considered.
 
 3. The spell check works fine, but It would be nice to <b>add new words to the dictionary in order to avoid red underlines</b> in words that we are tired to know they are right. I can imagine how hard it could be to avoid verifying Latex keywords and parameters, so I got used to spell checks’ highlights there, but in my text it’s a bit annoying.
 

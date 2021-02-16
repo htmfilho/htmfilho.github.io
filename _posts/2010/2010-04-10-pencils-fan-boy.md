@@ -11,12 +11,10 @@ When I was a kid my parents never gave me the opportunity of having fancy school
 
 Actually, my motivation to write this post came from another post written by <a href="http://paulocoelhoblog.com/">Paulo Coelho</a>, a famous Brazilian writer. He <a href="http://paulocoelhoblog.com/2009/12/19/the-story-of-the-pencil/">wrote a chat between a boy and his grandmother</a> about 5 qualities pencils have to inspire us to be better persons. The qualities are:
 
-<ol>
-<li>We are capable of great things, but we must never forget that there is a hand guiding your steps. We call that hand God, and He always guides us according to His will.</li>
-<li>From time to time, we have to stop writing and use a sharpener. That makes the pencil suffer a little, but afterwards, it’s much sharper. So, we must learn to bear certain pains and sorrows, because they will make us better persons.</li>
-<li>The pencil always allows us to use an eraser to rub out any mistakes. This means that correcting something we did is not necessarily a bad thing; it helps to keep us on the road to justice.</li>
-<li>What really matters in a pencil is not its wooden exterior, but the graphite inside. So we must always pay attention to what is happening inside us.</li>
-<li>Finally, the pencil always leaves a mark. In just the same way, we should know that everything we do in life will leave a mark, so let’s try to be conscious of that in our every actions.</li>
-</ol>
+1. We are capable of great things, but we must never forget that there is a hand guiding your steps. We call that hand God, and He always guides us according to His will.
+2. From time to time, we have to stop writing and use a sharpener. That makes the pencil suffer a little, but afterwards, it’s much sharper. So, we must learn to bear certain pains and sorrows, because they will make us better persons.
+3. The pencil always allows us to use an eraser to rub out any mistakes. This means that correcting something we did is not necessarily a bad thing; it helps to keep us on the road to justice.
+4. What really matters in a pencil is not its wooden exterior, but the graphite inside. So we must always pay attention to what is happening inside us.
+5. Finally, the pencil always leaves a mark. In just the same way, we should know that everything we do in life will leave a mark, so let’s try to be conscious of that in our every actions.
 
 ![pencils-pens-300x205.jpg](/images/posts/pencils-pens-300x205.jpg)

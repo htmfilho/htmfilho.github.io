@@ -11,25 +11,21 @@ In my opinion, an important differential of <a href="http://glassfish.dev.java.n
 
 Follow the steps below:
 
-<ol>
-<li>enter in the administrative console (http://[server-name]:4848/).</li>
-<li>go to <i>Resources / JavaMail Sessions</i>.</li>
-<li>create a new JavaMail session and set the following mandatory properties:<br/>
-<i>JNDI Name</i>: mail/[email-account-name]<br/>
-<i>Mail Host</i>: [smtp-server-address]<br/>
-<i>Default User</i>: the username to authenticate on the smtp server<br/>
-<i>Default Return Address</i>: the address used by recipients to reply the message. Some servers require that this address should be the one used by the authenticated user to access his mailbox.</li>
-</ol>
+1. enter in the administrative console (http://[server-name]:4848/).
+2. go to <i>Resources / JavaMail Sessions</i>.
+3. create a new JavaMail session and set the following mandatory properties:
+  - <i>JNDI Name</i>: mail/[email-account-name]
+  - <i>Mail Host</i>: [smtp-server-address]
+  - <i>Default User</i>: the username to authenticate on the smtp server
+  - <i>Default Return Address</i>: the address used by recipients to reply the message. Some servers require that this address should be the one used by the authenticated user to access his mailbox.
 
 If the server doesn’t request secure authentication, then the three steps above are enough to start using the new JavaMail session, but a server without secure authentication is a very rare case nowadays. You will certainly need to inform a password to login on the smtp server. In most cases, the server administrator also changes the default port of the smtp server, which forces us to explicitly inform the correct port. For these special needs we can use additional properties in the JavaMail session. Follow the steps below:
 
-<ol>
-<li>Still on the JavaMail session form, go to the <i>Additional Properties</i> section and add 3 more properties, which are:<br/>
-<i>mail.smtp.port</i>: [port-number]<br/>
-<i>mail.smtp.auth</i>: true<br/>
-<i>mail.smtp.password</i>: ****** 😉</li>
-<li>Click on <i>Save</i> to create the JavaMail session.</li>
-</ol>
+1. Still on the JavaMail session form, go to the <i>Additional Properties</i> section and add 3 more properties, which are:
+  - <i>mail.smtp.port</i>: [port-number]
+  - <i>mail.smtp.auth</i>: true
+  - <i>mail.smtp.password</i>: ******
+2. Click on <i>Save</i> to create the JavaMail session.
 
 The last step is how to use this new JavaMail session in our applications to send emails. Using the JNDI name, we are going to inject the JavaMail session in a Java class, which could be a POJO of a pure web application, an EJB Session Bean, or any other type of class. See the code below for details:
 

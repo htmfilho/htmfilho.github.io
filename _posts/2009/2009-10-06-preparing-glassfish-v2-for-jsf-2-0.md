@@ -9,13 +9,12 @@ I’m planning to migrate the web client of a JEE application from Apache Struts
 
 Then I decided to make a little search on Google and I could find that JSF 2.0 RC can be configured to run on Glassfish V2/.1 without any complex step. Following the instructions of <a href="https://javaserverfaces.dev.java.net/nonav/rlnotes/2.0.0/releasenotes.html">this page</a>, I performed the following steps:
 
-<ol>
-<li>download the Mojarra 2.0.0 RC binary bundle from this <a href="https://javaserverfaces.dev.java.net/servlets/ProjectDocumentList?folderID=11662">webpage</a>;</li>
-<li>backup your existing jsf-impl.jar found in GF_HOME/lib;</li>
-<li>copy the new jsf-api.jar and jsf-impl.jar to GF_HOME/lib;</li>
-<li>edit your GF_HOME/domains/[domain-name]/config/domain.xml and add (or update the existing classpath-prefix) ‘classpath-prefix=”${com.sun.aas.installRoot}/lib/jsf-api.jar” to the <java-config> tag;</java-config></li>
-<li><domain-name>restart your server.</domain-name></li>
-</ol>
+1. download the Mojarra 2.0.0 RC binary bundle from this <a href="https://javaserverfaces.dev.java.net/servlets/ProjectDocumentList?folderID=11662">webpage</a>;
+2. backup your existing jsf-impl.jar found in GF_HOME/lib;
+3. copy the new jsf-api.jar and jsf-impl.jar to GF_HOME/lib;
+4. edit your GF_HOME/domains/[domain-name]/config/domain.xml and add (or update the existing classpath-prefix) ‘classpath-prefix=”${com.sun.aas.installRoot}/lib/jsf-api.jar” to the <java-config> tag;</java-config>
+5. <domain-name>restart your server.</domain-name>
+
 On your domain configuration file, domain.xml, set the classpath-prefix parameter as the example below:
 
 {% highlight xml %}

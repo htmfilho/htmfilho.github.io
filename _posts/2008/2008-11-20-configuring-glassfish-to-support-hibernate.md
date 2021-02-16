@@ -9,24 +9,23 @@ This is just a short post to remember how I prepared <a href="https://glassfish.
 
 The first step is to add Hibernate libraries in #glassfish_home#/lib . Those libraries are:
 
-<ul>
-<li>antlr-2.7.6.jar</li>
-<li>c3p0-0.9.1.jar</li>
-<li>cglib-nodep-2.1.3.jar</li>
-<li>commons-collections-2.1.1.jar</li>
-<li>commons-logging-1.0.4.jar</li>
-<li>concurrent-1.3.2.jar</li>
-<li>dom4j-1.6.1.jar</li>
-<li>ehcache-1.2.3.jar</li>
-<li>hibernate3.jar</li>
-<li>hibernate-annotations.jar</li>
-<li>hibernate-commons-annotations.jar</li>
-<li>hibernate-entitymanager.jar</li>
-<li>hibernate-validator.jar</li>
-<li>javassist.jar</li>
-<li>log4j-1.2.11.jar</li>
-<li>ojdbc14.jar</li>
-</ul>
+- antlr-2.7.6.jar
+- c3p0-0.9.1.jar
+- cglib-nodep-2.1.3.jar
+- commons-collections-2.1.1.jar
+- commons-logging-1.0.4.jar
+- concurrent-1.3.2.jar
+- dom4j-1.6.1.jar
+- ehcache-1.2.3.jar
+- hibernate3.jar
+- hibernate-annotations.jar
+- hibernate-commons-annotations.jar
+- hibernate-entitymanager.jar
+- hibernate-validator.jar
+- javassist.jar
+- log4j-1.2.11.jar
+- ojdbc14.jar
+
 All these libraries are distributed with Hibernate on this web page: <a href="http://hibernate.org/6.html">http://hibernate.org/6.html</a>. There are even more libraries available, but the set above was compiled by an attempt/error approach, which was indeed a tough task. You have to restart Glassfish in order to use those new libraries.
 
 The next step is to create a connection pool and a JDBC resource, but I will assume that you know how to do that or you have read a post like <a href="http://blogs.sun.com/JagadishPrasath/entry/creating_jdbc_connection_pool_resource">the one written by Jagadish</a>.

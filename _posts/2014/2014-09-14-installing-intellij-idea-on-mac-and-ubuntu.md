@@ -16,23 +16,21 @@ I’m not really going into step by step here. IntelliJ is pretty easy to instal
 
 So, I had to change the JDK used by the IDE. For that, I:
 
-<ol>
-<li>closed IntelliJ;</li>
-<li>went to the folder where all applications are installed (/Applications) and selected the file “IntelliJ IDEA ##.app”;</li>
-<li>accessed the context menu (mouse click with two fingers) and selected “Show Package Contents”;</li>
-<li>opened the file “/Contents/Info.plist” and</li>
-<li>located the JVMVersion to change its correspondent value to 1.8*.</li>
-</ol>
+1. closed IntelliJ;
+2. went to the folder where all applications are installed (/Applications) and selected the file “IntelliJ IDEA ##.app”;
+3. accessed the context menu (mouse click with two fingers) and selected “Show Package Contents”;
+4. opened the file “/Contents/Info.plist” and
+5. located the JVMVersion to change its correspondent value to 1.8*.
+
 After this configuration, I could finally make IntelliJ run Wildfly.
 
 <h3>Installing on Ubuntu</h3>
 
 The installation on Linux is traditionally more complicated. I wonder why people complain about the low number of Linux desktop users. 🙂 The IntelliJ IDEA download page mentions only two steps:
 
-<ol>
-<li>unpack the “ideaIU-XX.Y.Z.tar.gz” file using the command “tar xfz ideaIU-XX.Y.Z.tar.gz” and</li>
-<li>run “idea.sh” from the bin subdirectory.</li>
-</ol>
+1. unpack the “ideaIU-XX.Y.Z.tar.gz” file using the command “tar xfz ideaIU-XX.Y.Z.tar.gz” and
+2. run “idea.sh” from the bin subdirectory.
+
 However, this instructions don’t deliver IntelliJ as delivered in other platforms. People don’t go to the installation folder and execute the file idea.sh. They either create a desktop icon or add the bin directory to the path, but these steps are missing. So, in my understanding, the installation is not completed. To launch IntelliJ from anywhere in the command prompt:
 
 Become the root user:

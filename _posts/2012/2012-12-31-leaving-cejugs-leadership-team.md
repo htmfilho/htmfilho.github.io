@@ -47,10 +47,10 @@ probably realized that it’s more a labor of love, donation and dedication than
 professional achievement. Some people love that, like I do, but most people
 don’t. Perhaps new leaders won’t find motivation for the merit in this
 meritocracy model. The excitement may last for a few months and then, even the
-free time will be occupied with other priorities.<br/><b><br/></b><b>I have been
+free time will be occupied with other priorities.<br/>**<br/>****I have been
 proud of my role as a Jug Leader, not because of what I did for the community,
 now and in the past, but because of what I feel for them and what I was willing
-to lose for them.</b> I will keep this feeling in my heart. You may ask me why
+to lose for them.** I will keep this feeling in my heart. You may ask me why
 I’m leaving since I’m still in love. This is like a relationship that doesn't
 work. When your love is not reciprocal the best thing you can do is set your
 love free.

@@ -14,22 +14,22 @@ categories: cejug java
 <div>The official recognition made by the leadership team was unanimous and we have promoted the following CEJUG’s members:</div>
 
 
-<div><b><a href="http://renearaujo.blogspot.com/">René Araújo</a></b> becomes JUG Leader in recognition to the voluntary work that he has been doing for the JUG, not only recently, but in several other opportunities during the last years. René is tireless when supporting CEJUG’s initiatives. He will join the current team of Jug Leaders composed of Silveira Neto, Rafael Carneiro and Hildeberto Mendonça and also be committed with a voluntary work in benefit of the group indefinitely.</div>
+<div>**<a href="http://renearaujo.blogspot.com/">René Araújo</a>** becomes JUG Leader in recognition to the voluntary work that he has been doing for the JUG, not only recently, but in several other opportunities during the last years. René is tireless when supporting CEJUG’s initiatives. He will join the current team of Jug Leaders composed of Silveira Neto, Rafael Carneiro and Hildeberto Mendonça and also be committed with a voluntary work in benefit of the group indefinitely.</div>
 
 
-<div><b><a href="http://www.paulojdev.com.br/">Paulo Júnior</a></b> becomes events coordinator, role previously assumed by Rafael Carneiro, in recognition of his initiative to leverage the monthly events after a long interruption. He is already managing events since August and he will continue doing that, calling speakers, defining the calendar, negotiating venues and sponsorships, among other responsibilities.</div>
+<div>**<a href="http://www.paulojdev.com.br/">Paulo Júnior</a>** becomes events coordinator, role previously assumed by Rafael Carneiro, in recognition of his initiative to leverage the monthly events after a long interruption. He is already managing events since August and he will continue doing that, calling speakers, defining the calendar, negotiating venues and sponsorships, among other responsibilities.</div>
 
 
-<div><b>Gregory Fontenele</b> becomes responsible for the CEJUG Certified program and also for the CEJUG Shop in recognition to his great contribution to the last CEJUG’s initiatives. Gregory will negotiate sponsorship, promote and reward CEJUG members with vouchers. For the shop, he will organize the order and delivery of t-shirts.</div>
+<div>**Gregory Fontenele** becomes responsible for the CEJUG Certified program and also for the CEJUG Shop in recognition to his great contribution to the last CEJUG’s initiatives. Gregory will negotiate sponsorship, promote and reward CEJUG members with vouchers. For the shop, he will organize the order and delivery of t-shirts.</div>
 
 
-<div><b>Thiago Sá</b> becomes responsible for the Java Emissary program (literally translated) thanks to his experience on the SUN Campus Ambassador program and in recognition to his collaboration on the last CEJUG initiatives. Thiago will coordinate a network of entrepreneurs undergraduate students who will promote CEJUG in their respective universities.</div>
+<div>**Thiago Sá** becomes responsible for the Java Emissary program (literally translated) thanks to his experience on the SUN Campus Ambassador program and in recognition to his collaboration on the last CEJUG initiatives. Thiago will coordinate a network of entrepreneurs undergraduate students who will promote CEJUG in their respective universities.</div>
 
 
-<div><b><a href="http://www.franciscobarroso.blogspot.com/">Francisco Barroso</a></b> becomes CEJUG supporter, a recognition lower than what he actually deserves, but he has demonstrated his greatness as a person by refusing a more important distinction offered by the leadership team. Francisco is committed to support all CEJUG’s initiatives, helping according to his availability.</div>
+<div>**<a href="http://www.franciscobarroso.blogspot.com/">Francisco Barroso</a>** becomes CEJUG supporter, a recognition lower than what he actually deserves, but he has demonstrated his greatness as a person by refusing a more important distinction offered by the leadership team. Francisco is committed to support all CEJUG’s initiatives, helping according to his availability.</div>
 
 
-<div><b><a href="http://weblogs.java.net/blog/felipegaucho/">Felipe Gaúcho</a></b> becomes a JUG Adviser in recognition to several years of dedication and great achievements for the CEJUG community. Felipe is also responsible for the Java University Award program, which is in its third edition and it is fully sponsored by local companies and supported by the local government and academy. Felipe is not only part of CEJUG’s history but he is also helping to design the next steps of the group.</div>
+<div>**<a href="http://weblogs.java.net/blog/felipegaucho/">Felipe Gaúcho</a>** becomes a JUG Adviser in recognition to several years of dedication and great achievements for the CEJUG community. Felipe is also responsible for the Java University Award program, which is in its third edition and it is fully sponsored by local companies and supported by the local government and academy. Felipe is not only part of CEJUG’s history but he is also helping to design the next steps of the group.</div>
 All these activities are a big challenge to these new volunteers. That’s why we have to support and remember them for what they did, not for what they didn’t do. Even with ups and downs the CEJUG community always comes back stronger and stronger, and you, even without realizing it, are a better developer because of it.
 
 ![2408150459_7e59ee3b89-300x225.jpg](/images/posts/2408150459_7e59ee3b89-300x225.jpg)

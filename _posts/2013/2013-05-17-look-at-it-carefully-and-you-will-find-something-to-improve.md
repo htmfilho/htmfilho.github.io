@@ -7,7 +7,7 @@ categories: java refactoring
 
 I propose you an exercise: when you come back to work tomorrow morning, navigate through the source code of your project and try to find opportunities of refactoring. Do it even if your boss didn’t ask for it. Do it because you want some exciting time at work.
 
-<b>Refactoring is the art of changing what is already working fine</b>. But to do refactoring you need an excuse. It could be design improvement, performance issues, security roles, and many other reasons. That’s a risk you take to reduce the technical debit of the application, making it more stable and, somehow, improving your own productivity in the future.
+**Refactoring is the art of changing what is already working fine**. But to do refactoring you need an excuse. It could be design improvement, performance issues, security roles, and many other reasons. That’s a risk you take to reduce the technical debit of the application, making it more stable and, somehow, improving your own productivity in the future.
 
 This is not about being nice with the company or with the boss, but being nice with yourself. Why? Because problems tend to accumulate and, at some point, you will lose the control of your code. You will face hard times to deliver results and it will ruin your career.
 

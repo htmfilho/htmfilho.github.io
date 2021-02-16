@@ -7,7 +7,7 @@ categories: e-commerce ecology book
 
 I have a lot of books. Really! I love books. I buy them because I need but sometimes just for the pleasure of having them. They are interesting but they are also so beautifully organized on my bookshelf. 8) But I feel deep inside that there is something wrong with it.
 
-What am I gonna do when the time to leave Belgium comes? I’m inclined to donate most of my books, but how? to whom? I will think about it, but you can also suggest something on the  comments below. By the way, one thing that I’ve learned was: <b>before buying something, consider when the time to discard it finally comes</b>. Might it be some sort of headache for you in the future?
+What am I gonna do when the time to leave Belgium comes? I’m inclined to donate most of my books, but how? to whom? I will think about it, but you can also suggest something on the  comments below. By the way, one thing that I’ve learned was: **before buying something, consider when the time to discard it finally comes**. Might it be some sort of headache for you in the future?
 
 Besides the space and weight issues, there is also the ecological one. Books are made of paper, paper is made of cellulose, cellulose is mostly extracted from the wood, wood is synonymous of tree and trees are one of the main agents of carbon absorption, besides their role on the soil stability and humidity control.
 

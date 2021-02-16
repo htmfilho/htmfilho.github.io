@@ -5,7 +5,7 @@ date: 2013-04-17 14:45:00 +0200
 categories: culture europe family trip
 ---
 
-With all those crazy things going on all around the world these days, I believe sharing good news may help to compensate with good vibes all the negativity out there. <b>It’s a good thing to recognize good actions made by people around us</b>.
+With all those crazy things going on all around the world these days, I believe sharing good news may help to compensate with good vibes all the negativity out there. **It’s a good thing to recognize good actions made by people around us**.
 
 Having said that, I devote this post to send a big thanks to <a href="http://www.frankfurt-airport.com/" target="_blank">Frankfurt Airport</a> and to <a href="http://www.lufthansa.com/" target="_blank">Lufthansa Airlines</a>. I don’t know how these companies are evaluated by their customers in general. Perhaps, we were simply lucky, but what has happened and the way we were treated are worth spreading.
 
@@ -23,4 +23,4 @@ Even things that rarely work were working that day 🙂 We didn’t have our sea
 
 It couldn’t be better until the boarding time when our expectations were exceeded! A lot of first and business class people around and the attendant called us to be the first ones to enter in the airplane. She called us out loud using the microphone and explained to other passengers that the baby would require some extra effort during boarding and it would help to gain some time after all. I call it intelligence and good judgment because that’s exactly what I would do in her shoes 🙂
 
-Unfortunately, many airports out there banned such practice, which is the case of <a href="http://www.brusselsairport.be/" target="_blank">Brussels Airport</a> and <a href="http://www.metwashairports.com/dulles/dulles.htm" target="_blank">Washington Dulles</a>, the ones we have been with our baby. <b>Those airports following such stupid rule should give attention to families with babies and people with disabilities because this is not a privilege to a minority, but a necessity</b>. They ignore the fact that it’s tough to travel with a little baby. Thanks to Lufthansa, we arrived very relaxed in Belgium, with a big smile on our faces 🙂.
+Unfortunately, many airports out there banned such practice, which is the case of <a href="http://www.brusselsairport.be/" target="_blank">Brussels Airport</a> and <a href="http://www.metwashairports.com/dulles/dulles.htm" target="_blank">Washington Dulles</a>, the ones we have been with our baby. **Those airports following such stupid rule should give attention to families with babies and people with disabilities because this is not a privilege to a minority, but a necessity**. They ignore the fact that it’s tough to travel with a little baby. Thanks to Lufthansa, we arrived very relaxed in Belgium, with a big smile on our faces 🙂.

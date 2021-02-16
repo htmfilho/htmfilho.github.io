@@ -15,7 +15,7 @@ I wish I could share more with you here because each post represents only 20% of
 
 Now, I would like to conclude with a attempt of poem that stays in the subconscious of this blog:
 
-> <b>I might regret but I don’t</b>
+> **I might regret but I don’t**
 
 > “_I might regret doing things not related to my work just to solve other people’s problem, but I don’t because those things taught me many other things that I didn’t expect to learn._"
 

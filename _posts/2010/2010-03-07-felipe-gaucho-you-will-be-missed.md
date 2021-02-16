@@ -15,7 +15,7 @@ I believe that we always get a bit of the personality of our closest friends to 
 
 Felipe was a young man with strong positions. It took time to convince him about other point of views, but he was the only one I know that once you get to change his position you will be the first one to know that. He comes back to the topic, merges points, discusses other details and goes on the direction of a better overall solution. I believe I improved my diplomacy skills discussing technology and community with him.
 
-He became internationally well known by his open source initiatives and his passion for the Java community.<br/><b>His focus</b>: undergraduate students. <br/><b>His intention</b>: prepare students to better face the challenges of the software industry. <br/><b>His weapon</b>: Java. <br/><b>His strategy</b>: share learned lessons from the development of open source projects.<br/><b>His hope</b>: improve the quality of undergraduate courses in Brazil.
+He became internationally well known by his open source initiatives and his passion for the Java community.<br/>**His focus**: undergraduate students. <br/>**His intention**: prepare students to better face the challenges of the software industry. <br/>**His weapon**: Java. <br/>**His strategy**: share learned lessons from the development of open source projects.<br/>**His hope**: improve the quality of undergraduate courses in Brazil.
 
 In a situation like this, when a young life is interrupted so abruptly, we start thinking how fragile life is. In any case, death is always shocking and touching, but when a person with a closer age dies we get to think about our own existence, how life is short, and how important is every minute breathing.
 

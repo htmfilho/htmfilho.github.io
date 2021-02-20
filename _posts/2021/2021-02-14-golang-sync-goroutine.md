@@ -67,7 +67,7 @@ In theory, working on one thing at a time isn't always the fastest way to finish
   - `searchStocksInParallel()`
 
 2. Add an extra caller to match the two available functions:
-     
+   
 {% highlight go %}
     func getPricesInSequence(stocks []*Stock) []*Stock {
       exchangeFactory := prepareExchangeStrategies(stocks)
@@ -81,7 +81,7 @@ In theory, working on one thing at a time isn't always the fastest way to finish
 {% endhighlight %}
        
 Now we are ready to write the benchmarking functions, one for each of the above functions:
- 
+
 {% highlight go %}
 package main
 
@@ -169,6 +169,6 @@ $ go test -bench=. -cpu=1
   BenchmarkGetPricesInParallel       1036        1183913 ns/op
 ```
 
-A full implementation of the benchmarked code is available at this [Playground](https://play.golang.org/p/wP5gmoIJt2i).
+A full implementation of the benchmarked code is available in my [Blog Examples Repo](https://github.com/htmfilho/blog-examples/tree/d4d109d453c4f44a80ad294fa9f8c226a403fa9a/trade).
 
 In addition to presenting Goroutines, I also wanted to show that it was a delightful experience to maintain a code designed with patterns. [Donald E. Knuth once said](https://pic.plover.com/knuth-GOTO.pdf) that "__premature optization is the root of all evil__" because it may lead to abuse, with a strong negative impact on debugging and maintenance. So, considering optimization in a second moment has shown how little we changed to achieve a better result.

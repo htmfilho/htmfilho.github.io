@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using The Adapter Design Pattern to Protect your Go App"
+title:  "Using The Adapter Design Pattern to Protect A Go App"
 date: 2021-02-21 12:00:00 +0200
 categories: golang design pattern adapter cache
 ---

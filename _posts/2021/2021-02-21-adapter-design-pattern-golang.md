@@ -11,9 +11,9 @@ A major benefit of Go is the explicitness of the code. There is no magic going o
 
 <!-- more -->
 
-Using libraries directly may look simple with `got get` and `import`, but we need more than that to keep applications weakly coupled with third-party dependencies. We want to prevent too many changes in the application when a library is discontinued, a faster and secure alternative is available or even when the license becomes incompatible with the project.
+Using libraries directly may look simple with `go get` and `import`, but we need more than that to keep applications weakly coupled with third-party dependencies. We want to prevent too many changes in the application when a library is discontinued, a faster and secure alternative is available, or even when the license becomes incompatible with the project.
 
-To illustrate that, we are going to apply the Adapter Design Pattern to abstract a caching mechanism. The rest of the code should profit from caching features, but should not be aware of what we are using to cache data. The Adapter Pattern is good for that because it makes available just enough features from the third-party library for the precise needs of the application. Everything else is hidden. The `Cache` interface defines the required features that can be provided by ourselves or third-party libraries.
+To illustrate that, we are going to apply the [Adapter Design Pattern](https://en.wikipedia.org/wiki/Adapter_pattern) to abstract a caching mechanism. The rest of the code should profit from caching features, but should not be aware of what we are using to cache data. The Adapter Pattern is good for that because it makes available just enough features from the third-party library for the precise needs of the application. Everything else is hidden. The `Cache` interface defines the required features that can be provided by ourselves or third-party libraries.
 
 {% highlight go %}
 type Cache interface {
@@ -148,4 +148,4 @@ fmt.Println(cache.Get("single"))
 
 A complete example of this code is available in my repo of [Examples](https://github.com/htmfilho/blog-examples/tree/main/caching). Do not hesitate to submit a pull request if you find something that can be improved.
 
-Using the adapter pattern for every dependency is very important in Go. It puts the developer in control of the application design instead of succumbing to frameworks impositions. It also allows mocking the dependencies to enable effective unit testing. Your future self and colleagues can't thank you enough for using adapters.
+Using the adapter pattern for every dependency is very important in Go. It puts the developer in control of the design instead of succumbing to frameworks impositions. It also allows mocking the dependencies to enable effective unit testing. Your future self and colleagues can't thank you enough for using adapters.

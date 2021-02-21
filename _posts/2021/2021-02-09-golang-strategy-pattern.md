@@ -11,7 +11,7 @@ I keep searching for concrete examples in my quest to convince you that Go is a 
 
 <!-- more -->
 
-The [strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern) is one of the simplest yet underutilized design patterns out there. It is useful when we have one goal and several ways to achieve that. In this case, our goal is to get stock prices from different stock exchanges. Each stock exchange requires a dedicated strategy to fetch the prices since they have different APIs and abstractions. The advantage of this approach is that if we want to support a new stock exchange all we have to do is to add a new strategy and barely change elsewhere. The code that calls the strategies don't change, which also prevents breaking exising tests and introducing unexpected bugs.
+The [strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern) is one of the simplest yet underutilized design patterns out there. It is useful when we have one goal and several ways to achieve that. In this case, our goal is to get stock prices from different stock exchanges. Each stock exchange requires a dedicated strategy to fetch the prices since they have different APIs and abstractions. The advantage of this approach is that if we want to support a new stock exchange all we have to do is to add a new strategy and barely change anywhere else. The code that calls the strategies don't change, which also prevents breaking exising tests and introducing unexpected bugs.
 
 Formally speaking:
 > "The Strategy Pattern is a behavioral pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it."

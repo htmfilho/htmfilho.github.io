@@ -228,4 +228,4 @@ func (tp *TsxPricing) getName() string {
 
 Here, Go shows a glance of its elegance. It doesn't require you to explicitly indicate the interfaces your structs implement, like in Java (`public class Foo implements Bar`). It is enough to have the same method signatures. Simplicity matters and it makes me love this language more than any other.
 
-A full implementation of this code is available at this [Go Playground](https://play.golang.org/p/pL7qtlgPwqL).
+A full implementation of this code is available in my [Blog Examples Repo](https://github.com/htmfilho/blog-examples/blob/9a581e8dd2610d0cd16d211268b6ec48521b1ec4/trade/pricing.go).

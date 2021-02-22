@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Developing an Azure Function in Go: Part 1"
+title:  "Developing an Azure Function in Go"
 date: 2021-01-17 12:00:00 +0200
 categories: serverless golang api
 ---

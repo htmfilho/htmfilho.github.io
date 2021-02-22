@@ -5,11 +5,11 @@ date: 2015-07-17 21:07:09 +0200
 categories: development clojure jvm
 ---
 
-<a href="http://www.hildeberto.com/wp-content/uploads/2015/07/leiningen-full.jpg">![leiningen-full-186x300.jpg](/images/posts/leiningen-full-186x300.jpg)</a>
+![leiningen-full-186x300.jpg](/images/posts/leiningen-full-186x300.jpg)
 
-I’ve been playing with <a href="http://clojure.org" target="_blank">Clojure</a> for quite sometime now. It’s a functional language hosted on the JVM, with a growing community and a very rich ecosystem. You can find libraries for every major problem, but in case you cannot find, you can count on the interoperability with Java will bridge the gap.
+I’ve been playing with [Clojure](https://clojure.org) for quite sometime now. It’s a functional language hosted on the JVM, with a growing community and a very rich ecosystem. You can find libraries for every major problem, but in case you cannot find, you can count on the interoperability with Java will bridge the gap.
 
-Nowadays, every programming language and platform offer a development environment with a build tool as foundation. Take as example <a href="https://maven.apache.org" target="_blank">Maven</a>, <a href="https://gradle.org" target="_blank">Gradle</a> and <a href="http://www.scala-sbt.org" target="_blank">Sbt</a>. It isn’t different in the Clojure world. It uses <a href="http://leiningen.org" target="_blank">Leiningen</a> as a build and project management tool. So, I would like to share with you how I’ve managed to install and configure Leiningen on my Mac.
+Nowadays, every programming language and platform offer a development environment with a build tool as foundation. Take as example [Maven](https://maven.apache.org), [Gradle](https://gradle.org) and [Sbt](http://www.scala-sbt.org). It isn’t different in the Clojure world. It uses [Leiningen](http://leiningen.org) as a build and project management tool. So, I would like to share with you how I’ve managed to install and configure Leiningen on my Mac.
 
 First, create the directory `/Applications/clojure` to store Clojure’s related tools:
 

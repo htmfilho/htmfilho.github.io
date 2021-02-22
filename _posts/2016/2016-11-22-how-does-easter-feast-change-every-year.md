@@ -9,7 +9,7 @@ Planning a trip in a high touristic season is hard. Everything is expensive and 
 
 But, like every geek, I’ve got immediately distracted by a mystery I’ve faced right away: when Easter is going to happen next year? This is one of those holidays that changes every year, like carnival, and I wonder who determines it or how it is calculated. Like every serious procrastinator, I immediately dived into this quest. Holidays planning can wait a little bit.
 
-Wikipedia <a href="https://en.wikipedia.org/wiki/Moveable_feast" target="_blank">defines Easter</a> as a <a href="https://en.wikipedia.org/wiki/Easter" target="_blank">moveable feast</a> because it follows lunar cycles instead of <a href="https://en.wikipedia.org/wiki/Gregorian_calendar" target="_blank">Gregorian</a> or <a href="https://en.wikipedia.org/wiki/Julian_calendar" target="_blank">Julian</a> calendars. I’m not going into historical details, but ancient people have determined that it comes to be the first Sunday after the full moon that occurs after the spring equinox. The equinox is a day when time is split equally into 12 hours each of light and darkness. However, the equinox doesn’t happen in the same date every year. So, they fixed March 21st to simplify calculation all over the globe.
+Wikipedia [defines Easter](https://en.wikipedia.org/wiki/Moveable_feast) as a [moveable feast](https://en.wikipedia.org/wiki/Easter) because it follows lunar cycles instead of [Gregorian](https://en.wikipedia.org/wiki/Gregorian_calendar) or [Julian](https://en.wikipedia.org/wiki/Julian_calendar) calendars. I’m not going into historical details, but ancient people have determined that it comes to be the first Sunday after the full moon that occurs after the spring equinox. The equinox is a day when time is split equally into 12 hours each of light and darkness. However, the equinox doesn’t happen in the same date every year. So, they fixed March 21st to simplify calculation all over the globe.
 
 It’s quite simple to calculate by observation. Just go outside and look at the sky for a full moon after March 21st and do the trick. But I need to know sooner than that to be able to plan our holidays. I have to figure out how to calculate it.
 
@@ -93,7 +93,7 @@ following table considering `year = 2009` as input:
 </tr>
 </tbody>
 </table>
-What the hell?! How can anyone make any sense of that?! The disturbing thing is that it works and it’s actually explained in the <a href="https://books.google.be/books?id=_sYUAAAAQAAJ&amp;hl=nl&amp;pg=PP39#v=onepage&amp;q&amp;f=false" target="_blank">Book of Common Prayer (1662)</a>. I’m completely overwhelmed by curiosity, but I have to leave it for another time. For now, I will simply explain how I’ve implemented that in Clojure.
+What the hell?! How can anyone make any sense of that?! The disturbing thing is that it works and it’s actually explained in the [Book of Common Prayer (1662)](https://books.google.be/books?id=_sYUAAAAQAAJ&amp;hl=nl&amp;pg=PP39#v=onepage&amp;q&amp;f=false). I’m completely overwhelmed by curiosity, but I have to leave it for another time. For now, I will simply explain how I’ve implemented that in Clojure.
 
 First, let’s write some failing unit tests to make sure we have our expectations fulfilled. As the reference explains, the algorithm only works for years equal or greater than 1583, so the first test will assure the code throws an exception otherwise.
 
@@ -108,7 +108,7 @@ First, let’s write some failing unit tests to make sure we have our expectatio
                  (easter/calculate-easter-date 1582)))))
 {% endhighlight %}
 
-Another test takes some examples of Easter dates from existing calendars to compare with the results. One of the chosen years must be a <a href="https://en.wikipedia.org/wiki/Leap_year" target="_blank">leap year</a> just to verify that it doesn’t affect the calculation.
+Another test takes some examples of Easter dates from existing calendars to compare with the results. One of the chosen years must be a [leap year](https://en.wikipedia.org/wiki/Leap_year) just to verify that it doesn’t affect the calculation.
 
 {% highlight clojure %}
 (deftest test-known-easter-dates
@@ -149,4 +149,4 @@ Now, let’s write the production code, fully based on the table above, to pass 
 
 Isn't it amazing?! I wonder what was the reasoning process of the author to come out with such algorithm. Was is a trial-error approach? Who knows. At least, I've got the Easter date right (24/04/2017) and now I can go back to our holiday planning. Wait a minute... what are we going to do in the carnival?! Huuum...
 
-You can find the source code of this post in my GitHub repository <a href="https://github.com/htmfilho/cosmos" target="_blank">cosmos</a>.
+You can find the source code of this post in my GitHub repository [cosmos](https://github.com/htmfilho/cosmos).

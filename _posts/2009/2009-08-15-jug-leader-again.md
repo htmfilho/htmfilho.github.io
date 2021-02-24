@@ -9,11 +9,9 @@ First of all, I’m back to my blog after some days of writing vacations. I’ve
 accumulated a lot to tell you here and I plan to do it slowly and without any
 chronological order. This restart as a blog writer is naturally zen, nothing in
 a hurry and getting back to the normality in a couple of days. So, I decided to
-start with my experience of going back to the <a href="http://www.cejug.org/">CEJUG</a>
-administration.
+start with my experience of going back to the CEJUG administration.
 
-CEJUG is a <a href="http://java.sun.com/community/usergroups/">Java
-User Group</a> of my state in Brazil. I left the administration in January of
+CEJUG is a Java User Group of my state in Brazil. I left the administration in January of
 this year, when I was overloaded by several projects and I couldn’t take care
 of everything at the same time.
 
@@ -29,7 +27,7 @@ now I’m gradually organizing many pending tasks.
 
 This time, we are getting more involvement from the community, which are
 directly helping on many important tasks. We also got great news in August that
-<a href="http://www.rafaelcarneiro.net/blog/">Rafael Carneiro</a> decided to
+[Rafael Carneiro](http://www.rafaelcarneiro.net) decided to
 join the CEJUG leadership again, after several months dedicated to personal
 projects. He was responsible for the great series of events promoted by CEJUG
 during 2007 and 2008, transforming CEJUG in one of the most active JUGs in

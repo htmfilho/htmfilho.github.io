@@ -5,7 +5,7 @@ date: 2009-08-24 19:18:00 +0200
 categories: business process java research user interface
 ---
 
-The Usi4Biz platform is part of the Usi4Biz Framework and it was created to support the methodology of <a href="http://usi4biz.com/business-user-alignment/">Business-User Alignment</a>. It was developed on the Java platform in the context of a PhD research at the <a href="http://www.uclouvain.be/">Université catholique de Louvain</a>. Its main goal is to assist business analysts associating business processes activities with user interfaces that are used to perform these activities, and also make end-users aware of which activities of the business process they are performing when using a specific user interface.
+The Usi4Biz platform is part of the Usi4Biz Framework and it was created to support the methodology of Business-User Alignment. It was developed on the Java platform in the context of a PhD research at the [Université catholique de Louvain](http://www.uclouvain.be). Its main goal is to assist business analysts associating business processes activities with user interfaces that are used to perform these activities, and also make end-users aware of which activities of the business process they are performing when using a specific user interface.
 
 ![printscreen-impact-analysis-21-300x181.jpg](/images/posts/printscreen-impact-analysis-21-300x181.jpg)
 

@@ -5,6 +5,8 @@ date: 2007-12-04 10:17:00 +0200
 categories: research
 ---
 
+![OpenInterface](/images/posts/2007-12-04-the-openinterface-platform.png)
+
 In the last few months, I’ve been dedicating some time to collaborate with the OpenInterface platform, an open source project conceived to integrate components developed in different programming languages. But, why am I so interested on it? Basically, because it is part (not the main issue) of my research in multi modalities and because it is a project managed by people in my laboratory at Université catholique de Louvain.
 
 The OpenInterface was conceived to support the development of multi modal applications. It is developed in C++ because of the team’s expertise and for performance reasons. Its architecture is centered in a kernel, which intermediates the conversation between components. There is a proxy for each programming language able to invoke the component, send and receive data from it. Finally, the components are installed in the platform to be visible by other components.

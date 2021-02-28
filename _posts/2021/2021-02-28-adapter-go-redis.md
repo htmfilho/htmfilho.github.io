@@ -7,24 +7,38 @@ categories: golang design pattern adapter cache library
 
 ![Facade](/images/posts/adapter-pattern.png)
 
-We have discussed about the [Adapter Design Pattern in Go](/2021/02/adapter-design-pattern-golang.html) and we wrapped the [Redigo](https://github.com/gomodule/redigo) library to illustrate the concept. It turns out, despite its popularity, Redigo has a strong competitor called [Go-Redis](https://github.com/go-redis/redis). My first impression is that, compared to Go-Redis, Redigo is poorly documented. I struggled searching for working examples, but somehow I made it and that post helps starting with Redigo. We could keep going with it, but for the long term, it is better to rely on a well documented library with more contributors and users. This is the case of Go-Redis. But what is the overal impact of switching to Go-Redis after adopting Redigo?
+We have discussed about the [Adapter Design Pattern in Go](/2021/02/adapter-design-pattern-golang.html) and we wrapped the [Redigo](https://github.com/gomodule/redigo) library to illustrate the concept. During my research I discovered that Redigo has a strong competitor called [Go-Redis](https://github.com/go-redis/redis). I spent sometime playing with it and my first impression was that the code became more concise with Go-Redis. It is also better documented. I didn't compare their performance, but if we find out that Go-Redis is better than Redigo, what would be the overall impact of switching to Go-Redis?
 
 <!-- more -->
 
-Well, not much, since we are using the adapter pattern to hide the caching mechanism from the rest of the code. We only need to add a wrapper for Go-Redis and adapt the factory method to create it instead of the Redigo wrapper. In other words, we need to implement the following interface again:
+Well, not much. Since we are using the adapter pattern to hide the caching mechanism from the rest of the code, we know that only a delimited part of the code is assigned to deal with Redis. This part is the struct that implements our [Cache](https://github.com/htmfilho/blog-examples/blob/main/caching/caching.go#L10) interface. But before starting the changes, we need to cover the existing code with unit tests. The code below is a sample of the unit tests writen for each method of our Cache interface:
 
 {% highlight go %}
-type Cache interface {
-  Put(key string, value interface{})
-  PutAll(map[string]interface{})
-  Get(key string) interface{}
-  GetAll(keys []string) map[string]interface{}
-  Clean(key string)
-  CleanAll()
+package main
+
+import (
+  "testing"
+)
+
+func TestRedisCache_Get(t *testing.T) {
+  cache := GetCachingMechanism()
+  cache.Put("single", "Single Record")
+  if "Single Record" != cache.Get("single") {
+    t.Fail()
+  }
 }
+
+func TestRedisCache_Put(t *testing.T) {
+  cache := GetCachingMechanism()
+  cache.Put("single", "Single Record")
+  if "Single Record" != cache.Get("single") {
+    t.Fail()
+  }
+}
+...
 {% endhighlight %}
 
-It turns out Go-Redis has a dedicated caching library that can be used instead of the general purpose library. This dedicated library will certainly simplify our code, helping with readability.
+
 
 {% highlight go %}
 type RedisCache struct {

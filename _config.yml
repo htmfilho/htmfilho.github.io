@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: No Time To Make It Shorter
 author: Hildeberto Mendonça
-description: In my personal website I write about myself, my career, my robbies and mainly about technology. My favorite topics are functional programming, software documentation, processes, and architecture. I use Python, Java and Clojure when talking about programming.
+description: In my personal website I write about myself, my career, my hobbies and mainly about technology. My favorite topics are functional programming, software documentation, processes, and architecture. I use Python, Java, Clojure, and Go when talking about programming.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hildeberto.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hildeberto.com"
 permalink: /:year/:month/:title.html
 excerpt_separator: "<!-- more -->"
 

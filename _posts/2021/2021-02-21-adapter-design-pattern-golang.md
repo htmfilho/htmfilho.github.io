@@ -146,6 +146,6 @@ cache.Put("single", "Single Record")
 fmt.Println(cache.Get("single"))
 {% endhighlight %}
 
-A complete example of this code is available in my repo of [Examples](https://github.com/htmfilho/blog-examples/tree/main/caching). Do not hesitate to submit a pull request if you find something that can be improved.
+A complete example of this code is available in my repo of [Examples](https://github.com/htmfilho/blog-examples/tree/b2f9e8b69cfe2d08befc78ee428859bccdeea686/caching). Do not hesitate to submit a pull request if you find something that can be improved.
 
 Using the adapter pattern for every dependency is very important in Go. It puts the developer in control of the design instead of succumbing to frameworks impositions. It also allows mocking the dependencies to enable effective unit testing. Your future self and colleagues can't thank you enough for using adapters.

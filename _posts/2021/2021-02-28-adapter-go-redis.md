@@ -5,13 +5,13 @@ date: 2021-02-28 12:00:00 +0200
 categories: golang design pattern adapter cache library
 ---
 
-![Facade](/images/posts/2021-02-28-adapter-go-redis.jpg)
+![Facade](/images/posts/2021-02-28-adapter-go-redis.png)
 
-We have discussed about the [Adapter Design Pattern in Go](/2021/02/adapter-design-pattern-golang.html) and we wrapped the [Redigo](https://github.com/gomodule/redigo) library to illustrate the concept. During my research I discovered that Redigo has a strong competitor called [Go-Redis](https://github.com/go-redis/redis). I spent sometime playing with it and my first impression was that the code became more concise with Go-Redis. It is also better documented. I didn't compare their performance, but if we find out that Go-Redis is better than Redigo, what would be the overall impact of switching to Go-Redis?
+We have discussed about the [Adapter Design Pattern in Go](/2021/02/adapter-design-pattern-golang.html) and we wrapped the [Redigo](https://github.com/gomodule/redigo) library to illustrate the concept. During my research I discovered that Redigo has a strong competitor called [Go-Redis](https://github.com/go-redis/redis). I spent sometime playing with it and my first impression was that the code became more concise with Go-Redis. It is also [better documented](https://redis.uptrace.dev/). I didn't compare their performance, but if we find out that Go-Redis is better than Redigo, what would be the overall impact of switching to Go-Redis?
 
 <!-- more -->
 
-Well, not much. Since we are using the adapter pattern to hide the caching mechanism from the rest of the code, we know that only a delimited part of the code is assigned to deal with Redis. This part is the struct that implements our [Cache](https://github.com/htmfilho/blog-examples/blob/main/caching/caching.go#L10) interface. But before starting the changes, we need to cover the existing code with unit tests. The code below is a sample of the unit tests written for each method of our Cache interface:
+Well, not much. Since we are using the adapter pattern to hide the caching mechanism from the rest of the code, we know that only a delimited part of the code is assigned to deal with Redis. This part is the [struct](https://github.com/htmfilho/blog-examples/blob/main/caching/caching.go#L21) that implements our [Cache](https://github.com/htmfilho/blog-examples/blob/main/caching/caching.go#L10) interface. But before starting the changes, we need to cover the existing code with unit tests. Here is a sample of the unit tests written for each method of our Cache interface:
 
 {% highlight go %}
 package main
@@ -38,7 +38,7 @@ func TestRedisCache_Put(t *testing.T) {
 ...
 {% endhighlight %}
 
-The complete set of tests is available in the [blog's repo](https://github.com/htmfilho/blog-examples/blob/main/caching/caching_test.go). With the tests, we want to ensure that the new code with Go-Redis still works like when using Redigo. It also illustrates how to use the Cache interface, which means if we don't change the tests after moving to Go-Redis then the Adapter Pattern has served its purpose.
+The complete set of tests is available in the [blog's repo](https://github.com/htmfilho/blog-examples/blob/main/caching/caching_test.go). With the tests, we want to ensure that the new code with Go-Redis still works like the one with Redigo. It also illustrates how to use the Cache interface, so if we don't change the tests after moving to Go-Redis then the Adapter Pattern has served its purpose.
 
 The following code is the Go-Redis implementation:
 
@@ -110,9 +110,9 @@ func (rc *RedisCache) CleanAll() {
 }
 {% endhighlight %}
 
-Comparing to the [Redigo implementation](https://github.com/htmfilho/blog-examples/tree/b2f9e8b69cfe2d08befc78ee428859bccdeea686/caching), notice that we only changed the body of the methods and kept the signatures intact. A complete example of this code is available in the [blog's repo](https://github.com/htmfilho/blog-examples/tree/ed29864a4ea3d30875f7d3b9375e823b543cc025/caching). To check whether everything was still working, I ran the tests there:
+Comparing to the [Redigo implementation](https://github.com/htmfilho/blog-examples/tree/b2f9e8b69cfe2d08befc78ee428859bccdeea686/caching), we only changed the body of the methods and kept the signatures intact. A complete example of this code is available in the [blog's repo](https://github.com/htmfilho/blog-examples/tree/ed29864a4ea3d30875f7d3b9375e823b543cc025/caching). To check whether everything is still working, I run the tests:
 
     $ cd blog-examples/caching
-	$ go test
+    $ go test
 
-All unit tests passed without changes. It means the application can gracefully evolve over time with the freedom to upgrade existing libraries or move to better ones all together without concerns. Of course, moving to another library requires you to perform more tests including integration and performance, but doing it without further code changes is a huge gain.
+All unit tests pass without changes. It means the application can gracefully evolve over time with the freedom to upgrade existing libraries or move to better ones all together without concerns. Of course, moving to another library requires you to perform more tests including integration and performance, but doing it without further code changes is a huge gain.

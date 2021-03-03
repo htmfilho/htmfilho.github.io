@@ -5,7 +5,7 @@ date: 2020-12-06 12:00:00 +0200
 categories: golang clojure java python graalvm programming micronaut quarkus
 ---
 
-![Programming Activity](/images/posts/programming-activity.png)
+![Programming Activity](/images/posts/golang-ugly-boring-software.png)
 
 In most of my 20 years of software development, the Java platform has been my main focus of attention and led my market demand. But after all these years I only considered myself a real programmer in the last 5 years when I was pushed to learn other programming languages like Python, Groovy, JavaScript, Go, and Clojure. Each language gave me a different perspective, pushed me to think about approaches that were not available in Java, and increased my expectations about productivity. But above all these satisfying experiences, the one that was most fullfiling was to produce a very efficient software with a minimal toolset. I have achieved that with Go.
 

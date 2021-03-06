@@ -13,7 +13,7 @@ The [Azure Portal](https://portal.azure.com) is an intuitive web app to manage c
 
 Short story long: A way to be precise about cloud infrastructure while keeping articles useful for longer is to use code. This is the thing in technology that takes longer to become obsolete. Good programming languages evolve over time but also preserve backwards compatibility, making sure that old software still compiles in modern technology. When it is time break compatibility, they try to do it gracefully, giving developers time to adapt. 
 
-Using code to build infrastructure is a practice known as "**Infrastructure as Code**". Cloud providers have been serving APIs to create and maintain resources for years now. But some clever people out there have built tools that take care of the hard part and make available domain-specific languages to better describe cloud resources. The most popular tools out there are [Ansible](https://www.ansible.com) and [Terraform](https://www.terraform.io). Ansible is cool, but I'm going to work with Terraform because it is written in [Go](https://golang.org), a language that I'm particularly passionate about.
+Using code to build infrastructure is a practice known as ["**Infrastructure as Code**"](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code). Cloud providers have been serving APIs to create and maintain resources for years now. But some clever people out there have built tools that take care of the hard part and make available domain-specific languages to better describe cloud resources. The most popular tools out there are [Ansible](https://www.ansible.com) and [Terraform](https://www.terraform.io). Ansible is cool, but I'm going to work with Terraform because it is written in [Go](https://golang.org), a language that I'm particularly passionate about.
 
 We have provisioned some resources when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html), using [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/). We created a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group), a [storage account](https://docs.microsoft.com/en-us/azure/storage/), an [application service plan](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans), and a [function app](https://docs.microsoft.com/en-us/azure/azure-functions/). We can do the same using Terraform. The subfolder `/terraform` in this [repo](https://github.com/htmfilho/blog-examples/tree/main/azure/function) contains the scripts that demonstrate that. Let's start explaining the [`main.tf`](https://github.com/htmfilho/blog-examples/blob/main/azure/function/terraform/main.tf) file:
 
@@ -52,8 +52,8 @@ resource "azurerm_app_service_plan" "asp" {
   reserved            = true
 
   sku {
-    size = "Standard"
-    tier = "S1"
+    size = "S1"
+    tier = "Standard"
   }
 }
 

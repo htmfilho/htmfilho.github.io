@@ -7,7 +7,7 @@ categories: serverless golang api
 
 ![Golang Serverless](/images/posts/golang-serverless.jpg)
 
-In the [first part](/2021/01/azure-function-golang.html), we have built a simple Go web application that calculates the maximum bid we can make when negociating a house. Again, this is about Go, not real estate. So, be careful when using this calculation in real life. We expect to publish that app on Azure without changes because there is nothing special in the code that makes it suitable for Azure. Yet, it can be deployed and served as an Azure Function, as we are going to witness in this article.
+In the [first part](/2021/01/azure-function-golang.html), we have built a simple Go web application that calculates the maximum bid we can make when negotiating a house. Again, this is about Go, not real estate. So, be careful when using this calculation in real life. We expect to publish that app on Azure without changes because there is nothing special in the code that makes it suitable for Azure. Yet, it can be deployed and served as an Azure Function, as we are going to witness in this article.
 
 <!-- more -->
 
@@ -78,7 +78,7 @@ You can find steps to install Azure Functions Core Tools on your operating syste
 
 Buyersmarket is the app created in [part 1](/2021/01/azure-function-golang.html). We want to prepare it to run as an Azure function. Let's start by going to the root of the project and running the Azure Functions Core Tools to generate the artifacts for a custom handler:
 
-    $ cd /path/to/buyersmarket
+    $ cd /path/to/azure/function
     $ func init --worker-runtime custom
 
 It generates the files:
@@ -87,7 +87,7 @@ It generates the files:
     /local.settings.json
     /.vscode/extensions.json
 
-`host.json` configures the app on Azure and `local.settings.json` stores settings used by the app and local development tools. The `.vscode/extensions.json` just prepares the project to be openned in VSCode with Azure extension. The only file we need to change for the time being is `host.json`. Here it is:
+`host.json` configures the app on Azure and `local.settings.json` stores settings used by the app and local development tools. The `.vscode/extensions.json` just prepares the project to be opened in VSCode with Azure extension. The only file we need to change for the time being is `host.json`. Here it is:
 
 {% highlight json %}
 {
@@ -115,7 +115,7 @@ It generates the files:
 }
 {% endhighlight %}
 
-Opem the file and:
+Open the file and:
 
 - set the `defaultExecutablePath` parameter with the binary file name, in this case `buyersmarket`, obtained after running `go build buyersmarket`.
 - add the `enableForwardingHttpRequest` parameter under `customHandler` and set it to `true`. It indicates that this is a HTTP-only function, making the handler work directly with the HTTP request and response.
@@ -145,7 +145,7 @@ A application may contain several Azure Functions. In Buyersmarket, we are going
 }
 {% endhighlight %}
 
-Notice that all we did so far was setting up configuration files without touching a single line of Go code that we already have writen in [part 1](/2021/01/azure-function-golang.html). To see the complete setup, take a look at [Buyersmaket repository](https://github.com/htmfilho/buyersmarket).
+Notice that all we did so far was setting up configuration files without touching a single line of Go code that we already have written in [part 1](/2021/01/azure-function-golang.html). To see the complete setup, take a look at [Buyersmaket repository](https://github.com/htmfilho/buyersmarket).
 
 Now, we are ready to test the `offer` Function locally. Let's run it using Azure Functions Core Tools:
 
@@ -171,11 +171,11 @@ Expect the same response as if you were running the Go app directly:
 
 ## Publishing to Azure
 
-If the Function successfully run with Azure Function Core Tool then it is likely to run on the cloud without issues. Here we follow the steps to deploy Buyersmarket on Azure. We start by creating all necessary resources required by the funtion. The first one is the resource group, which helps us to keep all resources together. The following command creates the "buyersmarket" resource group:
+If the Function successfully run with Azure Function Core Tool then it is likely to run on the cloud without issues. Here we follow the steps to deploy Buyersmarket on Azure. We start by creating all necessary resources required by the function. The first one is the resource group, which helps us to keep all resources together. The following command creates the "buyersmarket" resource group:
 
     $ az group create --name buyersmarket --location eastus
 
-Notice that we have selected the location `eastus` because it is one of those that supports Functions. Not all locations support Functions, so make sure the one you chose supports it otherwise the command above fails.
+Notice that we have selected the location `eastus` because it is one of those that supports Functions. Not all locations support Functions, so make sure the one you chose supports it, otherwise the command above will fail.
 
 Let's create an exclusive Azure storage account called `buyersmarketstore`:
 

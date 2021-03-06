@@ -105,7 +105,7 @@ location              = "eastus"
 resource_group_name   = "buyersmarket"
 storage_account_name  = "buyersmarketstore"
 app_service_plan_name = "buyersmarketasp"
-function_name         = "buyersmarketfunction"
+function_name         = "buyersmarket"
 ```
 
 Make sure the files `main.tf`, `variables.tf`, and `env.tfvars` are in a subfolder of your project. To run this code, Terraform needs to be installed and available in the command line. Download it from the [Terraform website](https://www.terraform.io/downloads.html) and follow the instructions for your operating system. In the command line, go to the folder where the scripts are located and initialize it:
@@ -113,7 +113,7 @@ Make sure the files `main.tf`, `variables.tf`, and `env.tfvars` are in a subfold
     $ cd azure/function/terraform
     $ terraform init
 
-The initialization creates several files that keep track of the state of your resources. Terraform uses Azure CLI to authenticate to Azure. So, make sure you are authenticated, as we did when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html):
+The initialization creates several files that keep track of the state of your resources. Terraform uses Azure CLI to authenticate to Azure. So, make sure you are authenticated:
 
     $ az login
 
@@ -125,6 +125,27 @@ This command lists a detailed description of everything that will be created on 
 
     $ terraform apply -var-file=env.tfvars
 
-If necessary, all changes can be removed:
+Once applied, the function is ready to be deployed, as we did when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html):
 
-  $ terraform destroy
+    $ cd ..
+    $ func azure functionapp publish buyersmarket
+
+After a few seconds, call the URL:
+
+    $ curl 'https://buyersmarket.azurewebsites.net/api/offer?savings=134507&listingPrice=700000&downPayment=10&closingCosts=17000'
+
+If you are just playing or don't need the resources anymore, just destroy them:
+
+    $ terraform destroy -var-file=env.tfvars
+
+I have to admit that this is a lot more work than running a couple of Azure CLI commands as we did before, but doing it with Terraform has some advantages:
+
+1. **The infrastructure as code is described in details**. We can document and even explain why we made those architectural decisions without relying on diagrams that becomes obsolete very quickly.
+
+2. **The same script can be used to create several environments**, such as development, test, and production, by simply referring to the corresponding `.tfvars` file.
+
+3. **Changes to the infrastructure can be versioned**. This is important to preserve the technical decisions made over time and even revert bad decisions. Versioning also shares the scripts with a continuous integration service that can propagate changes in several environments.
+
+4. We are working with a simple example here, but the infrastructure can become very complex over time. So, using command line instructions might be unmanageable with a feel more resources. Terraform **allows reusing and redefining values**, which is hard to do in command line instructions.
+
+The source code of the Azure Resource Manager is [available on Github](https://github.com/terraform-providers/terraform-provider-azurerm). Have fun with the [examples](https://github.com/terraform-providers/terraform-provider-azurerm/tree/master/examples) there.

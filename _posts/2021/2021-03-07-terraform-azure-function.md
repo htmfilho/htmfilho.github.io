@@ -72,3 +72,57 @@ This is the Terraform Configuration Language, not [turing complete](https://simp
 
     $ terraform import azurerm_resource_group.rg /subscriptions/e71bf673-899a-4cb2-b2c3-fb4863674003/resourceGroups/buyersmarket
     
+Configuring Terraform CLI for Switcheroo
+Step 1
+In the command line, navigate to Switcherro local repo, then into the infra folder:
+
+  $ cd ~/src/work/switcheroo/infra/nprd
+Step 2
+Initialize the local setup. Among other things, the following command install all required plugins and modules:
+
+  $ terraform init
+Once initialized, the folder .terraform is created, preserving the state of the modules and plugins. In case of changes in the modules that benefit the project, go to infra/nprd/.terraform and delete the folder of the updated module. It will force the reinstallation of that module next time you run $ terraform init.
+
+Step 3
+Login to portal.azure.com to complete a two-factor authentication and then login to azure cli:
+
+  $ az login
+It gives a list of subscriptions. Make sure you select the pccsub-us-nprd one:
+
+  $ az account set --subscription <subscription_id>
+Step 4
+Run the terraform plan to see the list of changes planned to be implemented:
+
+  $ terraform plan
+Step 5
+Apply terraform changes:
+
+  $ terraform apply
+Step 6
+If necessary, all changes can be removed:
+
+  $ terraform destroy
+Step 7
+Build the Switcheroo Jenkins job for the branch dev to have the function deployed to nprd or build the branch master to deploy to prod.
+
+Step 8
+Login to Azure Portal and locate the resource group rg-us-nprd-np-swoo-app for QA or rg-us-prod-pa-swoo-app for PROD. That's the most reliable way to access the resources, preventing confusion.
+
+Step 9
+Select the function nprdswitcheroo, then select the option "App keys", click on the default key and set a key recognized by the applications or get the existing key and replace the one in the applications.
+
+Step 10
+Still in the function nprdswitcheroo, go to the option "Identity", select the tab "User assigned", click on "Add" and select mi-fa-swoo-app.
+
+Key Vaults
+The name of the secrets are the same for nprd and prod, but the key vaults are named differently.
+
+NPRD: kv-use2-nprd-np-swoo
+Secrets:
+
+drug-library-authkey
+swoo-postgres-password
+PROD: kv-use2-prod-pa-swoo
+Secrets:
+
+swoo-postgres-password

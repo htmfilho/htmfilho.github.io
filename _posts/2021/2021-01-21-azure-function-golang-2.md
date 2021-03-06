@@ -145,7 +145,7 @@ A application may contain several Azure Functions. In Buyersmarket, we are going
 }
 {% endhighlight %}
 
-Notice that all we did so far was setting up configuration files without touching a single line of Go code that we already have writen in [part 1](/2021/01/azure-function-golang.html). To see the complete setup, take a look at [Buyersmaket repository](https://github.com/htmfilho/buyersmarket).
+Notice that all we did so far was setting up configuration files without touching a single line of Go code that we already have writen in [part 1](/2021/01/azure-function-golang.html). To see the complete setup, take a look at [Buyersmaket repository](https://github.com/htmfilho/blog-examples/tree/main/azure/function).
 
 Now, we are ready to test the `offer` Function locally. Let's run it using Azure Functions Core Tools:
 

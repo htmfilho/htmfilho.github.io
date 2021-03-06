@@ -68,7 +68,7 @@ resource "azurerm_function_app" "function" {
 }
 {% endhighlight %}
 
-This is the Terraform Configuration Language, not touring complete but clear about what it is doing. It is using the Azure Resource Manager (azurerm), an extension that speaks with Azure's APIs. It creates the 4 resources required by the function.
+This is the Terraform Configuration Language, not [turing complete](https://simple.wikipedia.org/wiki/Turing_complete) but clear about what it is doing. It is using the Azure Resource Manager (azurerm), an extension that speaks with Azure's APIs. It creates the 4 resources required by the function. To run this code, we need Terraform installed and available in the command line. Download it from the [Terraform website](https://www.terraform.io/downloads.html), unzip the downloaded file and put the executable in any folder declared in the `$PATH` environment variable. On a Mac, we can simply run `$ brew install terraform`. 
 
     $ terraform import azurerm_resource_group.rg /subscriptions/e71bf673-899a-4cb2-b2c3-fb4863674003/resourceGroups/buyersmarket
     

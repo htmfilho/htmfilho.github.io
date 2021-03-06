@@ -15,7 +15,9 @@ Short story long: A way to be precise about cloud infrastructure while keeping a
 
 Using code to build infrastructure is a practice known as "**Infrastructure as Code**". Cloud providers have been serving APIs to create and maintain resources for years now. But some clever people out there have built tools that take care of the hard part and make available domain-specific languages to better describe cloud resources. The most popular tools out there are [Ansible](https://www.ansible.com) and [Terraform](https://www.terraform.io). Ansible is cool, but I'm going to work with Terraform because it is written in [Go](https://golang.org), a language that I'm particularly passionate about.
 
-Let's use Terraform to provision the resources we created when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html). In that post, when we were [publishing to Azure](/2021/01/azure-function-golang-2.html#publishing-to-azure), we ran several Azure CLI commands to create a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group), a [storage account](https://docs.microsoft.com/en-us/azure/storage/), an [application service plan](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans), and a [function app](https://docs.microsoft.com/en-us/azure/azure-functions/). Now, here is how it look like in Terraform:
+We have provisioned some resources when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html), using [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/). We created a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group), a [storage account](https://docs.microsoft.com/en-us/azure/storage/), an [application service plan](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans), and a [function app](https://docs.microsoft.com/en-us/azure/azure-functions/). 
+
+Now, here is how it look like in Terraform:
 
 {% highlight terraform %}
 terraform {
@@ -32,12 +34,12 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "buyersmarket"
-  location = "eastus"
+  name     = var.resource_group_name
+  location = var.location
 }
 
 resource "azurerm_storage_account" "sa" {
-  name                     = "buyersmarketstore"
+  name                     = var.storage_account_name
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
@@ -45,7 +47,7 @@ resource "azurerm_storage_account" "sa" {
 }
 
 resource "azurerm_app_service_plan" "asp" {
-  name                = "buyersmarketasp"
+  name                = var.app_service_plan_name
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   kind                = "Linux"
@@ -58,7 +60,7 @@ resource "azurerm_app_service_plan" "asp" {
 }
 
 resource "azurerm_function_app" "function" {
-  name                       = "buyersmarketfunction"
+  name                       = var.function_name
   resource_group_name        = azurerm_resource_group.rg.name
   location                   = azurerm_resource_group.rg.location
   app_service_plan_id        = azurerm_app_service_plan.asp.id
@@ -68,7 +70,11 @@ resource "azurerm_function_app" "function" {
 }
 {% endhighlight %}
 
-This is the Terraform Configuration Language, not [turing complete](https://simple.wikipedia.org/wiki/Turing_complete) but clear about what it is doing. It is using the Azure Resource Manager (azurerm), an extension that speaks with Azure's APIs. It creates the 4 resources required by the function. To run this code, we need Terraform installed and available in the command line. Download it from the [Terraform website](https://www.terraform.io/downloads.html), unzip the downloaded file and put the executable in any folder declared in the `$PATH` environment variable. On a Mac, we can simply run `$ brew install terraform`. 
+This is the Terraform Configuration Language, not [turing complete](https://simple.wikipedia.org/wiki/Turing_complete) but clear about what it is doing. It is using the Azure Resource Manager (azurerm), an extension that speaks with Azure's APIs. It creates the 4 resources required by the function. Notice that we have some variables prefixed with `var.`. They are 
+
+
+
+To run this code, we need Terraform installed and available in the command line. Download it from the [Terraform website](https://www.terraform.io/downloads.html) and follow the instructions for your operating system.
 
     $ terraform import azurerm_resource_group.rg /subscriptions/e71bf673-899a-4cb2-b2c3-fb4863674003/resourceGroups/buyersmarket
     

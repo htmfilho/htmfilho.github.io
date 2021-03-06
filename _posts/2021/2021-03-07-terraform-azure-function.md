@@ -15,9 +15,7 @@ Short story long: A way to be precise about cloud infrastructure while keeping a
 
 Using code to build infrastructure is a practice known as "**Infrastructure as Code**". Cloud providers have been serving APIs to create and maintain resources for years now. But some clever people out there have built tools that take care of the hard part and make available domain-specific languages to better describe cloud resources. The most popular tools out there are [Ansible](https://www.ansible.com) and [Terraform](https://www.terraform.io). Ansible is cool, but I'm going to work with Terraform because it is written in [Go](https://golang.org), a language that I'm particularly passionate about.
 
-We have provisioned some resources when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html), using [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/). We created a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group), a [storage account](https://docs.microsoft.com/en-us/azure/storage/), an [application service plan](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans), and a [function app](https://docs.microsoft.com/en-us/azure/azure-functions/). 
-
-Now, here is how it look like in Terraform:
+We have provisioned some resources when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html), using [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/). We created a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group), a [storage account](https://docs.microsoft.com/en-us/azure/storage/), an [application service plan](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans), and a [function app](https://docs.microsoft.com/en-us/azure/azure-functions/). We can do the same using Terraform. The subfolder `/terraform` in this [repo](https://github.com/htmfilho/blog-examples/tree/main/azure/function) contains the scripts that demonstrate that. Let's start explaining the [`main.tf`](https://github.com/htmfilho/blog-examples/blob/main/azure/function/terraform/main.tf) file:
 
 {% highlight terraform %}
 terraform {
@@ -70,65 +68,63 @@ resource "azurerm_function_app" "function" {
 }
 {% endhighlight %}
 
-This is the Terraform Configuration Language, not [turing complete](https://simple.wikipedia.org/wiki/Turing_complete) but clear about what it is doing. It is using the Azure Resource Manager (azurerm), an extension that speaks with Azure's APIs. It creates the 4 resources required by the function. Notice that we have some variables prefixed with `var.`. They are 
+This is written in the [Terraform Configuration Language](https://www.terraform.io/docs/language/index.html). It is using the [Azure Resource Manager](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs) (azurerm), an extension that speaks with Azure's APIs. It creates the 4 resources mentioned above, leaving everything ready to deploy the function. Notice that we have some variables prefixed with "var.". These variables are defined in the file [`variables.tf`](https://github.com/htmfilho/blog-examples/blob/main/azure/function/terraform/variables.tf), as you can see below:
 
+{% highlight terraform %}
+//  https://azure.microsoft.com/en-ca/global-infrastructure/geographies/
+variable "location" {
+  description = "Name of the location where the resources will be provisioned"
+  type = string
+}
 
+variable "resource_group_name" {
+  description = "Name of the resource group"
+  type = string
+}
 
-To run this code, we need Terraform installed and available in the command line. Download it from the [Terraform website](https://www.terraform.io/downloads.html) and follow the instructions for your operating system.
+variable "storage_account_name" {
+  description = "Name of the storage account"
+  type = string
+}
 
-    $ terraform import azurerm_resource_group.rg /subscriptions/e71bf673-899a-4cb2-b2c3-fb4863674003/resourceGroups/buyersmarket
+variable "app_service_plan_name" {
+  description = "Name of the application service plan"
+  type = string
+}
+
+variable "function_name" {
+  description = "Name of the function"
+  type = string
+}
+{% endhighlight %}
+
+These variables are what need to change between my environment and yours. So, you can reuse this script as long as you define unique values for these variables. We can do that by assigning values to the variables with a `.tfvars` file. My values are defined in the file [`env.tfvars`](https://github.com/htmfilho/blog-examples/blob/main/azure/function/terraform/env.tfvars).
+
+```
+location              = "eastus"
+resource_group_name   = "buyersmarket"
+storage_account_name  = "buyersmarketstore"
+app_service_plan_name = "buyersmarketasp"
+function_name         = "buyersmarketfunction"
+```
+
+Make sure the files `main.tf`, `variables.tf`, and `env.tfvars` are in a subfolder of your project. To run this code, Terraform needs to be installed and available in the command line. Download it from the [Terraform website](https://www.terraform.io/downloads.html) and follow the instructions for your operating system. In the command line, go to the folder where the scripts are located and initialize it:
     
-Configuring Terraform CLI for Switcheroo
-Step 1
-In the command line, navigate to Switcherro local repo, then into the infra folder:
+    $ cd azure/function/terraform
+    $ terraform init
 
-  $ cd ~/src/work/switcheroo/infra/nprd
-Step 2
-Initialize the local setup. Among other things, the following command install all required plugins and modules:
+The initialization creates several files that keep track of the state of your resources. Terraform uses Azure CLI to authenticate to Azure. So, make sure you are authenticated, as we did when [Deploying an Azure Function in Go](/2021/01/azure-function-golang-2.html):
 
-  $ terraform init
-Once initialized, the folder .terraform is created, preserving the state of the modules and plugins. In case of changes in the modules that benefit the project, go to infra/nprd/.terraform and delete the folder of the updated module. It will force the reinstallation of that module next time you run $ terraform init.
+    $ az login
 
-Step 3
-Login to portal.azure.com to complete a two-factor authentication and then login to azure cli:
+Once authenticated, we are ready to compare what is defined in our scripts with what we have on Azure. We do it with the `path` argument:
 
-  $ az login
-It gives a list of subscriptions. Make sure you select the pccsub-us-nprd one:
+    $ terraform plan -var-file=env.tfvars
 
-  $ az account set --subscription <subscription_id>
-Step 4
-Run the terraform plan to see the list of changes planned to be implemented:
+This command lists a detailed description of everything that will be created on Azure without creating it. Review it and if everything looks good, apply it:
 
-  $ terraform plan
-Step 5
-Apply terraform changes:
+    $ terraform apply -var-file=env.tfvars
 
-  $ terraform apply
-Step 6
 If necessary, all changes can be removed:
 
   $ terraform destroy
-Step 7
-Build the Switcheroo Jenkins job for the branch dev to have the function deployed to nprd or build the branch master to deploy to prod.
-
-Step 8
-Login to Azure Portal and locate the resource group rg-us-nprd-np-swoo-app for QA or rg-us-prod-pa-swoo-app for PROD. That's the most reliable way to access the resources, preventing confusion.
-
-Step 9
-Select the function nprdswitcheroo, then select the option "App keys", click on the default key and set a key recognized by the applications or get the existing key and replace the one in the applications.
-
-Step 10
-Still in the function nprdswitcheroo, go to the option "Identity", select the tab "User assigned", click on "Add" and select mi-fa-swoo-app.
-
-Key Vaults
-The name of the secrets are the same for nprd and prod, but the key vaults are named differently.
-
-NPRD: kv-use2-nprd-np-swoo
-Secrets:
-
-drug-library-authkey
-swoo-postgres-password
-PROD: kv-use2-prod-pa-swoo
-Secrets:
-
-swoo-postgres-password

@@ -125,7 +125,7 @@ public class EndpointRetry {
 }
 {% endhighlight %}
 
-This is a simple implementation that targets API calls. It may need to be adapted to deal with files, databases, messaging services, and other connections that require fault tolerance. For a more generic solution, consider adopting an existing library such as [Netflix Hystrix][Hystrix].
+This is a simple implementation that targets API calls. It may need to be adapted to deal with files, databases, messaging services, and other connections that require fault tolerance. For a more generic solution, consider adopting an existing library such as [Netflix Hystrix][Hystrix]and [Resilience4j](https://resilience4j.readme.io).
 
 Now, let's see how to use it. The code below calls an endpoint:
 

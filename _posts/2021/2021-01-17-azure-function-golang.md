@@ -7,13 +7,13 @@ categories: serverless golang api
 
 ![Golang Serverless](/images/posts/golang-serverless.jpg)
 
-In a [previous post](https://www.hildeberto.com/2020/12/go-business-language.html) I have presented a case for Go as a business language. Among several arguments, the most prominent one was putting an end to the massive waste of resources consumed by other technologies used in business. This time, I'm going to explore the use of Go in a serverless cloud environment as a way to push resource efficiency to the extreme with the minimal cost possible.
+In a [previous post](/2020/12/go-business-language.html) I have presented a case for Go as a business language. Among several arguments, the most prominent one was putting an end to the massive waste of resources consumed by other technologies used in business. This time, I'm going to explore the use of Go in a serverless cloud environment as a way to push resource efficiency to the extreme with the minimal cost possible.
 
 <!-- more -->
 
 Serverless computing is a type of PAAS ([Platform As A Service](https://en.wikipedia.org/wiki/Platform_as_a_service)) that, in addition to a runtime environment, also offers on-demand provisioning, automatic scalability, and zero downtime deployability. In other words, a serverless app doesn't consume runtime resources like memory, networking and disk operations unless it is triggered by an event like a HTTP request or a message broker. In case the demand increases, it automatically scales from 1 to N instances in a totally transparent way. It may have longer response times while deploying or auto-scaling, but it remains available all the time. Despite the name, serverless does use servers. The only difference is that you don't worry about them. It is also known as Function As A Service (FaaS) but this term is limited given what we can achieve these days with serverless apps.
 
-But not every application can be serverless. Everything is ephemeral. Saving files on disk, even log files, is pointless. Keeping things in memory or any other kind of internal state is hopeless. We have to rely on other cloud services for storage, computing, monitoring, etc. These limitations are actually good for the sake of scalability. If the application works in a serverless environment it probably works well in [Kubernetes](https://kubernetes.io/) and other auto-provisioning technologies.
+But not every application can be serverless. Everything is ephemeral. Saving files on disk, even log files, is pointless. Keeping things in memory or any other kind of internal state is hopeless. We have to rely on other cloud services for storage, computing, monitoring, etc. These limitations are actually good for the sake of scalability. If the application works in a serverless environment it probably works well in [Kubernetes](https://kubernetes.io) and other auto-provisioning technologies.
 
 The main cloud service providers ([AWS](https://aws.amazon.com/lambda/), [Google Cloud](https://cloud.google.com/functions), and [Azure](https://azure.microsoft.com/en-us/services/functions/)) offer serveless support, but I'm going to focus on Azure, which is the one I have more experience with. To keep things short, I'm going to divide this tutorial in two parts:
 
@@ -38,7 +38,7 @@ where:
 
 **WARNING**: The goal here is to teach Go, not real estate, so use this calculation in real life at your own risk.
 
-First, let's wrap this formula in Go functions ([/offer/business.go](https://github.com/htmfilho/buyersmarket/blob/main/offer/business.go)):
+First, let's wrap this formula in Go functions ([/offer/business.go](https://github.com/htmfilho/blog-examples/blob/main/azure/function/offer/business.go)):
 
 {% highlight go %}
 package offer
@@ -54,7 +54,7 @@ func CalcMargin(savings, listingPrice, downPayment, closingCosts float32) float3
 }
 {% endhighlight %}
 
-Now, let's call the functions `CalcMaxBid` and `CalcMargin` from a HTTP handler that reacts to requests with GET parameters and responds with JSON ([/offer/controller.go](https://github.com/htmfilho/buyersmarket/blob/main/offer/controller.go)):
+Now, let's call the functions `CalcMaxBid` and `CalcMargin` from a HTTP handler that reacts to requests with GET parameters and responds with JSON ([/offer/controller.go](https://github.com/htmfilho/blog-examples/blob/main/azure/function/offer/controller.go)):
 
 {% highlight go %}
 package offer
@@ -131,7 +131,7 @@ In addition to the request parameters, the response includes:
  - `margin`: your savings after removing the downpayment and the closing costs
  - `maximumBid`: the margin added to the listing price
 
-To serve the handler, we call it from the entry point ([/buyersmarket.go](https://github.com/htmfilho/buyersmarket/blob/main/buyersmarket.go)):
+To serve the handler, we call it from the entry point ([/buyersmarket.go](https://github.com/htmfilho/blog-examples/blob/main/azure/function/buyersmarket.go)):
 
 {% highlight go %}
 package main
@@ -174,7 +174,7 @@ func runHTTPServer(httpPort int) {
 
 Notice that Go is very explicit about everything that is going on. There is no annotation making magical things and no frameworks making design decisions on your behalf. When we write explicit code we communicate it better to other developers. When we read explicit code we understand and maintain it better. Yet, explicit Go code is probably shorted than the equivalent in many languages used in business.
 
-The code is available on [GitHub](https://github.com/htmfilho/buyersmarket). The project structure is very simple:
+The code is available on [GitHub](https://github.com/htmfilho/blog-examples/tree/main/azure/function). The project structure is very simple:
 
     /offer/business.go
     /offer/controller.go

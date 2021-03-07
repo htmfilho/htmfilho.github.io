@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Provisioning Azure Function Resources Using Terraform"
+title:  "Provisioning Azure Functions Using Terraform"
 date: 2021-03-07 12:00:00 +0200
 categories: saas cloud automation terraform azure
 ---

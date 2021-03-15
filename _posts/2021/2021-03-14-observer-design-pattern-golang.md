@@ -143,6 +143,7 @@ The publisher is created with the attribute `rootPath` set with the absolute pat
 
 As usual, you can find the full implementation in my [Github repo](https://github.com/htmfilho/blog-examples/tree/18ab6b7de55a9e11e6068d6e9ef64f878e71efe8/azure/storage). When you find some time, run the application with:
 
+    $ cd azure/storage
     $ go run .
 
 and in another console, run these commands:

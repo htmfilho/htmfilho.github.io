@@ -5,7 +5,7 @@ date: 2021-02-21 12:00:00 +0200
 categories: golang design pattern adapter cache libraries
 ---
 
-![Facade](/images/posts/adapter-pattern.png)
+![Adapter](/images/posts/adapter-pattern.png)
 
 A major benefit of Go is the explicitness of the code. There is no magic going on, no annotations doing implicit work. The flow is clear about what it is happening with the data while elegantly minimizing boilerplate code and maximizing readability. Maybe, that's the reason why frameworks are not popular among Go developers. We prefer using libraries that do one thing and one thing only, so we can compose them as we think they fit. This is great for mature developers and painful for beginners who expect an opinionated archetype to start with, but [Mandalorians](https://www.starwars.com/news/this-is-the-way-the-mandalorian-art) think this is not the way.
 

@@ -14,21 +14,21 @@ You were probably confronted once by a friend, who claimed to be able to read yo
               (str val))))
 {% endhighlight %}
 
-The value is transformed into a string, the <strong>map</strong> function transforms each digit character into a list of integers and the function <strong>apply</strong> sums the list of integers, returning the total to the caller of the function <strong>sum-digits</strong>. We are going to use this function to compose the calculations of the trick:
+The value is transformed into a string, the **map** function transforms each digit character into a list of integers and the function **apply** sums the list of integers, returning the total to the caller of the function **sum-digits**. We are going to use this function to compose the calculations of the trick:
 
 {% highlight clojure %}
 (defn puzzle [x]
   (- (sum-digits (* x 9)) 5))
 {% endhighlight %}
 
-The function <strong>puzzle</strong> performs the calculations in the sequence that your friend has asked you to do. First, it multiplies the number we thought by 9, then it sums the digits of result and finally subtracts the total by 5. Next, we are going to write another function to unveil the trick:
+The function **puzzle** performs the calculations in the sequence that your friend has asked you to do. First, it multiplies the number we thought by 9, then it sums the digits of result and finally subtracts the total by 5. Next, we are going to write another function to unveil the trick:
 
 {% highlight clojure %}
 (defn unveil []
   (map #(puzzle %) (range 1 11)))
 {% endhighlight %}
 
-The function <strong>range</strong> produces a sequence of numbers starting from 1 to 10 where 11 is not included (1 2 3 4 5 6 7 8 9 10). The function <strong>map</strong> applies the function <strong>puzzle</strong> to each number in the list and produces another list with the results. Now, execute the function <strong>unveil</strong> to see the result:
+The function **range** produces a sequence of numbers starting from 1 to 10 where 11 is not included (1 2 3 4 5 6 7 8 9 10). The function **map** applies the function **puzzle** to each number in the list and produces another list with the results. Now, execute the function **unveil** to see the result:
 
 {% highlight clojure %}
 (unveil)

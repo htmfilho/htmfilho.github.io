@@ -5,7 +5,7 @@ date: 2017-01-07 11:38:53 +0200
 categories: development clojure python
 ---
 
-If you ever need a Python Script that starts a Clojure application, do something else and then stops the application then this post is for you. The script below considers that you have a Clojure application that is self-contained in a single jar file. All the dependencies are there and you run it using <strong>java -jar [jar-file.jar]</strong>. If you have something different from that, then make sure the Clojure application can run via console from where the Python script is located. Learn the code below by reading the inline comments.
+If you ever need a Python Script that starts a Clojure application, do something else and then stops the application then this post is for you. The script below considers that you have a Clojure application that is self-contained in a single jar file. All the dependencies are there and you run it using `java -jar [jar-file.jar]`. If you have something different from that, then make sure the Clojure application can run via console from where the Python script is located. Learn the code below by reading the inline comments.
 
 {% highlight python %}
 # Copy, paste and adapt this code in a file located in the root of your Clojure project, in the same level of the project.clj file.

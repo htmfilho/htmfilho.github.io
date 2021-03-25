@@ -5,7 +5,7 @@ date: 2010-11-11 15:25:00 +0200
 categories: culture europe research workspace
 ---
 
-If I remember well, the last time I worked in a <a href="http://www.hildeberto.com/2008/08/enterface08-workshop-finished.html">consistent and competent team</a> was in 2008, in a <a href="http://www.hildeberto.com/2008/08/the-enterface-workshop.html">workshop in Paris</a>, France. That workshop produced incredible results afterwards that helped me a lot to conclude my PhD successfully. After that, I have been working alone or in pairs, but never in a real team.
+If I remember well, the last time I worked in a [consistent and competent team](/2008/08/enterface08-workshop-finished.html) was in 2008, in a [workshop in Paris](/2008/08/the-enterface-workshop.html), France. That workshop produced incredible results afterwards that helped me a lot to conclude my PhD successfully. After that, I have been working alone or in pairs, but never in a real team.
 
 God knows how hard I have tried to set up a real team in the last few years. Actually, I couldn’t do that as a simple student because I was too much low in the hierarchy, but I kept the faith that it would be possible for small achievements such as integrating software modules or co-authorship in scientific papers. Unfortunately, it didn’t work either.
 

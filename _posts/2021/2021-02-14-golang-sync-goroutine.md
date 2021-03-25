@@ -11,7 +11,7 @@ My very first job was in an Internet Service Provider. I was a technical support
 
 <!-- more -->
 
-In my previous post, I applied [the Strategy Pattern to get stock prices from different sources in Go](https://www.hildeberto.com/2021/02/golang-strategy-pattern.html). The code was designed to visit one stock exchange service at a time, but depending on the number of services to connect to, the response time could increase linearly, even with the trick to search stocks in bulks.
+In my previous post, I applied [the Strategy Pattern to get stock prices from different sources in Go](/2021/02/golang-strategy-pattern.html). The code was designed to visit one stock exchange service at a time, but depending on the number of services to connect to, the response time could increase linearly, even with the trick to search stocks in bulks.
 
 Looking closely, no record is processed by more than one exchange. So, the data is certainly [sharded](https://en.wikipedia.org/wiki/Shard_(database_architecture)) by exchange. It means they can be processed in parallel without the risk of concurrent access that may lead to race conditions. On the other hand, we have to find a way that processes wait for one another until the stocks are filled with prices, and then return to the caller.
 

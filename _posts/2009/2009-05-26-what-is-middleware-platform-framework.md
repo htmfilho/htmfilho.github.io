@@ -5,7 +5,7 @@ date: 2009-05-26 18:59:00 +0200
 categories: enterprise application integration java operating system software architecture
 ---
 
-Some time ago I wrote a post about <a href="http://www.hildeberto.com/2008/10/platform-versus-framework.html">the difference between “platform” and “framework”</a> and recently a reader, <a href="http://www.blogger.com/profile/17997742353906252825">Hemanth Gowda</a>,  posted a comment to that text, asking how the concept of “<a href="http://en.wikipedia.org/wiki/Middleware">middleware</a>” is positioned among those definitions.
+Some time ago I wrote a post about <a href="/2008/10/platform-versus-framework.html">the difference between “platform” and “framework”</a> and recently a reader, <a href="http://www.blogger.com/profile/17997742353906252825">Hemanth Gowda</a>,  posted a comment to that text, asking how the concept of “<a href="http://en.wikipedia.org/wiki/Middleware">middleware</a>” is positioned among those definitions.
 
 In my opinion, the concept of middleware is all about service providing. While a platform allows a software to run and a framework is more focused on software design, a middleware will provide services for your application. These services will allow your application to support many concurrent users, connect to several data sources, interoperate with services provided by other middleware instances, expand the platform to scale the application, support several frameworks to give flexibility for developers and many other relevant features.
 

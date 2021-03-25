@@ -82,5 +82,5 @@ Voilà! The new app was added to the project. It's ready to be further developed
 [Github]: https://www.github.com
 [git-submodule]: https://git-scm.com/docs/git-submodule
 [OSIS]: https://github.com/uclouvain/osis
-[previous-post]: http://www.hildeberto.com/2017/10/decomposing-into-git-submodules.html
+[previous-post]: /2017/10/decomposing-into-git-submodules.html
 [Python]: https://www.python.org

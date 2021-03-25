@@ -72,7 +72,7 @@ Leave it serving the website locally and go edit the content. Every time you sav
 
 [jekyll]: https://jekyllrb.com
 [Markdown]: https://daringfireball.net/projects/markdown/
-[welcome-to-jekyll]: http://www.hildeberto.com/2017/07/welcome-to-jekyll.html
+[welcome-to-jekyll]: /2017/07/welcome-to-jekyll.html
 [rbenv]: https://github.com/rbenv/rbenv
 [Ruby]: https://www.ruby-lang.org/en/
 [ruby-download]: https://www.ruby-lang.org/en/downloads/

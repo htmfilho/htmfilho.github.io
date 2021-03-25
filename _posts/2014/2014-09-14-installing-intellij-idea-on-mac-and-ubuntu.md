@@ -12,7 +12,7 @@ I have IntelliJ installed at home and at the office. It’s the same license but
 <h3>Installing on Mac</h3>
 I’m not really going into step by step here. IntelliJ is pretty easy to install on Mac, but I had a problem with the JDK and I’m going to focus on that now. IntelliJ uses the JDK distributed by Apple by default, which is a JDK 6 implementation. Well, this is not a big deal, since we can install the most recent JDK and configure our projects in the IDE to use it instead. But, for some unexplained reason, I couldn’t configure the IDE to start the application server in a JDK different from the one used by IntelliJ (JDK 6). In the image below, you can see I’ve configured JDK 8 to run WildFly, which requires JDK 7 or superior, but it didn’t work.
 
-<a href="http://www.hildeberto.com/wp-content/uploads/2014/09/wildfly-configuration.png">![wildfly-configuration-1024x413.png](/images/posts/wildfly-configuration-1024x413.png)</a>
+![wildfly-configuration-1024x413.png](/images/posts/wildfly-configuration-1024x413.png)
 
 So, I had to change the JDK used by the IDE. For that, I:
 
@@ -65,11 +65,11 @@ To add the launcher icon on the desktop, there is a soft and a hard way.
 
 Fortunately, IntelliJ can help you once you run it for the first time. In the welcome window, select “Configure”:
 
-<a href="http://www.hildeberto.com/wp-content/uploads/2014/09/intellij-configure.png">![intellij-configure.png](/images/posts/intellij-configure.png)</a>
+![intellij-configure.png](/images/posts/intellij-configure.png)
 
 And then select “Create Desktop Entry”.
 
-<a href="http://www.hildeberto.com/wp-content/uploads/2014/09/intellij-configure-desktop-entry.png">![intellij-configure-desktop-entry.png](/images/posts/intellij-configure-desktop-entry.png)</a>
+![intellij-configure-desktop-entry.png](/images/posts/intellij-configure-desktop-entry.png)
 
 That’s it!
 

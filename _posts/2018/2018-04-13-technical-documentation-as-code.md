@@ -69,10 +69,10 @@ My ultimate challenge is to convince other developers that documentation is as i
 
 [Asciidoc]: http://asciidoc.org
 [Git]: https://git-scm.com
-[Jekyll]: http://www.hildeberto.com/2018/03/installing-using-jekyll-linux.html
+[Jekyll]: /2018/03/installing-using-jekyll-linux.html
 [Markdown]: https://daringfireball.net/projects/markdown/
 [Mercurial]: https://www.mercurial-scm.org
 [OSIS]: https://github.com/uclouvain/osis
 [reStructuredText]: http://docutils.sourceforge.net/rst.html
-[ruby-installation]: http://www.hildeberto.com/2018/03/installing-using-jekyll-linux.html#installing-ruby-with-rbenv
+[ruby-installation]: /2018/03/installing-using-jekyll-linux.html#installing-ruby-with-rbenv
 [turing-complete]: https://en.wikipedia.org/wiki/Turing_completeness

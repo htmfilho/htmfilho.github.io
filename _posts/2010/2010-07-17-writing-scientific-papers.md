@@ -7,7 +7,7 @@ categories: conference publication research
 
 When I was a young researcher nobody taught me how to write a paper. Maybe, it is a sort of a test: if we prove we can write one, without any guidance, just taking into consideration other papers, we are ready to face the research world. In fact, many young researchers don’t even know what a paper is useful for. Their lack of understanding and absence of instructions bring them fear and low self-esteem to write one.
 
-Recently, I received some papers to review and I could see a lot of evidences that novice researchers still make the same mistakes that I used to at the time of my debut. I have contributed in publishing <a href="http://cv.hildeberto.com/education/publications">17 papers</a> so far, and it gave me some experience to share with you about paper writing. My intention is to be clear and honest, so there is no rigor in this text and I don’t try to magnify the academic world with nice words.
+Recently, I received some papers to review and I could see a lot of evidences that novice researchers still make the same mistakes that I used to at the time of my debut. I have contributed in publishing 17 papers so far, and it gave me some experience to share with you about paper writing. My intention is to be clear and honest, so there is no rigour in this text and I don’t try to magnify the academic world with nice words.
 
 ![DSC01807-300x201.jpg](/images/posts/DSC01807-300x201.jpg)
 

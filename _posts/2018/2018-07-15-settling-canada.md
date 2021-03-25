@@ -51,7 +51,7 @@ I got 8 interviews to different roles, many processes going in parallel with dif
 
 If you are migrating to Canada with you family, feel free to ask for more details or any other questions you may have.
 
-[2018-06-15]: http://www.hildeberto.com/2018/06/moving-canada.html
+[2018-06-15]: /2018/06/moving-canada.html
 [Belgium]: /2018/06/moving-canada.html
 [BMO]: https://www.bmo.ca
 [books]: https://www.amazon.com/gp/product/0984782850/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=htmfilho04-20&creative=9325&linkCode=as2&creativeASIN=0984782850&linkId=f077ff58fab9ea8544bba0da0acddd3e

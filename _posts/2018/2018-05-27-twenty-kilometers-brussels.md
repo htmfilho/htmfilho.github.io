@@ -51,5 +51,5 @@ I remembered to put tapes on my nipples, but I forgot a small detail: since it w
 That's my second race. As usual, it reinforced my inspirations in every aspect of life. I still don't know when my next race will happen, but it will probably be in Canada. I expect to run a couple of half-marathons before going to a full marathon, which is planned for 2019 when I turn 40.
 
 [20kmdebruxelles]: http://www.20kmdebruxelles.be
-[ten-miles-lln]: http://www.hildeberto.com/2018/03/ten-miles-lln.html
+[ten-miles-lln]: /2018/03/ten-miles-lln.html
 [bois-de-la-cambre]: https://en.wikipedia.org/wiki/Bois_de_la_Cambre

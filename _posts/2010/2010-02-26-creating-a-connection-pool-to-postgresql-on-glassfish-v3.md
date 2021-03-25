@@ -5,7 +5,7 @@ date: 2010-02-26 09:32:00 +0200
 categories: database enterprise application open source
 ---
 
-I recently created a new connection pool to PostgreSQL on Glassfish and I would like to share the steps I followed with you. Obviously, you need <a href="http://www.postgresql.org/">PostgreSQL</a> and <a href="http://glassfish.dev.java.net/">Glassfish</a> installed on your machine and a database already created in PostgreSQL. If you didn’t configure your new PostgreSQL installation yet, follow the steps I described at this <a href="http://www.hildeberto.com/2007/09/before-starting-to-work-with-postgresql.html">previous post</a> and come back here to continue with the connection pool. The necessary steps are:
+I recently created a new connection pool to PostgreSQL on Glassfish and I would like to share the steps I followed with you. Obviously, you need <a href="http://www.postgresql.org/">PostgreSQL</a> and <a href="http://glassfish.dev.java.net/">Glassfish</a> installed on your machine and a database already created in PostgreSQL. If you didn’t configure your new PostgreSQL installation yet, follow the steps I described at this <a href="/2007/09/before-starting-to-work-with-postgresql.html">previous post</a> and come back here to continue with the connection pool. The necessary steps are:
 
 1. We need the PostgreSQL JDBC Driver, since Glassfish and its deployed applications are writen in Java. Drivers are available for download at <a href="http://jdbc.postgresql.org/" target="_blank">http://jdbc.postgresql.org</a>. For this experiment choose the JDBC4 driver.
 

@@ -7,7 +7,7 @@ categories: golang strategy pattern finance
 
 ![Stock Prices](/images/posts/golang-strategy-pattern.png)
 
-I keep searching for concrete examples in my quest to convince you that Go is a great language for business. I found in finance a great source of ideas to prove my point. I already explored this subject twice ([1](https://www.hildeberto.com/2020/04/dealing-with-money.html) and [2](https://www.hildeberto.com/2021/01/azure-function-golang.html)) and today I'm going to explore it again.
+I keep searching for concrete examples in my quest to convince you that Go is a great language for business. I found in finance a great source of ideas to prove my point. I already explored this subject twice ([1](/2020/04/dealing-with-money.html) and [2](/2021/01/azure-function-golang.html)) and today I'm going to explore it again.
 
 <!-- more -->
 

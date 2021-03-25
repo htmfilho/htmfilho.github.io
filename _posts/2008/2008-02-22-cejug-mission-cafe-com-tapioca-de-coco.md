@@ -5,7 +5,7 @@ date: 2008-02-22 09:05:00 +0200
 categories: cejug community java
 ---
 
-The Ceará Java User Group has become even more active in 2008. In the [last post](https://www.hildeberto.com/2007/12/where-is-cejug.html) you saw where my Java User Group is located in Brazil. Now, you will know that we organized in February 12 an event with more than 500 people, which represents the biggest Java event ever organized in Ceará.
+The Ceará Java User Group has become even more active in 2008. In the [last post](/2007/12/where-is-cejug.html) you saw where my Java User Group is located in Brazil. Now, you will know that we organized in February 12 an event with more than 500 people, which represents the biggest Java event ever organized in Ceará.
 
 We are proud with that special edition of the Café com Tapioca, our monthly event. We negotiated the participation of some SUN evangelists directly with SUN Microsystems during the last JavaPolis edition and they made three presentations. The first one was about the strategy of SUN Microsystems for Java developers, headed by Reggie Hutcherson, the manager of the evangelist group. Two other sessions were headed by Simon Ritter, who spoke about JavaFX and SunSpot, two of the main subjects promoted by SUN nowadays. We also had the participation of Paulo Silveira, a Brazilian consultant sponsored by [Fortes Informática](https://www.fortestecnologia.com.br).
 

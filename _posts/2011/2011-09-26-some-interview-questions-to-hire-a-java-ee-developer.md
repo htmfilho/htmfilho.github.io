@@ -17,7 +17,7 @@ The new specification favours convention over configuration and introduces annot
 
 We can see as potential options nowadays the use of web services and message queues, depending on the scenario. For example: when a system needs to send data, as soon as they are available, to another system or make data available for several systems, then a message queuing system is recommended. When a system has data to be processed by another system and needs back the result of this processing synchronously, then web service is the most indicated option.
 
-**3. <span style="font-style: italic;">What do you suggest to implement asynchronous code in Java EE?**
+**3. What do you suggest to implement asynchronous code in Java EE?**
 
 There are several options: one can post messages to a queue to be consumed by a Message-Driven Bean (MDB); or annotate a method with @Timer to define the time to execute the code programmatically; or annotate a method with @Scheduler to define the time to execute the code declaratively.
 

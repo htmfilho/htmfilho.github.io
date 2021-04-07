@@ -24,6 +24,6 @@ The best example of meritocracy comes now: that guy, with strong disagreements w
 
 ![duke_natal-300x217.png](/images/posts/duke_natal-300x217.png)
 
-<span style="font-weight: bold;">This is the spirit of Meritocracy: ignore all differences and recognize people by their competence and abilities.</span> On January 1st Silveira Neto will become a CEJUG leader, which is a strong responsibility and, at the same time, a great personal achievement. Even with some disagreements, Silveira decided to strictly follow all CEJUG’s rules, which is a guarantee of continuity and respect to all previous decisions.
+**This is the spirit of Meritocracy: ignore all differences and recognize people by their competence and abilities**. On January 1st Silveira Neto will become a CEJUG leader, which is a strong responsibility and, at the same time, a great personal achievement. Even with some disagreements, Silveira decided to strictly follow all CEJUG’s rules, which is a guarantee of continuity and respect to all previous decisions.
 
 CEJUG is an organization where meritocracy really works. I’m very proud to be one of the JUG Leaders who implemented this philosophy there with exceptional results.

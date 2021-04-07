@@ -82,7 +82,7 @@ func main() {
 }
 {% endhighlight %}
 
-The code looks pretty expressive and extensible. The function `convert()` can be extended to perform some form of rounding or formatting and new compatible conversions can be added without changing existing logic. Running this code, we get:
+The code looks pretty expressive and extensible. The function `convert()` can be extended to perform some form of rounding or formatting and new compatible conversions can be added without changing existing logic. You can find the entire code at [the blog examples repo](https://github.com/htmfilho/blog-examples/tree/main/convertall). Running this code, we get:
 
 ```
 $ go run convertall.go

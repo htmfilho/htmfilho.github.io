@@ -15,24 +15,29 @@ A configurable application adapts to different contexts, from specific user need
 
 Flags are the simplest yet the most verbose way of passing values to applications. They are passed only once, at the time of startup, as arguments in the command line.
 
-    $ mywebapp --port=8080
+    $ ./mywebapp --port=8080
 
-They are recommended when the values don't change during the entire execution or when it isn't convenient to have configuration files, such as in ephemeral environments where resources are recreated for every deployment. In some cases, flags are the best option, like when indicating the location of a configuration file. However, it is not recommended to use flags for secret values because command lines leave traces in log files and automation tools like [Jenkins](https://www.jenkins.io).
+They are recommended when the values don't change during the entire execution or when it isn't convenient to have a configuration file, such as in ephemeral environments where resources are recreated at every deployment. In some cases, flags are the best option, like when indicating the location of a configuration file. However, it is not recommended to use them for secret values because command lines leave traces in log files and automation tools like [Jenkins](https://www.jenkins.io).
 
 In the following example we see how a flag is implemented in Go:
 
 {% highlight go %}
 package main
 
-import "fmt"
+import {
+    "fmt"
+    "flag"
+}
 
 // flag name, default value in case the flag is not used and documentation
 flgConfigPath = flag.String("cfg", "./config.toml", "Path to configuration file")
 {% endhighlight %}
 
- By default, it [observed changes in the file system](/2021/03/observer-design-pattern-golang.html)
+The `flag.String` function looks for a flag `cfg` in the command line. If it doesn't find one then it returns `./config.toml`, which is default value. Using the [file system observer](/2021/03/observer-design-pattern-golang.html) example: 
 
-It is possible that some flags are redundant in configuration files and environment variables. When it happens, it is reasonable to assume that the flag takes precedence over the others. It allows temporarily bypassing a config entry for experimentation.
+    $ ./liftbox --cfg=../../config.toml
+
+The example shows the use of a configuration file in a different directory. It is possible that some flags are redundant in configuration files and environment variables. When it happens, it is reasonable to assume that the flag takes precedence over the others. It allows temporarily bypassing a config entry for experimentation.
 
 ## Configuration Files
 

@@ -29,8 +29,10 @@ import {
     "flag"
 }
 
-// flag name, default value in case the flag is not used and documentation
-flgConfigPath = flag.String("cfg", "./config.toml", "Path to configuration file")
+var (
+    // flag name, default value in case the flag is not used and documentation
+    flgConfigPath = flag.String("cfg", "./config.toml", "Path to configuration file")
+)
 {% endhighlight %}
 
 The `flag.String` function looks for a flag `cfg` in the command line. If it doesn't find one then it returns `./config.toml`, which is default value. Using the [file system observer](/2021/03/observer-design-pattern-golang.html) example: 
@@ -41,7 +43,33 @@ The example shows the use of a configuration file in a different directory. It i
 
 ## Configuration Files
 
-Configuration files should not be in the same repository of the source code because changes would propagate to all environments and secrets (e.g. database password) can be exposed. They should be listed in the `.gitignore` file to prevent accidental commits. They can certainly be versioned in a separated repository though.
+Configuration files are the most maintainable way of keeping the configuration. They are text files, in a structured format, with documentation, and validation. They can be versioned, but not in the same repository of the application because it would propagate changes to all environments and expose secrets (e.g. database password). A good practice is to provide a versioned `config_example.yaml` that serves as a reference for creating the real `config.yaml`.
+
+[Viper](https://github.com/spf13/viper) is a good library for Go apps to work with configuration files. It supports YAML, JSON, TOML, HCL, and even Java properties files. It also covers flags and environment variables.
+
+{% highlight go %}
+package main
+
+import {
+    "fmt"
+    "flag"
+    "github.com/spf13/viper"
+}
+
+var configuration *viper.Viper
+
+var (
+    // flag name, default value in case the flag is not used and documentation
+    flgConfigPath = flag.String("cfg", "./config.toml", "Path to configuration file")
+)
+
+func main() {
+    configuration = viper.New()
+    configuration.SetConfigFile(flgConfigPath)
+
+    observedRootPath := configuration.GetString("observer.root.path")
+}
+{% endhighlight %}
 
 ## Environment Variables
 

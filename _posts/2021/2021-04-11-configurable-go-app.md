@@ -43,9 +43,9 @@ The example shows the use of a configuration file in a different directory. It i
 
 ## Configuration Files
 
-Configuration files are the most maintainable way of keeping the configuration. They are text files, in a structured format, with documentation, and validation. They can be versioned, but not in the same repository of the application because it would propagate changes to all environments and expose secrets (e.g. database password). A good practice is to provide a versioned `config_example.yaml` that serves as a reference for creating the real `config.yaml`.
+Configuration files are the most maintainable way of keeping the configuration. They are text files, in a structured format, with documentation, and validation. They can be versioned, but in a different repository because using the same repository of the application would propagate changes to all environments, and expose secrets (e.g. database password).
 
-[Viper](https://github.com/spf13/viper) is a good library for Go apps to work with configuration files. It supports YAML, JSON, TOML, HCL, and even Java properties files. It also covers flags and environment variables.
+Go developers like to use [Viper](https://github.com/spf13/viper) to manage the app's configuration. It supports YAML, JSON, TOML, HCL, and even Java properties files. It also covers flags and environment variables. In the following example, Viper takes the path from the flag to find the config file. It loads the file and makes its entries available to the application.
 
 {% highlight go %}
 package main
@@ -67,8 +67,25 @@ func main() {
     configuration = viper.New()
     configuration.SetConfigFile(flgConfigPath)
 
-    observedRootPath := configuration.GetString("observer.root.path")
+    observedRootPath := configuration.GetString("observer.rootpath")
 }
+{% endhighlight %}
+
+The content of the `config.toml` looks like this:
+
+    [observer]
+    rootpath = "/home/username/liftbox"
+
+So, instead of hard coding the root path as we did before, we make it configurable. Even better, if the entry changes during the app execution it is dynamically loaded like this:
+
+{% highlight go %}
+...
+configuration.SetConfigFile(flgConfigPath)
+
+configuration.WatchConfig()
+configuration.OnConfigChange(func(e fsnotify.Event) {
+    log.Printf("config file changed: %v", e.Name)
+})
 {% endhighlight %}
 
 ## Environment Variables

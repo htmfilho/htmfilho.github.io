@@ -94,4 +94,15 @@ Files are a good option to keep configurations. However, some environments are s
 
 ## Environment Variables
 
-Environment variables are a popular alternative to flags and config files. They are a language- and OS-agnostic standard and keep the installation pretty clean. However, if not well documented, they can be missed and never used.
+Environment variables are a popular alternative to flags and configuration files. They are a language- and OS-agnostic standard and keep the installation pretty clean.
+
+{% highlight go %}
+...
+configuration.AutomaticEnv()
+configuration.SetEnvPrefix("observer")
+_ = configuration.BindEnv(DatabaseURL, "rootpath")
+{% endhighlight %}
+
+
+However, if not well documented, they can be missed or wrongly referenced.
+

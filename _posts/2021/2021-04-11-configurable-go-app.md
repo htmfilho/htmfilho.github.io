@@ -76,7 +76,9 @@ The content of the `config.toml` looks like this:
     [observer]
     rootpath = "/home/username/liftbox"
 
-So, instead of hard coding the root path as we did before, we make it configurable. Even better, if the entry changes during the app execution it is dynamically loaded like this:
+So, instead of hard-coding the root path as we did before, we make it configurable. Configuration files tend to grow overtime and it is important to keep them organized. Most of them support grouping, which is the ability of putting together entries that are strongly related. In the examples above, the `[observer]` directive is the grouping syntax of `toml` files.
+
+It is not usual, but Viper also supports dynamic loading of changes in the configuration file while the app runs. It requires just a couple of extra lines:
 
 {% highlight go %}
 ...
@@ -87,6 +89,8 @@ configuration.OnConfigChange(func(e fsnotify.Event) {
     log.Printf("config file changed: %v", e.Name)
 })
 {% endhighlight %}
+
+Files are a good option to keep configurations. However, some environments are so volatile -- like Kubernetes and Docker -- that it is hard to properly manage them. That's where environment variables come in.
 
 ## Environment Variables
 

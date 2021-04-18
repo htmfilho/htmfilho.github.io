@@ -63,10 +63,27 @@ var (
     flgConfigPath = flag.String("cfg", "./config.toml", "Path to configuration file")
 )
 
-func main() {
-    configuration = viper.New()
-    configuration.SetConfigFile(flgConfigPath)
+func initConfiguration(conf *viper.Viper, filePath string) (*viper.Viper, error) {
+    conf = viper.New()
+    conf.SetConfigFile(filePath)
 
+    if err := conf.ReadInConfig(); err != nil {
+        if _, ok := err.(viper.ConfigFileNotFoundError); ok {
+            return nil, err
+        }
+
+        return nil, fmt.Errorf("config file was found but another error ocurred: %v", err)
+    }
+
+    return conf, nil
+}
+
+func main() {
+    configuration, err := initConfiguration(configuration, *flgConfigPath)
+    if err != nil {
+        fmt.Printf("Error initializing configuration: %v", err)
+    }
+    
     observedRootPath := configuration.GetString("observer.rootpath")
 }
 {% endhighlight %}
@@ -81,28 +98,31 @@ So, instead of hard-coding the root path as we did before, we make it configurab
 It is not usual, but Viper also supports dynamic loading of changes in the configuration file while the app runs. It requires just a couple of extra lines:
 
 {% highlight go %}
-...
-configuration.SetConfigFile(flgConfigPath)
-
-configuration.WatchConfig()
-configuration.OnConfigChange(func(e fsnotify.Event) {
-    log.Printf("config file changed: %v", e.Name)
-})
+func initConfiguration(conf *viper.Viper, filePath string) (*viper.Viper, error) {
+    ...
+    conf.WatchConfig()
+    conf.OnConfigChange(func(e fsnotify.Event) {
+        fmt.Printf("Config file changed: %v\n", e.Name)
+    })
+    ...
+}
 {% endhighlight %}
 
 Files are a good option to keep configurations. However, some environments are so volatile -- like Kubernetes and Docker -- that it is hard to properly manage them. That's where environment variables come in.
 
 ## Environment Variables
 
-Environment variables are a popular alternative to flags and configuration files. They are a language- and OS-agnostic standard and keep the installation pretty clean.
+Environment variables are a popular alternative to flags and configuration files. They are a language- and OS-agnostic standard and keep the installation pretty clean. In the following example, Viper is used to capture the value of the `OBSERVER_ROOTPATH` environment variable:
 
 {% highlight go %}
-...
-configuration.AutomaticEnv()
-configuration.SetEnvPrefix("observer")
-_ = configuration.BindEnv(DatabaseURL, "rootpath")
+func initConfiguration(conf *viper.Viper, filePath string) (*viper.Viper, error) {
+    ...
+    _ = conf.BindEnv("observer.rootpath", "ROOTPATH")
+    ...
+}
 {% endhighlight %}
 
+In this example, Viper checks for the environment variable every time a `viper.Get()` request is made. It looks for a variable with a name matching the key uppercased and prefixed with the `EnvPrefix` if set. They don't need to be the only alternative, but live together with other types of configurations.
 
 However, if not well documented, they can be missed or wrongly referenced.
 

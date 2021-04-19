@@ -129,3 +129,5 @@ The variable is set this way on Linux and Mac:
     $ export LIFTBOX_ROOTPATH=/home/username/liftbox/pictures
 
 Viper checks for the environment variable every time a `viper.Get()` request is made. So, it doesn't require restarting the application. You can check [the changes I made in Liftbox to support configurations](https://github.com/htmfilho/blog-examples/commit/2273c89f3ffad3924ccad4b3dc022f29de33db15).
+
+Configuration support is an essential feature of any application. It must be one of the first things to learn when starting to code and one of the first things to do in a new project. Thanks to the community, we have a great configuration support in Go.

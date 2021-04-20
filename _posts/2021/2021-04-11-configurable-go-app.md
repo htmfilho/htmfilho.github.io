@@ -5,6 +5,8 @@ date: 2021-04-11 12:00:00 +0200
 categories: golang config
 ---
 
+![Gopher configuring a machine](/images/posts/2021-04-11-configurable-go-app.png)
+
 When we [observed changes in the file system](/2021/03/observer-design-pattern-golang.html) some posts ago -- creating, modifying, and deleting files and directories -- we hard-coded the location where we wanted to observe those changes. If we wanted to observe a different location we would need to change the code and recompile it. The world is simply not that static, so we better provide some flexibility to users. We can do it through flags, configuration files, and environment variables.
 
 <!-- more -->
@@ -85,6 +87,7 @@ func main() {
     }
     
     observedRootPath := configuration.GetString("observer.rootpath")
+    ...
 }
 {% endhighlight %}
 
@@ -128,6 +131,16 @@ The variable is set this way on Linux and Mac:
 
     $ export LIFTBOX_ROOTPATH=/home/username/liftbox/pictures
 
-Viper checks for the environment variable every time a `viper.Get()` request is made. So, it doesn't require restarting the application. You can check [the changes I made in Liftbox to support configurations](https://github.com/htmfilho/blog-examples/commit/2273c89f3ffad3924ccad4b3dc022f29de33db15).
+With the binding, the access to the value remains the same as in the configuration file:
 
-Configuration support is an essential feature of any application. It must be one of the first things to learn when starting to code and one of the first things to do in a new project. Thanks to the community, we have a great configuration support in Go.
+{% highlight go %}
+func main() {
+    ...
+    observedRootPath := configuration.GetString("observer.rootpath")
+    ...
+}
+{% endhighlight %}
+
+Viper checks for the environment variable every time it is requested. So, it doesn't require restarting the application to get newer values. You can check [the changes I made in Liftbox to support configurations](https://github.com/htmfilho/blog-examples/commit/2273c89f3ffad3924ccad4b3dc022f29de33db15).
+
+Configuration support is an essential feature of any application. It must be one of the first things to learn when starting to code and one of the first things to do in a new project. Many thanks to the community for the great configuration support we have for Go applications.

@@ -5,13 +5,15 @@ date: 2021-05-25 12:00:00 +0200
 categories: golang csv sql library
 ---
 
-![Gopher configuring a machine](/images/posts/2021-04-11-configurable-go-app.png)
+![Gopher processing data](/images/posts/converting-csv-sql.jpg)
 
 CSV is the defacto Most of database management systems support Using a cloud provider to run our business has been a game changer. Azure allow us to rapidly provision all the resources to ensure high availability, security, and performance. In many cases, Azure provides and also manages resources for us, considerably reducing complexity and saving time. However, the more control we delegate to Azure the less autonomy we have over those resources. This is a good thing because it pushes towards the adoption of good practices, but it can be challenging sometimes.
 
 <!-- more -->
 
 Take the provision of a managed SQL Server, for example. Azure ensures it is optimally configured for our needs, but it is quite limited when it comes to seeding the database using a CSV file. The procedure can only be done on Windows, for example. When it comes to other databases, such as PostgreSQL or MySQL, it cannot be done at all.
+
+![Waterloo Street Trees](/images/posts/waterloo-street-trees.png)
 
 To solve this problem to all platforms and all SQL databases on Azure, we have developed a simple tool capable of converting a CSV file into a SQL file, where entries turn into insert statements. It is called GoGetSQL. All you need after using GoGetSQL is a mean to execute the final script, which is something we are pretty well served. As an example, consider the following dataset:
 

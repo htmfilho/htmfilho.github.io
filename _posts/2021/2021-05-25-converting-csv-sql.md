@@ -7,9 +7,13 @@ categories: golang csv sql library
 
 ![Gopher processing data](/images/posts/converting-csv-sql.jpg)
 
-CSV is the defacto Most of database management systems support Using a cloud provider to run our business has been a game changer. Azure allow us to rapidly provision all the resources to ensure high availability, security, and performance. In many cases, Azure provides and also manages resources for us, considerably reducing complexity and saving time. However, the more control we delegate to Azure the less autonomy we have over those resources. This is a good thing because it pushes towards the adoption of good practices, but it can be challenging sometimes.
+One of the best talks I ever attended in a conference was the one given by Joshua Bloch about his book Effective Java at Devoxx Belgium. Joshua stated that every good developer is deep inside an API designer. They code to solve a problem, but also to be reusable and last longer, with minimal or no changes over time. To achieve that, developers need to take design very seriously.
 
 <!-- more -->
+
+CSV is the defacto Most of database management systems support Using a cloud provider to run our business has been a game changer. Azure allow us to rapidly provision all the resources to ensure high availability, security, and performance. In many cases, Azure provides and also manages resources for us, considerably reducing complexity and saving time. However, the more control we delegate to Azure the less autonomy we have over those resources. This is a good thing because it pushes towards the adoption of good practices, but it can be challenging sometimes.
+
+
 
 Take the provision of a managed SQL Server, for example. Azure ensures it is optimally configured for our needs, but it is quite limited when it comes to seeding the database using a CSV file. The procedure can only be done on Windows, for example. When it comes to other databases, such as PostgreSQL or MySQL, it cannot be done at all.
 

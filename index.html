@@ -4,7 +4,7 @@ layout: default
 
 <div class="row">
   <div class="col-md-8">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:4 %}
       <header class="post-header">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a href="{{ post.url | prepend: site.baseurl }}"><h1 class="post-title">{{post.title}}</h1></a>

@@ -16,4 +16,3 @@ I almost never believe in predictions unless they match my owns. Only the future
 > The dumping down of America is most evident in the slow decay of substantive content in the enormously influential media, the 30 second sound bites (now down to 10 seconds or less), lowest common denominator programming, credulous presentations on pseudoscience and superstition, but especially a kind of celebration of ignorance" 
 
 ~ Carl Sagan
-

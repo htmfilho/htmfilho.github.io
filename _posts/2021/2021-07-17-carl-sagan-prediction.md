@@ -5,7 +5,7 @@ date: 2021-07-17 12:00:00 +0200
 categories: science 
 ---
 
-![Gopher processing data](/images/posts/carl-sagan-1987.jpg)
+![Carl Sagan in 1987](/images/posts/carl-sagan-1987.jpg)
 
 I almost never believe in predictions unless they match my owns. Only the future can prove them right or wrong, but I was astonished when I read this excerpt from the book _[The Demon-Haunted World](https://en.wikipedia.org/wiki/The_Demon-Haunted_World)_ by [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan). It literally summarizes what the World became in recent years.
 

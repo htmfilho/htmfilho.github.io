@@ -2,7 +2,7 @@
 layout: post
 title: "My Knowledge Portfolio"
 date: 2021-12-16 12:00:00 +0200
-categories: domain programming java python golang rust elixir
+categories: domain programming java python golang rust elixir clojure
 ---
 
 ![Gopher reading](/images/posts/gopher-reading.png)
@@ -20,10 +20,9 @@ There are many things I have to learn to build my products, but the fundamentals
 - **Problem Domains**: The problems I like to solve are in 3 domains:
 
   - _Healthcare_: that's my professional domain, the one that pays my bills. I worked in many domains throughout my career, but healthcare is the most fascinating one for me. My contributions directly translates into increased life expectancy of the population, even a tiny little bit. 
-
-  - _Home Automation_: I bought a new home a year ago and there is nothing more exciting than modernizing it.
-
-  - _Tools for Work_: From time to time, I find opportunities to improve something in my work. I end up creating several small productivity tools to explore those opportunities.
+- _Home Automation_: I bought a new home a year ago and there is nothing more exciting than modernizing it.
+  - _Sports_: sports are an important part of my family's activities. I'm a runner, my wife too, my older soon is a swimmer, and my yonger dauther is a gymnast. I'm very much involved in those activities, specially swimming, for which I'm training to become an official.
+- _Utilities_: From time to time, I find opportunities to improve something in my work. I end up creating several small productivity tools to explore those opportunities.
 
 In the range of programming languages, these are my choices:
 

@@ -31,7 +31,7 @@ By creating GitHub repositories, of course. I have at least one for each program
 
 It doesn't matter how cool these repositories are if they don't evolve with the same energy of the initial kickoff. To address this, I came out with an approach, popular in other areas, that can give me an indication of progress. I'm proposing a **Repository Maturity Model (RMM)** with 5 levels that looks like this:
 
-1. **The repository is properly organized and documented, with a clear definition of the project, the goals, the license, the code of conduct, and how to contribute**.
+1. **The repository is properly organized and documented, with a clear definition of the project, the goals, the license, the code of conduct, the license, templates, and contribution guidelines**.
 
 2. **The codebase reaches a point of workable solution, releasing the first minimal viable product with complete documentation and demonstrations**.
 
@@ -43,4 +43,4 @@ It doesn't matter how cool these repositories are if they don't evolve with the 
 
 The maturity can upgrade or downgrade. For example: if the repository reaches 100 stars and has active users participation, which qualifies it to level 5, but the test coverage went down below the 80% threshold, then it downgrades to level 3.
 
-This model will help me to measure my progress, but it can certainly be used by other repositories as well. We can even open an discussion about how to refine it [here](https://www.github.com/htmfilho/htmfilho.github.io/issues). To achieve level 5, I will certainly need your help. If you liked any of these repositories, please go there and give a star. Also, watch them to keep up with my progress and maybe even learn with me. Thank you!
+This model will help me to measure my progress, but it can certainly be used by other repositories as well. We can even open an discussion about how to refine it [here](https://github.com/htmfilho/htmfilho.github.io/discussions/27). To achieve level 5, I will certainly need your help. If you liked any of these repositories, please go there and give a star. Also, watch them to keep up with my progress and maybe even learn with me. Thank you!

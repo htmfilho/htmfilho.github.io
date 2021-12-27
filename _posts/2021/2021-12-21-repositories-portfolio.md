@@ -7,7 +7,7 @@ categories: programming java python golang rust elixir clojure
 
 ![Gopher Orchestra](/images/posts/gopher-orchestra.png)
 
-In [my previous post](/2021/12/knowledge-portfolio.html) I have  defined my knowledge portfolio, describing the domains and programming languages I want to invest in 2022 and beyond, but that post felt like a New Year's Resolution. Nobody ever follows new year's resolutions. I prefer to call that plan my **Lifelong Learning Program**, a term I borrowed from the European Commission, an organization I worked for 11 years ago. The question is: how do I put this program into practice?
+When I [defined my knowledge portfolio](/2021/12/knowledge-portfolio.html), describing the domains and programming languages I wanted to invest in 2022, it felt like a New Year's Resolution. Nobody ever follows new year's resolutions. I prefer to call that plan my **Lifelong Learning Program**, a term I borrowed from the European Commission, an organization I worked for 11 years ago. The question is: how do I put this program into practice?
 
 <!-- more -->
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Reaching RMM Level 1 in My Repositories"
 date: 2021-12-26 12:00:00 +0200
-categories: repositoryprogramming java python golang rust elixir clojure
+categories: repository programming documentation portfolio
 ---
 
 ![Gopher Orchestra](/images/posts/gopher-writing.png)

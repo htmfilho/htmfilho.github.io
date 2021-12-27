@@ -2,7 +2,7 @@
 layout: post
 title: "The Repositories of my Portfolio"
 date: 2021-12-21 12:00:00 +0200
-categories: programming java python golang rust elixir clojure
+categories: programming java python golang rust elixir clojure portfolio
 ---
 
 ![Gopher Orchestra](/images/posts/gopher-orchestra.png)

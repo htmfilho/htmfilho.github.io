@@ -5,9 +5,9 @@ date: 2021-12-26 12:00:00 +0200
 categories: repository programming documentation portfolio
 ---
 
-![Gopher Orchestra](/images/posts/gopher-writing.png)
+![Gopher Writing](/images/posts/gopher-writing.png)
 
-After proposing the [Repository Maturity Model (RMM)](/2021/12/repositories-portfolio.html), I wanted to put it in practice in my [portfolio](/2021/12/knowledge-portfolio.html). The first step is to implement Level 1, which consists on writing the content to inform visitors about the repository and guide contributors through the process of fixing bugs and enhancing features. It doesn't necessarily need to have working code, but anyone should be able to understand what the repository is about and how to contribute to it. I'm reporting here what we have done to accomplish that in all repositories.
+After proposing the [Repository Maturity Model (RMM)](/2021/12/repositories-portfolio.html#repository-maturity-model-rmm), I wanted to put it in practice in my [portfolio](/2021/12/knowledge-portfolio.html). The first step is to implement Level 1, which consists on writing the content to inform visitors about the repository and guide contributors through the process of fixing bugs and enhancing features. It doesn't necessarily need to have working code, but anyone should be able to understand what the repository is about and how to contribute to it. I'm reporting here what we have done to accomplish that in all repositories.
 
 <!-- more -->
 
@@ -41,11 +41,11 @@ You can find this checklist at "Insights > Community". It automatically checks f
 
 We are left with _short description_, _user guide website_, and _tags_. The short description is the product summarized in a sentence, in the _About_ section of the repository. It also includes a paragraph at the beginning of the README file, as highlighted in read in the figure below.
 
-![The community profile in the insights of a repository](/images/posts/github-short-description.png)
+![Github short description and tags](/images/posts/github-short-description.png)
 
 The figure also highlights the tags, which are commonly used keywords across Github. They help to make the project discoverable by Github's search engine. We can also see the link to the user guide website above the tags. For the website, Github helps with [Github Pages](https://pages.github.com), whose configuration you can find at "Settings > Pages". Any HTML content in the folder `/docs` is served as a static website. All we have to do is to generate that HTML content and publish there. We're using [Asciidoctor](https://asciidoctor.org) for that, which processes the Asciidoc format and generates a good looking HTML page, like the one below.
 
-![The community profile in the insights of a repository](/images/posts/asciidoctor-user-guide.png)
+![Asciidoctor User Guide](/images/posts/asciidoctor-user-guide.png)
 
 In the last 5 days, we went through all repositories, produced all the documentation required by RMM Level 1 and now we have all of them ready to receive code. The following table compiles everything that was produced.
 

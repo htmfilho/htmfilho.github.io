@@ -64,7 +64,7 @@ In the last 5 days, we went through all repositories, produced all the documenta
   </thead>
   <tbody>
     <tr>
-      <td><i>Short description (About)</i></td>
+      <td><i>Short description</i></td>
       <td align="center"><a href="https://github.com/htmfilho/digger" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/minimily" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>

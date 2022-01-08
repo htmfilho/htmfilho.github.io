@@ -17,12 +17,12 @@ There are many things I have to learn to build my products, but the fundamentals
 
 - **Programming Languages**: I believe there is a programming language for every problem but sometimes multiple programming languages compete for the same problem. C and C++ compete in system programming, PHP and Ruby compete in web development, Java and C# compete in business applications. On the other hand, Python is the best for data analysis, Go is the best for cloud and networking, JavaScript is the best for user interfaces, Erlang is the best for high availability, and so on. I want to put in my portfolio enough programming languages to cover all the problems I like to solve.
 
-- **Problem Domains**: The problems I like to solve are in 3 domains:
+- **Domains**: The problems I like to solve are in 3 domains:
 
   - _Healthcare_: that's my professional domain, the one that pays my bills. I worked in many domains throughout my career, but healthcare is the most fascinating one for me. My contributions directly translates into increased life expectancy of the population, even a tiny little bit. 
-- _Home Automation_: I bought a new home a year ago and there is nothing more exciting than modernizing it.
+  - _Home Automation_: I bought a new home a year ago and there is nothing more exciting than modernizing it.
   - _Sports_: sports are an important part of my family's activities. I'm a runner, my wife too, my older soon is a swimmer, and my yonger dauther is a gymnast. I'm very much involved in those activities, specially swimming, for which I'm training to become an official.
-- _Utilities_: From time to time, I find opportunities to improve something in my work. I end up creating several small productivity tools to explore those opportunities.
+  - _Utilities_: From time to time, I find opportunities to improve something in my work. I end up creating several small productivity tools to explore those opportunities.
 
 In the range of programming languages, these are my choices:
 

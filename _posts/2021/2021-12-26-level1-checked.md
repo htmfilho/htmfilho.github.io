@@ -171,4 +171,4 @@ There is a reasoning behind the open source licensing of these repositories. I'm
 
 We reached a point where all the repositories are minimally organized to welcome contributions. This is the result of implementing the RMM Level 1. At this point, we're ready to pursuit Level 2, which is delivering a minimal viable product. It means a lot of code, in different languages, solving different problems. You're welcome to participate by writing code, documentation, tests, etc.
 
-NOTE: I recently changed the repositories to refine my portfolio and documented the changes in another blog post.
+**NOTE: I recently changed the repositories to refine my portfolio and [documented the changes in another blog post](/2022/01/never-soon-change.html)**.

@@ -69,9 +69,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>Documentation website</i></td>
@@ -79,9 +79,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://www.hildeberto.com/minimily/" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://www.hildeberto.com/controlato/" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://www.hildeberto.com/roma/" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://www.hildeberto.com/pycific/" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://www.hildeberto.com/spitfhir/" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://www.hildeberto.com/lifbox/" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>README file</i></td>
@@ -89,9 +89,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily/blob/main/README.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato/blob/main/README.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma/blob/main/README.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific/blob/main/README.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir/blob/main/README.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox/blob/main/README.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>License</i></td>
@@ -99,9 +99,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily/blob/main/LICENSE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato/blob/main/LICENSE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma/blob/main/LICENSE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific/blob/main/LICENSE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir/blob/main/LICENSE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox/blob/main/LICENSE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>Code of conduct</i></td>
@@ -109,9 +109,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily/blob/main/CODE_OF_CONDUCT.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato/blob/main/CODE_OF_CONDUCT.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma/blob/main/CODE_OF_CONDUCT.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific/blob/main/CODE_OF_CONDUCT.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir/blob/main/CODE_OF_CONDUCT.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox/blob/main/CODE_OF_CONDUCT.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>Contribution guidelines</i></td>
@@ -119,9 +119,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily/blob/main/CONTRIBUTING.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato/blob/main/CONTRIBUTING.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma/blob/main/CONTRIBUTING.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific/blob/main/CONTRIBUTING.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir/blob/main/CONTRIBUTING.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox/blob/main/CONTRIBUTING.md" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>Issues templates</i></td>
@@ -129,9 +129,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily/tree/main/.github/ISSUE_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato/tree/main/.github/ISSUE_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma/tree/main/.github/ISSUE_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific/tree/main/.github/ISSUE_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir/tree/main/.github/ISSUE_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox/tree/main/.github/ISSUE_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>Pull request template</i></td>
@@ -139,9 +139,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily/tree/main/.github/PULL_REQUEST_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato/tree/main/.github/PULL_REQUEST_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma/tree/main/.github/PULL_REQUEST_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific/tree/main/.github/PULL_REQUEST_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir/tree/main/.github/PULL_REQUEST_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox/tree/main/.github/PULL_REQUEST_TEMPLATE" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
     <tr>
       <td><i>Tags</i></td>
@@ -149,9 +149,9 @@ In the last 5 days, we went through all repositories, produced all the documenta
       <td align="center"><a href="https://github.com/htmfilho/minimily" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/controlato" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/roma" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/pycific" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
       <td align="center"><a href="https://github.com/htmfilho/spitfhir" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
-      <td align="center"><a href="https://github.com/htmfilho/liftbox" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
+      <td align="center"><a href="/2022/01/never-soon-change.html" target="_blank"><img src="/assets/img/file-earmark-text.svg"></a></td>
     </tr>
   </tbody>
 </table>
@@ -170,3 +170,5 @@ There is a reasoning behind the open source licensing of these repositories. I'm
   - Liftbox
 
 We reached a point where all the repositories are minimally organized to welcome contributions. This is the result of implementing the RMM Level 1. At this point, we're ready to pursuit Level 2, which is delivering a minimal viable product. It means a lot of code, in different languages, solving different problems. You're welcome to participate by writing code, documentation, tests, etc.
+
+NOTE: I recently changed the repositories to refine my portfolio and documented the changes in another blog post.

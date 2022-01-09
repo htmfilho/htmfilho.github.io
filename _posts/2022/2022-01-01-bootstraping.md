@@ -121,6 +121,7 @@ We will write Pycific in Python and Django. Python is not opinionated, but Djang
     $ python -m pip install Django
     $ pip freeze > requirements.txt
     $ django-admin startproject pycific .
+    $ python manage.py migrate
     $ python manage.py runserver
 
 The process was straightforward and more refined than Phoenix. Once completed, we can see the result at [http://127.0.0.1:8000](http://127.0.0.1:8000):

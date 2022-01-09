@@ -59,10 +59,10 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2020'],
+        labels: ['2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2020', '2021'],
         datasets: [{
-            label: '175 posts over the years',
-            data: [8, 34, 42, 29, 8, 9, 7, 2, 6, 4, 5, 12, 9],
+            label: 'Posts over the years',
+            data: [8, 34, 42, 29, 8, 9, 7, 2, 6, 4, 5, 12, 9, 14],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -76,7 +76,8 @@ var myChart = new Chart(ctx, {
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)'
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
@@ -91,7 +92,8 @@ var myChart = new Chart(ctx, {
                 'rgba(75, 192, 192, 1)',
                 'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)'
+                'rgba(255, 206, 86, 1)',
+                'rgba(54, 162, 235, 1)'
             ],
             borderWidth: 1
         }]

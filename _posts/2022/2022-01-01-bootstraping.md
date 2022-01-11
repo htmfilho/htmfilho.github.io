@@ -54,7 +54,12 @@ Luminus generates just enough content to start with, competing here with Phoenix
 
 ## Controlato
 
-Controlato is going to be developed in Elixir, using the [Phoenix Framework](https://www.phoenixframework.org). Both are heavily opinionated, which means they believe they are offering the state of the art in terms of design. Phoenix generates the directory structure and all the files we need for our application using the following command:
+Controlato is going to be developed in Elixir, using the [Phoenix Framework](https://www.phoenixframework.org). Both are heavily opinionated, which means they believe they are offering the state of the art in terms of design. Phoenix generates the directory structure and all the files we need for our application. To install it, run the following commands:
+    
+    $ mix local.hex
+    $ mix archive.install hex phx_new
+
+Then, generate the project:
 
     $ mix phx.new controlato
       * creating ...

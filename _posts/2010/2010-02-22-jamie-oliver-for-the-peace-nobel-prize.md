@@ -7,7 +7,7 @@ categories: culinary culture
 
 Last year Mr. Obama won the Peace Nobel Prize. There was a lot of controversy about this prize because the president of the United States didn’t do anything concrete to bring peace to the world. I, particularly, didn’t like the Nobel commission’s choice for this prize. So, in order to fix this hasty decision, I would like to suggest a name for 2010: <a href="http://www.jamieoliver.com/">Jamie Oliver</a>, the famous British chef! What???
 
-<iframe align="left" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="http://rcm.amazon.com/e/cm?t=c03ce-20&amp;o=1&amp;p=8&amp;l=bpl&amp;asins=1401323596&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr" style="align: left; height: 245px; padding-right: 10px; padding-top: 5px; width: 131px;"></iframe>Jamie figured out that he can actually change the world by changing people’s eating habits. His mission statement seems really touching, inspiring and reachable actually.
+Jamie figured out that he can actually change the world by changing people’s eating habits. His mission statement seems really touching, inspiring and reachable actually.
 
 > “I wish for your help to create a strong, sustainable movement to educate every child about food, inspire families to cook again and empower people everywhere to fight obesity.”
 

@@ -5,7 +5,7 @@ date: 2008-11-20 13:37:00 +0200
 categories: database enterprise application java
 ---
 
-This is just a short post to remember how I prepared <a href="https://glassfish.dev.java.net/">Glassfish</a>to use <a href="http://hibernate.org/">Hibernate 3</a> as a JPA persistence framework.
+This is just a short post to remember how I prepared [Glassfish](https://glassfish.dev.java.net/) to use [Hibernate 3](http://hibernate.org/) as a JPA persistence framework.
 
 The first step is to add Hibernate libraries in #glassfish_home#/lib . Those libraries are:
 
@@ -26,9 +26,9 @@ The first step is to add Hibernate libraries in #glassfish_home#/lib . Those lib
 - log4j-1.2.11.jar
 - ojdbc14.jar
 
-All these libraries are distributed with Hibernate on this web page: <a href="http://hibernate.org/6.html">http://hibernate.org/6.html</a>. There are even more libraries available, but the set above was compiled by an attempt/error approach, which was indeed a tough task. You have to restart Glassfish in order to use those new libraries.
+All these libraries are distributed with Hibernate on this web page: http://hibernate.org/6.html. There are even more libraries available, but the set above was compiled by an attempt/error approach, which was indeed a tough task. You have to restart Glassfish in order to use those new libraries.
 
-The next step is to create a connection pool and a JDBC resource, but I will assume that you know how to do that or you have read a post like <a href="http://blogs.sun.com/JagadishPrasath/entry/creating_jdbc_connection_pool_resource">the one written by Jagadish</a>.
+The next step is to create a connection pool and a JDBC resource, but I will assume that you know how to do that or you have read a post like [the one written by Jagadish](http://blogs.sun.com/JagadishPrasath/entry/creating_jdbc_connection_pool_resource).
 
 Finally, you have to configure your persistence unit in order to use Hibernate. See parts of my persistence.xml file below:
 

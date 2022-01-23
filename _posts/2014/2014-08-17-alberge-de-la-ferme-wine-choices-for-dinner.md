@@ -9,16 +9,16 @@ I never had the opportunity to write about the experience at [Auberge de la Ferm
 
 This time we made a very good choice at a good price. They are:
 
-<h3>Montravel</h3>
+## Montravel
 
-We had a gastronomic dinner with 7 services and most of the dishes demanded a white wine. We choose Montravel, that was one of the <span class="short_text" id="result_box" lang="en"><span class="hps">waiter</span></span>‘s suggestions. This is a very good 12% dry and <span class="short_text" id="result_box" lang="en" tabindex="-1"><span class="hps">fruity</span></span> wine 2013.
+We had a gastronomic dinner with 7 services and most of the dishes demanded a white wine. We choose Montravel, that was one of the waiter‘s suggestions. This is a very good 12% dry and fruity wine 2013.
 
 ![white_wine_montravel.jpg](/images/posts/white_wine_montravel.jpg)
 
-<h3>Julienas</h3>
+## Julienas
 
-Some of the dishes demanded a red wine. So, we once again accepted one of the <span class="short_text" id="result_box" lang="en"><span class="hps">waiter</span></span>‘s suggestions. The dry, 13% red wine Juliénas 2011.
+Some of the dishes demanded a red wine. So, we once again accepted one of the waiter‘s suggestions. The dry, 13% red wine Juliénas 2011.
 
 ![red_wine_julienas.jpg](/images/posts/red_wine_julienas.jpg)
 
-We still are <span class="short_text" id="result_box" lang="en" tabindex="-1"><span class="hps">amateurs</span></span> in the art of wine appreciation. So, I’m saving the choices here for the next time 🙂 .
+We still are amateurs in the art of wine appreciation. So, I’m saving the choices here for the next time 🙂.

@@ -22,7 +22,9 @@ Notice in the figure bellow that the user is always the center of attention in 
 
 Visiting the concepts above we have:
 
-**<span style="color: #3d85c6; font-size: large;">Environment</span>**<br/>Some applications are available for internal purpose only, such as the ones available on the intranet, other applications are used by external users, such as the company website.
+**Environment**
+
+Some applications are available for internal purpose only, such as the ones available on the intranet, other applications are used by external users, such as the company website.
 
 Users of internal applications are more homogeneous and in limited number, which means that the UI can be a bit more complex to allow faster user interactions. That explains the fight Microsoft Office vs. Google Docs. The last one is not yet fully acceptable in the office environment because it has less functionalities than Microsoft Office. The latter is, on the other hand, more complex and more expensive. However, a limited number of users to a larger number of features makes acceptable to have some additional costs with training sessions to profit from the productivity features.
 
@@ -30,13 +32,21 @@ A company website targets heterogeneous users in unlimited environments. It is n
 
 **Considering the environment, we would recommend Vaadin for homogeneous users in limited environments and JSF for heterogeneous users in unlimited environments.**
 
-**<span style="background-color: white; color: #3d85c6; font-size: large;">Device</span>**<br/>Different devices demand multiple sets of UI components, designed to look great from small to large screens. Fortunately, both frameworks have components to support the full range of screen sizes from regular desktops to mobile devices. The problem is that different devices bring different connectivity capabilities and the application should be ready to deal with short band-width and reduced transfer rates. In this case, **Vaadin seems to be more suitable for multiple devices, as long as the variety of devices is not so extensive, because the user interface is rendered locally, using JavaScript, and it has a richer Ajax support to optimize the exchange of application data with the server.**
+**Device**
 
-**<span style="color: #3d85c6; font-size: large;">Business Domain</span>**<br/>In principle, good quality UI frameworks such as JSF and Vaadin can implement any business domain. The problem is how experienced the team is with the technology or how small is the learning curve to master it. Business is about timing and the technology that offers the best productivity will certainly win. **If your team has previous experience with Swing then Vaadin is the natural choice. If the previous experience was more web-oriented, manipulating HTML, CSS ans Scripts, then JSF is recommended.**
+Different devices demand multiple sets of UI components, designed to look great from small to large screens. Fortunately, both frameworks have components to support the full range of screen sizes from regular desktops to mobile devices. The problem is that different devices bring different connectivity capabilities and the application should be ready to deal with short band-width and reduced transfer rates. In this case, **Vaadin seems to be more suitable for multiple devices, as long as the variety of devices is not so extensive, because the user interface is rendered locally, using JavaScript, and it has a richer Ajax support to optimize the exchange of application data with the server.**
 
-**<span style="color: #3d85c6; font-size: large;">Content</span>**<br/>Content is a very relevant criterion for choosing between Vaadin and JSF. **In case the application needs to deal with volumous content of any type, such as long textual descriptions, videos, presentations, animations, graphics, charts and so on, then JSF is the recommended over Vaadin because JSF uses a web content rendering strategy to profit from all content-types supported by web browsers without the need for additional plugins or tags**. The support for multiple content is only available on Vaadin through the use of plugins, which must be individually assessed before adoption.
+**Business Domain**
 
-<span style="background-color: white; color: #3d85c6; font-size: large;">**User**</span><br/>Last, but not least, we have the user, who is the most important criterion when choosing a UI framework. We would emphasize two aspects:
+In principle, good quality UI frameworks such as JSF and Vaadin can implement any business domain. The problem is how experienced the team is with the technology or how small is the learning curve to master it. Business is about timing and the technology that offers the best productivity will certainly win. **If your team has previous experience with Swing then Vaadin is the natural choice. If the previous experience was more web-oriented, manipulating HTML, CSS ans Scripts, then JSF is recommended.**
+
+**Content**
+
+Content is a very relevant criterion for choosing between Vaadin and JSF. **In case the application needs to deal with volumous content of any type, such as long textual descriptions, videos, presentations, animations, graphics, charts and so on, then JSF is the recommended over Vaadin because JSF uses a web content rendering strategy to profit from all content-types supported by web browsers without the need for additional plugins or tags**. The support for multiple content is only available on Vaadin through the use of plugins, which must be individually assessed before adoption.
+
+**User**
+
+Last, but not least, we have the user, who is the most important criterion when choosing a UI framework. We would emphasize two aspects:
 
 1. **The user population**: the largest is the target population the highest are the concerns about application compatibility. It must deal with several versions and types of browsers, operating systems, computers with different memory capacity and monitor resolution. All these without failures or security issues. **For larger populations, the most appropriate technology is the most compatible one in a cross-platform environment, which is the case of JSF, since it uses a balanced combination of HTML, JavaScript and CSS, while Vaadin relies only on JavaScript and CSS. But shorter populations would have better profit with Vaadin** because cross-browser compatibility is and will remain being a very hard work to be done by Vaadin’s development team behind the scene.
 

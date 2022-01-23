@@ -7,8 +7,7 @@ categories: java javafx jvm user interface
 
 More than 3 years ago, I wrote the post [Has JavaFX a Strategy?](/2009/06/has-javafx-a-strategy.html)” saying:
 
-> <span style="background-color: white; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; line-height: 20px;">“</span><span style="background-color: white; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; font-style: italic; line-height: 20px;">Don’t you think that the fastest way to spread the JavaFX adoption is allowing the improvement of existing applications? Why to spend a lot of resources to drag an applet from the browser to the desktop if we need the network anyway?</span><span style="background-color: white; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; line-height: 20px;">“</span>
-
+> “Don’t you think that the fastest way to spread the JavaFX adoption is allowing the improvement of existing applications? Why to spend a lot of resources to drag an applet from the browser to the desktop if we need the network anyway?“
 
 At that time, JavaFX Script was the only alternative to develop richer Java desktop applications. Guess what Oracle did right after Sun’s acquisition: they stopped evolving a pretty stupid new language which looked more like Json, which is designed for data; migrated the whole thing to a new Java library; and allowed the integration with legacy code (i.e. Swing applications). If they didn’t get inspired by my old blog post, then they just followed the sane common sense.
 

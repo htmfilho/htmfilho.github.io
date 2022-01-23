@@ -19,7 +19,7 @@ The project structure is almost the same as it was with Ant, thanks to the flexi
 
 ![maven-project-structure-300x44.png](/images/posts/maven-project-structure-300x44.png)
 
-For development purposes, we avoid deploying the entire application locally. That’s why we have an EAR module in each application. This way, we save time deploying only the application we are working on. Those application EAR modules are not taken into consideration when packaging to deploy on the servers. To build the full EAR for the servers we have a special application that contains a EAR module, whose pom file declares all EJB and WEB modules as dependencies. Performing the goal <span style='font-family: "Courier New",Courier,monospace;'>package</span> on this pom.xml will actually create the super EAR file.
+For development purposes, we avoid deploying the entire application locally. That’s why we have an EAR module in each application. This way, we save time deploying only the application we are working on. Those application EAR modules are not taken into consideration when packaging to deploy on the servers. To build the full EAR for the servers we have a special application that contains a EAR module, whose pom file declares all EJB and WEB modules as dependencies. Performing the goal package on this pom.xml will actually create the super EAR file.
 
 ![maven-project-structure-2-300x50.png](/images/posts/maven-project-structure-2-300x50.png)
 

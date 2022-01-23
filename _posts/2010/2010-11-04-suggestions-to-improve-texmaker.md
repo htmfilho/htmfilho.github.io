@@ -5,7 +5,7 @@ date: 2010-11-04 15:41:00 +0200
 categories: latex research user interface
 ---
 
-<a href="http://www.xm1math.net/texmaker/">Texmaker</a> is a Latex editor used to write well structured documents. <a href="http://www.latex-project.org/">Latex</a> is a text processing language not so trivial, but once mastering it the writer gets very good results on the overall quality of his/her documents.
+[Texmaker](http://www.xm1math.net/texmaker/) is a Latex editor used to write well structured documents. [Latex](http://www.latex-project.org/) is a text processing language not so trivial, but once mastering it the writer gets very good results on the overall quality of his/her documents.
 
 ![texmaker-300x173.png](/images/posts/texmaker-300x173.png)
 

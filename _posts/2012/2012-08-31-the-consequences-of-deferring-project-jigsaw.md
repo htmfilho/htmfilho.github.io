@@ -5,7 +5,7 @@ date: 2012-08-31 09:33:00 +0200
 categories: java javafx jvm operating system software architecture strategy
 ---
 
-Mr. Mark Reinhold has <a href="http://mreinhold.org/blog/late-for-the-train" target="_blank">announced in July 2012</a> that they were planning to withdraw <a href="http://openjdk.java.net/projects/jigsaw/" target="_blank">Project Jigsaw</a> from Java 8 because Jigsaw would delay its release, planned for September 2013 (One year from now). This date is known because Oracle has decided to implement a two years roadmap planning for Java, so September 2013 is actually 2 years after the release of Java 7.
+Mr. Mark Reinhold has [announced in July 2012](http://mreinhold.org/blog/late-for-the-train) that they were planning to withdraw [Project Jigsaw](http://openjdk.java.net/projects/jigsaw/) from Java 8 because Jigsaw would delay its release, planned for September 2013 (One year from now). This date is known because Oracle has decided to implement a two years roadmap planning for Java, so September 2013 is actually 2 years after the release of Java 7.
 
 According to Jigsaw’s website…
 

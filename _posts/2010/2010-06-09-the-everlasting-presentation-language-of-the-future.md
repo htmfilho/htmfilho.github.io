@@ -7,7 +7,7 @@ categories: javafx user interface
 
 Let’s consider that you have to create a website with a dynamic presentation and you own a technology specially made for this purpose. Strangely, you do not use your own technology to make the presentation, but the technology offered by a competitor. Is it a recognition that your own technology sucks? Is there any other explanation?
 
-Fact: following a link shared by a friend, I’ve reached an Oracle/Sun University <a href="http://content.yudu.com/A1h149/BRTG/resources/index.htm?referrerUrl=">sub-site</a> that gives detailed information about the new Java Certification Program. This website was made 100% in Flash, an Adobe’s technology. You may know that Oracle/Sun created a technology called <a href="http://javafx.com/">JavaFx</a> to compete directly with Adobe Flex and Microsoft Silverlight on the rich client market. So, why don’t they use JavaFx instead?
+Fact: following a link shared by a friend, I’ve reached an Oracle/Sun University [sub-site](http://content.yudu.com/A1h149/BRTG/resources/index.htm?referrerUrl=) that gives detailed information about the new Java Certification Program. This website was made 100% in Flash, an Adobe’s technology. You may know that Oracle/Sun created a technology called [JavaFx](http://javafx.com/) to compete directly with Adobe Flex and Microsoft Silverlight on the rich client market. So, why don’t they use JavaFx instead?
 
 ![oracle-flash-300x192.png](/images/posts/oracle-flash-300x192.png)
 

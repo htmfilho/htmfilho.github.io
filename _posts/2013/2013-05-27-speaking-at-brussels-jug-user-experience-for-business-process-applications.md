@@ -5,7 +5,7 @@ date: 2013-05-27 15:19:00 +0200
 categories: community business process conference publication puplication research user interface
 ---
 
-I’m glad to inform that I will speak at the next <a href="http://www.brussels-jug.be/" target="_blank">Brussels JUG</a>‘s event about user experience thinking and design for business process applications. The event will take place at <a href="http://www.hubkaho.be/" target="_blank">Hogeschool-Universiteit Brussel</a>, Building Hermes, on Thursday, 30th of May, at 6:30 pm. Visit Brussels JUG website for more information: <a href="http://www.brussels-jug.be/">http://www.brussels-jug.be</a>.
+I’m glad to inform that I will speak at the next [Brussels JUG‘s](http://www.brussels-jug.be/) event about user experience thinking and design for business process applications. The event will take place at [Hogeschool-Universiteit Brussel](http://www.hubkaho.be/), Building Hermes, on Thursday, 30th of May, at 6:30 pm. Visit Brussels JUG website for more information: [http://www.brussels-jug.be](http://www.brussels-jug.be/).
 
 You won’t find a lot of information about this subject on this blog, but I have been doing research about it in parallel since 2006, in collaboration with [Kênia Sousa](http://www.linkedin.com/in/keniasousa), who would be happy to share the stage, but she had to decline due to family duties.
 

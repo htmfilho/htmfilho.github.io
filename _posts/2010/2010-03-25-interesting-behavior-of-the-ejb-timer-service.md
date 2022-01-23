@@ -5,7 +5,7 @@ date: 2010-03-25 16:25:00 +0200
 categories: cejug enterprise application java
 ---
 
-In a recent discussion in the <a href="http://www.cejug.org/">CEJUG</a> technical <a href="https://cejug.dev.java.net/servlets/SummarizeList?listName=discussao">discussion list</a>, we figured out an interesting behavior of the EJB Timer Service that is very important to know when implementing a time service.
+In a recent discussion in the [CEJUG](http://www.cejug.org/) technical [discussion list](https://cejug.dev.java.net/servlets/SummarizeList?listName=discussao), we figured out an interesting behavior of the EJB Timer Service that is very important to know when implementing a time service.
 
 First, let me contextualize EJB Timer Service and some situations where it could be useful. EJB Time Service is an interesting feature of the EJB Specification that allows routines to be executed in a certain time (24 hours from now or 01/04/2010 at 23:35) or in a certain frequency of time (every 12 hours or every day at 02:00). The schedule of routines is very appropriate to perform automatic maintenance tasks such as cleaning temporary data, generating complex reports, sending alert messages, etc. Timers are also useful to efficiently use computational resources when systems are in idle mode. A system architect should have a good understanding of this feature to optimize the implementation of corporate solutions, where a lot of data are processed in batch. You can learn more about EJB Timer Service in the book [EJB 3 in Action](http://www.amazon.com/EJB-3-Action-Debu-Panda/dp/1933988347?ie=UTF8&amp;tag=c03ce-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969").
 

@@ -26,4 +26,4 @@ Poulet et Poireaux Stroganoff
 ![20053_304780003822_609678822_3640497_3458526_n-300x225.jpg](/images/posts/20053_304780003822_609678822_3640497_3458526_n-300x225.jpg)
 Côtelettes D’Agneau Grillées Avec Une Riche Salsa
 
-Look at the details about Jamie’s plan <a href="http://www.tedprize.org/jamie-oliver/">here</a> and start helping him to accomplish this by just spreading the wonderful art of cooking. If somehow you are not motivated enough, watch the movie <a href="http://www.sonypictures.com/homevideo/julieandjulia/">Julie &amp; Julia</a> and you will be sufficiently motivated. Trust me! 😉
+Look at the details about Jamie’s plan [here](http://www.tedprize.org/jamie-oliver/) and start helping him to accomplish this by just spreading the wonderful art of cooking. If somehow you are not motivated enough, watch the movie [Julie &amp; Julia](http://www.sonypictures.com/homevideo/julieandjulia/) and you will be sufficiently motivated. Trust me!

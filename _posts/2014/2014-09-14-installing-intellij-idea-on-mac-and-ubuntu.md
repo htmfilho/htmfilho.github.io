@@ -5,11 +5,12 @@ date: 2014-09-14 17:31:14 +0200
 categories: development ide intellijidea java jvm netbeans operating system workspace
 ---
 
-It has been a year since I moved my professional and community development projects from <a href="http://www.netbeans.org" target="_blank">Netbeans</a> to <a href="http://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a>. Netbeans is still a great IDE and I recommend it over any other open source alternative, but the productivity brought by IntelliJ is so great that the time I’ve saved using this IDE already paid off.
+It has been a year since I moved my professional and community development projects from [Netbeans](http://www.netbeans.org) to [IntelliJ IDEA](http://www.jetbrains.com/idea/). Netbeans is still a great IDE and I recommend it over any other open source alternative, but the productivity brought by IntelliJ is so great that the time I’ve saved using this IDE already paid off.
 
 I have IntelliJ installed at home and at the office. It’s the same license but the deal is: you can install it in several computers but use one installation at a time. I use Mac and Ubuntu at home and my experience installing IntelliJ in those platforms was the following:
 
-<h3>Installing on Mac</h3>
+## Installing on Mac
+
 I’m not really going into step by step here. IntelliJ is pretty easy to install on Mac, but I had a problem with the JDK and I’m going to focus on that now. IntelliJ uses the JDK distributed by Apple by default, which is a JDK 6 implementation. Well, this is not a big deal, since we can install the most recent JDK and configure our projects in the IDE to use it instead. But, for some unexplained reason, I couldn’t configure the IDE to start the application server in a JDK different from the one used by IntelliJ (JDK 6). In the image below, you can see I’ve configured JDK 8 to run WildFly, which requires JDK 7 or superior, but it didn’t work.
 
 ![wildfly-configuration-1024x413.png](/images/posts/wildfly-configuration-1024x413.png)

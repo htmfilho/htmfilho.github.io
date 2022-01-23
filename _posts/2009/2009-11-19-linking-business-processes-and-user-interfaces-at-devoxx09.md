@@ -15,4 +15,4 @@ The challenge of business process automation is usually a concern of business an
 
 The feedback of the audience was also a sign that things have to change soon, expanding the current business + technology (BT) approach to the triple business + technology + human (BTH). How to do that? This is exactly one of the most significant contributions of the Usi4Biz Framework: managing links between end-users, user interfaces, user tasks and business processes, giving a detailed support for a clear and precise communication between all actors and artifacts involved in the triple.
 
-Our Devoxx talk will be available soon on the <a href="http://www.parleys.com/">Parleys.com</a> website. For the moment you can check out at least the slides on the <a href="http://www.slideshare.net/usi4biz/presentation-made-at-devoxx09/">SlideShare</a> website.
+Our Devoxx talk will be available soon on the [Parleys.com](http://www.parleys.com/) website. For the moment you can check out at least the slides on the [SlideShare](http://www.slideshare.net/usi4biz/presentation-made-at-devoxx09/) website.

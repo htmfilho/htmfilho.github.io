@@ -5,7 +5,7 @@ date: 2009-11-07 01:54:00 +0200
 categories: conference research
 ---
 
-The 4th and 5th days of the ICMI-MLMI 2009 was dedicated to thematic workshops. On the 4th day I attended the <a href="http://hmi.ewi.utwente.nl/ucvp09">Workshop on Use of Context in Vision Processing</a> (UCVP), which was an opportunity for observing recent works on employing contextual information in problems of <a href="http://en.wikipedia.org/wiki/Computer_vision">Computer Vision</a>. There were very good talks all over the day, but what really interested me was a half-hour discussion about “Context” at the end of the workshop.
+The 4th and 5th days of the ICMI-MLMI 2009 was dedicated to thematic workshops. On the 4th day I attended the [Workshop on Use of Context in Vision Processing](http://hmi.ewi.utwente.nl/ucvp09) (UCVP), which was an opportunity for observing recent works on employing contextual information in problems of [Computer Vision](http://en.wikipedia.org/wiki/Computer_vision). There were very good talks all over the day, but what really interested me was a half-hour discussion about “Context” at the end of the workshop.
 
 ![DSC02571-300x225.jpg](/images/posts/DSC02571-300x225.jpg)
 _UCVP workshop venue_
@@ -20,10 +20,10 @@ _Demo of the domestic surveillance database_
 Now, an example of a context-unaware (context-independent) research. Antonio Torralba, Rob Fergus, and William T. Freeman have been working on the [LabelMe](http://people.csail.mit.edu/torralba/tinyimages/) project, a large database of images, with around 80 million tiny images randomly found on the internet. Anyone visiting the LabelMe website can select objects that they recognize and label it with the name of the object. It helps to improve the performance of object recognition algorithms independent of the context. So, they are not studying a specific kind of context, but creating a general solution for several situations of object recognition.
 
 ![80-million-tiny-images-300x175.png](/images/posts/80-million-tiny-images-300x175.png)
-_Website of the <a href="http://people.csail.mit.edu/torralba/tinyimages/">LabelMe</a> project_
+_Website of the [LabelMe](http://people.csail.mit.edu/torralba/tinyimages/) project_
 
 What is still confusing for me is that sometimes people mix (or I mix) context and domain. For me, these are two different things, not totally different but differentiable. To make my point clear, let me describe a situation: Imagine a meeting room in a company where directors talk about the strategy of the company. When people go to a meeting at this room we have a contextual situation going on. All concepts within this situation are part of the domain too. But, what about the subjects people are discussing during the meeting? Is it part of the context or is it exclusively part of the domain?
 
 According to the [WordNet database](http://wordnet.princeton.edu/), **context** is a set of facts or circumstances that surround a situation or event; and **domain** is the content of a particular field of knowledge. Domain seems to embrace context in the sense that it can describe the whole context. According to these definitions, what people talk at the moment is part of the context, but all subjects that people can possibly talk about their business are part of the domain, which should also be considered on the scientific experiments.
 
-So, going back to context-awareness and context-unawareness, are we talking about context or domain? Is it context-aware or domain-aware? Context-unaware or domain-unaware? I never heard of domain-awareness/unawareness, but a lot of context-aware/unaware. How can we keep using the term “context” and still consider what people know but not necessarily say? Open question. Let’s think about it 😉
+So, going back to context-awareness and context-unawareness, are we talking about context or domain? Is it context-aware or domain-aware? Context-unaware or domain-unaware? I never heard of domain-awareness/unawareness, but a lot of context-aware/unaware. How can we keep using the term “context” and still consider what people know but not necessarily say? Open question. Let’s think about that.

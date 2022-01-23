@@ -17,6 +17,6 @@ My understanding is that we have to be good people to give good advices and do n
 
 ![advice_mod-300x171.jpg](/images/posts/advice_mod-300x171.jpg)
 
-To conclude, a sentence extracted from the book of <a href="http://download.srv.cs.cmu.edu/~pausch/">Randy Pausch</a>, <a href="http://www.thelastlecture.com/">The Last Lecture</a>:
+To conclude, a sentence extracted from the book of [Randy Pausch](http://download.srv.cs.cmu.edu/~pausch/), [The Last Lecture](http://www.thelastlecture.com/):
 
 > “_Almost every day I mention my dad. I do this because when you try to teach something new, most people tend not to pay attention. But if you refer to the experience of someone else, everything seems less arrogant and more acceptable._” – Randy Pausch

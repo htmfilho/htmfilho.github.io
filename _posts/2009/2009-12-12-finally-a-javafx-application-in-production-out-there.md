@@ -7,7 +7,7 @@ categories: javafx web
 
 For the first time ever, I finally saw a JavaFX application in production. I received this news from someone I’m following on Twitter. Check it out and come back for my comments:
 
-<a href="http://www.vancouver2010.com/olympic-medals/geo-view/" target="_blank">http://www.vancouver2010.com/olympic-medals/geo-view/</a>
+http://www.vancouver2010.com/olympic-medals/geo-view/
 
 This is the website of the 2010 Winter Games that will be held in Vancouver, Canada. Looking at the center of the figure, you can see a Java logo, indicating that an applet is loading and soon a JavaFX application is going to load in that area. Well, this was the good news. Let’s go to the bad ones.
 

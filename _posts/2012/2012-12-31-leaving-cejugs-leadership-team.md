@@ -58,7 +58,7 @@ love free.
 If you want to be the next CEJUG Leader, be aware of the need for passion,
 donation and dedication, with or without professional achievement. In addition
 to that, read a very interesting post on John Yeary’s blog about
-<a href="http://javaevangelist.blogspot.be/2012/11/what-is-definition-of-jug-leader.html">the definition of a Jug Leader</a>.
+[the definition of a Jug Leader](http://javaevangelist.blogspot.be/2012/11/what-is-definition-of-jug-leader.html).
 
 By the way, I will continue as a humble CEJUG member, trying to help people
 there with their technical questions. Meanwhile, I’m working on a new open

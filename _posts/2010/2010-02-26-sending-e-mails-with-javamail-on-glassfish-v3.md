@@ -7,7 +7,7 @@ categories: enterprise application java java ee software architecture
 
 One of the main advantages of using an application server like Glassfish is to keep your application free of complex code, such as 1) manual control of database transactions; 2) database access configuration; 3) security authentication and authorization; 4) sending and receiving e-mail messages, among many other complexities that are non-functional requirements, consuming the time we would be spending on functional requirements.
 
-In my opinion, an important differential of <a href="http://glassfish.dev.java.net/">Glassfish V3</a> is its very rich and complete administration console. It is easy to use and to learn, which is, in my opinion, one of the most important competitive advantages, since it contributes to reduce the maintenance cost, a constant headache for system administrators. We are going to use the administrative console in order to configure a JavaMail resource for applications that aim to send emails**.
+In my opinion, an important differential of [Glassfish V3](http://glassfish.dev.java.net/) is its very rich and complete administration console. It is easy to use and to learn, which is, in my opinion, one of the most important competitive advantages, since it contributes to reduce the maintenance cost, a constant headache for system administrators. We are going to use the administrative console in order to configure a JavaMail resource for applications that aim to send emails**.
 
 Follow the steps below:
 

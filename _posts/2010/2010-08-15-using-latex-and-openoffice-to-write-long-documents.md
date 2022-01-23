@@ -7,7 +7,7 @@ categories: latex open source research
 
 <a href="http://www.latex-project.org/">Latex</a> is a “_document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing_” (Latex project website). Latex compiles a script language into a formated document. This script language is not so easy to learn, but the effort may be worthwhile, since the resulting documents look more professional than their equivalent made using <a href="http://www.openoffice.org/">OpenOffice</a> or <a href="http://office.microsoft.com/">Microsoft Word</a>.
 
-I wrote my PhD dissertation using Latex and the result was very satisfactory. The dissertation was gradually getting the shape of a book, which is pretty exciting for me, who admires authors but never intended to become one of them. To write Latex script, I use a tool called <a href="http://www.xm1math.net/texmaker/">Texmaker</a>, a Latex editor maintained by Pascal Brachet, a teacher of mathematics in a French secondary school. There are other interesting editors, but Texmaker’s simplicity is more attractive for me. The figure below depicts the source of my dissertation opened in Texmaker.
+I wrote my PhD dissertation using Latex and the result was very satisfactory. The dissertation was gradually getting the shape of a book, which is pretty exciting for me, who admires authors but never intended to become one of them. To write Latex script, I use a tool called [Texmaker](http://www.xm1math.net/texmaker/), a Latex editor maintained by Pascal Brachet, a teacher of mathematics in a French secondary school. There are other interesting editors, but Texmaker’s simplicity is more attractive for me. The figure below depicts the source of my dissertation opened in Texmaker.
 
 ![thesis-texmaker-300x216.png](/images/posts/thesis-texmaker-300x216.png)
 
@@ -21,7 +21,7 @@ After each transference of text from OpenOffice to Texmaker, we have to approve 
 
 Two important details:
 
-1. OpenOffice doesn’t support grammar checking by default. It is necessary to install the extension <a href="http://extensions.services.openoffice.org/pt-br/project/languagetool">Language Tool</a> for that. Download the file “LanguageTool-[version].oxt” and import it to OpenOffice using the option “Tools – Extension Manager” in the menu. Click on “Add…” and select the file above. This extension starts working when you restart OpenOffice.
+1. OpenOffice doesn’t support grammar checking by default. It is necessary to install the extension [Language Tool](http://extensions.services.openoffice.org/pt-br/project/languagetool) for that. Download the file “LanguageTool-[version].oxt” and import it to OpenOffice using the option “Tools – Extension Manager” in the menu. Click on “Add…” and select the file above. This extension starts working when you restart OpenOffice.
 
 2. My intention is not to teach Latex here, but how to overcome some of its limitations by using OpenOffice as a complement.
 

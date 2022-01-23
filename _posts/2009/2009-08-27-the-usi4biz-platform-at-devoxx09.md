@@ -9,6 +9,6 @@ We are very glad to announce that our presentation about the <a href="http://usi
 
 ![LogoDevoxx150dpi-300x112.jpg](/images/posts/LogoDevoxx150dpi-300x112.jpg)
 
-The <a href="http://www.devoxx.com/display/DV09/Tools+in+Action">Tools in Action</a> session has 30 minute talks during the Devoxx University days (Monday/Tuesday) in the late afternoon. Speakers get the opportunity to demonstrate a Java tool that they’ve created, love, promote and so on. Our talk has been scheduled for November 17th, at the end of the day.
+The [Tools in Action](http://www.devoxx.com/display/DV09/Tools+in+Action) session has 30 minute talks during the Devoxx University days (Monday/Tuesday) in the late afternoon. Speakers get the opportunity to demonstrate a Java tool that they’ve created, love, promote and so on. Our talk has been scheduled for November 17th, at the end of the day.
 
-Based on the success of the first edition and its precursor, JavaPolis, there is a progressive expectation from the developer community about how great will be Devoxx’09 and the organizers always fulfill these expectations. We invite you to attend the conference, it will be held in Antwerp from November 16th til 20th 2009. For more details, visit the website of the conference: <a href="http://www.devoxx.com/">devoxx.com</a> .
+Based on the success of the first edition and its precursor, JavaPolis, there is a progressive expectation from the developer community about how great will be Devoxx’09 and the organizers always fulfill these expectations. We invite you to attend the conference, it will be held in Antwerp from November 16th til 20th 2009. For more details, visit the website of the conference: [devoxx.com](http://www.devoxx.com/) .

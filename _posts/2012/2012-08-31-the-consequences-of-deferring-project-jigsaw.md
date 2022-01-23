@@ -15,7 +15,7 @@ They also say:
 
 > “Jigsaw was originally intended for Java 7 but was deferred to Java 8.”
 
-Now they want to defer it to Java 9 🙁 More details of their decision making are available in a <a href="http://mreinhold.org/blog/late-for-the-train-qa" target="_blank">Q&amp;A post on Reinhold’s blog</a>. You may read and follow the discussion there. Here is my opinion:
+Now they want to defer it to Java 9 🙁 More details of their decision making are available in a [Q&amp;A post on Reinhold’s blog](http://mreinhold.org/blog/late-for-the-train-qa). You may read and follow the discussion there. Here is my opinion:
 
 Without Jigsaw, I believe that it’s very difficult to put Java everywhere. Without Jigsaw, the idea of multi-platform is getting restricted to servers in a age of smartphones and tablets. Jigsaw may be “late for the train”, but it is letting Java late for the entire platform ecosystem.
 

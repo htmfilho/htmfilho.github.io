@@ -5,7 +5,7 @@ date: 2010-02-22 22:05:00 +0200
 categories: culinary culture
 ---
 
-Last year Mr. Obama won the Peace Nobel Prize. There was a lot of controversy about this prize because the president of the United States didn’t do anything concrete to bring peace to the world. I, particularly, didn’t like the Nobel commission’s choice for this prize. So, in order to fix this hasty decision, I would like to suggest a name for 2010: <a href="http://www.jamieoliver.com/">Jamie Oliver</a>, the famous British chef! What???
+Last year Mr. Obama won the Peace Nobel Prize. There was a lot of controversy about this prize because the president of the United States didn’t do anything concrete to bring peace to the world. I, particularly, didn’t like the Nobel commission’s choice for this prize. So, in order to fix this hasty decision, I would like to suggest a name for 2010: [Jamie Oliver](http://www.jamieoliver.com/), the famous British chef! What???
 
 Jamie figured out that he can actually change the world by changing people’s eating habits. His mission statement seems really touching, inspiring and reachable actually.
 

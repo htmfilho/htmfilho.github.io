@@ -11,6 +11,6 @@ We are happy to inform that an article reporting recent contributions on Usi4Biz
 
 This work was possible thanks to the support of Amandine Lievyns, a <a href="http://www.uclouvain.be/" target="_blank">UCL</a> master student at the time, who had an internship at Belgacom and helped us to apply the methodology in some internal processes. Her master dissertation was about this experience and she could give a significant contribution for this article.
 
-Usi4Biz has been applied in two large organizations and with this article we have completed the publication of each one of these applications in journals. The previous one was an article in <a href="http://www.jucs.org/" target="_blank">JUCS</a>, reporting how Usi4Biz was conceived and applied in an insurance company, which is part of a Belgian bank.
+Usi4Biz has been applied in two large organizations and with this article we have completed the publication of each one of these applications in journals. The previous one was an article in [JUCS](http://www.jucs.org/), reporting how Usi4Biz was conceived and applied in an insurance company, which is part of a Belgian bank.
 
 A complete reference to this article will be available in our <a href="http://usi4biz.com/research/" target="_self">research page</a>, as soon as we have more information from the publisher.

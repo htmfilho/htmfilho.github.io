@@ -5,7 +5,7 @@ date: 2014-08-17 08:49:07 +0200
 categories: experiences culinary europe family trip
 ---
 
-I never had the opportunity to write about the experience at <a href="http://www.aubergedelaferme.com" target="_blank">Auberge de la Ferme</a>. I will do it in another opportunity because now I just want to share our wine choices for dinner. They have an extensive selection of wines in a big cave and every time we go there we spend a lot of time choosing the right one, hoping it is good enough for the occasion.
+I never had the opportunity to write about the experience at [Auberge de la Ferme](http://www.aubergedelaferme.com). I will do it in another opportunity because now I just want to share our wine choices for dinner. They have an extensive selection of wines in a big cave and every time we go there we spend a lot of time choosing the right one, hoping it is good enough for the occasion.
 
 This time we made a very good choice at a good price. They are:
 

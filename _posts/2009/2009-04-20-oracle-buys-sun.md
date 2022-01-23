@@ -11,7 +11,7 @@ Recently, SUN invested most of its energy to strength their software area, being
 
 ![oracle-to-buy-sun-300x122.jpg](/images/posts/oracle-to-buy-sun-300x122.jpg)
 
-It’s too early to predict what is going to happen with SUN’s products. I don’t care about MySQL because there is always a good open source alternative out there, but I’m personally afraid about <a href="https://glassfish.dev.java.net/">Glassfish</a>, a very good JEE Application Server, that is threatened due to the recent acquisition of BEA Systems by Oracle. Oracle Weblogic Server is a profitable proprietary product and Glassfish is a strong competitor in the same market but with a lower cost. I imagine three scenarios:
+It’s too early to predict what is going to happen with SUN’s products. I don’t care about MySQL because there is always a good open source alternative out there, but I’m personally afraid about [Glassfish](https://glassfish.dev.java.net/), a very good JEE Application Server, that is threatened due to the recent acquisition of BEA Systems by Oracle. Oracle Weblogic Server is a profitable proprietary product and Glassfish is a strong competitor in the same market but with a lower cost. I imagine three scenarios:
 
 1. nothing is going to change and Glassfish continues threatening Weblogic (improbable);
 
@@ -19,4 +19,4 @@ It’s too early to predict what is going to happen with SUN’s products. I don
 
 3. Glassfish is offered as a new toy for beginners, which is the IBM’s strategy with <a href="http://geronimo.apache.org/">Apache Geronimo</a> and <a href="http://www-01.ibm.com/software/webservers/appserv/community/">WebSphere Application Server Community Edition</a> (big chance).
 
-My concern is that I’m using Glassfish in most of my projects now and if it is discontinued I will wast a lot of time migrating my projects to <a href="http://www.jboss.org/">JBoss</a>. Let’s follow the news.
+My concern is that I’m using Glassfish in most of my projects now and if it is discontinued I will wast a lot of time migrating my projects to [JBoss](http://www.jboss.org/). Let’s follow the news.

@@ -5,7 +5,7 @@ date: 2012-01-31 16:01:00 +0200
 categories: browser java jsf open source software architecture user interface web
 ---
 
-With the recent release of <a href="http://blog.primefaces.org/?p=1588" target="_blank">Primefaces 3.0</a>, JSF finally reaches an unprecedent level of maturity and utility that puts it face to face with other popular Rich Internet Applications (RIA) options, such as Google Web Toolkit (GWT), ExtJS, Vaadin, Flex and others. This open source project also proved to be very active and in a constant growing path.
+With the recent release of [Primefaces 3.0](http://blog.primefaces.org/?p=1588), JSF finally reaches an unprecedent level of maturity and utility that puts it face to face with other popular Rich Internet Applications (RIA) options, such as Google Web Toolkit (GWT), ExtJS, Vaadin, Flex and others. This open source project also proved to be very active and in a constant growing path.
 
 I have been working with JSF + Primefaces since October 2010, when I started developing the project JUG Management, a web application conceived to manage user groups or communities focused on a certain domain of knowledge, whose members are constantly sharing information and attending social and educational events. <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html" target="_blank">JSF</a> is a standard Java framework for building user interfaces for web applications with well-established development patterns and built upon the experience of many preexisting Java Web development frameworks. It is component-based and server-side user interface rendering, sending to clients (web browsers) pre-processed web based content such as HTML, JavaScript and CSS. My experience on this technology is openly available on <a href="http://java.net/projects/cejug/sources/jug-management/show" target="_blank">java.net</a>.
 
@@ -13,8 +13,8 @@ Meanwhile, I had the opportunity to create a Proof of Concept (PoC) to compare J
 
 The result of the PoC was surprisingly interesting 🙂 It ended up proposing both technologies instead of eliminating one of them. I found out, exploring available books, articles, blogs and websites, that despite being able to implement all sorts of web applications, each technology has special characteristics, optimized to certain kinds of those applications. In practical terms, if we find out that JSF is better for a certain kind of application, that’s because it would take more time and code to do the same with Vaadin. The inverse logic is also true. In order to understand that, we have to visit two fundamental concepts that have direct impact on web applications:
 
-- <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.100.4512" target="_blank">**Context of Use**</a> considers the **user** who will operate the application, the **environment** where the user is inserted, and the **device** the user is interacting with.
-- <a href="http://shop.oreilly.com/product/9780596000356.do" target="_blank">**Information Architecture**</a> considers the **user** of the application again, the **business domain** in which he or she works on and the **content** managed in that domain.
+- [**Context of Use**](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.100.4512) considers the **user** who will operate the application, the **environment** where the user is inserted, and the **device** the user is interacting with.
+- [**Information Architecture**](http://shop.oreilly.com/product/9780596000356.do) considers the **user** of the application again, the **business domain** in which he or she works on and the **content** managed in that domain.
 
 Notice in the figure bellow that the user is always the center of attention in both concepts. That’s because we are evaluating two frameworks that have direct impact on the way users interact with web applications.
 

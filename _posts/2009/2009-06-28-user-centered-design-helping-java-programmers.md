@@ -13,4 +13,4 @@ A basic feature of the Jadeite tool is to collaboratively improve the Java API b
 
 The Apatite tool takes a different approach, allowing programmers to browse APIs by association, which helps them to see packages, classes and methods that tend to go with each other. It also uses statistics about the popularity of each item to provide weighted views of the most relevant items, representing them as a cloud of tags.
 
-To get more information visit <a href="http://www.cmu.edu/news/archive/2009/June/june17_javatools.shtml">http://www.cmu.edu/news/archive/2009/June/june17_javatools.shtml</a>.
+To get more information visit [http://www.cmu.edu/news/archive/2009/June/june17_javatools.shtml](http://www.cmu.edu/news/archive/2009/June/june17_javatools.shtml).

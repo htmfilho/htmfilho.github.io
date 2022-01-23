@@ -11,7 +11,7 @@ It’s very rare to find a programmer with good artistic abilities to design an 
 
 I’ve been trying to be an artist in parallel but it doesn’t always work. My last successful attempt was the logo of my open source project, which is cute but not that terrific. It is beautiful enough to make me happy and attractive enough to show the seriousness of the project. As you can see, there are two “faces” one overlaying another. How is it related with fusion? I don’t know. There is no logic on it. That’s what I mean about the work of a designer. If the designer is too realistic and pragmatic, he/she cannot see out of the box.
 
-For other works I just don’t have any talent at all, like the icons in the screen below. They were made by my sister-in-law, <a href="http://teatrodascores.blogspot.com/">Natalia Soares</a>, who was hired by me specially for this work. At the beginning I was afraid to hire her since she is my wife’s sister, maybe I can hurt her because I’m very rigorous with small details. Fortunately she is a very talented girl and since the beginning she made an excellent job and I could stress on my small exigencies, which were just details.
+For other works I just don’t have any talent at all, like the icons in the screen below. They were made by my sister-in-law, [Natalia Soares](http://teatrodascores.blogspot.com/), who was hired by me specially for this work. At the beginning I was afraid to hire her since she is my wife’s sister, maybe I can hurt her because I’m very rigorous with small details. Fortunately she is a very talented girl and since the beginning she made an excellent job and I could stress on my small exigencies, which were just details.
 
 ![usi4biz-300x221.jpg](/images/posts/usi4biz-300x221.jpg)
 

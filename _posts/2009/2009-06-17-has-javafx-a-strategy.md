@@ -5,7 +5,7 @@ date: 2009-06-17 09:00:00 +0200
 categories: java javafx strategy
 ---
 
-I've been severe with Sun Microsystems. Now I don’t care anymore because Sun is Oracle and Oracle for me is a database, not a company. I was always worried about SUN, criticizing and praising as an independent observer. I did that because I admired the work that SUN has been doing on the Java Platform and the proximity the community has to Sun’s top engineers. Even criticizing, it doesn’t mean I don’t like Sun. On the contrary. I do care about them in the pure essence of carefulness, as <a href="http://download.srv.cs.cmu.edu/~pausch/">Randy Pausch</a> stated in his book, transcribing the words of his football coach:
+I've been severe with Sun Microsystems. Now I don’t care anymore because Sun is Oracle and Oracle for me is a database, not a company. I was always worried about SUN, criticizing and praising as an independent observer. I did that because I admired the work that SUN has been doing on the Java Platform and the proximity the community has to Sun’s top engineers. Even criticizing, it doesn’t mean I don’t like Sun. On the contrary. I do care about them in the pure essence of carefulness, as [Randy Pausch](http://download.srv.cs.cmu.edu/~pausch/) stated in his book, transcribing the words of his football coach:
 
 > “– When you are doing something badly and no one’s bothering to tell you anymore, that’s a very bad place to be. Your critics are the ones still telling you they love you and care.“
 

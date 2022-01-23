@@ -81,7 +81,7 @@ The class `MyServiceLocator` follows the _Singleton_ design pattern, making sure
 </web-app>
 {% endhighlight %}
 
-The tag `<ejb-local-ref>` is used to declare a reference to a local EJB. The example above maps only one EJB. So, you have to repeat it for each EJB you want to map. Details about this tag can be found <a href="http://download.oracle.com/docs/cd/E13222_01/wls/docs81/webapp/web_xml.html#1013984">here</a>. Once declared, we can get an instance of the EJB in any part of the application using the following code:
+The tag `<ejb-local-ref>` is used to declare a reference to a local EJB. The example above maps only one EJB. So, you have to repeat it for each EJB you want to map. Details about this tag can be found [here](http://download.oracle.com/docs/cd/E13222_01/wls/docs81/webapp/web_xml.html#1013984). Once declared, we can get an instance of the EJB in any part of the application using the following code:
 
 {% highlight java %}
 private InformationSystemLocal informationSystemBsn =

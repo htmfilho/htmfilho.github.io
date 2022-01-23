@@ -9,7 +9,7 @@ Brazilian people will spend 1 year celebrating the year of France in Brazil. The
 
 ![year-france-brazil-300x213.jpg](/images/posts/year-france-brazil-300x213.jpg)
 
-A French minister <a href="http://g1.globo.com/Noticias/Mundo/0,,MUL1091757-5602,00-ANO+DA+FRANCA+NO+BRASIL+APROXIMARA+MAIS+OS+PAISES+DIZ+GOVERNO+FRANCES.html">declared</a> yesterday:
+A French minister [declared](http://g1.globo.com/Noticias/Mundo/0,,MUL1091757-5602,00-ANO+DA+FRANCA+NO+BRASIL+APROXIMARA+MAIS+OS+PAISES+DIZ+GOVERNO+FRANCES.html) yesterday:
 
 > These celebrations will be occasions to approximate France and Brazil, two countries that share the same democratic and social values, with the same ambition to build a fair world, more open and worried about the respect to the cultural diversity.
 

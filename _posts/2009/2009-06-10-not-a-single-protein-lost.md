@@ -11,7 +11,7 @@ When we lived there, we went to Japanese restaurants at least 2 times a month to
 
 ![Sushi-barco.jpg](/images/posts/Sushi-barco.jpg)
 
-For our surprise, some friends in Belgium invited us to a Japanese dinner. Wow! I couldn’t believe that we were going to eat something we hadn’t eaten for years! I think I was the first to confirm the invitation. This emotion was equivalent to the one I had in Portugal when I went to a <a href="http://en.wikipedia.org/wiki/Churrascaria">churrascaria</a> (a restaurant specialized in Brazilian barbecue), to taste different kinds of meats from Brazil.
+For our surprise, some friends in Belgium invited us to a Japanese dinner. Wow! I couldn’t believe that we were going to eat something we hadn’t eaten for years! I think I was the first to confirm the invitation. This emotion was equivalent to the one I had in Portugal when I went to a [churrascaria](http://en.wikipedia.org/wiki/Churrascaria) (a restaurant specialized in Brazilian barbecue), to taste different kinds of meats from Brazil.
 
 The dinner was AWESOME! Delicious! So good like the ones I ate before. We also helped, preparing some caipirinhas and people really enjoyed it (at least, they asked for more!) We would like to thank our friends one more time for these great moments, which also brought great memories. I made the video below to register the occasion. 😉
 

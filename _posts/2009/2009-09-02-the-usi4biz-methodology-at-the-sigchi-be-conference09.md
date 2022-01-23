@@ -9,8 +9,8 @@ In less than one week after <a href="http://usi4biz.com/2009/08/27/the-usi4biz-p
 
 According to the SIGCHI website, the first SIGCHI.be conference intends to bring together researchers and practitioners working in the domain of human-computer interaction, including usability specialists, designers, computer scientists, etc. The general theme is “New Communities”, addressing the recent interest in building and supporting online communities. We are aligned to this theme in the sense that we see end-users as the main actors of business process transformations. We seriously take their opinion into consideration, giving them an exclusive channel of communication with other company stakeholders.
 
-The figure below depicts a print-screen of the user interface support of the methodology. It is implemented in the <a href="http://usi4biz.com/2009/08/24/usi4biz-platform/">Usi4Biz Platform</a> and it will be demonstrated during the talk.
+The figure below depicts a print-screen of the user interface support of the methodology. It is implemented in the [Usi4Biz Platform](http://usi4biz.com/2009/08/24/usi4biz-platform/) and it will be demonstrated during the talk.
 
 ![printscreen-user-interfaces2-300x227.jpg](/images/posts/printscreen-user-interfaces2-300x227.jpg)
 
-The conference will be held in Affligem, Belgium on Monday, October 19th, 2009. You can find more details in the SIGCHI Belgium <a href="http://www.sigchi.be/">website</a>, where more details about the conference will be published soon.
+The conference will be held in Affligem, Belgium on Monday, October 19th, 2009. You can find more details in the SIGCHI Belgium [website](http://www.sigchi.be/), where more details about the conference will be published soon.

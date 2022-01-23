@@ -19,7 +19,7 @@ So, I listed here some points of reflection:
 
 - _Custom social applications_ – the concept of custom social applications, introduced by Facebook, can also be a potential threat. People can use these applications to promote other social networks or even offer complete external social features of third-party sites, dissipating the original concept of closed community to an aggregator of other communities or social services. This way, the Facebook concept is gradually diluted and transformed in a social platform instead of a centralized network.
 
-- _Social platforms_ – Google got the concept of Facebook and transformed it in an <a href="http://code.google.com/apis/opensocial/">open social</a> framework that can be inserted in any site on the web. Basically, you can create your own social site and develop social applications to run in existing social sites. This blog, for example, uses this platform to list some friends on the right.
+- _Social platforms_ – Google got the concept of Facebook and transformed it in an [open social](http://code.google.com/apis/opensocial/) framework that can be inserted in any site on the web. Basically, you can create your own social site and develop social applications to run in existing social sites. This blog, for example, uses this platform to list some friends on the right.
 
 Words like “closed” or “proprietary” are not welcomed in social environments. Soon, social networks like we know today will be gradually dissipated until the whole web becomes a social platform, allowing users to compose social services as they want and keep all their contacts independent of any social service.
 

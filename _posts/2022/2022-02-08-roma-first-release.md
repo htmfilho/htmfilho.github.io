@@ -77,3 +77,5 @@ In future releases, you will be able to:
 - wrap multiple insert statements within a transaction scope.
 
 But we are not limited to these. Let us know if you have any special needs by [creating an issue](https://github.com/htmfilho/roma/issues) in our repository.
+
+Rust is definitely complicated. It took me a month to write the equivalent code that I wrote in 3 days in Go. The code might be memory safe, but I wouldn't use the adjective "correct" like many Bloggers and Youtubers out there. A runtime panic exception is an evidence that correctness depends on the programmer, not the language. I still believe that Go is better than Rust, but it is delightful to see a Rust application running, using a very minimal resources.

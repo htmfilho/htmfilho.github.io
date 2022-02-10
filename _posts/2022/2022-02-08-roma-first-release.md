@@ -47,7 +47,7 @@ to these SQL insert statements:
     values 
     (-80.4806046253164, 43.4464481686235, 2, 153401, 10, 'CAMERON ST N', 'LAWN', 'Norway Maple', 'Acer platanoides', 'ACPL', 'ROW', 11547, NULL, 10, 'UNKNOWN', 'UNKNOWN', 0, 'UNKNOWN', 'UNKNOWN', 'ACTIVE', '2017/01/31 15:14:06+00', 'Mark Grondin', '2009/10/17 00:00:00+00', 2009, 'October', 'Esri_Anonymous', '2017/01/31 20:14:06+00', 'Tree Inventory', '2009/10/17 00:00:00+00', 'CITY', 'Maple_Norway', 'N', NULL, NULL, NULL, 'Three phase', 1908, 'KING EAST', 'UPPER SCHNEIDER CREEK', 55, 'Field Inspection', 13, 9, NULL, 'f9ccd885-1a91-497c-b1df-4818419373ac', NULL);
 
-To use Roma while I'm learning how to cross-compile a Rust app to multiple operating systems, please clone the repository locally and compile it from source:
+To use Roma, please clone the repository locally and compile it from source. You will need to [install Rust](https://www.rust-lang.org/learn/get-started) first, and then run the following commands:
 
     $ git clone https://github.com/htmfilho/roma.git
     $ cd roma
@@ -56,7 +56,7 @@ To use Roma while I'm learning how to cross-compile a Rust app to multiple opera
     $ cargo build --release
     $ cargo install --path .
 
-Roma is now ready to run:
+I'm still learning how to cross-compile Roma to multiple operating systems. Until then, we need to compile from source, but the usage is the same:
 
     $ roma --csv waterloo_tree_inventory.csv
 

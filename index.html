@@ -37,9 +37,9 @@ layout: default
         <div>
           {% for post in site.posts offset:4 limit:8 %}
             <img src="{{ post.image }}">
-            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            <hr>
           {% endfor %}
-          <br>
         </div>
         <p><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="btn btn-default">Subscribe via RSS</a></p>
       </div>

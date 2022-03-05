@@ -43,18 +43,16 @@ layout: default
         <h3 class="panel-title">Recent Posts</h3>
       </div>
       <div class="panel-body">
-        <ul class="post-list">
+        <div>
           {% for post in site.posts limit:15 %}
             {% if post.title != page.title %}
-              <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <h3>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h3>
-              </li>
+              <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+              <img src="{{ post.image }}">
             {% endif %}
+            <hr>
           {% endfor %}
-        </ul>
+        </div>
+        <p><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="btn btn-default">Subscribe via RSS</a></p>
       </div>
     </div>
   </div>

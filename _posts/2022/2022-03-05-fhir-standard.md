@@ -17,7 +17,7 @@ FHIR&reg; (Fast Healthcare Interoperability Resources) is for healthcare what [S
 
 FHIR&reg; - pronounced like "fire" - structures healthcare data into resources, which also match the concept of _resource_ in **REST** (RepResourceresentational State Transfer), making it an excellent standard to build healthcare APIs. Resources are composed of strongly typed elements. From that, we get that resources also follow the object-oriented paradigm in the way Java and C# implement it. They use abstractions similar to classes, attributes, methods, and inheritance. Resources are serialized in multiple formats such as JSON, XML, and RDF. The most powerful characteristic of the standard is **extensibility**. New resources can be created - by extending the Basic resource -, existing resources and elements can be extended, new elements can be added, all that while still compliant with the standard and without breaking interoperability. Here is how a [Patient](http://hl7.org/fhir/patient.html) resource looks like in JSON format:
 
-```
+{% highlight json %}
 {
   "resourceType": "Patient",
   "id": "8973647",
@@ -86,11 +86,11 @@ FHIR&reg; - pronounced like "fire" - structures healthcare data into resources, 
     "display": "Burgers University Medical Centre"
   }
 }
-```
+{% endhighlight %}
 
 But the Patient resource does not disclosure anything about the health of a patient. For that, we need other resources like [Condition](http://hl7.org/fhir/condition.html) and [Observation](http://hl7.org/fhir/observation.html). The Condition below indicates that the Patient above has a mild form of asthma. Notice the reference to the Patient in the attribute "subject":
 
-```
+{% highlight json %}
 {
   "resourceType": "Condition",
   "id": "example2",
@@ -141,7 +141,7 @@ But the Patient resource does not disclosure anything about the health of a pati
     "reference": "Patient/8973647"
   }
 }
-```
+{% endhighlight %}
 
 [Many other resources](https://hl7.org/fhir/resourcelist.html) are available to exchange healthcare data, but we don't have to build anything from scratch to deal with those resources. There are many FHIR&reg; implementations out there and one will probably match your stack, saving a ton amount of work. The most commonly used are [Hapi FHIR](https://hapifhir.io/) (Java), [Firely .NET](https://fire.ly/products/firely-net-sdk/) (C#), and [fhir.js](https://github.com/FHIR/fhir.js/) (JavaScript). They are high level languages that match all abstractions required by the standard. Here are some advantages of using these libraries:
 
@@ -157,42 +157,42 @@ Some active members of the community make FHIR&reg; servers openly available for
 
 This call returns the following response:
 
-```
+{% highlight json %}
 {
-    "resourceType": "Patient",
-    "id": "1963546",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2021-03-23T05:30:45.180+00:00",
-        "source": "#07OvOvGcTSCrnZYI"
-    },
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bob <b>ALEXANDER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>4f524274-0aca-4246-b20c-6d73e9862beb</td></tr></tbody></table></div>"
-    },
-    "identifier": [
-        {
-            "type": {
-                "coding": [
-                    {
-                        "system": "http://hl7.org/fhir/v2/0203",
-                        "code": "MR"
-                    }
-                ]
-            },
-            "value": "4f524274-0aca-4246-b20c-6d73e9862beb"
-        }
-    ],
-    "name": [
-        {
-            "family": "Alexander",
-            "given": [
-                "Bob"
-            ]
-        }
-    ]
+  "resourceType": "Patient",
+  "id": "1963546",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-03-23T05:30:45.180+00:00",
+    "source": "#07OvOvGcTSCrnZYI"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bob <b>ALEXANDER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>4f524274-0aca-4246-b20c-6d73e9862beb</td></tr></tbody></table></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "MR"
+          }
+        ]
+      },
+      "value": "4f524274-0aca-4246-b20c-6d73e9862beb"
+    }
+  ],
+  "name": [
+    {
+      "family": "Alexander",
+      "given": [
+        "Bob"
+      ]
+    }
+  ]
 }
-```
+{% endhighlight %}
 
 In addition to building APIs, FHIR&reg; can be used to define messages that trafegates in messaging systems such as RabbitMQ and Kafka. It can also be used to create documents that represent all records of a patient or an entire organization, with the intent of archiving or transfering large volumes of data. I can go on and on, listing everything that can be done with FHIR&reg;, but this is a blog post, not a book. But, that's probably a subject that I'm going to explore further, to help with its disemination and perhaps to inspire other industries to take similar initiatives.
 

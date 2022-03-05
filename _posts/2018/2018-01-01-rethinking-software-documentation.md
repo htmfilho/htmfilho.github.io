@@ -4,7 +4,6 @@ title: "Rethinking Software Documentation"
 date: 2018-01-01 12:00:00 +0200
 image: /images/posts/code_documentation.png
 categories: documentation agile manual
-excerpt_separator: <!--more-->
 ---
 
 ![Flagrant of outdated code documentation](/images/posts/code_documentation.png)

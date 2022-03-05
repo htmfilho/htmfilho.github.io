@@ -2,6 +2,7 @@
 layout: post
 title:  "I'm a Finisher of the 10 Miles of LLN"
 date: 2018-03-28 12:00:00 +0200
+image: /images/posts/ten-miles-lln.jpg
 categories: sport run
 ---
 

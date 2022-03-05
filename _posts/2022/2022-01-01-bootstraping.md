@@ -2,6 +2,7 @@
 layout: post
 title: "Bootstrapping my Repositories"
 date: 2022-01-01 12:00:00 +0200
+image: /images/posts/snowman.png
 categories: repository java spring python django golang rust cargo elixir phoenix clojure lenlingen
 ---
 

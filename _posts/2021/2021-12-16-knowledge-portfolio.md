@@ -2,6 +2,7 @@
 layout: post
 title: "My Knowledge Portfolio"
 date: 2021-12-16 12:00:00 +0200
+image: /images/posts/gopher-reading.png
 categories: domain programming java python golang rust elixir clojure portfolio
 ---
 

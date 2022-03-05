@@ -2,6 +2,7 @@
 layout: post
 title:  "Technical Documentation as Code"
 date: 2018-04-13 12:00:00 +0200
+image: /images/posts/documentation-as-code-writing-blog.png
 categories: git ruby markdown asciidoc restructuredtext documentation osis
 ---
 

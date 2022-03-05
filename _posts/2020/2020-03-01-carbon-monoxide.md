@@ -2,6 +2,7 @@
 layout: post
 title:  "What is the Difference Between Carbon Monoxide and Carbon Dioxide?"
 date: 2020-03-01 12:00:00 +0200
+image: /images/posts/the-client.png
 categories: canada work iot co co2
 ---
 

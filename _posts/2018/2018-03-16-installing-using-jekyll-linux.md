@@ -2,6 +2,7 @@
 layout: post
 title:  "Installing and Using Jekyll on Linux"
 date: 2018-03-16 12:00:00 +0200
+image: /images/posts/installing-using-jekyll-linux.jpg
 categories: jekyll blog linux ruby rbenv
 ---
 

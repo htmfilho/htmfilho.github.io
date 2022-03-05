@@ -2,6 +2,7 @@
 layout: post
 title:  "Reacting to File Changes Using the Observer Design Pattern in Go"
 date: 2021-03-14 12:00:00 +0200
+image: /images/posts/observer-design-pattern.png
 categories: golang design pattern observer
 ---
 

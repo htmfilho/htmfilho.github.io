@@ -2,6 +2,7 @@
 layout: post
 title: "Making a Configurable Go App"
 date: 2021-04-11 12:00:00 +0200
+image: /images/posts/2021-04-11-configurable-go-app.png
 categories: golang config
 ---
 

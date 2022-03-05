@@ -2,6 +2,7 @@
 layout: post
 title:  "Dealing With Pressure Outside of the Workplace"
 date: 2021-03-21 12:00:00 +0200
+image: /images/posts/measuring-pressure-golang.png
 categories: golang bar psi kpa strategy pattern pressure
 ---
 

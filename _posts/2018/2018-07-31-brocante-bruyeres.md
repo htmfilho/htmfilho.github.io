@@ -2,6 +2,7 @@
 layout: post
 title:  "La Brocante Bruyeres: A Year Later"
 date: 2018-07-31 12:00:00 +0200
+image: /images/posts/brocante-bruyeres.jpg
 categories: volunteering process application
 ---
 

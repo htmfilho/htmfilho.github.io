@@ -2,6 +2,7 @@
 layout: post
 title:  "Go as a Business Language"
 date: 2020-12-25 12:00:00 +0200
+image: /images/posts/go-as-a-business-language.png
 categories: business golang programming language
 ---
 

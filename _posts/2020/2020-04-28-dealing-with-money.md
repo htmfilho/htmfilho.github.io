@@ -2,6 +2,7 @@
 layout: post
 title:  "Dealing With Money in Software"
 date: 2020-04-28 12:00:00 +0200
+image: /images/posts/dealing-with-money.png
 categories: golang rust java python ruby money
 ---
 

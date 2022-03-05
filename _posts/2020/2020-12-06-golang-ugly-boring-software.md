@@ -2,6 +2,7 @@
 layout: post
 title:  "Go: Ugly and Boring for the Good of Software"
 date: 2020-12-06 12:00:00 +0200
+image: /images/posts/golang-ugly-boring-software.png
 categories: golang clojure java python graalvm programming micronaut quarkus
 ---
 

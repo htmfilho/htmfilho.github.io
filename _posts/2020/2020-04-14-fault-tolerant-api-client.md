@@ -2,6 +2,7 @@
 layout: post
 title:  "Circuit Breaker For API Calls in Java"
 date: 2020-04-14 12:00:00 +0200
+image: /images/posts/unreliable-api-call.png
 categories: java circuitbreaker api
 ---
 

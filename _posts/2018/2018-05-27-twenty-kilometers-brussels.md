@@ -2,6 +2,7 @@
 layout: post
 title:  "Finished the 20 Kilometers of Brussels"
 date: 2018-05-27 12:00:00 +0200
+image: /images/posts/20km-brussels.jpg
 categories: sport run
 ---
 

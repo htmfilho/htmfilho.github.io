@@ -2,6 +2,7 @@
 layout: post
 title:  "Creating a Django App as a Git Submodule"
 date: 2018-02-15 12:00:00 +0200
+image: /images/posts/creating-git-submodules.jpg
 categories: git submodule python django osis
 ---
 

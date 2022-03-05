@@ -2,6 +2,7 @@
 layout: post
 title:  "Taking Advantage of the Adapter Design Pattern"
 date: 2021-02-28 12:00:00 +0200
+image: /images/posts/2021-02-28-adapter-go-redis.png
 categories: golang design pattern adapter cache library
 ---
 

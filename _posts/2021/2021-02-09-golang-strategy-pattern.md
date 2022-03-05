@@ -2,6 +2,7 @@
 layout: post
 title:  "Applying the Strategy Pattern to Get Prices from Different Sources in Go"
 date: 2021-02-09 12:00:00 +0200
+image: /images/posts/golang-strategy-pattern.png
 categories: golang strategy pattern finance
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Moving to Canada"
 date: 2018-06-15 12:00:00 +0200
+image: /images/posts/fontaine-cn-tower.jpg
 categories: belgium canada
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Using Goroutines to Search Prices in Parallel"
 date: 2021-02-14 12:00:00 +0200
+image: /images/posts/golang-sync-goroutine.jpg
 categories: golang sync goroutine waitgroup pattern
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "The Microservices of My Life"
 date: 2018-05-31 12:00:00 +0200
+image: /images/posts/louvain-la-neuve-grand-place.jpg
 categories: microservices architecture design
 ---
 

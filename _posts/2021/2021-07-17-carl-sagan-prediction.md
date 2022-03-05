@@ -2,6 +2,7 @@
 layout: post
 title: "Astonishing Carl Sagan's Predictions Published in 1995"
 date: 2021-07-17 12:00:00 +0200
+image: /images/posts/carl-sagan-1987.jpg
 categories: science 
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Reaching RMM Level 1 in My Repositories"
 date: 2021-12-26 12:00:00 +0200
+image: /images/posts/gopher-writing.png
 categories: repository programming documentation portfolio
 ---
 

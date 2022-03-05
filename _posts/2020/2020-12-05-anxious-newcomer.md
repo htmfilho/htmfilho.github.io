@@ -2,6 +2,7 @@
 layout: post
 title:  "The Anxious Newcomer"
 date: 2020-12-05 12:00:00 +0200
+image: /images/posts/the-anxious-newcomer.png
 categories: job newcomer opportunity
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "FHIR: A Standard For Healthcare Data Interoperability"
 date: 2022-02-12 12:00:00 +0200
+image: /images/posts/dragon-sketch.png
 categories: fhir healthcare api standard
 ---
 

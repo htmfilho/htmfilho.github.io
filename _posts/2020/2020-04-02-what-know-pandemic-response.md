@@ -2,6 +2,7 @@
 layout: post
 title:  "What I Know So Far About Dealing With A Pandemic Crisis"
 date: 2020-04-02 12:00:00 +0200
+image: /images/posts/pandemic.png
 categories: covid19 pandemic
 ---
 

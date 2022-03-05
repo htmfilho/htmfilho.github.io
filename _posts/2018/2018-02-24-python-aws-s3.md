@@ -2,6 +2,7 @@
 layout: post
 title:  "Using Python to Backup Files on Amazon S3"
 date: 2018-02-24 12:00:00 +0200
+image: /images/posts/python-aws-s3.jpg
 categories: python aws s3 boto3 backup restore
 ---
 

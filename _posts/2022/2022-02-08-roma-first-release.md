@@ -2,6 +2,7 @@
 layout: post
 title: "First Release of Roma"
 date: 2022-02-08 12:00:00 +0200
+image: https://www.hildeberto.com/roma/images/waterloo_tree_inventory.png
 categories: portfolio repository rust csv sql
 ---
 

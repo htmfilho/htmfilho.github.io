@@ -2,6 +2,7 @@
 layout: post
 title:  "Settling in Canada"
 date: 2018-07-15 12:00:00 +0200
+image: /images/posts/canada-globe.jpg
 categories: canada
 ---
 

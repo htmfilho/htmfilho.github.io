@@ -2,6 +2,7 @@
 layout: post
 title: "Never Too Soon to Change Plans"
 date: 2022-01-08 12:00:00 +0200
+image: /images/posts/gopher-doubts.png
 categories: portfolio repository python django elixir phoenix
 ---
 

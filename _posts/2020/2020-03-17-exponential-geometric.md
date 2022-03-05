@@ -2,6 +2,7 @@
 layout: post
 title:  "Exponential and Geometric Distributions: A COVID-19 Example"
 date: 2020-03-17 12:00:00 +0200
+image: /images/posts/corona-virus.jpg
 categories: covid19 statistics
 ---
 

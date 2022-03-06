@@ -89,7 +89,7 @@ FHIR&reg; - pronounced like "fire" - structures healthcare data into resources, 
 }
 {% endhighlight %}
 
-But the Patient resource does not disclosure anything about the health of a patient. For that, we need other resources like [Condition](http://hl7.org/fhir/condition.html) and [Observation](http://hl7.org/fhir/observation.html). The Condition below indicates that the Patient above has a mild form of asthma. Notice the reference to the Patient in the attribute "subject":
+But the Patient resource does not contain anything about the health of a patient. For that, we need other resources like [Condition](http://hl7.org/fhir/condition.html) and [Observation](http://hl7.org/fhir/observation.html). The Condition below indicates that the Patient above has a mild form of asthma. Notice the reference to the Patient in the attribute "subject":
 
 {% highlight json %}
 {
@@ -150,7 +150,7 @@ But the Patient resource does not disclosure anything about the health of a pati
 
 2. We don't have to build an in-house FHIR&reg; client because one probably exists for our stack, giving us data ready to be processed.
 
-3. If more data needs to be exchanged out of what FHIR already offers, then the extension framework can be used to serve the data without breaking compatibility with existing clients.
+3. If more data needs to be exchanged out of what FHIR&reg; already offers, then the extension framework can be used to serve the data without breaking compatibility with existing clients.
 
 Some active members of the community make FHIR&reg; servers openly available for learning purpose. Hapi FHIR is one of those. Visit http://hapi.fhir.org/ to explore generated fake resources. We can even call the endpoints, as documented in the [Swagger](http://hapi.fhir.org/baseR4/swagger-ui/) page:
 
@@ -195,7 +195,7 @@ This call returns the following response:
 }
 {% endhighlight %}
 
-In addition to building APIs, FHIR&reg; can be used to define messages that trafegates in messaging systems such as RabbitMQ and Kafka. It can also be used to create documents that represent all records of a patient or an entire organization, with the intent of archiving or transfering large volumes of data. I can go on and on, listing everything that can be done with FHIR&reg;, but this is a blog post, not a book. But, that's probably a subject that I'm going to explore further, to help with its disemination and perhaps to inspire other industries to take similar initiatives.
+In addition to building APIs, FHIR&reg; can be used to define messages to post in messaging systems such as [RabbitMQ](https://www.rabbitmq.com) and [Kafka](https://kafka.apache.org). It can also be used to create documents that represent all records of a patient or an entire organization, with the intent of archiving or transferring large volumes of data. I can go on and on, listing everything that can be done with FHIR&reg;, but this is a blog post, not a book. But, that's probably a subject that I'm going to explore further, to help with its dissemination and perhaps to inspire other industries to take similar initiatives.
 
 <hr>
 

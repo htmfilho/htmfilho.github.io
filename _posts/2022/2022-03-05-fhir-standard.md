@@ -152,7 +152,7 @@ But the Patient resource does not contain anything about the health of a patient
 
 3. If more data needs to be exchanged out of what FHIR&reg; already offers, then the extension framework can be used to serve the data without breaking compatibility with existing clients.
 
-Some active members of the community make FHIR&reg; servers openly available for learning purpose. Hapi FHIR is one of those. Visit http://hapi.fhir.org/ to explore generated fake resources. We can even call the endpoints, as documented in the [Swagger](http://hapi.fhir.org/baseR4/swagger-ui/) page:
+Some active members of the community make [FHIR&reg; servers openly available](https://confluence.hl7.org/display/FHIR/Public+Test+Servers) for learning purpose. Hapi FHIR is one of those. Visit http://hapi.fhir.org/ to explore generated fake resources. We can even call the endpoints, as documented in the [Swagger](http://hapi.fhir.org/baseR4/swagger-ui/) page:
 
     $ curl --location --request GET 'http://hapi.fhir.org/baseR4/Patient/1963546'
 

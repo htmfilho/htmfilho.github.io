@@ -3,6 +3,7 @@ layout: post
 title: "Once Upon a Time in Russia"
 date: 2022-03-30 12:00:00 +0200
 categories: research experience trip russia ukraine war
+image: /images/posts/saint-petersburg.jpg
 ---
 
 ![Saint Petersburg, Russia](/images/posts/saint-petersburg.jpg)

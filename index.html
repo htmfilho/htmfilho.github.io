@@ -16,6 +16,7 @@ layout: default
       </div>
     {% endfor %}
   </div>
+
   <div class="col-md-4">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -25,7 +26,19 @@ layout: default
         <div id="reads"></div>
       </div>
       <div class="panel-footer">
-        <a href="books">More book reviews</a>
+        <a href="books">More Book Reviews</a>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Sports</h3>
+      </div>
+      <div class="panel-body">
+        <div id="sports"></div>
+      </div>
+      <div class="panel-footer">
+        <a href="sports">More Sports</a>
       </div>
     </div>
 
@@ -35,7 +48,7 @@ layout: default
       </div>
       <div class="panel-body">
         <div>
-          {% for post in site.posts offset:4 limit:8 %}
+          {% for post in site.posts offset:4 limit:4 %}
             <img src="{{ post.image }}">
             <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <hr>

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "First Release of Roma"
+title: "First Release of CSVSource"
 date: 2022-02-08 12:00:00 +0200
-image: https://www.hildeberto.com/roma/images/waterloo_tree_inventory.png
+image: https://www.hildeberto.com/csvsource/images/waterloo_tree_inventory.png
 categories: portfolio repository rust csv sql
 ---
 
-![Waterloo Tree Inventory](https://www.hildeberto.com/roma/images/waterloo_tree_inventory.png)
+![Waterloo Tree Inventory](https://www.hildeberto.com/csvsource/images/waterloo_tree_inventory.png)
 
-The [City of Waterloo](https://waterloo.ca), located in Ontario - Canada, has an [Open Data Portal](https://data.waterloo.ca) that publishes raw data about infrastructure, services, environment, transportation, etc. Residents can use the data to oversee public investments and services, identify gaps, discover development opportunities, and even create new business. We figured out another use for the Portal: **test [Roma](https://github.com/htmfilho/roma)**. It publishes a variety of CSV files. Among them, we found a an [inventory of every single tree planted on the streets](https://data.waterloo.ca/datasets/street-tree-inventory) of Waterloo. Isn't it cool?!
+The [City of Waterloo](https://waterloo.ca), located in Ontario - Canada, has an [Open Data Portal](https://data.waterloo.ca) that publishes raw data about infrastructure, services, environment, transportation, etc. Residents can use the data to oversee public investments and services, identify gaps, discover development opportunities, and even create new business. We figured out another use for the Portal: **test [CSVSource](https://github.com/htmfilho/csvsource)**. It publishes a variety of CSV files. Among them, we found a an [inventory of every single tree planted on the streets](https://data.waterloo.ca/datasets/street-tree-inventory) of Waterloo. Isn't it cool?!
 
 <!-- more -->
 
-Roma is one of the repositories in my portfolio. I first introduced it [a month ago](https://www.hildeberto.com/2021/12/repositories-portfolio.html). Its goal is to convert a CSV file to a SQL file with insert statements, simplifying the data ingestion in relational databases. To have fun building Roma, we looked for an interesting dataset in the Open Data Portal and put it in the folder [/examples](https://github.com/htmfilho/roma/tree/main/examples). We are glad to inform that we've got the minimal Rust code in place to convert those CSV files to SQL. Roma implements convention over configuration, with the following default behaviors:
+CSVSource is one of the repositories in my portfolio. I first introduced it [a month ago](https://www.hildeberto.com/2021/12/repositories-portfolio.html). Its goal is to convert a CSV file to a SQL file with insert statements, simplifying the data ingestion in relational databases. To have fun building CSVSource, we looked for an interesting dataset in the Open Data Portal and put it in the folder [/examples](https://github.com/htmfilho/csvsource/tree/main/examples). We are glad to inform that we've got the minimal Rust code in place to convert those CSV files to SQL. CSVSource implements convention over configuration, with the following default behaviors:
 
 - the name of the CSV file is used as the name of the table in the insert statements.
 
@@ -26,9 +26,9 @@ Roma is one of the repositories in my portfolio. I first introduced it [a month 
 
 - if the value contains at least one alphanumeric character then it is quoted, but if the value contains a valid number then it is not quoted.
 
-If you have these basic requirements then Roma is ready for you. Otherwise, wait for the availability of arguments that will customize these conventions. For the moment, simply type:
+If you have these basic requirements then CSVSource is ready for you. Otherwise, wait for the availability of arguments that will customize these conventions. For the moment, simply type:
 
-    $ roma --csv waterloo_tree_inventory.csv
+    $ csvsource --csv waterloo_tree_inventory.csv
 
 It converts this CSV:
 
@@ -48,18 +48,18 @@ to these SQL insert statements:
     values 
     (-80.4806046253164, 43.4464481686235, 2, 153401, 10, 'CAMERON ST N', 'LAWN', 'Norway Maple', 'Acer platanoides', 'ACPL', 'ROW', 11547, NULL, 10, 'UNKNOWN', 'UNKNOWN', 0, 'UNKNOWN', 'UNKNOWN', 'ACTIVE', '2017/01/31 15:14:06+00', 'Mark Grondin', '2009/10/17 00:00:00+00', 2009, 'October', 'Esri_Anonymous', '2017/01/31 20:14:06+00', 'Tree Inventory', '2009/10/17 00:00:00+00', 'CITY', 'Maple_Norway', 'N', NULL, NULL, NULL, 'Three phase', 1908, 'KING EAST', 'UPPER SCHNEIDER CREEK', 55, 'Field Inspection', 13, 9, NULL, 'f9ccd885-1a91-497c-b1df-4818419373ac', NULL);
 
-To use Roma, please clone the repository locally and compile it from source. You will need to [install Rust](https://www.rust-lang.org/learn/get-started) first, and then run the following commands:
+To use CSVSource, please clone the repository locally and compile it from source. You will need to [install Rust](https://www.rust-lang.org/learn/get-started) first, and then run the following commands:
 
-    $ git clone https://github.com/htmfilho/roma.git
-    $ cd roma
+    $ git clone https://github.com/htmfilho/csvsource.git
+    $ cd csvsource
     $ git fetch origin 0.1.0
     $ git checkout tags/0.1.0 -b 0.1.0
     $ cargo build --release
     $ cargo install --path .
 
-I'm still learning how to cross-compile Roma to multiple operating systems. Until then, we need to compile from source, but the usage is the same:
+I'm still learning how to cross-compile CSVSource to multiple operating systems. Until then, we need to compile from source, but the usage is the same:
 
-    $ roma --csv waterloo_tree_inventory.csv
+    $ csvsource --csv waterloo_tree_inventory.csv
 
 The output is the file `waterloo_tree_inventory.sql` in the same folder, with all insert statements.
 
@@ -77,6 +77,6 @@ In future releases, you will be able to:
 
 - wrap multiple insert statements within a transaction scope.
 
-But we are not limited to these. Let us know if you have any special needs by [creating an issue](https://github.com/htmfilho/roma/issues) in our repository.
+But we are not limited to these. Let us know if you have any special needs by [creating an issue](https://github.com/htmfilho/csvsource/issues) in our repository.
 
 Rust is definitely complicated. It took me a month to write the equivalent code that I wrote in 3 days in Go. The code might be memory safe, but I wouldn't use the adjective "correct" like many Bloggers and Youtubers out there. A runtime panic exception is an evidence that correctness depends on the programmer, not the language. I still believe that Go is better than Rust, but it is delightful to see a Rust application running, using very minimal resources.

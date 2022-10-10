@@ -28,7 +28,7 @@ Here they are:
 
 - **Small Tools** _([Rust](https://www.rust-lang.org), Utilities)_ : Rust is the programming language I know the least in my portfolio. So, I'm going to start with small tools to get familiarized with its concepts. I have two repositories to explore Rust:
 
-  - **[Roma](https://github.com/htmfilho/roma)** : a library to generate SQL statements from CSV files. It has special features like grouping insert statements in transaction chunks and inserting multiple rows with a single insert statement.
+  - **[CSVSource](https://github.com/htmfilho/csvsource)** : a library to generate SQL statements from CSV files. It has special features like grouping insert statements in transaction chunks and inserting multiple rows with a single insert statement.
 
   - **[Liftbox](/2022/01/never-soon-change.html)** : a command line tool to synchronize the content of a local folder to a cloud storage. With this tool, I hope to save money by cancelling my Dropbox subscription.
 

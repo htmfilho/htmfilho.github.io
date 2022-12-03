@@ -1,14 +1,20 @@
+let urls = {
+  "home": "https://www.hildeberto.com/atom.xml",
+  "sports": "https://www.hildeberto.com/sports/atom.xml",
+  "books": "https://www.hildeberto.com/books/atom.xml"
+};
+
 $(document).ready(function() {
-  loadReads();
-  loadSports();
+  loadReads(urls);
+  loadSports(urls);
 });
 
-function loadReads() {
-  loadRSS("reads", "https://www.hildeberto.com/books/atom.xml", "books");
+function loadReads(urls) {
+  loadRSS("reads", urls["books"], "books");
 }
 
-function loadSports() {
-  loadRSS("sports", "https://www.hildeberto.com/sports/atom.xml", "sports");
+function loadSports(urls) {
+  loadRSS("sports", urls["sports"], "sports");
 }
 
 function loadRSS(contentElement, url, target) {

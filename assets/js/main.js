@@ -21,12 +21,17 @@ function loadMain(urls) {
 }
 
 function loadPosts(url) {
+  let posts;
+
   fetch(url)
     .then(response => response.text())
     .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
     .then(data => {
-        return data.querySelectorAll("entry");
+        posts = data.querySelectorAll("entry");
       });
+  
+  console.log(posts.length);
+  return posts;
 }
 
 function loadReads(urls) {

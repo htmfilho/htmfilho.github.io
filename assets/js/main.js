@@ -11,9 +11,22 @@ $(document).ready(function() {
 });
 
 function loadMain(urls) {
+  let allPosts = [];
+
   for (const [key, value] of Object.entries(urls)) {
-    console.log(key, value);
+    allPosts.concat(loadPosts(value));
   }
+
+  console.log(allPosts.length);
+}
+
+function loadPosts(url) {
+  fetch(url)
+    .then(response => response.text())
+    .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+    .then(data => {
+        return items;
+      });
 }
 
 function loadReads(urls) {

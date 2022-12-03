@@ -21,7 +21,7 @@ function loadMain(urls) {
 }
 
 function loadPosts(url) {
-  let posts;
+  let posts = [];
 
   fetch(url)
     .then(response => response.text())

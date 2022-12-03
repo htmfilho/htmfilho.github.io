@@ -5,9 +5,16 @@ let urls = {
 };
 
 $(document).ready(function() {
+  loadMain(urls);
   loadReads(urls);
   loadSports(urls);
 });
+
+function loadMain(urls) {
+  for (const [key, value] of Object.entries(urls)) {
+    console.log(key, value);
+  }
+}
 
 function loadReads(urls) {
   loadRSS("reads", urls["books"], "books");

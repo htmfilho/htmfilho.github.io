@@ -1,38 +1,12 @@
 let urls = {
-  "home": "https://www.hildeberto.com/atom.xml",
   "sports": "https://www.hildeberto.com/sports/atom.xml",
   "books": "https://www.hildeberto.com/books/atom.xml"
 };
 
 $(document).ready(function() {
-  loadMain(urls);
   loadReads(urls);
   loadSports(urls);
 });
-
-function loadMain(urls) {
-  let allPosts = [];
-
-  for (const [key, value] of Object.entries(urls)) {
-    allPosts.concat(loadPosts(value));
-  }
-
-  console.log(allPosts.length);
-}
-
-function loadPosts(url) {
-  let posts = [];
-
-  fetch(url)
-    .then(response => response.text())
-    .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-    .then(data => {
-        posts = data.querySelectorAll("entry");
-      });
-  
-  console.log(posts.length);
-  return posts;
-}
 
 function loadReads(urls) {
   loadRSS("reads", urls["books"], "books");

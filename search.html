@@ -46,7 +46,6 @@ layout: search
     if(searchTerm) {
         document.getElementById('search-box').setAttribute("value", searchTerm);
         var results = idx.search(searchTerm);
-        console.log(results);
         if(results.length) {
             var appendString = "";
             results.forEach(function (result) {

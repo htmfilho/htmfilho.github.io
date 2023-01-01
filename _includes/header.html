@@ -24,6 +24,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/">Blog</a></li>
           <li><a href="/books">Books</a></li>
+          <li><a href="/sports">Sports</a></li>
           {% for path in page_paths reversed %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}

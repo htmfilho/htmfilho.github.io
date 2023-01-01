@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Knowledge Portfolio"
+title: "Knowledge Portfolio 2022"
 date: 2021-12-16 12:00:00 +0200
 image: /images/posts/gopher-reading.png
 categories: domain programming java python golang rust elixir clojure portfolio
@@ -8,7 +8,7 @@ categories: domain programming java python golang rust elixir clojure portfolio
 
 ![Gopher reading](/images/posts/gopher-reading.png)
 
-In my opinion, the most insightful section in the book "[The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)" is "Your Knowledge Portfolio", where the author makes the point that knowledge must be treated as investments, thus it requires a diversified portfolio for better results. This post is an attempt to build my knowledge portfolio.
+In my opinion, the most insightful section in the book "[The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)" is "Your Knowledge Portfolio", where the author makes the point that knowledge must be treated as investment, thus it requires a diversified portfolio for better results. This post is an attempt to build my knowledge portfolio.
 
 <!-- more -->
 

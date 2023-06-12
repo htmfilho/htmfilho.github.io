@@ -8,7 +8,7 @@ permalink: /about/
 
 My name is Hildeberto Mendonca, father of two amazing kids and husband of a wonderful woman. I'm a proactive, result-driven, disciplined professional with decades of experience on the IT industry. Across a variety of roles, I provide value through my skills in programming, software design, architecture, and training. I'm a highly flexible professional, in [permanent state of learning][projects], and driven towards exceeding expectations.
 
-I have a Ph.D. in applied sciences on the field of electrical engineering. I took this degree as a challenge, which I achieved with great honour, but I decided to follow a different path from research to pursuit my passion for software engineering. The reason was simple: research has a long Time-To-Market cycle and I wanted to solve real world problems sonner, feeling myself useful as often as possible. But I have to recognize that my time as a scientist gave me three skills that I'm proud of:
+I have a Ph.D. in applied sciences on the field of electrical engineering. I took this degree as a challenge, which I achieved with great honour, but I decided to follow a different path from research to pursuit my passion for software engineering. The reason was simple: research has a long Time-To-Market cycle and I wanted to solve real world problems sooner, feeling myself useful as often as possible. But I have to recognize that my time as a scientist gave me three skills that I'm proud of:
 
 1. **Resilience** - I don't quit, I have no fear, I do not hesitate. My Ph.D. was one of the hardest things I ever did. Everything else feels comfortable to deal with, which explains my permanent state of optimism.
 
@@ -62,7 +62,7 @@ var myChart = new Chart(ctx, {
         labels: ['2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2020', '2021', '2022'],
         datasets: [{
             label: 'Posts over the years',
-            data: [8, 34, 42, 29, 8, 9, 7, 2, 6, 4, 5, 12, 9, 14, 5],
+            data: [8, 34, 42, 29, 8, 9, 7, 2, 6, 4, 11, 15, 9, 14, 5],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',

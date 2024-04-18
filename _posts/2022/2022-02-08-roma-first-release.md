@@ -3,7 +3,7 @@ layout: post
 title: "First Release of CSVSource"
 date: 2022-02-08 12:00:00 +0200
 image: https://www.hildeberto.com/csvsource/images/waterloo_tree_inventory.png
-categories: portfolio repository rust csv sql
+categories: repository rust csv sql
 ---
 
 ![Waterloo Tree Inventory](https://www.hildeberto.com/csvsource/images/waterloo_tree_inventory.png)
@@ -12,7 +12,7 @@ The [City of Waterloo](https://waterloo.ca), located in Ontario - Canada, has an
 
 <!-- more -->
 
-CSVSource is one of the repositories in my portfolio. I first introduced it [a month ago](https://www.hildeberto.com/2021/12/repositories-portfolio.html). Its goal is to convert a CSV file to a SQL file with insert statements, simplifying the data ingestion in relational databases. To have fun building CSVSource, we looked for an interesting dataset in the Open Data Portal and put it in the folder [/examples](https://github.com/htmfilho/csvsource/tree/main/examples). We are glad to inform that we've got the minimal Rust code in place to convert those CSV files to SQL. CSVSource implements convention over configuration, with the following default behaviors:
+CSVSource's goal is to convert a CSV file to a SQL file with insert statements, simplifying the data ingestion in relational databases. To have fun building CSVSource, we looked for an interesting dataset in the Open Data Portal and put it in the folder [/examples](https://github.com/htmfilho/csvsource/tree/main/examples). We are glad to inform that we've got the minimal Rust code in place to convert those CSV files to SQL. CSVSource implements convention over configuration, with the following default behaviors:
 
 - the name of the CSV file is used as the name of the table in the insert statements.
 
